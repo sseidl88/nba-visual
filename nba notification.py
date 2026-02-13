@@ -2,6 +2,8 @@ from nba_api.stats.endpoints import scoreboardv2, boxscoretraditionalv3
 from datetime import datetime, timedelta
 import pandas as pd
 from twilio.rest import Client
+import json
+import os
 
 # Get yesterday's date
 yesterday = (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d")
@@ -64,36 +66,18 @@ if 'PLUS_MINUS' not in df.columns:
 
 # Get top 3 scorers
 top_scorers = (
-    df.sort_values('PTS', ascending=False)
-      .head(10)[['PLAYER_NAME', 'TEAM_ABBREVIATION', 'PTS', 'PLUS_MINUS']]
+        df.sort_values('PTS', ascending=False)
+            .head(10)[['PLAYER_NAME', 'TEAM_ABBREVIATION', 'PTS', 'PLUS_MINUS']]
 )
 
+# Print without the DataFrame index
+# Ensure output directory exists
+os.makedirs('data', exist_ok=True)
 
-print(top_scorers)
-""""""""""""""""
-# Send SMS with plus/minus included
-account_sid = "ACc93248aea47ac2c49f0df11b02b7d006"
-auth_token = "8842b22ad94950030fa104cc5347158f"
-client = Client(account_sid, auth_token)
+# Convert to list of dicts and write JSON
+output_records = top_scorers.to_dict(orient='records')
+output_path = os.path.join('data', f"top_scorers_{yesterday}.json")
+with open(output_path, 'w', encoding='utf-8') as f:
+    json.dump(output_records, f, ensure_ascii=False, indent=2)
 
-message_body = "Top scorers last night:\n"
-for _, row in top_scorers.iterrows():
-    pm = row['PLUS_MINUS']
-    if pd.isna(pm):
-        pm_str = "N/A"
-    else:
-        try:
-            # format numeric plus/minus with sign
-            pm_val = float(pm)
-            pm_str = f"{pm_val:+.0f}"
-        except Exception:
-            pm_str = str(pm)
-
-    message_body += f"{row['PLAYER_NAME']} ({row['TEAM_ABBREVIATION']}): {row['PTS']} pts, {pm_str} +/-\n"
-
-client.messages.create(
-    body=message_body,
-    from_="+18884475179",   # Twilio number
-    to="+19139801277"
-)
-"""""""""""
+print(f"Wrote top scorers JSON to {output_path}")
