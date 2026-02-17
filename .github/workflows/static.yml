@@ -1,7 +1,7 @@
 - name: Commit updated site data
   run: |
-  git config user.name "github-actions"
-  git config user.email "actions@github.com"
-  git add site/data.json
-  git commit -m "Update daily NBA stats" || echo "No changes"
-  git push
+    git config user.name "github-actions"
+    git config user.email "actions@github.com"
+    git add site/data.json
+    git commit -m "Update daily NBA stats" || echo "No changes"
+    git push
