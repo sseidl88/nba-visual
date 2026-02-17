@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Daily NBA Top Scorers</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Basketball Top Scorers</h1>
+  <p id="date"></p>
+  <div id="content">
+    <table id="scores-table" border="0" cellpadding="6">
+      <thead>
+        <tr>
+          <th>Player</th>
+          <th>Team</th>
+          <th>Points</th>
+          <th>Plus/Minus</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <p id="status"></p>
+  </div>
+
+  <script>
+    // Try to fetch yesterday's JSON first, then go further back up to 6 days
+    async function findAndLoadJSON() {
+      const maxLookBack = 6;
+      const today = new Date();
+
+      for (let offset = 0; offset <= maxLookBack; offset++) {
+        const d = new Date(today);
+        // Python script writes yesterday's date; start with yesterday (offset 0)
+        d.setDate(d.getDate() - 1 - offset);
+        const yyyy = d.getFullYear();
+        const mm = String(d.getMonth() + 1).padStart(2, '0');
+        const dd = String(d.getDate()).padStart(2, '0');
+        const filename = `top_scorers_${yyyy}-${mm}-${dd}.json`;
+        const path = `../data/${filename}`;
+
+        try {
+          const res = await fetch(path);
+          if (!res.ok) throw new Error('Not found');
+          const data = await res.json();
+          renderTable(data, `${yyyy}-${mm}-${dd}`);
+          return;
+        } catch (err) {
+          // try next date
+          continue;
+        }
+      }
+
+      document.getElementById('status').textContent = 'No recent top scorers JSON found in ../data/';
+    }
+
+    function renderTable(records, dateStr) {
+      document.getElementById('date').textContent = `Games from ${dateStr}`;
+      const tbody = document.querySelector('#scores-table tbody');
+      tbody.innerHTML = '';
+
+      records.forEach(r => {
+        const tr = document.createElement('tr');
+        const name = r.PLAYER_NAME || r.player || r.name || '';
+        const team = r.TEAM_ABBREVIATION || r.team || '';
+        const pts = (r.PTS !== undefined) ? r.PTS : (r.points !== undefined ? r.points : '');
+        let pm = r.PLUS_MINUS ?? r.plusMinus ?? r.plus_minus ?? r.plus_minus ?? '';
+        if (pm === null || pm === undefined) pm = '';
+        const pmText = (pm !== '' && Number(pm) > 0) ? `+${pm}` : pm;
+
+        tr.innerHTML = `
+          <td>${escapeHtml(name)}</td>
+          <td>${escapeHtml(team)}</td>
+          <td style="text-align:right">${escapeHtml(String(pts))}</td>
+          <td style="text-align:right">${escapeHtml(String(pmText))}</td>
+        `;
+        tbody.appendChild(tr);
+      });
+
+      document.getElementById('status').textContent = '';
+    }
+
+    function escapeHtml(s) {
+      return s.replace(/[&<>"'`]/g, c => ({
+        '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;',"`":'&#96;'
+      })[c]);
+    }
+
+    findAndLoadJSON();
+  </script>
+</body>
+</html>
