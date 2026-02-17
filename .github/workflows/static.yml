@@ -1,7 +1,18 @@
-- name: Commit updated site data
-  run: |
-    git config user.name "github-actions"
-    git config user.email "actions@github.com"
-    git add site/data.json
-    git commit -m "Update daily NBA stats" || echo "No changes"
-    git push
+name: Daily NBA Bot
+
+on:
+  workflow_dispatch:
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Commit updated site data
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git status
