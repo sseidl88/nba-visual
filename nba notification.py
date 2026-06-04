@@ -1,7 +1,6 @@
 from nba_api.stats.endpoints import scoreboardv2, boxscoretraditionalv3
 from datetime import datetime, timedelta
 import pandas as pd
-from twilio.rest import Client
 import json
 import os
 
@@ -72,11 +71,11 @@ top_scorers = (
 
 # Print without the DataFrame index
 # Ensure output directory exists
-os.makedirs('data', exist_ok=True)
+os.makedirs('docs/data', exist_ok=True)
 
 # Convert to list of dicts and write JSON
 output_records = top_scorers.to_dict(orient='records')
-output_path = os.path.join('data', f"top_scorers_{yesterday}.json")
+output_path = os.path.join('docs', 'data', f"top_scorers_{yesterday}.json")
 with open(output_path, 'w', encoding='utf-8') as f:
     json.dump(output_records, f, ensure_ascii=False, indent=2)
 
