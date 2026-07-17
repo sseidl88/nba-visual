@@ -23,7 +23,7 @@ jobs:
       - name: Install dependencies
         run: pip install nba_api pandas
 
-      - name: Run NBA stats script
+      - name: Run WNBA stats script
         run: python "nba notification.py"
 
       - name: Commit updated data
@@ -31,5 +31,7 @@ jobs:
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add docs/data/
-          git diff --staged --quiet || git commit -m "Update daily NBA stats $(date +%Y-%m-%d)"
-          git push
+          git diff --staged --quiet && echo "No new data" && exit 0
+          git commit -m "Update daily WNBA stats $(date +%Y-%m-%d)"
+          git pull --rebase origin main
+          git push origin main
