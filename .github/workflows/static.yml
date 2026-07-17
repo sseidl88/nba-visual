@@ -21,7 +21,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install nba_api pandas
+        run: pip install requests
 
       - name: Run WNBA stats script
         run: python "nba notification.py"
