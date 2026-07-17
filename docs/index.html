@@ -1,91 +1,150 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Daily WNBA Top Scorers</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WNBA Stats</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>WNBA Top Scorers</h1>
-  <p id="date"></p>
-  <div id="content">
-    <table id="scores-table" border="0" cellpadding="6">
-      <thead>
-        <tr>
-          <th>Player</th>
-          <th>Team</th>
-          <th>Points</th>
-          <th>Plus/Minus</th>
-        </tr>
-      </thead>
-      <tbody></tbody>
-    </table>
-    <p id="status"></p>
+  <h1>WNBA Stats</h1>
+
+  <div class="panels">
+
+    <!-- Yesterday's top scorers -->
+    <div class="panel">
+      <div class="panel-title">Yesterday's Top Scorers</div>
+      <div class="panel-subtitle" id="date"></div>
+      <table class="stats-table">
+        <thead>
+          <tr>
+            <th class="rank">#</th>
+            <th>Player</th>
+            <th>Team</th>
+            <th class="num">PTS</th>
+            <th class="num">+/-</th>
+          </tr>
+        </thead>
+        <tbody id="scores-body"></tbody>
+      </table>
+      <div class="status" id="scores-status"></div>
+    </div>
+
+    <!-- Season PPG leaders -->
+    <div class="panel">
+      <div class="panel-title">Season PPG Leaders</div>
+      <div class="panel-subtitle">2026 Season</div>
+      <table class="stats-table">
+        <thead>
+          <tr>
+            <th class="rank">#</th>
+            <th>Player</th>
+            <th>Team</th>
+            <th class="num">PPG</th>
+          </tr>
+        </thead>
+        <tbody id="ppg-body"></tbody>
+      </table>
+      <div class="status" id="ppg-status"></div>
+    </div>
+
+    <!-- Rookie PPG leaders -->
+    <div class="panel">
+      <div class="panel-title">Rookie PPG Leaders</div>
+      <div class="panel-subtitle">2026 Season</div>
+      <table class="stats-table">
+        <thead>
+          <tr>
+            <th class="rank">#</th>
+            <th>Player</th>
+            <th>Team</th>
+            <th class="num">PPG</th>
+          </tr>
+        </thead>
+        <tbody id="rookie-body"></tbody>
+      </table>
+      <div class="status" id="rookie-status"></div>
+    </div>
+
   </div>
 
   <script>
-    // Try to fetch yesterday's JSON first, then go further back up to 6 days
-    async function findAndLoadJSON() {
-      const maxLookBack = 6;
-      const today = new Date();
+    function esc(s) {
+      return String(s).replace(/[&<>"'`]/g, c => (
+        {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;','`':'&#96;'}[c]
+      ));
+    }
 
-      for (let offset = 0; offset <= maxLookBack; offset++) {
-        const d = new Date(today);
-        // Python script writes yesterday's date; start with yesterday (offset 0)
+    // Render yesterday's scorers (PTS + +/-)
+    function renderScorers(records, dateStr) {
+      document.getElementById('date').textContent = `Games from ${dateStr}`;
+      const tbody = document.getElementById('scores-body');
+      tbody.innerHTML = records.map((r, i) => {
+        const name = r.PLAYER_NAME || '';
+        const team = r.TEAM_ABBREVIATION || '';
+        const pts  = r.PTS ?? '';
+        let pm = r.PLUS_MINUS ?? '';
+        if (pm === null) pm = '';
+        const pmText = (pm !== '' && Number(pm) > 0) ? `+${pm}` : pm;
+        return `<tr>
+          <td class="rank num">${i + 1}</td>
+          <td>${esc(name)}</td>
+          <td class="team-badge">${esc(team)}</td>
+          <td class="num">${esc(String(pts))}</td>
+          <td class="num">${esc(String(pmText))}</td>
+        </tr>`;
+      }).join('');
+    }
+
+    // Render PPG leaders (no +/-)
+    function renderPPG(records, bodyId) {
+      const tbody = document.getElementById(bodyId);
+      tbody.innerHTML = records.map((r, i) => {
+        const name = r.PLAYER_NAME || '';
+        const team = r.TEAM_ABBREVIATION || '';
+        const ppg  = r.PPG ?? '';
+        return `<tr>
+          <td class="rank num">${i + 1}</td>
+          <td>${esc(name)}</td>
+          <td class="team-badge">${esc(team)}</td>
+          <td class="num">${esc(String(ppg))}</td>
+        </tr>`;
+      }).join('');
+    }
+
+    // Load yesterday's scorers, walking back up to 6 days
+    async function loadScorers() {
+      for (let offset = 0; offset <= 6; offset++) {
+        const d = new Date();
         d.setDate(d.getDate() - 1 - offset);
         const yyyy = d.getFullYear();
-        const mm = String(d.getMonth() + 1).padStart(2, '0');
-        const dd = String(d.getDate()).padStart(2, '0');
-        const filename = `top_scorers_${yyyy}-${mm}-${dd}.json`;
-        const path = `data/${filename}`;
-
+        const mm   = String(d.getMonth() + 1).padStart(2, '0');
+        const dd   = String(d.getDate()).padStart(2, '0');
         try {
-          const res = await fetch(path);
-          if (!res.ok) throw new Error('Not found');
-          const data = await res.json();
-          renderTable(data, `${yyyy}-${mm}-${dd}`);
+          const res = await fetch(`data/top_scorers_${yyyy}-${mm}-${dd}.json`);
+          if (!res.ok) continue;
+          renderScorers(await res.json(), `${yyyy}-${mm}-${dd}`);
           return;
-        } catch (err) {
-          // try next date
-          continue;
-        }
+        } catch (_) { continue; }
       }
-
-      document.getElementById('status').textContent = 'No recent top scorers JSON found in ../data/';
+      document.getElementById('scores-status').textContent = 'No recent game data found.';
     }
 
-    function renderTable(records, dateStr) {
-      document.getElementById('date').textContent = `Games from ${dateStr}`;
-      const tbody = document.querySelector('#scores-table tbody');
-      tbody.innerHTML = '';
-
-      records.forEach(r => {
-        const tr = document.createElement('tr');
-        const name = r.PLAYER_NAME || r.player || r.name || '';
-        const team = r.TEAM_ABBREVIATION || r.team || '';
-        const pts = (r.PTS !== undefined) ? r.PTS : (r.points !== undefined ? r.points : '');
-        let pm = r.PLUS_MINUS ?? r.plusMinus ?? r.plus_minus ?? r.plus_minus ?? '';
-        if (pm === null || pm === undefined) pm = '';
-        const pmText = (pm !== '' && Number(pm) > 0) ? `+${pm}` : pm;
-
-        tr.innerHTML = `
-          <td>${escapeHtml(name)}</td>
-          <td>${escapeHtml(team)}</td>
-          <td style="text-align:right">${escapeHtml(String(pts))}</td>
-          <td style="text-align:right">${escapeHtml(String(pmText))}</td>
-        `;
-        tbody.appendChild(tr);
-      });
-
-      document.getElementById('status').textContent = '';
+    async function loadPPG(file, bodyId, statusId) {
+      try {
+        const res = await fetch(`data/${file}`);
+        if (!res.ok) throw new Error('not found');
+        const data = await res.json();
+        if (data.length === 0) throw new Error('empty');
+        renderPPG(data, bodyId);
+      } catch (_) {
+        document.getElementById(statusId).textContent = 'Stats not yet available.';
+      }
     }
 
-    function escapeHtml(s) {
-      return s.replace(/[&<>"'`]/g, c => ({
-        '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;',"`":'&#96;'
-      })[c]);
-    }
-
-    findAndLoadJSON();
+    loadScorers();
+    loadPPG('season_ppg.json', 'ppg-body',    'ppg-status');
+    loadPPG('rookie_ppg.json', 'rookie-body', 'rookie-status');
   </script>
 </body>
 </html>
