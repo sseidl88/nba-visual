@@ -1,22 +1,30 @@
 from nba_api.stats.endpoints import scoreboardv2, boxscoretraditionalv2
-from nba_api.library.http import NBAStatsHTTP
 from datetime import datetime, timedelta
+import requests
 import pandas as pd
 import json
 import os
 
-# stats.nba.com blocks requests that don't look like a browser
-NBAStatsHTTP.headers = {
-    'Host': 'stats.nba.com',
-    'Connection': 'keep-alive',
-    'Accept': 'application/json, text/plain, */*',
-    'x-nba-stats-origin': 'stats',
-    'x-nba-stats-token': 'true',
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-    'Referer': 'https://www.nba.com/',
-    'Accept-Encoding': 'gzip, deflate, br',
-    'Accept-Language': 'en-US,en;q=0.9',
-}
+# stats.nba.com blocks requests that don't look like a browser.
+# Patch at the requests level so this works regardless of nba_api version.
+_orig_request = requests.Session.request
+
+def _nba_request(self, method, url, **kwargs):
+    if 'stats.nba.com' in url:
+        kwargs.setdefault('headers', {}).update({
+            'Host': 'stats.nba.com',
+            'Connection': 'keep-alive',
+            'Accept': 'application/json, text/plain, */*',
+            'x-nba-stats-origin': 'stats',
+            'x-nba-stats-token': 'true',
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Referer': 'https://www.nba.com/',
+            'Accept-Encoding': 'gzip, deflate, br',
+            'Accept-Language': 'en-US,en;q=0.9',
+        })
+    return _orig_request(self, method, url, **kwargs)
+
+requests.Session.request = _nba_request
 
 yesterday = (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d")
 
