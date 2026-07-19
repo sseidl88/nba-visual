@@ -22,8 +22,17 @@ def parse_box_score(summary_json):
             names = group.get("names", group.get("labels", []))
             if "PTS" not in names:
                 continue
-            pts_idx = names.index("PTS")
-            pm_idx  = names.index("+/-") if "+/-" in names else None
+
+            def col(stat):
+                return names.index(stat) if stat in names else None
+
+            pts_idx = col("PTS")
+            pm_idx  = col("+/-")
+            ast_idx = col("AST")
+            reb_idx = col("REB")
+            blk_idx = col("BLK")
+            fg_idx  = col("FG")
+
             for ath_data in group.get("athletes", []):
                 stats = ath_data.get("stats", [])
                 ath   = ath_data.get("athlete", {})
@@ -31,20 +40,44 @@ def parse_box_score(summary_json):
                 aid   = str(ath.get("id", ""))
                 if not name:
                     continue
-                try:
-                    pts = int(float(stats[pts_idx])) if stats[pts_idx] not in ("--", "") else 0
-                except (IndexError, ValueError):
-                    pts = 0
+
+                def stat_int(i):
+                    if i is None or i >= len(stats):
+                        return 0
+                    try:
+                        return int(float(stats[i])) if stats[i] not in ("--", "") else 0
+                    except (ValueError, TypeError):
+                        return 0
+
+                pts = stat_int(pts_idx)
+                ast = stat_int(ast_idx)
+                reb = stat_int(reb_idx)
+                blk = stat_int(blk_idx)
+
                 pm = None
-                if pm_idx is not None and len(stats) > pm_idx:
+                if pm_idx is not None and pm_idx < len(stats):
                     try:
                         raw = stats[pm_idx]
                         pm = int(float(raw)) if raw not in ("--", "") else None
-                    except ValueError:
+                    except (ValueError, TypeError):
                         pm = None
+
+                fgm, fga = 0, 0
+                if fg_idx is not None and fg_idx < len(stats):
+                    fg_str = stats[fg_idx]
+                    if fg_str and fg_str != "--" and "-" in str(fg_str):
+                        try:
+                            parts = str(fg_str).split("-")
+                            fgm, fga = int(parts[0]), int(parts[1])
+                        except (ValueError, IndexError):
+                            pass
+
                 records.append({
                     "_id": aid, "PLAYER_NAME": name,
-                    "TEAM_ABBREVIATION": abbrev, "PTS": pts, "PLUS_MINUS": pm,
+                    "TEAM_ABBREVIATION": abbrev,
+                    "PTS": pts, "PLUS_MINUS": pm,
+                    "AST": ast, "REB": reb, "BLK": blk,
+                    "FGM": fgm, "FGA": fga,
                 })
             break  # only first group containing PTS
     return records
@@ -101,9 +134,15 @@ for offset in range(1, 15):
                 totals[aid] = {
                     "PLAYER_NAME": p["PLAYER_NAME"],
                     "TEAM_ABBREVIATION": p["TEAM_ABBREVIATION"],
-                    "pts": 0, "games": 0,
+                    "pts": 0, "ast": 0, "reb": 0, "blk": 0,
+                    "fgm": 0, "fga": 0, "games": 0,
                 }
             totals[aid]["pts"]   += p["PTS"]
+            totals[aid]["ast"]   += p["AST"]
+            totals[aid]["reb"]   += p["REB"]
+            totals[aid]["blk"]   += p["BLK"]
+            totals[aid]["fgm"]   += p["FGM"]
+            totals[aid]["fga"]   += p["FGA"]
             totals[aid]["games"] += 1
 
 ppg_rows = sorted(
@@ -149,9 +188,17 @@ except Exception as e:
     print(f"Rookie detection error: {e}")
 
 rookie_ppg = [
-    {"PLAYER_NAME": p["PLAYER_NAME"], "TEAM_ABBREVIATION": p["TEAM_ABBREVIATION"], "PPG": p["PPG"]}
-    for p in ppg_rows
-    if p["_id"] in rookie_ids
+    {
+        "PLAYER_NAME":     v["PLAYER_NAME"],
+        "TEAM_ABBREVIATION": v["TEAM_ABBREVIATION"],
+        "PPG":  round(v["pts"] / v["games"], 1),
+        "APG":  round(v["ast"] / v["games"], 1),
+        "RPG":  round(v["reb"] / v["games"], 1),
+        "BPG":  round(v["blk"] / v["games"], 1),
+        "FG_PCT": round(v["fgm"] / v["fga"] * 100, 1) if v["fga"] > 0 else 0,
+    }
+    for kid, v in sorted(totals.items(), key=lambda kv: kv[1]["pts"] / max(kv[1]["games"], 1), reverse=True)
+    if kid in rookie_ids and v["games"] > 0
 ][:10]
 
 

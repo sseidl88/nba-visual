@@ -50,7 +50,7 @@
 
     <!-- Rookie PPG leaders -->
     <div class="panel">
-      <div class="panel-title">Rookie PPG Leaders</div>
+      <div class="panel-title">Rookie Leaders</div>
       <div class="panel-subtitle">Last 14 days</div>
       <table class="stats-table">
         <thead>
@@ -59,6 +59,10 @@
             <th>Player</th>
             <th>Team</th>
             <th class="num">PPG</th>
+            <th class="num">APG</th>
+            <th class="num">RPG</th>
+            <th class="num">BPG</th>
+            <th class="num">FG%</th>
           </tr>
         </thead>
         <tbody id="rookie-body"></tbody>
@@ -142,9 +146,34 @@
       }
     }
 
+    function renderRookie(records) {
+      document.getElementById('rookie-body').innerHTML = records.map((r, i) => `<tr>
+        <td class="rank num">${i + 1}</td>
+        <td>${esc(r.PLAYER_NAME || '')}</td>
+        <td class="team-badge">${esc(r.TEAM_ABBREVIATION || '')}</td>
+        <td class="num">${esc(String(r.PPG ?? ''))}</td>
+        <td class="num">${esc(String(r.APG ?? ''))}</td>
+        <td class="num">${esc(String(r.RPG ?? ''))}</td>
+        <td class="num">${esc(String(r.BPG ?? ''))}</td>
+        <td class="num">${r.FG_PCT !== undefined ? esc(String(r.FG_PCT)) + '%' : ''}</td>
+      </tr>`).join('');
+    }
+
+    async function loadRookie() {
+      try {
+        const res = await fetch('data/rookie_ppg.json');
+        if (!res.ok) throw new Error('not found');
+        const data = await res.json();
+        if (data.length === 0) throw new Error('empty');
+        renderRookie(data);
+      } catch (_) {
+        document.getElementById('rookie-status').textContent = 'Stats not yet available.';
+      }
+    }
+
     loadScorers();
-    loadPPG('season_ppg.json', 'ppg-body',    'ppg-status');
-    loadPPG('rookie_ppg.json', 'rookie-body', 'rookie-status');
+    loadPPG('season_ppg.json', 'ppg-body', 'ppg-status');
+    loadRookie();
   </script>
 </body>
 </html>
