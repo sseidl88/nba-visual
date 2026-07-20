@@ -70,6 +70,22 @@
       <div class="status" id="rookie-status"></div>
     </div>
 
+    <!-- Trending up -->
+    <div class="panel">
+      <div class="panel-title">Trending Up</div>
+      <div class="panel-subtitle">Last 7 days vs prior 7 days</div>
+      <div id="trend-up-content"></div>
+      <div class="status" id="trend-up-status"></div>
+    </div>
+
+    <!-- Trending down -->
+    <div class="panel">
+      <div class="panel-title">Trending Down</div>
+      <div class="panel-subtitle">Last 7 days vs prior 7 days</div>
+      <div id="trend-down-content"></div>
+      <div class="status" id="trend-down-status"></div>
+    </div>
+
   </div>
 
   <script>
@@ -171,9 +187,54 @@
       }
     }
 
+    const STAT_KEYS   = ['PPG', 'APG', 'RPG', 'BPG', 'FG_PCT'];
+    const STAT_LABELS = ['PPG', 'APG', 'RPG', 'BPG', 'FG%'];
+
+    function fmtStat(key, val) {
+      return key === 'FG_PCT' ? `${val}%` : `${val}`;
+    }
+
+    function fmtDelta(key, val) {
+      const sign = val > 0 ? '+' : '';
+      const cls  = val > 0 ? 'delta-up' : val < 0 ? 'delta-down' : '';
+      return `<div class="trend-stat-delta ${cls}">${esc(`${sign}${fmtStat(key, val)}`)}</div>`;
+    }
+
+    function renderTrend(data, contentId, statusId) {
+      if (!data || !data.PLAYER_NAME) {
+        document.getElementById(statusId).textContent = 'Not enough data yet (need 2+ games in each 7-day half).';
+        return;
+      }
+      document.getElementById(contentId).innerHTML = `
+        <div class="trend-name">${esc(data.PLAYER_NAME)}</div>
+        <div class="trend-meta">${esc(data.TEAM_ABBREVIATION)} &middot; ${data.recent_games} games (last 7d)</div>
+        <div class="trend-stats">
+          ${STAT_KEYS.map((k, i) => `
+            <div class="trend-stat">
+              <div class="trend-stat-label">${STAT_LABELS[i]}</div>
+              <div class="trend-stat-value">${esc(fmtStat(k, data.recent[k]))}</div>
+              <div class="trend-stat-avg">${esc(fmtStat(k, data.avg[k]))} avg</div>
+              ${fmtDelta(k, data.delta[k])}
+            </div>`).join('')}
+        </div>`;
+    }
+
+    async function loadTrend(file, contentId, statusId) {
+      try {
+        const res = await fetch(`data/${file}`);
+        if (!res.ok) throw new Error();
+        const data = await res.json();
+        renderTrend(data, contentId, statusId);
+      } catch (_) {
+        document.getElementById(statusId).textContent = 'Stats not yet available.';
+      }
+    }
+
     loadScorers();
     loadPPG('season_ppg.json', 'ppg-body', 'ppg-status');
     loadRookie();
+    loadTrend('trending_up.json',   'trend-up-content',   'trend-up-status');
+    loadTrend('trending_down.json', 'trend-down-content', 'trend-down-status');
   </script>
 </body>
 </html>

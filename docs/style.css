@@ -85,3 +85,54 @@ h1 {
   color: #bbb;
   margin-top: 0.6rem;
 }
+
+/* ── trending panels ── */
+.trend-name {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin-bottom: 0.1rem;
+}
+
+.trend-meta {
+  font-size: 0.78rem;
+  color: #aaa;
+  margin-bottom: 0.9rem;
+}
+
+.trend-stats {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0.2rem 0.4rem;
+}
+
+.trend-stat {
+  text-align: center;
+}
+
+.trend-stat-label {
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #aaa;
+  margin-bottom: 0.15rem;
+}
+
+.trend-stat-value {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.trend-stat-avg {
+  font-size: 0.68rem;
+  color: #bbb;
+  margin: 0.1rem 0;
+}
+
+.trend-stat-delta {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.delta-up   { color: #16a34a; }
+.delta-down { color: #dc2626; }
