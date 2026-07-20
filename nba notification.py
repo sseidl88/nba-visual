@@ -108,17 +108,19 @@ top_scorers = [
 ]
 
 
-# ── aggregate last 14 days for PPG ──────────────────────────────────────────
+# ── aggregate last 14 days for PPG / trending / daily leaders ────────────────
 
-totals    = {}   # athlete_id → {name, team, totals, recent 7d, older 7d}
-MAX_GAMES = 50   # cap total box score fetches to stay within CI time limits
+totals        = {}   # athlete_id → {name, team, totals, recent 7d, older 7d}
+daily_leaders = {}   # "YYYY-MM-DD" → {PLAYER_NAME, TEAM_ABBREVIATION, pts}
+MAX_GAMES  = 50
 game_calls = 0
 
 for offset in range(1, 15):
     if game_calls >= MAX_GAMES:
         break
-    is_recent = offset <= 7   # days 1-7 = recent half; days 8-14 = older half
-    d = (now - timedelta(days=offset)).strftime("%Y%m%d")
+    is_recent = offset <= 7
+    d     = (now - timedelta(days=offset)).strftime("%Y%m%d")
+    d_key = (now - timedelta(days=offset)).strftime("%Y-%m-%d")
     r = safe_get(SCOREBOARD, dates=d)
     if not r.ok:
         continue
@@ -149,6 +151,12 @@ for offset in range(1, 15):
             for stat, key in [("PTS","pts"),("AST","ast"),("REB","reb"),("BLK","blk"),("FGM","fgm"),("FGA","fga")]:
                 totals[aid][f"{pfx}{key}"] += p[stat]
             totals[aid][f"{pfx}games"] += 1
+            if d_key not in daily_leaders or p["PTS"] > daily_leaders[d_key]["pts"]:
+                daily_leaders[d_key] = {
+                    "PLAYER_NAME": p["PLAYER_NAME"],
+                    "TEAM_ABBREVIATION": p["TEAM_ABBREVIATION"],
+                    "pts": p["PTS"],
+                }
 
 ppg_rows = sorted(
     [
@@ -222,26 +230,35 @@ def per_game_stats(v, pfx=""):
         "FG_PCT": round(v[f"{pfx}fgm"] / fga * 100, 1) if fga > 0 else 0.0,
     }
 
+def composite_score(recent, baseline):
+    """Normalized trend score across all stats; each stat weighted by its typical range."""
+    return (
+        (recent["PPG"]    - baseline["PPG"])    / 15  +
+        (recent["APG"]    - baseline["APG"])    / 5   +
+        (recent["RPG"]    - baseline["RPG"])    / 6   +
+        (recent["BPG"]    - baseline["BPG"])    / 1.5 +
+        (recent["FG_PCT"] - baseline["FG_PCT"]) / 20
+    )
+
 trend_candidates = []
 for v in totals.values():
-    # Require at least 2 games in each half to avoid single-game noise
-    if v["r_games"] < 2 or v["o_games"] < 2:
+    # Need at least 1 game recently and 3 total for a meaningful average
+    if v["r_games"] < 1 or v["games"] < 3:
         continue
     recent = per_game_stats(v, "r_")
     avg    = per_game_stats(v)
-    older  = per_game_stats(v, "o_")
-    if not recent or not avg or not older:
+    if not recent or not avg:
         continue
     delta = {k: round(recent[k] - avg[k], 1) for k in recent}
-    score = recent["PPG"] - older["PPG"]   # positive = trending up
+    score = composite_score(recent, avg)
     trend_candidates.append({
-        "score":           score,
-        "PLAYER_NAME":     v["PLAYER_NAME"],
+        "score":             score,
+        "PLAYER_NAME":       v["PLAYER_NAME"],
         "TEAM_ABBREVIATION": v["TEAM_ABBREVIATION"],
-        "recent_games":    v["r_games"],
-        "recent":          recent,
-        "avg":             avg,
-        "delta":           delta,
+        "recent_games":      v["r_games"],
+        "recent":            recent,
+        "avg":               avg,
+        "delta":             delta,
     })
 
 trend_candidates.sort(key=lambda x: x["score"], reverse=True)
@@ -251,6 +268,32 @@ def strip_score(entry):
 
 trending_up   = strip_score(trend_candidates[0])  if trend_candidates else {}
 trending_down = strip_score(trend_candidates[-1]) if trend_candidates else {}
+
+
+# ── top scorer streak ─────────────────────────────────────────────────────────
+
+scorer_history = sorted(
+    [{"date": k, **v} for k, v in daily_leaders.items() if v["pts"] > 0],
+    key=lambda x: x["date"],
+    reverse=True,
+)
+
+streak = 0
+champ  = {}
+if scorer_history:
+    champ_name = scorer_history[0]["PLAYER_NAME"]
+    for entry in scorer_history:
+        if entry["PLAYER_NAME"] == champ_name:
+            streak += 1
+        else:
+            break
+    champ = {**scorer_history[0], "streak": streak}
+
+top_scorer_streak = {
+    "current": champ,
+    "history": scorer_history[:10],
+}
+print(f"Top scorer streak: {champ.get('PLAYER_NAME','?')} × {streak} nights")
 
 
 # ── write output ─────────────────────────────────────────────────────────────
@@ -263,6 +306,7 @@ outputs = {
     "rookie_ppg.json":              rookie_ppg,
     "trending_up.json":             trending_up,
     "trending_down.json":           trending_down,
+    "top_scorer_streak.json":       top_scorer_streak,
 }
 
 for filename, data in outputs.items():

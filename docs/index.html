@@ -70,10 +70,18 @@
       <div class="status" id="rookie-status"></div>
     </div>
 
+    <!-- Top scorer streak -->
+    <div class="panel">
+      <div class="panel-title">Top Scorer Streak</div>
+      <div class="panel-subtitle">Most points in a single game, by night</div>
+      <div id="streak-content"></div>
+      <div class="status" id="streak-status"></div>
+    </div>
+
     <!-- Trending up -->
     <div class="panel">
       <div class="panel-title">Trending Up</div>
-      <div class="panel-subtitle">Last 7 days vs prior 7 days</div>
+      <div class="panel-subtitle">Last 7 days vs 14-day avg · all stats</div>
       <div id="trend-up-content"></div>
       <div class="status" id="trend-up-status"></div>
     </div>
@@ -81,7 +89,7 @@
     <!-- Trending down -->
     <div class="panel">
       <div class="panel-title">Trending Down</div>
-      <div class="panel-subtitle">Last 7 days vs prior 7 days</div>
+      <div class="panel-subtitle">Last 7 days vs 14-day avg · all stats</div>
       <div id="trend-down-content"></div>
       <div class="status" id="trend-down-status"></div>
     </div>
@@ -187,6 +195,52 @@
       }
     }
 
+    function fmtDate(iso) {
+      const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+      const [, m, d] = iso.split('-');
+      return `${months[+m - 1]} ${+d}`;
+    }
+
+    function renderStreak(data) {
+      const cur     = data.current || {};
+      const history = data.history || [];
+      if (!cur.PLAYER_NAME) {
+        document.getElementById('streak-status').textContent = 'No data yet.';
+        return;
+      }
+      const badge = cur.streak > 1
+        ? `<div class="streak-badge">${cur.streak} nights in a row</div>`
+        : '';
+      const rows = history.slice(0, 8).map(h => `<tr>
+        <td class="streak-date">${esc(fmtDate(h.date))}</td>
+        <td>${esc(h.PLAYER_NAME)}</td>
+        <td class="team-badge">${esc(h.TEAM_ABBREVIATION)}</td>
+        <td class="num">${h.pts}</td>
+      </tr>`).join('');
+      document.getElementById('streak-content').innerHTML = `
+        <div class="streak-champion">
+          <div class="streak-name">${esc(cur.PLAYER_NAME)}</div>
+          <div class="streak-meta">${esc(cur.TEAM_ABBREVIATION)} &middot; ${cur.pts} PTS &middot; ${esc(fmtDate(cur.date))}</div>
+          ${badge}
+        </div>
+        ${rows ? `<table class="stats-table" style="margin-top:0.6rem">
+          <thead><tr>
+            <th>Date</th><th>Player</th><th>Team</th><th class="num">PTS</th>
+          </tr></thead>
+          <tbody>${rows}</tbody>
+        </table>` : ''}`;
+    }
+
+    async function loadStreak() {
+      try {
+        const res = await fetch('data/top_scorer_streak.json');
+        if (!res.ok) throw new Error();
+        renderStreak(await res.json());
+      } catch (_) {
+        document.getElementById('streak-status').textContent = 'Stats not yet available.';
+      }
+    }
+
     const STAT_KEYS   = ['PPG', 'APG', 'RPG', 'BPG', 'FG_PCT'];
     const STAT_LABELS = ['PPG', 'APG', 'RPG', 'BPG', 'FG%'];
 
@@ -202,7 +256,7 @@
 
     function renderTrend(data, contentId, statusId) {
       if (!data || !data.PLAYER_NAME) {
-        document.getElementById(statusId).textContent = 'Not enough data yet (need 2+ games in each 7-day half).';
+        document.getElementById(statusId).textContent = 'Not enough data yet.';
         return;
       }
       document.getElementById(contentId).innerHTML = `
@@ -233,6 +287,7 @@
     loadScorers();
     loadPPG('season_ppg.json', 'ppg-body', 'ppg-status');
     loadRookie();
+    loadStreak();
     loadTrend('trending_up.json',   'trend-up-content',   'trend-up-status');
     loadTrend('trending_down.json', 'trend-down-content', 'trend-down-status');
   </script>

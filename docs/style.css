@@ -136,3 +136,39 @@ h1 {
 
 .delta-up   { color: #16a34a; }
 .delta-down { color: #dc2626; }
+
+/* ── top scorer streak panel ── */
+.streak-champion {
+  padding: 0.6rem 0 0.75rem;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 0.1rem;
+}
+
+.streak-name {
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.streak-meta {
+  font-size: 0.78rem;
+  color: #aaa;
+  margin-top: 0.15rem;
+}
+
+.streak-badge {
+  display: inline-block;
+  margin-top: 0.4rem;
+  background: #fef3c7;
+  color: #92400e;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.18rem 0.5rem;
+  border-radius: 99px;
+  letter-spacing: 0.04em;
+}
+
+.streak-date {
+  font-size: 0.78rem;
+  color: #888;
+  white-space: nowrap;
+}
