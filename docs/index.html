@@ -7,14 +7,28 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>WNBA Stats</h1>
+
+  <header class="page-header">
+    <h1>WNBA Stats</h1>
+    <div class="meta-updated" id="meta-updated"></div>
+  </header>
+
+  <div class="filter-bar" id="filter-bar"></div>
 
   <div class="panels">
+
+    <!-- Last night's scores -->
+    <div class="panel">
+      <div class="panel-title">Last Night's Scores</div>
+      <div class="panel-subtitle" id="scores-date"></div>
+      <div id="game-scores-content"></div>
+      <div class="status" id="game-scores-status"></div>
+    </div>
 
     <!-- Yesterday's top scorers -->
     <div class="panel">
       <div class="panel-title">Yesterday's Top Scorers</div>
-      <div class="panel-subtitle" id="date"></div>
+      <div class="panel-subtitle" id="scorers-date"></div>
       <table class="stats-table">
         <thead>
           <tr>
@@ -30,17 +44,24 @@
       <div class="status" id="scores-status"></div>
     </div>
 
-    <!-- Season PPG leaders -->
+    <!-- Season leaders with stat toggle -->
     <div class="panel">
-      <div class="panel-title">Season PPG Leaders</div>
+      <div class="panel-title">Season Leaders</div>
       <div class="panel-subtitle">Last 14 days</div>
+      <div class="stat-toggle" id="ppg-toggle">
+        <button class="toggle-btn active" data-stat="PPG">PPG</button>
+        <button class="toggle-btn" data-stat="APG">APG</button>
+        <button class="toggle-btn" data-stat="RPG">RPG</button>
+        <button class="toggle-btn" data-stat="BPG">BPG</button>
+        <button class="toggle-btn" data-stat="FG_PCT">FG%</button>
+      </div>
       <table class="stats-table">
         <thead>
           <tr>
             <th class="rank">#</th>
             <th>Player</th>
             <th>Team</th>
-            <th class="num">PPG</th>
+            <th class="num" id="ppg-stat-header">PPG</th>
           </tr>
         </thead>
         <tbody id="ppg-body"></tbody>
@@ -48,7 +69,7 @@
       <div class="status" id="ppg-status"></div>
     </div>
 
-    <!-- Rookie PPG leaders -->
+    <!-- Rookie leaders -->
     <div class="panel">
       <div class="panel-title">Rookie Leaders</div>
       <div class="panel-subtitle">Last 14 days</div>
@@ -96,51 +117,150 @@
 
   </div>
 
+  <!-- Player spotlight modal -->
+  <div class="modal-overlay" id="modal-overlay">
+    <div class="modal" id="modal">
+      <button class="modal-close" id="modal-close" aria-label="Close">✕</button>
+      <div id="modal-content"></div>
+    </div>
+  </div>
+
   <script>
+    // ── State ────────────────────────────────────────────────────────────────
+    let ppgData          = [];
+    let playerGamesCache = null;
+    let activeTeam       = '';
+    let currentPPGStat   = 'PPG';
+    const knownTeams     = new Set();
+
+    // ── Utilities ────────────────────────────────────────────────────────────
     function esc(s) {
-      return String(s).replace(/[&<>"'`]/g, c => (
-        {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;','`':'&#96;'}[c]
-      ));
+      return String(s).replace(/[&<>"'`]/g, c =>
+        ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;','`':'&#96;'}[c]));
     }
 
-    // Render yesterday's scorers (PTS + +/-)
+    function fmtDate(iso) {
+      const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+      const [, m, d] = iso.split('-');
+      return `${months[+m - 1]} ${+d}`;
+    }
+
+    function fmtTime(iso) {
+      const d = new Date(iso);
+      return d.toLocaleString('en-US', {month:'short', day:'numeric', hour:'numeric', minute:'2-digit', timeZoneName:'short'});
+    }
+
+    function photoThumb(id) {
+      if (!id) return '';
+      return `<img class="player-thumb" src="https://a.espncdn.com/i/headshots/wnba/players/full/${esc(id)}.png" onerror="this.style.display='none'" alt="" loading="lazy">`;
+    }
+
+    function playerCell(id, name) {
+      return `<div class="player-cell">${photoThumb(id)}<span class="player-link" data-id="${esc(id||'')}" data-name="${esc(name||'')}">${esc(name||'')}</span></div>`;
+    }
+
+    // ── Team filter ──────────────────────────────────────────────────────────
+    function registerTeams(records) {
+      let added = false;
+      records.forEach(r => {
+        if (r.TEAM_ABBREVIATION && !knownTeams.has(r.TEAM_ABBREVIATION)) {
+          knownTeams.add(r.TEAM_ABBREVIATION);
+          added = true;
+        }
+      });
+      if (added) rebuildFilterBar();
+    }
+
+    function rebuildFilterBar() {
+      const bar    = document.getElementById('filter-bar');
+      const sorted = [...knownTeams].sort();
+      bar.innerHTML =
+        `<button class="filter-pill${!activeTeam ? ' active' : ''}" data-team="">All Teams</button>` +
+        sorted.map(t =>
+          `<button class="filter-pill${t === activeTeam ? ' active' : ''}" data-team="${esc(t)}">${esc(t)}</button>`
+        ).join('');
+    }
+
+    document.getElementById('filter-bar').addEventListener('click', e => {
+      const pill = e.target.closest('.filter-pill');
+      if (!pill) return;
+      activeTeam = pill.dataset.team;
+      rebuildFilterBar();
+      applyFilter();
+    });
+
+    function applyFilter() {
+      document.querySelectorAll('tr[data-team]').forEach(row => {
+        row.style.display = (!activeTeam || row.dataset.team === activeTeam) ? '' : 'none';
+      });
+      [
+        ['trend-up-content',   'trend-up-status'],
+        ['trend-down-content', 'trend-down-status'],
+        ['streak-content',     'streak-status'],
+      ].forEach(([cid, sid]) => {
+        const el  = document.getElementById(cid);
+        const sta = document.getElementById(sid);
+        if (!el) return;
+        const team = el.dataset.team || '';
+        if (activeTeam && team && team !== activeTeam) {
+          el.style.display = 'none';
+          sta.textContent  = `No ${activeTeam} player in this slot.`;
+        } else {
+          el.style.display = '';
+          sta.textContent  = '';
+        }
+      });
+    }
+
+    // ── Game scores ──────────────────────────────────────────────────────────
+    function renderGameScores(data) {
+      document.getElementById('scores-date').textContent = `Games from ${data.date}`;
+      const games = data.games || [];
+      if (!games.length) {
+        document.getElementById('game-scores-status').textContent = 'No games found.';
+        return;
+      }
+      document.getElementById('game-scores-content').innerHTML = games.map(g => {
+        const awayWon = g.away_score > g.home_score;
+        const homeWon = g.home_score > g.away_score;
+        return `<div class="score-row">
+          <span class="score-team${awayWon ? '' : ' score-loser'}">${esc(g.away)}</span>
+          <span class="score-pts${awayWon ? ' score-winner' : ''}">${g.away_score}</span>
+          <span class="score-sep">–</span>
+          <span class="score-pts${homeWon ? ' score-winner' : ''}">${g.home_score}</span>
+          <span class="score-team${homeWon ? '' : ' score-loser'}">${esc(g.home)}</span>
+        </div>`;
+      }).join('');
+    }
+
+    async function loadGameScores() {
+      try {
+        const res = await fetch('data/game_scores.json');
+        if (!res.ok) throw new Error();
+        renderGameScores(await res.json());
+      } catch (_) {
+        document.getElementById('game-scores-status').textContent = 'Scores not yet available.';
+      }
+    }
+
+    // ── Yesterday's top scorers ──────────────────────────────────────────────
     function renderScorers(records, dateStr) {
-      document.getElementById('date').textContent = `Games from ${dateStr}`;
-      const tbody = document.getElementById('scores-body');
-      tbody.innerHTML = records.map((r, i) => {
-        const name = r.PLAYER_NAME || '';
-        const team = r.TEAM_ABBREVIATION || '';
-        const pts  = r.PTS ?? '';
-        let pm = r.PLUS_MINUS ?? '';
-        if (pm === null) pm = '';
-        const pmText = (pm !== '' && Number(pm) > 0) ? `+${pm}` : pm;
-        return `<tr>
+      document.getElementById('scorers-date').textContent = `Games from ${dateStr}`;
+      registerTeams(records);
+      document.getElementById('scores-body').innerHTML = records.map((r, i) => {
+        const pm     = r.PLUS_MINUS;
+        const pmText = pm === null || pm === undefined ? '' : (pm > 0 ? `+${pm}` : String(pm));
+        return `<tr data-team="${esc(r.TEAM_ABBREVIATION||'')}">
           <td class="rank num">${i + 1}</td>
-          <td>${esc(name)}</td>
-          <td class="team-badge">${esc(team)}</td>
-          <td class="num">${esc(String(pts))}</td>
-          <td class="num">${esc(String(pmText))}</td>
+          <td>${playerCell(r.id, r.PLAYER_NAME)}</td>
+          <td class="team-badge">${esc(r.TEAM_ABBREVIATION||'')}</td>
+          <td class="num">${r.PTS ?? ''}</td>
+          <td class="num">${esc(pmText)}</td>
         </tr>`;
       }).join('');
+      applyFilter();
     }
 
-    // Render PPG leaders (no +/-)
-    function renderPPG(records, bodyId) {
-      const tbody = document.getElementById(bodyId);
-      tbody.innerHTML = records.map((r, i) => {
-        const name = r.PLAYER_NAME || '';
-        const team = r.TEAM_ABBREVIATION || '';
-        const ppg  = r.PPG ?? '';
-        return `<tr>
-          <td class="rank num">${i + 1}</td>
-          <td>${esc(name)}</td>
-          <td class="team-badge">${esc(team)}</td>
-          <td class="num">${esc(String(ppg))}</td>
-        </tr>`;
-      }).join('');
-    }
-
-    // Load yesterday's scorers, walking back up to 6 days
     async function loadScorers() {
       for (let offset = 0; offset <= 6; offset++) {
         const d = new Date();
@@ -158,77 +278,115 @@
       document.getElementById('scores-status').textContent = 'No recent game data found.';
     }
 
-    async function loadPPG(file, bodyId, statusId) {
+    // ── Season leaders with stat toggle ──────────────────────────────────────
+    function renderPPG(records, stat) {
+      stat = stat || currentPPGStat;
+      registerTeams(records);
+      const header = stat === 'FG_PCT' ? 'FG%' : stat;
+      document.getElementById('ppg-stat-header').textContent = header;
+      document.getElementById('ppg-body').innerHTML = records.map((r, i) => {
+        const raw = r[stat];
+        const val = stat === 'FG_PCT' ? (raw !== undefined ? raw + '%' : '') : (raw ?? '');
+        return `<tr data-team="${esc(r.TEAM_ABBREVIATION||'')}">
+          <td class="rank num">${i + 1}</td>
+          <td>${playerCell(r.id, r.PLAYER_NAME)}</td>
+          <td class="team-badge">${esc(r.TEAM_ABBREVIATION||'')}</td>
+          <td class="num">${esc(String(val))}</td>
+        </tr>`;
+      }).join('');
+      applyFilter();
+    }
+
+    document.getElementById('ppg-toggle').addEventListener('click', e => {
+      const btn = e.target.closest('.toggle-btn');
+      if (!btn) return;
+      currentPPGStat = btn.dataset.stat;
+      document.querySelectorAll('#ppg-toggle .toggle-btn').forEach(b => b.classList.toggle('active', b === btn));
+      if (ppgData.length) renderPPG(ppgData, currentPPGStat);
+    });
+
+    async function loadPPG() {
       try {
-        const res = await fetch(`data/${file}`);
-        if (!res.ok) throw new Error('not found');
-        const data = await res.json();
-        if (data.length === 0) throw new Error('empty');
-        renderPPG(data, bodyId);
+        const res = await fetch('data/season_ppg.json');
+        if (!res.ok) throw new Error();
+        ppgData = await res.json();
+        if (!ppgData.length) throw new Error();
+        renderPPG(ppgData, currentPPGStat);
       } catch (_) {
-        document.getElementById(statusId).textContent = 'Stats not yet available.';
+        document.getElementById('ppg-status').textContent = 'Stats not yet available.';
       }
     }
 
+    // ── Rookie leaders ───────────────────────────────────────────────────────
     function renderRookie(records) {
-      document.getElementById('rookie-body').innerHTML = records.map((r, i) => `<tr>
+      registerTeams(records);
+      document.getElementById('rookie-body').innerHTML = records.map((r, i) => `<tr data-team="${esc(r.TEAM_ABBREVIATION||'')}">
         <td class="rank num">${i + 1}</td>
-        <td>${esc(r.PLAYER_NAME || '')}</td>
-        <td class="team-badge">${esc(r.TEAM_ABBREVIATION || '')}</td>
-        <td class="num">${esc(String(r.PPG ?? ''))}</td>
-        <td class="num">${esc(String(r.APG ?? ''))}</td>
-        <td class="num">${esc(String(r.RPG ?? ''))}</td>
-        <td class="num">${esc(String(r.BPG ?? ''))}</td>
-        <td class="num">${r.FG_PCT !== undefined ? esc(String(r.FG_PCT)) + '%' : ''}</td>
+        <td>${playerCell(r.id, r.PLAYER_NAME)}</td>
+        <td class="team-badge">${esc(r.TEAM_ABBREVIATION||'')}</td>
+        <td class="num">${r.PPG ?? ''}</td>
+        <td class="num">${r.APG ?? ''}</td>
+        <td class="num">${r.RPG ?? ''}</td>
+        <td class="num">${r.BPG ?? ''}</td>
+        <td class="num">${r.FG_PCT !== undefined ? r.FG_PCT + '%' : ''}</td>
       </tr>`).join('');
+      applyFilter();
     }
 
     async function loadRookie() {
       try {
         const res = await fetch('data/rookie_ppg.json');
-        if (!res.ok) throw new Error('not found');
+        if (!res.ok) throw new Error();
         const data = await res.json();
-        if (data.length === 0) throw new Error('empty');
+        if (!data.length) throw new Error();
         renderRookie(data);
       } catch (_) {
         document.getElementById('rookie-status').textContent = 'Stats not yet available.';
       }
     }
 
-    function fmtDate(iso) {
-      const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-      const [, m, d] = iso.split('-');
-      return `${months[+m - 1]} ${+d}`;
+    // ── Top scorer streak ────────────────────────────────────────────────────
+    function renderSparkline(history, champName) {
+      if (!history || history.length < 2) return '';
+      const maxPts = Math.max(...history.map(h => h.pts));
+      const bars   = history.slice(0, 10).reverse().map(h => {
+        const pct     = Math.max(8, Math.round((h.pts / maxPts) * 100));
+        const isChamp = h.PLAYER_NAME === champName;
+        return `<div class="spark-bar${isChamp ? ' spark-champ' : ''}" style="height:${pct}%" title="${esc(h.PLAYER_NAME)} · ${h.pts} pts · ${esc(fmtDate(h.date))}"></div>`;
+      }).join('');
+      return `<div class="sparkline">${bars}</div>`;
     }
 
     function renderStreak(data) {
       const cur     = data.current || {};
       const history = data.history || [];
+      const el      = document.getElementById('streak-content');
       if (!cur.PLAYER_NAME) {
         document.getElementById('streak-status').textContent = 'No data yet.';
         return;
       }
+      el.dataset.team = cur.TEAM_ABBREVIATION || '';
       const badge = cur.streak > 1
         ? `<div class="streak-badge">${cur.streak} nights in a row</div>`
         : '';
-      const rows = history.slice(0, 8).map(h => `<tr>
-        <td class="streak-date">${esc(fmtDate(h.date))}</td>
-        <td>${esc(h.PLAYER_NAME)}</td>
-        <td class="team-badge">${esc(h.TEAM_ABBREVIATION)}</td>
-        <td class="num">${h.pts}</td>
-      </tr>`).join('');
-      document.getElementById('streak-content').innerHTML = `
+      const rows = history.slice(0, 8).map(h =>
+        `<tr><td class="streak-date">${esc(fmtDate(h.date))}</td>
+         <td>${esc(h.PLAYER_NAME)}</td>
+         <td class="team-badge">${esc(h.TEAM_ABBREVIATION)}</td>
+         <td class="num">${h.pts}</td></tr>`
+      ).join('');
+      el.innerHTML = `
         <div class="streak-champion">
           <div class="streak-name">${esc(cur.PLAYER_NAME)}</div>
-          <div class="streak-meta">${esc(cur.TEAM_ABBREVIATION)} &middot; ${cur.pts} PTS &middot; ${esc(fmtDate(cur.date))}</div>
+          <div class="streak-meta">${esc(cur.TEAM_ABBREVIATION)} · ${cur.pts} PTS · ${esc(fmtDate(cur.date))}</div>
           ${badge}
         </div>
-        ${rows ? `<table class="stats-table" style="margin-top:0.6rem">
-          <thead><tr>
-            <th>Date</th><th>Player</th><th>Team</th><th class="num">PTS</th>
-          </tr></thead>
+        ${renderSparkline(history, cur.PLAYER_NAME)}
+        ${rows ? `<table class="stats-table" style="margin-top:0.3rem">
+          <thead><tr><th>Date</th><th>Player</th><th>Team</th><th class="num">PTS</th></tr></thead>
           <tbody>${rows}</tbody>
         </table>` : ''}`;
+      applyFilter();
     }
 
     async function loadStreak() {
@@ -241,6 +399,7 @@
       }
     }
 
+    // ── Trending panels ──────────────────────────────────────────────────────
     const STAT_KEYS   = ['PPG', 'APG', 'RPG', 'BPG', 'FG_PCT'];
     const STAT_LABELS = ['PPG', 'APG', 'RPG', 'BPG', 'FG%'];
 
@@ -255,13 +414,20 @@
     }
 
     function renderTrend(data, contentId, statusId) {
+      const el = document.getElementById(contentId);
       if (!data || !data.PLAYER_NAME) {
         document.getElementById(statusId).textContent = 'Not enough data yet.';
         return;
       }
-      document.getElementById(contentId).innerHTML = `
-        <div class="trend-name">${esc(data.PLAYER_NAME)}</div>
-        <div class="trend-meta">${esc(data.TEAM_ABBREVIATION)} &middot; ${data.recent_games} games (last 7d)</div>
+      el.dataset.team = data.TEAM_ABBREVIATION || '';
+      el.innerHTML = `
+        <div class="trend-player-header">
+          <img class="trend-photo" src="https://a.espncdn.com/i/headshots/wnba/players/full/${esc(data.id||'')}.png" onerror="this.style.display='none'" alt="" loading="lazy">
+          <div>
+            <div class="trend-name"><span class="player-link" data-id="${esc(data.id||'')}" data-name="${esc(data.PLAYER_NAME)}">${esc(data.PLAYER_NAME)}</span></div>
+            <div class="trend-meta">${esc(data.TEAM_ABBREVIATION)} · ${data.recent_games} games (last 7d)</div>
+          </div>
+        </div>
         <div class="trend-stats">
           ${STAT_KEYS.map((k, i) => `
             <div class="trend-stat">
@@ -271,21 +437,113 @@
               ${fmtDelta(k, data.delta[k])}
             </div>`).join('')}
         </div>`;
+      applyFilter();
     }
 
     async function loadTrend(file, contentId, statusId) {
       try {
         const res = await fetch(`data/${file}`);
         if (!res.ok) throw new Error();
-        const data = await res.json();
-        renderTrend(data, contentId, statusId);
+        renderTrend(await res.json(), contentId, statusId);
       } catch (_) {
         document.getElementById(statusId).textContent = 'Stats not yet available.';
       }
     }
 
+    // ── Player spotlight modal ────────────────────────────────────────────────
+    async function getPlayerGames() {
+      if (playerGamesCache) return playerGamesCache;
+      try {
+        const res = await fetch('data/player_games.json');
+        playerGamesCache = res.ok ? await res.json() : {};
+      } catch (_) { playerGamesCache = {}; }
+      return playerGamesCache;
+    }
+
+    async function openModal(id, name) {
+      const overlay = document.getElementById('modal-overlay');
+      overlay.classList.add('visible');
+      document.body.style.overflow = 'hidden';
+      document.getElementById('modal-content').innerHTML = '<div class="modal-loading">Loading…</div>';
+
+      const games      = await getPlayerGames();
+      const gameLog    = (games[id] || games[name] || []).slice(0, 14);
+      const allPlayers = [...ppgData];
+
+      const meta = allPlayers.find(p => p.id === id) || {};
+      const team = meta.TEAM_ABBREVIATION || '';
+
+      const photoHtml = id
+        ? `<img class="modal-photo" src="https://a.espncdn.com/i/headshots/wnba/players/full/${esc(id)}.png" onerror="this.style.display='none'" alt="" loading="lazy">`
+        : '';
+
+      const logRows = gameLog.map(g => {
+        const fg = g.fga > 0 ? `${g.fgm}/${g.fga}` : '—';
+        return `<tr>
+          <td class="streak-date">${esc(fmtDate(g.date))}</td>
+          <td class="team-badge">${esc(g.opp||'')}</td>
+          <td class="num">${g.pts}</td>
+          <td class="num">${g.ast}</td>
+          <td class="num">${g.reb}</td>
+          <td class="num">${g.blk}</td>
+          <td class="num">${esc(fg)}</td>
+        </tr>`;
+      }).join('');
+
+      document.getElementById('modal-content').innerHTML = `
+        <div class="modal-header">
+          ${photoHtml}
+          <div class="modal-header-text">
+            <div class="modal-player-name">${esc(name)}</div>
+            ${team ? `<div class="modal-player-team">${esc(team)}</div>` : ''}
+          </div>
+        </div>
+        ${gameLog.length ? `
+        <div class="modal-section-title">Last 14 Days</div>
+        <div style="overflow-x:auto">
+          <table class="stats-table">
+            <thead><tr>
+              <th>Date</th><th>Opp</th>
+              <th class="num">PTS</th><th class="num">AST</th>
+              <th class="num">REB</th><th class="num">BLK</th><th class="num">FG</th>
+            </tr></thead>
+            <tbody>${logRows}</tbody>
+          </table>
+        </div>` : '<p class="modal-no-games">No game log available for this player in the last 14 days.</p>'}`;
+    }
+
+    function closeModal() {
+      document.getElementById('modal-overlay').classList.remove('visible');
+      document.body.style.overflow = '';
+    }
+
+    document.getElementById('modal-overlay').addEventListener('click', e => {
+      if (e.target === e.currentTarget) closeModal();
+    });
+    document.getElementById('modal-close').addEventListener('click', closeModal);
+    document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+
+    document.addEventListener('click', async e => {
+      const link = e.target.closest('.player-link');
+      if (!link) return;
+      await openModal(link.dataset.id, link.dataset.name);
+    });
+
+    // ── Last updated timestamp ────────────────────────────────────────────────
+    async function loadMeta() {
+      try {
+        const res = await fetch('data/meta.json');
+        if (!res.ok) return;
+        const { updated } = await res.json();
+        document.getElementById('meta-updated').textContent = `Updated ${fmtTime(updated)}`;
+      } catch (_) {}
+    }
+
+    // ── Bootstrap ────────────────────────────────────────────────────────────
+    loadMeta();
+    loadGameScores();
     loadScorers();
-    loadPPG('season_ppg.json', 'ppg-body', 'ppg-status');
+    loadPPG();
     loadRookie();
     loadStreak();
     loadTrend('trending_up.json',   'trend-up-content',   'trend-up-status');

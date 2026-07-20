@@ -14,7 +14,6 @@ def safe_get(url, **params):
 
 
 def parse_box_score(summary_json):
-    """Return per-player records from a game summary response."""
     records = []
     for team in summary_json.get("boxscore", {}).get("players", []):
         abbrev = team.get("team", {}).get("abbreviation", "")
@@ -79,7 +78,7 @@ def parse_box_score(summary_json):
                     "AST": ast, "REB": reb, "BLK": blk,
                     "FGM": fgm, "FGA": fga,
                 })
-            break  # only first group containing PTS
+            break
     return records
 
 
@@ -88,7 +87,7 @@ yesterday = now - timedelta(days=1)
 date_str  = yesterday.strftime("%Y-%m-%d")
 
 
-# ── yesterday's top scorers ──────────────────────────────────────────────────
+# ── yesterday's top scorers + game scores ────────────────────────────────────
 
 yest_resp   = safe_get(SCOREBOARD, dates=yesterday.strftime("%Y%m%d"))
 yest_events = yest_resp.json().get("events", []) if yest_resp.ok else []
@@ -103,15 +102,34 @@ if not all_yesterday:
     print(f"No WNBA games found for {date_str}")
 
 top_scorers = [
-    {k: v for k, v in p.items() if k != "_id"}
+    {**{k: v for k, v in p.items() if k != "_id"}, "id": p["_id"]}
     for p in sorted(all_yesterday, key=lambda x: x["PTS"], reverse=True)[:10]
 ]
+
+# Parse final scores from yesterday's events
+game_scores = {"date": date_str, "games": []}
+for event in yest_events:
+    comp        = event.get("competitions", [{}])[0]
+    competitors = comp.get("competitors", [])
+    home = next((c for c in competitors if c.get("homeAway") == "home"), None)
+    away = next((c for c in competitors if c.get("homeAway") == "away"), None)
+    if home and away:
+        try:
+            game_scores["games"].append({
+                "home":       home.get("team", {}).get("abbreviation", ""),
+                "home_score": int(home.get("score", 0) or 0),
+                "away":       away.get("team", {}).get("abbreviation", ""),
+                "away_score": int(away.get("score", 0) or 0),
+            })
+        except (ValueError, TypeError):
+            pass
 
 
 # ── aggregate last 14 days for PPG / trending / daily leaders ────────────────
 
-totals        = {}   # athlete_id → {name, team, totals, recent 7d, older 7d}
+totals        = {}   # athlete_id → season totals + split halves
 daily_leaders = {}   # "YYYY-MM-DD" → {PLAYER_NAME, TEAM_ABBREVIATION, pts}
+player_games  = {}   # athlete_id → [{date, opp, pts, ast, reb, blk, fgm, fga}]
 MAX_GAMES  = 50
 game_calls = 0
 
@@ -127,6 +145,8 @@ for offset in range(1, 15):
     for event in r.json().get("events", []):
         if game_calls >= MAX_GAMES:
             break
+        comp        = event.get("competitions", [{}])[0]
+        event_teams = {c.get("team", {}).get("abbreviation", "") for c in comp.get("competitors", [])}
         gr = safe_get(SUMMARY, event=event["id"])
         if not gr.ok:
             continue
@@ -137,11 +157,9 @@ for offset in range(1, 15):
                 totals[aid] = {
                     "PLAYER_NAME": p["PLAYER_NAME"],
                     "TEAM_ABBREVIATION": p["TEAM_ABBREVIATION"],
-                    # overall
+                    "id": p["_id"],
                     "pts": 0, "ast": 0, "reb": 0, "blk": 0, "fgm": 0, "fga": 0, "games": 0,
-                    # recent 7 days
                     "r_pts": 0, "r_ast": 0, "r_reb": 0, "r_blk": 0, "r_fgm": 0, "r_fga": 0, "r_games": 0,
-                    # older 7 days
                     "o_pts": 0, "o_ast": 0, "o_reb": 0, "o_blk": 0, "o_fgm": 0, "o_fga": 0, "o_games": 0,
                 }
             for stat, key in [("PTS","pts"),("AST","ast"),("REB","reb"),("BLK","blk"),("FGM","fgm"),("FGA","fga")]:
@@ -157,20 +175,45 @@ for offset in range(1, 15):
                     "TEAM_ABBREVIATION": p["TEAM_ABBREVIATION"],
                     "pts": p["PTS"],
                 }
+            opp = next((t for t in event_teams if t != p["TEAM_ABBREVIATION"]), "")
+            if aid not in player_games:
+                player_games[aid] = []
+            player_games[aid].append({
+                "date": d_key, "opp": opp,
+                "pts": p["PTS"], "ast": p["AST"], "reb": p["REB"], "blk": p["BLK"],
+                "fgm": p["FGM"], "fga": p["FGA"],
+            })
+
+for games in player_games.values():
+    games.sort(key=lambda g: g["date"], reverse=True)
+
 
 ppg_rows = sorted(
     [
-        {"_id": kid,
-         "PLAYER_NAME": v["PLAYER_NAME"],
-         "TEAM_ABBREVIATION": v["TEAM_ABBREVIATION"],
-         "PPG": round(v["pts"] / v["games"], 1)}
+        {
+            "_id": kid,
+            "PLAYER_NAME": v["PLAYER_NAME"],
+            "TEAM_ABBREVIATION": v["TEAM_ABBREVIATION"],
+            "id": v["id"],
+            "PPG":    round(v["pts"] / v["games"], 1),
+            "APG":    round(v["ast"] / v["games"], 1),
+            "RPG":    round(v["reb"] / v["games"], 1),
+            "BPG":    round(v["blk"] / v["games"], 1),
+            "FG_PCT": round(v["fgm"] / v["fga"] * 100, 1) if v["fga"] > 0 else 0,
+        }
         for kid, v in totals.items() if v["games"] > 0
     ],
     key=lambda x: x["PPG"],
     reverse=True,
 )
 
-season_ppg = [{"PLAYER_NAME": p["PLAYER_NAME"], "TEAM_ABBREVIATION": p["TEAM_ABBREVIATION"], "PPG": p["PPG"]} for p in ppg_rows[:10]]
+season_ppg = [
+    {
+        "PLAYER_NAME": p["PLAYER_NAME"], "TEAM_ABBREVIATION": p["TEAM_ABBREVIATION"], "id": p["_id"],
+        "PPG": p["PPG"], "APG": p["APG"], "RPG": p["RPG"], "BPG": p["BPG"], "FG_PCT": p["FG_PCT"],
+    }
+    for p in ppg_rows[:10]
+]
 
 
 # ── identify rookies from team rosters ───────────────────────────────────────
@@ -188,7 +231,6 @@ try:
             if not rr.ok:
                 continue
             athletes_raw = rr.json().get("athletes", [])
-            # Roster may group players by position: [{items: [...]}, ...]
             if athletes_raw and "items" in (athletes_raw[0] if athletes_raw else {}):
                 athletes_flat = [a for grp in athletes_raw for a in grp.get("items", [])]
             else:
@@ -202,12 +244,13 @@ except Exception as e:
 
 rookie_ppg = [
     {
-        "PLAYER_NAME":     v["PLAYER_NAME"],
+        "PLAYER_NAME":       v["PLAYER_NAME"],
         "TEAM_ABBREVIATION": v["TEAM_ABBREVIATION"],
-        "PPG":  round(v["pts"] / v["games"], 1),
-        "APG":  round(v["ast"] / v["games"], 1),
-        "RPG":  round(v["reb"] / v["games"], 1),
-        "BPG":  round(v["blk"] / v["games"], 1),
+        "id":     v["id"],
+        "PPG":    round(v["pts"] / v["games"], 1),
+        "APG":    round(v["ast"] / v["games"], 1),
+        "RPG":    round(v["reb"] / v["games"], 1),
+        "BPG":    round(v["blk"] / v["games"], 1),
         "FG_PCT": round(v["fgm"] / v["fga"] * 100, 1) if v["fga"] > 0 else 0,
     }
     for kid, v in sorted(totals.items(), key=lambda kv: kv[1]["pts"] / max(kv[1]["games"], 1), reverse=True)
@@ -231,7 +274,6 @@ def per_game_stats(v, pfx=""):
     }
 
 def composite_score(recent, baseline):
-    """Normalized trend score across all stats; each stat weighted by its typical range."""
     return (
         (recent["PPG"]    - baseline["PPG"])    / 15  +
         (recent["APG"]    - baseline["APG"])    / 5   +
@@ -241,8 +283,7 @@ def composite_score(recent, baseline):
     )
 
 trend_candidates = []
-for v in totals.values():
-    # Need at least 1 game recently and 3 total for a meaningful average
+for kid, v in totals.items():
     if v["r_games"] < 1 or v["games"] < 3:
         continue
     recent = per_game_stats(v, "r_")
@@ -255,6 +296,7 @@ for v in totals.values():
         "score":             score,
         "PLAYER_NAME":       v["PLAYER_NAME"],
         "TEAM_ABBREVIATION": v["TEAM_ABBREVIATION"],
+        "id":                v["id"],
         "recent_games":      v["r_games"],
         "recent":            recent,
         "avg":               avg,
@@ -307,10 +349,14 @@ outputs = {
     "trending_up.json":             trending_up,
     "trending_down.json":           trending_down,
     "top_scorer_streak.json":       top_scorer_streak,
+    "game_scores.json":             game_scores,
+    "player_games.json":            player_games,
+    "meta.json":                    {"updated": now.strftime("%Y-%m-%dT%H:%M:%SZ")},
 }
 
 for filename, data in outputs.items():
     path = os.path.join("docs", "data", filename)
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
-    print(f"Wrote {len(data)} records → {path}")
+    count = len(data) if isinstance(data, (list, dict)) else 1
+    print(f"Wrote {count} records → {path}")
