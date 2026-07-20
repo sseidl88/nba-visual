@@ -13,17 +13,14 @@
     <div class="meta-updated" id="meta-updated"></div>
   </header>
 
-  <div class="filter-bar" id="filter-bar"></div>
+  <div class="filter-scores-row">
+    <div class="filter-bar" id="filter-bar"></div>
+    <div class="scores-inline" id="scores-inline">
+      <span class="scores-inline-status" id="game-scores-status"></span>
+    </div>
+  </div>
 
   <div class="panels">
-
-    <!-- Last night's scores -->
-    <div class="panel">
-      <div class="panel-title">Last Night's Scores</div>
-      <div class="panel-subtitle" id="scores-date"></div>
-      <div id="game-scores-content"></div>
-      <div class="status" id="game-scores-status"></div>
-    </div>
 
     <!-- Yesterday's top scorers -->
     <div class="panel">
@@ -70,24 +67,26 @@
     </div>
 
     <!-- Rookie leaders -->
-    <div class="panel">
+    <div class="panel panel-wide">
       <div class="panel-title">Rookie Leaders</div>
       <div class="panel-subtitle">Last 14 days</div>
-      <table class="stats-table">
-        <thead>
-          <tr>
-            <th class="rank">#</th>
-            <th>Player</th>
-            <th>Team</th>
-            <th class="num">PPG</th>
-            <th class="num">APG</th>
-            <th class="num">RPG</th>
-            <th class="num">BPG</th>
-            <th class="num">FG%</th>
-          </tr>
-        </thead>
-        <tbody id="rookie-body"></tbody>
-      </table>
+      <div style="overflow-x:auto">
+        <table class="stats-table stats-table-compact">
+          <thead>
+            <tr>
+              <th class="rank">#</th>
+              <th>Player</th>
+              <th>Team</th>
+              <th class="num">PPG</th>
+              <th class="num">APG</th>
+              <th class="num">RPG</th>
+              <th class="num">BPG</th>
+              <th class="num">FG%</th>
+            </tr>
+          </thead>
+          <tbody id="rookie-body"></tbody>
+        </table>
+      </div>
       <div class="status" id="rookie-status"></div>
     </div>
 
@@ -212,25 +211,25 @@
       });
     }
 
-    // ── Game scores ──────────────────────────────────────────────────────────
+    // ── Game scores (compact chips in header bar) ─────────────────────────────
     function renderGameScores(data) {
-      document.getElementById('scores-date').textContent = `Games from ${data.date}`;
+      const el    = document.getElementById('scores-inline');
       const games = data.games || [];
       if (!games.length) {
-        document.getElementById('game-scores-status').textContent = 'No games found.';
+        el.innerHTML = '<span class="scores-inline-label">No games last night</span>';
         return;
       }
-      document.getElementById('game-scores-content').innerHTML = games.map(g => {
-        const awayWon = g.away_score > g.home_score;
-        const homeWon = g.home_score > g.away_score;
-        return `<div class="score-row">
-          <span class="score-team${awayWon ? '' : ' score-loser'}">${esc(g.away)}</span>
-          <span class="score-pts${awayWon ? ' score-winner' : ''}">${g.away_score}</span>
-          <span class="score-sep">–</span>
-          <span class="score-pts${homeWon ? ' score-winner' : ''}">${g.home_score}</span>
-          <span class="score-team${homeWon ? '' : ' score-loser'}">${esc(g.home)}</span>
-        </div>`;
-      }).join('');
+      el.innerHTML =
+        '<span class="scores-inline-label">Last night:</span>' +
+        games.map(g => {
+          const awayWon = g.away_score > g.home_score;
+          const homeWon = g.home_score > g.away_score;
+          return `<span class="score-chip">` +
+            `<span class="${awayWon ? 'chip-winner' : 'chip-loser'}">${esc(g.away)}</span>` +
+            `<span class="chip-score">${g.away_score}–${g.home_score}</span>` +
+            `<span class="${homeWon ? 'chip-winner' : 'chip-loser'}">${esc(g.home)}</span>` +
+            `</span>`;
+        }).join('<span class="chip-sep">·</span>');
     }
 
     async function loadGameScores() {
@@ -239,7 +238,8 @@
         if (!res.ok) throw new Error();
         renderGameScores(await res.json());
       } catch (_) {
-        document.getElementById('game-scores-status').textContent = 'Scores not yet available.';
+        document.getElementById('scores-inline').innerHTML =
+          '<span class="scores-inline-label">Scores not yet available</span>';
       }
     }
 
@@ -284,7 +284,8 @@
       registerTeams(records);
       const header = stat === 'FG_PCT' ? 'FG%' : stat;
       document.getElementById('ppg-stat-header').textContent = header;
-      document.getElementById('ppg-body').innerHTML = records.map((r, i) => {
+      const sorted = [...records].sort((a, b) => (b[stat] ?? -1) - (a[stat] ?? -1));
+      document.getElementById('ppg-body').innerHTML = sorted.map((r, i) => {
         const raw = r[stat];
         const val = stat === 'FG_PCT' ? (raw !== undefined ? raw + '%' : '') : (raw ?? '');
         return `<tr data-team="${esc(r.TEAM_ABBREVIATION||'')}">

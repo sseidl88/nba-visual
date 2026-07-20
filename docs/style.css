@@ -27,13 +27,73 @@ h1 {
   color: #bbb;
 }
 
-/* ── Team filter bar ── */
+/* ── Filter + scores row ── */
+.filter-scores-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.25rem;
+  margin-bottom: 1.25rem;
+  flex-wrap: wrap;
+}
+
 .filter-bar {
   display: flex;
   flex-wrap: wrap;
   gap: 0.4rem;
-  margin-bottom: 1.25rem;
-  min-height: 2rem;
+  flex: 1;
+  min-width: 0;
+}
+
+.scores-inline {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.3rem 0.5rem;
+  padding-top: 0.28rem;
+  flex-shrink: 0;
+}
+
+.scores-inline-label {
+  font-size: 0.68rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #bbb;
+  white-space: nowrap;
+}
+
+.scores-inline-status {
+  font-size: 0.72rem;
+  color: #ccc;
+}
+
+.score-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.78rem;
+  white-space: nowrap;
+}
+
+.chip-winner {
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+.chip-loser {
+  color: #bbb;
+  font-weight: 400;
+}
+
+.chip-score {
+  color: #555;
+  font-variant-numeric: tabular-nums;
+}
+
+.chip-sep {
+  color: #ddd;
+  padding: 0 0.1rem;
+  font-size: 0.7rem;
 }
 
 .filter-pill {
@@ -91,6 +151,13 @@ h1 {
   min-height: 1.1em;
 }
 
+/* ── Wide panel (rookie leaders) ── */
+@media (min-width: 620px) {
+  .panel-wide {
+    grid-column: span 2;
+  }
+}
+
 /* ── Stats table ── */
 .stats-table {
   width: 100%;
@@ -113,6 +180,9 @@ h1 {
 }
 
 .stats-table tr:last-child td { border-bottom: none; }
+
+.stats-table-compact th,
+.stats-table-compact td { padding-left: 0.3rem; padding-right: 0.3rem; font-size: 0.82rem; }
 .stats-table td.num { text-align: right; font-variant-numeric: tabular-nums; }
 .stats-table th.num { text-align: right; }
 
@@ -160,46 +230,6 @@ h1 {
   text-decoration: underline;
 }
 
-/* ── Game scores panel ── */
-.score-row {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-  padding: 0.45rem 0;
-  border-bottom: 1px solid #f4f4f4;
-  font-size: 0.875rem;
-}
-
-.score-row:last-child { border-bottom: none; }
-
-.score-team {
-  font-weight: 600;
-  width: 3rem;
-  text-align: center;
-  font-size: 0.8rem;
-}
-
-.score-team.score-loser {
-  color: #bbb;
-  font-weight: 400;
-}
-
-.score-pts {
-  font-size: 1rem;
-  font-variant-numeric: tabular-nums;
-  width: 2rem;
-  text-align: center;
-}
-
-.score-pts.score-winner {
-  font-weight: 700;
-}
-
-.score-sep {
-  color: #ccc;
-  font-size: 0.85rem;
-}
 
 /* ── Stat toggle (season leaders) ── */
 .stat-toggle {
