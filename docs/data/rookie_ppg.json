@@ -1,52 +1,92 @@
 [
   {
-    "PLAYER_NAME": "Flau'jae Johnson",
-    "TEAM_ABBREVIATION": "SEA",
-    "PPG": 17.4
-  },
-  {
     "PLAYER_NAME": "Sydney Taylor",
     "TEAM_ABBREVIATION": "CHI",
-    "PPG": 17.4
+    "PPG": 17.5,
+    "APG": 1.5,
+    "RPG": 2.0,
+    "BPG": 0.0,
+    "FG_PCT": 48.2
+  },
+  {
+    "PLAYER_NAME": "Flau'jae Johnson",
+    "TEAM_ABBREVIATION": "SEA",
+    "PPG": 17.4,
+    "APG": 4.2,
+    "RPG": 5.2,
+    "BPG": 0.6,
+    "FG_PCT": 46.6
   },
   {
     "PLAYER_NAME": "Olivia Miles",
     "TEAM_ABBREVIATION": "MIN",
-    "PPG": 14.7
+    "PPG": 14.7,
+    "APG": 4.5,
+    "RPG": 2.7,
+    "BPG": 0.7,
+    "FG_PCT": 46.7
   },
   {
     "PLAYER_NAME": "Azzi Fudd",
     "TEAM_ABBREVIATION": "DAL",
-    "PPG": 14.5
+    "PPG": 13.0,
+    "APG": 2.5,
+    "RPG": 1.8,
+    "BPG": 0.2,
+    "FG_PCT": 40.0
   },
   {
     "PLAYER_NAME": "Laura Juskaite",
     "TEAM_ABBREVIATION": "TOR",
-    "PPG": 11.8
-  },
-  {
-    "PLAYER_NAME": "Awa Fam",
-    "TEAM_ABBREVIATION": "SEA",
-    "PPG": 9.2
+    "PPG": 12.6,
+    "APG": 1.6,
+    "RPG": 3.0,
+    "BPG": 0.4,
+    "FG_PCT": 59.5
   },
   {
     "PLAYER_NAME": "Maria Conde",
     "TEAM_ABBREVIATION": "TOR",
-    "PPG": 9.0
+    "PPG": 10.2,
+    "APG": 4.0,
+    "RPG": 3.2,
+    "BPG": 0.2,
+    "FG_PCT": 39.0
   },
   {
     "PLAYER_NAME": "Madina Okot",
     "TEAM_ABBREVIATION": "ATL",
-    "PPG": 8.8
+    "PPG": 9.8,
+    "APG": 0.2,
+    "RPG": 5.0,
+    "BPG": 0.4,
+    "FG_PCT": 59.4
   },
   {
-    "PLAYER_NAME": "Gabriela Jaquez",
-    "TEAM_ABBREVIATION": "CHI",
-    "PPG": 8.8
+    "PLAYER_NAME": "Awa Fam",
+    "TEAM_ABBREVIATION": "SEA",
+    "PPG": 9.2,
+    "APG": 3.0,
+    "RPG": 7.0,
+    "BPG": 1.4,
+    "FG_PCT": 38.3
+  },
+  {
+    "PLAYER_NAME": "Serah Williams",
+    "TEAM_ABBREVIATION": "POR",
+    "PPG": 7.8,
+    "APG": 0.8,
+    "RPG": 2.2,
+    "BPG": 0.6,
+    "FG_PCT": 69.6
   },
   {
     "PLAYER_NAME": "Pauline Astier",
     "TEAM_ABBREVIATION": "NY",
-    "PPG": 7.8
+    "PPG": 7.8,
+    "APG": 2.5,
+    "RPG": 1.8,
+    "BPG": 0.0,
+    "FG_PCT": 52.2
   }
 ]
