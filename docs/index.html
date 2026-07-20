@@ -116,6 +116,27 @@
 
   </div>
 
+  <!-- Suggestion section -->
+  <div class="suggestion-section">
+    <div class="suggestion-panel">
+      <div class="suggestion-header">
+        <div>
+          <div class="panel-title">Got an Idea?</div>
+          <div class="panel-subtitle" style="margin-bottom:0">Suggest a stat, feature, or change you'd like to see</div>
+        </div>
+      </div>
+      <form id="suggestion-form">
+        <input class="suggestion-input" type="text" id="suggestion-name" placeholder="Your name (optional)" maxlength="100" autocomplete="off">
+        <textarea class="suggestion-textarea" id="suggestion-text" placeholder="What would you like to see on this page?" maxlength="1000" required></textarea>
+        <div class="suggestion-footer">
+          <span class="suggestion-note">Submits as a GitHub Issue · free account required</span>
+          <button class="suggestion-btn" type="submit">Submit Idea →</button>
+        </div>
+      </form>
+      <div class="status" id="suggestion-status"></div>
+    </div>
+  </div>
+
   <!-- Player spotlight modal -->
   <div class="modal-overlay" id="modal-overlay">
     <div class="modal" id="modal">
@@ -528,6 +549,21 @@
       const link = e.target.closest('.player-link');
       if (!link) return;
       await openModal(link.dataset.id, link.dataset.name);
+    });
+
+    // ── Suggestion form ───────────────────────────────────────────────────────
+    document.getElementById('suggestion-form').addEventListener('submit', e => {
+      e.preventDefault();
+      const name = document.getElementById('suggestion-name').value.trim();
+      const text = document.getElementById('suggestion-text').value.trim();
+      if (!text) return;
+      const title = encodeURIComponent('💡 Feature Suggestion');
+      const body  = encodeURIComponent((name ? `**From:** ${name}\n\n` : '') + text);
+      window.open(`https://github.com/sseidl88/nba-visual/issues/new?title=${title}&body=${body}`, '_blank');
+      e.target.reset();
+      const st = document.getElementById('suggestion-status');
+      st.textContent = 'Redirecting to GitHub to submit your idea…';
+      setTimeout(() => { st.textContent = ''; }, 4000);
     });
 
     // ── Last updated timestamp ────────────────────────────────────────────────
