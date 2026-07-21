@@ -1,12 +1,18 @@
 {
   "current": {
-    "date": "2026-07-19",
-    "PLAYER_NAME": "Allisha Gray",
-    "TEAM_ABBREVIATION": "ATL",
-    "pts": 29,
+    "date": "2026-07-20",
+    "PLAYER_NAME": "Breanna Stewart",
+    "TEAM_ABBREVIATION": "NY",
+    "pts": 33,
     "streak": 1
   },
   "history": [
+    {
+      "date": "2026-07-20",
+      "PLAYER_NAME": "Breanna Stewart",
+      "TEAM_ABBREVIATION": "NY",
+      "pts": 33
+    },
     {
       "date": "2026-07-19",
       "PLAYER_NAME": "Allisha Gray",
@@ -60,12 +66,6 @@
       "PLAYER_NAME": "Sabrina Ionescu",
       "TEAM_ABBREVIATION": "NY",
       "pts": 25
-    },
-    {
-      "date": "2026-07-10",
-      "PLAYER_NAME": "Paige Bueckers",
-      "TEAM_ABBREVIATION": "DAL",
-      "pts": 34
     }
   ]
 }
