@@ -103,7 +103,7 @@ if not all_yesterday:
 
 top_scorers = [
     {**{k: v for k, v in p.items() if k != "_id"}, "id": p["_id"]}
-    for p in sorted(all_yesterday, key=lambda x: x["PTS"], reverse=True)[:10]
+    for p in sorted(all_yesterday, key=lambda x: x["PTS"], reverse=True)
 ]
 
 # Parse final scores from yesterday's events
@@ -212,7 +212,7 @@ season_ppg = [
         "PLAYER_NAME": p["PLAYER_NAME"], "TEAM_ABBREVIATION": p["TEAM_ABBREVIATION"], "id": p["_id"],
         "PPG": p["PPG"], "APG": p["APG"], "RPG": p["RPG"], "BPG": p["BPG"], "FG_PCT": p["FG_PCT"],
     }
-    for p in ppg_rows[:10]
+    for p in ppg_rows
 ]
 
 
@@ -255,7 +255,7 @@ rookie_ppg = [
     }
     for kid, v in sorted(totals.items(), key=lambda kv: kv[1]["pts"] / max(kv[1]["games"], 1), reverse=True)
     if kid in rookie_ids and v["games"] > 0
-][:10]
+]
 
 
 # ── trending players ─────────────────────────────────────────────────────────

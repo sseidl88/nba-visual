@@ -148,6 +148,8 @@
   <script>
     // ── State ────────────────────────────────────────────────────────────────
     let ppgData          = [];
+    let rookieData       = [];
+    let scorersCache     = { records: [], dateStr: '' };
     let playerGamesCache = null;
     let activeTeam       = '';
     let currentPPGStat   = 'PPG';
@@ -210,9 +212,11 @@
     });
 
     function applyFilter() {
-      document.querySelectorAll('tr[data-team]').forEach(row => {
-        row.style.display = (!activeTeam || row.dataset.team === activeTeam) ? '' : 'none';
-      });
+      // Re-render table panels with the current team filter applied
+      if (scorersCache.records.length) renderScorers(scorersCache.records, scorersCache.dateStr);
+      if (ppgData.length)              renderPPG(ppgData, currentPPGStat);
+      if (rookieData.length)           renderRookie(rookieData);
+      // Single-player panels: show/hide by team tag
       [
         ['trend-up-content',   'trend-up-status'],
         ['trend-down-content', 'trend-down-status'],
@@ -266,12 +270,16 @@
 
     // ── Yesterday's top scorers ──────────────────────────────────────────────
     function renderScorers(records, dateStr) {
+      scorersCache = { records, dateStr };
       document.getElementById('scorers-date').textContent = `Games from ${dateStr}`;
       registerTeams(records);
-      document.getElementById('scores-body').innerHTML = records.map((r, i) => {
+      const toShow = activeTeam
+        ? records.filter(r => r.TEAM_ABBREVIATION === activeTeam)
+        : records.slice(0, 10);
+      document.getElementById('scores-body').innerHTML = toShow.map((r, i) => {
         const pm     = r.PLUS_MINUS;
         const pmText = pm === null || pm === undefined ? '' : (pm > 0 ? `+${pm}` : String(pm));
-        return `<tr data-team="${esc(r.TEAM_ABBREVIATION||'')}">
+        return `<tr>
           <td class="rank num">${i + 1}</td>
           <td>${playerCell(r.id, r.PLAYER_NAME)}</td>
           <td class="team-badge">${esc(r.TEAM_ABBREVIATION||'')}</td>
@@ -279,7 +287,6 @@
           <td class="num">${esc(pmText)}</td>
         </tr>`;
       }).join('');
-      applyFilter();
     }
 
     async function loadScorers() {
@@ -306,17 +313,19 @@
       const header = stat === 'FG_PCT' ? 'FG%' : stat;
       document.getElementById('ppg-stat-header').textContent = header;
       const sorted = [...records].sort((a, b) => (b[stat] ?? -1) - (a[stat] ?? -1));
-      document.getElementById('ppg-body').innerHTML = sorted.map((r, i) => {
+      const toShow = activeTeam
+        ? sorted.filter(r => r.TEAM_ABBREVIATION === activeTeam)
+        : sorted.slice(0, 10);
+      document.getElementById('ppg-body').innerHTML = toShow.map((r, i) => {
         const raw = r[stat];
         const val = stat === 'FG_PCT' ? (raw !== undefined ? raw + '%' : '') : (raw ?? '');
-        return `<tr data-team="${esc(r.TEAM_ABBREVIATION||'')}">
+        return `<tr>
           <td class="rank num">${i + 1}</td>
           <td>${playerCell(r.id, r.PLAYER_NAME)}</td>
           <td class="team-badge">${esc(r.TEAM_ABBREVIATION||'')}</td>
           <td class="num">${esc(String(val))}</td>
         </tr>`;
       }).join('');
-      applyFilter();
     }
 
     document.getElementById('ppg-toggle').addEventListener('click', e => {
@@ -342,7 +351,10 @@
     // ── Rookie leaders ───────────────────────────────────────────────────────
     function renderRookie(records) {
       registerTeams(records);
-      document.getElementById('rookie-body').innerHTML = records.map((r, i) => `<tr data-team="${esc(r.TEAM_ABBREVIATION||'')}">
+      const toShow = activeTeam
+        ? records.filter(r => r.TEAM_ABBREVIATION === activeTeam)
+        : records.slice(0, 10);
+      document.getElementById('rookie-body').innerHTML = toShow.map((r, i) => `<tr>
         <td class="rank num">${i + 1}</td>
         <td>${playerCell(r.id, r.PLAYER_NAME)}</td>
         <td class="team-badge">${esc(r.TEAM_ABBREVIATION||'')}</td>
@@ -352,16 +364,15 @@
         <td class="num">${r.BPG ?? ''}</td>
         <td class="num">${r.FG_PCT !== undefined ? r.FG_PCT + '%' : ''}</td>
       </tr>`).join('');
-      applyFilter();
     }
 
     async function loadRookie() {
       try {
         const res = await fetch('data/rookie_ppg.json');
         if (!res.ok) throw new Error();
-        const data = await res.json();
-        if (!data.length) throw new Error();
-        renderRookie(data);
+        rookieData = await res.json();
+        if (!rookieData.length) throw new Error();
+        renderRookie(rookieData);
       } catch (_) {
         document.getElementById('rookie-status').textContent = 'Stats not yet available.';
       }
