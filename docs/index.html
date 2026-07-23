@@ -10,11 +10,18 @@
 
   <header class="page-header">
     <h1>WNBA Stats</h1>
-    <div class="meta-updated" id="meta-updated"></div>
+    <div style="display:flex;align-items:center;gap:0.75rem;flex-wrap:wrap">
+      <div class="meta-updated" id="meta-updated"></div>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">🌙 Dark</button>
+    </div>
   </header>
 
   <div class="filter-scores-row">
     <div class="filter-bar" id="filter-bar"></div>
+    <div class="search-wrap">
+      <input class="search-input" id="player-search" type="search" placeholder="Search players…" autocomplete="off" spellcheck="false">
+      <div class="search-dropdown" id="search-dropdown"></div>
+    </div>
     <div class="scores-inline" id="scores-inline">
       <span class="scores-inline-status" id="game-scores-status"></span>
     </div>
@@ -117,6 +124,27 @@
       <div class="status" id="trend-down-status"></div>
     </div>
 
+    <!-- Best single-game performances (last 14 days) -->
+    <div class="panel">
+      <div class="panel-title">Best Performances</div>
+      <div class="panel-subtitle">Top individual games · last 14 days</div>
+      <table class="stats-table">
+        <thead>
+          <tr>
+            <th class="rank">#</th>
+            <th>Player</th>
+            <th>Team</th>
+            <th class="num">PTS</th>
+            <th class="num">REB</th>
+            <th class="num">AST</th>
+            <th>Date</th>
+          </tr>
+        </thead>
+        <tbody id="best-games-body"></tbody>
+      </table>
+      <div class="status" id="best-games-status"></div>
+    </div>
+
   </div>
 
   <!-- Suggestion section -->
@@ -163,6 +191,7 @@
     let isStandingsView  = false;
     let currentPPGStat   = 'PPG';
     const knownTeams     = new Set();
+    let playerNameMap    = {};   // id → {name, team}
 
     // ── Utilities ────────────────────────────────────────────────────────────
     function esc(s) {
@@ -188,6 +217,13 @@
 
     function playerCell(id, name) {
       return `<div class="player-cell">${photoThumb(id)}<span class="player-link" data-id="${esc(id||'')}" data-name="${esc(name||'')}">${esc(name||'')}</span></div>`;
+    }
+
+    function ddBadge(pts, reb, ast) {
+      const cats = [pts >= 10, (reb ?? 0) >= 10, (ast ?? 0) >= 10].filter(Boolean).length;
+      if (cats >= 3) return '<span class="dd-badge td-badge">TD</span>';
+      if (cats >= 2) return '<span class="dd-badge">DD</span>';
+      return '';
     }
 
     // ── Team filter ──────────────────────────────────────────────────────────
@@ -221,12 +257,14 @@
         activeTeam      = '';
         rebuildFilterBar();
         showStandingsView();
+        syncURLToTeam();
       } else {
         isStandingsView = false;
         activeTeam      = pill.dataset.team;
         rebuildFilterBar();
         showPanelsView();
         applyFilter();
+        syncURLToTeam();
       }
     });
 
@@ -317,9 +355,10 @@
       document.getElementById('scores-body').innerHTML = toShow.map((r, i) => {
         const pm     = r.PLUS_MINUS;
         const pmText = pm === null || pm === undefined ? '' : (pm > 0 ? `+${pm}` : String(pm));
+        const badge  = ddBadge(r.PTS, r.REB, r.AST);
         return `<tr>
           <td class="rank num">${i + 1}</td>
-          <td>${playerCell(r.id, r.PLAYER_NAME)}</td>
+          <td><div class="player-cell">${photoThumb(r.id)}<span class="player-link" data-id="${esc(r.id||'')}" data-name="${esc(r.PLAYER_NAME||'')}">${esc(r.PLAYER_NAME||'')}${badge}</span></div></td>
           <td class="team-badge">${esc(r.TEAM_ABBREVIATION||'')}</td>
           <td class="num">${r.PTS ?? ''}</td>
           <td class="num">${esc(pmText)}</td>
@@ -380,6 +419,7 @@
         if (!res.ok) throw new Error();
         ppgData = await res.json();
         if (!ppgData.length) throw new Error();
+        ppgData.forEach(p => { if (p.id) playerNameMap[p.id] = { name: p.PLAYER_NAME, team: p.TEAM_ABBREVIATION }; });
         renderPPG(ppgData, currentPPGStat);
       } catch (_) {
         document.getElementById('ppg-status').textContent = 'Stats not yet available.';
@@ -561,11 +601,12 @@
         : '';
 
       const logRows = gameLog.map(g => {
-        const fg = g.fga > 0 ? `${g.fgm}/${g.fga}` : '—';
+        const fg    = g.fga > 0 ? `${g.fgm}/${g.fga}` : '—';
+        const badge = ddBadge(g.pts, g.reb, g.ast);
         return `<tr>
           <td class="streak-date">${esc(fmtDate(g.date))}</td>
           <td class="team-badge">${esc(g.opp||'')}</td>
-          <td class="num">${g.pts}</td>
+          <td class="num">${g.pts}${badge}</td>
           <td class="num">${g.ast}</td>
           <td class="num">${g.reb}</td>
           <td class="num">${g.blk}</td>
@@ -724,11 +765,161 @@
       }
     }
 
+    // ── Dark mode ─────────────────────────────────────────────────────────────
+    function applyTheme(dark) {
+      document.documentElement.classList.toggle('dark', dark);
+      const btn = document.getElementById('theme-toggle');
+      if (btn) btn.textContent = dark ? '☀️ Light' : '🌙 Dark';
+    }
+
+    function initTheme() {
+      const saved = localStorage.getItem('wnba-theme');
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      applyTheme(saved === 'dark' || (!saved && prefersDark));
+    }
+
+    document.getElementById('theme-toggle').addEventListener('click', () => {
+      const isDark = !document.documentElement.classList.contains('dark');
+      localStorage.setItem('wnba-theme', isDark ? 'dark' : 'light');
+      applyTheme(isDark);
+    });
+
+    // ── Shareable team links ───────────────────────────────────────────────────
+    function syncURLToTeam() {
+      const url = new URL(location.href);
+      if (activeTeam) url.searchParams.set('team', activeTeam);
+      else url.searchParams.delete('team');
+      history.replaceState(null, '', url);
+    }
+
+    function initURLSync() {
+      const params = new URLSearchParams(location.search);
+      const team   = params.get('team');
+      if (team) {
+        activeTeam = team;
+        rebuildFilterBar();
+        applyFilter();
+      }
+    }
+
+    // ── Player search ──────────────────────────────────────────────────────────
+    const searchInput    = document.getElementById('player-search');
+    const searchDropdown = document.getElementById('search-dropdown');
+
+    function renderSearchResults(query) {
+      if (!query || !ppgData.length) { searchDropdown.classList.remove('open'); return; }
+      const q = query.toLowerCase();
+      const hits = ppgData.filter(p => p.PLAYER_NAME.toLowerCase().includes(q)).slice(0, 6);
+      if (!hits.length) { searchDropdown.classList.remove('open'); return; }
+      searchDropdown.innerHTML = hits.map(p =>
+        `<div class="search-result" data-id="${esc(p.id||'')}" data-name="${esc(p.PLAYER_NAME)}">
+          ${photoThumb(p.id)}
+          <span class="search-result-name">${esc(p.PLAYER_NAME)}</span>
+          <span class="search-result-team">${esc(p.TEAM_ABBREVIATION)}</span>
+        </div>`
+      ).join('');
+      searchDropdown.classList.add('open');
+    }
+
+    searchInput.addEventListener('input', () => renderSearchResults(searchInput.value.trim()));
+    searchInput.addEventListener('keydown', e => {
+      if (e.key === 'Escape') { searchDropdown.classList.remove('open'); searchInput.value = ''; }
+    });
+    searchDropdown.addEventListener('click', async e => {
+      const row = e.target.closest('.search-result');
+      if (!row) return;
+      searchDropdown.classList.remove('open');
+      searchInput.value = '';
+      await openModal(row.dataset.id, row.dataset.name);
+    });
+    document.addEventListener('click', e => {
+      if (!searchInput.contains(e.target) && !searchDropdown.contains(e.target))
+        searchDropdown.classList.remove('open');
+    });
+
+    // ── Best single-game performances ─────────────────────────────────────────
+    function renderBestGames(games) {
+      const el = document.getElementById('best-games-body');
+      if (!games.length) {
+        document.getElementById('best-games-status').textContent = 'No game data yet.';
+        return;
+      }
+      el.innerHTML = games.map((g, i) => {
+        const badge = ddBadge(g.pts, g.reb, g.ast);
+        return `<tr>
+          <td class="rank num">${i + 1}</td>
+          <td>${playerCell(g.id, g.name)}</td>
+          <td class="team-badge">${esc(g.team)}</td>
+          <td class="num"><span class="perf-pts">${g.pts}</span>${badge}</td>
+          <td class="num">${g.reb}</td>
+          <td class="num">${g.ast}</td>
+          <td class="streak-date">${esc(fmtDate(g.date))}</td>
+        </tr>`;
+      }).join('');
+    }
+
+    async function loadBestGames() {
+      const games = await getPlayerGames();
+      if (!games || !Object.keys(games).length) return;
+      const flat = [];
+      for (const [id, log] of Object.entries(games)) {
+        const meta = playerNameMap[id] || {};
+        const name = meta.name || id;
+        const team = meta.team || '';
+        for (const g of log) flat.push({ id, name, team, ...g });
+      }
+      flat.sort((a, b) => b.pts - a.pts);
+      renderBestGames(flat.slice(0, 10));
+    }
+
+    // ── Today's schedule ──────────────────────────────────────────────────────
+    async function loadTodaySchedule() {
+      try {
+        const res = await fetch('https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/scoreboard');
+        if (!res.ok) return;
+        const { events = [] } = await res.json();
+        if (!events.length) return;
+
+        const el = document.getElementById('scores-inline');
+        const chips = events.map(ev => {
+          const comp   = (ev.competitions || [])[0] || {};
+          const status = (comp.status || {});
+          const state  = (status.type || {}).name || '';
+          const comps  = comp.competitors || [];
+          const home   = comps.find(c => c.homeAway === 'home') || {};
+          const away   = comps.find(c => c.homeAway === 'away') || {};
+          const ht = (home.team || {}).abbreviation || '';
+          const at = (away.team || {}).abbreviation || '';
+
+          if (state === 'STATUS_FINAL') return null; // already in game_scores
+
+          if (state === 'STATUS_IN_PROGRESS') {
+            const hs = home.score || '0', as = away.score || '0';
+            const period = status.period || '';
+            const clock  = (status.displayClock || '').replace('0:', '');
+            return `<span class="score-chip"><span class="chip-winner">${esc(at)}</span><span class="chip-score">${as}–${hs}</span><span class="chip-winner">${esc(ht)}</span><span class="schedule-time">${esc(period ? `Q${period} ${clock}` : 'Live')}</span></span>`;
+          }
+
+          // Scheduled
+          const gameTime = comp.date ? new Date(comp.date).toLocaleTimeString('en-US', {hour:'numeric', minute:'2-digit', timeZoneName:'short'}) : '';
+          return `<span class="schedule-game">${esc(at)} @ ${esc(ht)} <span class="schedule-time">${esc(gameTime)}</span></span>`;
+        }).filter(Boolean);
+
+        if (!chips.length) return;
+        const existing = el.innerHTML;
+        el.innerHTML = existing +
+          '<span class="chip-sep" style="margin:0 0.4rem">|</span>' +
+          '<span class="schedule-label">Tonight:</span>' +
+          chips.join('<span class="chip-sep">·</span>');
+      } catch (_) {}
+    }
+
     // ── Bootstrap ────────────────────────────────────────────────────────────
+    initTheme();
     loadMeta();
-    loadGameScores();
+    loadGameScores().then(() => loadTodaySchedule());
     loadScorers();
-    loadPPG();
+    loadPPG().then(() => { loadBestGames(); initURLSync(); });
     loadRookie();
     loadStreak();
     loadTrend('trending_up.json',   'trend-up-content',   'trend-up-status');

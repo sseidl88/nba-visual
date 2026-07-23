@@ -606,3 +606,206 @@ h1 {
   background: #fee2e2;
   color: #991b1b;
 }
+
+/* ── Dark mode toggle button ── */
+.theme-toggle {
+  background: none;
+  border: 1px solid #ddd;
+  border-radius: 99px;
+  padding: 0.22rem 0.65rem;
+  font-size: 0.75rem;
+  cursor: pointer;
+  color: #888;
+  line-height: 1.4;
+  transition: border-color 0.12s, color 0.12s;
+}
+.theme-toggle:hover { border-color: #a5b4fc; color: #4338ca; }
+
+/* ── Player search ── */
+.search-wrap {
+  position: relative;
+  width: 200px;
+  flex-shrink: 0;
+}
+
+.search-input {
+  width: 100%;
+  padding: 0.28rem 0.65rem;
+  border: 1px solid #ddd;
+  border-radius: 99px;
+  font-size: 0.78rem;
+  font-family: inherit;
+  background: #fff;
+  color: #1a1a1a;
+  outline: none;
+  transition: border-color 0.15s;
+}
+.search-input:focus { border-color: #818cf8; }
+
+.search-dropdown {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  right: 0;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  z-index: 50;
+  overflow: hidden;
+  display: none;
+}
+.search-dropdown.open { display: block; }
+
+.search-result {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.45rem 0.75rem;
+  cursor: pointer;
+  font-size: 0.82rem;
+}
+.search-result:hover { background: #f5f7ff; }
+.search-result-name { font-weight: 600; color: #1a1a1a; }
+.search-result-team { font-size: 0.7rem; color: #888; font-weight: 600; }
+
+/* ── DD/TD badges ── */
+.dd-badge {
+  display: inline-block;
+  font-size: 0.6rem;
+  font-weight: 800;
+  padding: 0.1rem 0.35rem;
+  border-radius: 4px;
+  letter-spacing: 0.03em;
+  vertical-align: middle;
+  margin-left: 0.3rem;
+  background: #dbeafe;
+  color: #1e40af;
+}
+.td-badge {
+  background: #ede9fe;
+  color: #5b21b6;
+}
+
+/* ── Today's schedule ── */
+.schedule-label {
+  font-size: 0.68rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #bbb;
+  white-space: nowrap;
+}
+.schedule-game {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+  font-size: 0.76rem;
+  white-space: nowrap;
+  color: #555;
+}
+.schedule-time {
+  font-size: 0.68rem;
+  color: #bbb;
+}
+
+/* ── Best single-game performances ── */
+.perf-pts {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: #4f46e5;
+}
+
+/* ── Dark mode ── */
+html.dark body {
+  background: #111318;
+  color: #e5e7eb;
+}
+html.dark h1 { color: #e5e7eb; }
+html.dark .meta-updated { color: #4b5563; }
+html.dark .theme-toggle { border-color: #374151; color: #6b7280; }
+html.dark .theme-toggle:hover { border-color: #818cf8; color: #a5b4fc; }
+
+html.dark .filter-pill { background: #1c1f2b; border-color: #374151; color: #9ca3af; }
+html.dark .filter-pill:hover { border-color: #818cf8; color: #a5b4fc; }
+html.dark .filter-pill.active { background: #4f46e5; border-color: #4f46e5; color: #fff; }
+html.dark .filter-pill-standings { border-color: #475569; color: #64748b; }
+html.dark .filter-pill-standings.active { background: #334155; border-color: #334155; color: #fff; }
+
+html.dark .scores-inline-label,
+html.dark .schedule-label { color: #4b5563; }
+html.dark .scores-inline-status,
+html.dark .schedule-time { color: #4b5563; }
+html.dark .chip-winner { color: #e5e7eb; }
+html.dark .chip-loser { color: #374151; }
+html.dark .chip-score { color: #6b7280; }
+html.dark .chip-sep { color: #2a2d3e; }
+html.dark .schedule-game { color: #9ca3af; }
+
+html.dark .panel {
+  background: #1c1f2b;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+}
+html.dark .panel-title { color: #6b7280; }
+html.dark .panel-subtitle { color: #4b5563; }
+
+html.dark .stats-table th { color: #4b5563; border-bottom-color: #2a2d3e; }
+html.dark .stats-table td { border-bottom-color: #1e2130; color: #e5e7eb; }
+html.dark .rank { color: #374151; }
+html.dark .team-badge { color: #4b5563; }
+html.dark .status { color: #374151; }
+
+html.dark .player-link { color: #e5e7eb; }
+html.dark .player-link:hover { color: #818cf8; }
+html.dark .player-thumb { background: #2a2d3e; }
+
+html.dark .toggle-btn { border-color: #374151; color: #4b5563; background: transparent; }
+html.dark .toggle-btn:hover { border-color: #818cf8; color: #a5b4fc; }
+html.dark .toggle-btn.active { background: #4f46e5; border-color: #4f46e5; color: #fff; }
+
+html.dark .streak-champion { border-bottom-color: #2a2d3e; }
+html.dark .streak-name { color: #e5e7eb; }
+html.dark .streak-meta { color: #4b5563; }
+html.dark .streak-badge { background: #451a03; color: #fbbf24; }
+html.dark .streak-date { color: #4b5563; }
+html.dark .spark-bar { background: #2a2d3e; }
+html.dark .spark-bar.spark-champ { background: #818cf8; }
+
+html.dark .trend-name { color: #e5e7eb; }
+html.dark .trend-meta { color: #4b5563; }
+html.dark .trend-stat-label { color: #4b5563; }
+html.dark .trend-stat-avg { color: #374151; }
+html.dark .trend-photo { background: #2a2d3e; }
+
+html.dark .suggestion-panel { background: #161926; border-color: #2a2d3e; }
+html.dark .suggestion-input,
+html.dark .suggestion-textarea { background: #1c1f2b; border-color: #374151; color: #e5e7eb; }
+html.dark .suggestion-note { color: #374151; }
+
+html.dark .modal-overlay { background: rgba(0,0,0,0.65); }
+html.dark .modal { background: #1c1f2b; }
+html.dark .modal-close { background: #2a2d3e; color: #9ca3af; }
+html.dark .modal-close:hover { background: #374151; }
+html.dark .modal-player-name { color: #e5e7eb; }
+html.dark .modal-player-team { color: #6b7280; }
+html.dark .modal-section-title { color: #6b7280; }
+html.dark .modal-loading,
+html.dark .modal-no-games { color: #374151; }
+
+html.dark .strk-pill { background: #2a2d3e; color: #6b7280; }
+html.dark .strk-win { background: #052e16; color: #34d399; }
+html.dark .strk-loss { background: #450a0a; color: #f87171; }
+html.dark .standings-team-row:hover td { background: #1e2130; }
+html.dark #standings-view .panel { border: 1px solid #2a2d3e; }
+
+html.dark .search-input { background: #1c1f2b; border-color: #374151; color: #e5e7eb; }
+html.dark .search-input:focus { border-color: #818cf8; }
+html.dark .search-dropdown { background: #1c1f2b; border-color: #374151; box-shadow: 0 4px 16px rgba(0,0,0,0.4); }
+html.dark .search-result:hover { background: #252838; }
+html.dark .search-result-name { color: #e5e7eb; }
+html.dark .search-result-team { color: #4b5563; }
+
+html.dark .dd-badge { background: #1e3a5f; color: #60a5fa; }
+html.dark .td-badge { background: #2e1065; color: #a78bfa; }
+
+html.dark .perf-pts { color: #818cf8; }
