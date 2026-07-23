@@ -30,6 +30,16 @@
     "FG_PCT": 52.3
   },
   {
+    "PLAYER_NAME": "Paige Bueckers",
+    "TEAM_ABBREVIATION": "DAL",
+    "id": "4433730",
+    "PPG": 25.5,
+    "APG": 6.8,
+    "RPG": 5.0,
+    "BPG": 0.2,
+    "FG_PCT": 51.4
+  },
+  {
     "PLAYER_NAME": "Breanna Stewart",
     "TEAM_ABBREVIATION": "NY",
     "id": "2998928",
@@ -70,14 +80,14 @@
     "FG_PCT": 46.5
   },
   {
-    "PLAYER_NAME": "Paige Bueckers",
+    "PLAYER_NAME": "Arike Ogunbowale",
     "TEAM_ABBREVIATION": "DAL",
-    "id": "4433730",
-    "PPG": 21.8,
-    "APG": 6.2,
-    "RPG": 4.0,
-    "BPG": 0.2,
-    "FG_PCT": 51.6
+    "id": "3904577",
+    "PPG": 22.0,
+    "APG": 4.2,
+    "RPG": 3.2,
+    "BPG": 0.0,
+    "FG_PCT": 48.6
   },
   {
     "PLAYER_NAME": "Allisha Gray",
@@ -180,16 +190,6 @@
     "FG_PCT": 50.6
   },
   {
-    "PLAYER_NAME": "Arike Ogunbowale",
-    "TEAM_ABBREVIATION": "DAL",
-    "id": "3904577",
-    "PPG": 17.2,
-    "APG": 3.4,
-    "RPG": 3.0,
-    "BPG": 0.0,
-    "FG_PCT": 43.8
-  },
-  {
     "PLAYER_NAME": "Rae Burrell",
     "TEAM_ABBREVIATION": "LA",
     "id": "4398764",
@@ -198,6 +198,16 @@
     "RPG": 2.5,
     "BPG": 0.7,
     "FG_PCT": 50.8
+  },
+  {
+    "PLAYER_NAME": "Jessica Shepard",
+    "TEAM_ABBREVIATION": "DAL",
+    "id": "3906949",
+    "PPG": 16.2,
+    "APG": 6.0,
+    "RPG": 14.4,
+    "BPG": 0.0,
+    "FG_PCT": 63.3
   },
   {
     "PLAYER_NAME": "Natisha Hiedeman",
@@ -240,6 +250,16 @@
     "FG_PCT": 55.9
   },
   {
+    "PLAYER_NAME": "Carla Leite",
+    "TEAM_ABBREVIATION": "POR",
+    "id": "5208982",
+    "PPG": 15.2,
+    "APG": 7.3,
+    "RPG": 2.5,
+    "BPG": 0.0,
+    "FG_PCT": 44.3
+  },
+  {
     "PLAYER_NAME": "Azura Stevens",
     "TEAM_ABBREVIATION": "CHI",
     "id": "3142010",
@@ -258,26 +278,6 @@
     "RPG": 6.8,
     "BPG": 0.4,
     "FG_PCT": 58.3
-  },
-  {
-    "PLAYER_NAME": "Jessica Shepard",
-    "TEAM_ABBREVIATION": "DAL",
-    "id": "3906949",
-    "PPG": 13.8,
-    "APG": 4.4,
-    "RPG": 13.2,
-    "BPG": 0.0,
-    "FG_PCT": 60.5
-  },
-  {
-    "PLAYER_NAME": "Carla Leite",
-    "TEAM_ABBREVIATION": "POR",
-    "id": "5208982",
-    "PPG": 13.8,
-    "APG": 6.3,
-    "RPG": 2.3,
-    "BPG": 0.0,
-    "FG_PCT": 43.9
   },
   {
     "PLAYER_NAME": "Jordin Canada",
@@ -308,6 +308,26 @@
     "RPG": 9.6,
     "BPG": 1.2,
     "FG_PCT": 44.0
+  },
+  {
+    "PLAYER_NAME": "Azzi Fudd",
+    "TEAM_ABBREVIATION": "DAL",
+    "id": "4433790",
+    "PPG": 13.2,
+    "APG": 2.2,
+    "RPG": 1.6,
+    "BPG": 0.4,
+    "FG_PCT": 40.0
+  },
+  {
+    "PLAYER_NAME": "Bridget Carleton",
+    "TEAM_ABBREVIATION": "POR",
+    "id": "3906972",
+    "PPG": 13.2,
+    "APG": 3.2,
+    "RPG": 4.7,
+    "BPG": 0.5,
+    "FG_PCT": 42.6
   },
   {
     "PLAYER_NAME": "Chelsea Gray",
@@ -408,16 +428,6 @@
     "RPG": 7.7,
     "BPG": 0.8,
     "FG_PCT": 56.6
-  },
-  {
-    "PLAYER_NAME": "Azzi Fudd",
-    "TEAM_ABBREVIATION": "DAL",
-    "id": "4433790",
-    "PPG": 12.0,
-    "APG": 1.8,
-    "RPG": 1.6,
-    "BPG": 0.4,
-    "FG_PCT": 40.7
   },
   {
     "PLAYER_NAME": "Janelle Salaun",
@@ -540,14 +550,24 @@
     "FG_PCT": 38.6
   },
   {
-    "PLAYER_NAME": "Bridget Carleton",
+    "PLAYER_NAME": "Emily Engstler",
     "TEAM_ABBREVIATION": "POR",
-    "id": "3906972",
-    "PPG": 10.8,
-    "APG": 2.8,
-    "RPG": 4.3,
+    "id": "4398729",
+    "PPG": 10.7,
+    "APG": 3.8,
+    "RPG": 5.7,
+    "BPG": 0.8,
+    "FG_PCT": 47.9
+  },
+  {
+    "PLAYER_NAME": "Megan DiLeo",
+    "TEAM_ABBREVIATION": "POR",
+    "id": "3934218",
+    "PPG": 10.7,
+    "APG": 0.3,
+    "RPG": 2.3,
     "BPG": 0.5,
-    "FG_PCT": 41.4
+    "FG_PCT": 60.0
   },
   {
     "PLAYER_NAME": "Gabby Williams",
@@ -558,16 +578,6 @@
     "RPG": 1.5,
     "BPG": 0.2,
     "FG_PCT": 43.6
-  },
-  {
-    "PLAYER_NAME": "Emily Engstler",
-    "TEAM_ABBREVIATION": "POR",
-    "id": "4398729",
-    "PPG": 10.3,
-    "APG": 3.5,
-    "RPG": 5.7,
-    "BPG": 0.8,
-    "FG_PCT": 46.8
   },
   {
     "PLAYER_NAME": "Brittney Griner",
@@ -650,16 +660,6 @@
     "FG_PCT": 45.2
   },
   {
-    "PLAYER_NAME": "Megan DiLeo",
-    "TEAM_ABBREVIATION": "POR",
-    "id": "3934218",
-    "PPG": 9.0,
-    "APG": 0.3,
-    "RPG": 2.3,
-    "BPG": 0.5,
-    "FG_PCT": 57.9
-  },
-  {
     "PLAYER_NAME": "Aaliyah Edwards",
     "TEAM_ABBREVIATION": "CON",
     "id": "4433408",
@@ -720,6 +720,16 @@
     "FG_PCT": 50.0
   },
   {
+    "PLAYER_NAME": "Frieda Buhner",
+    "TEAM_ABBREVIATION": "POR",
+    "id": "5105406",
+    "PPG": 8.3,
+    "APG": 0.7,
+    "RPG": 2.0,
+    "BPG": 0.2,
+    "FG_PCT": 56.7
+  },
+  {
     "PLAYER_NAME": "Jade Melbourne",
     "TEAM_ABBREVIATION": "SEA",
     "id": "5017726",
@@ -750,6 +760,16 @@
     "FG_PCT": 53.1
   },
   {
+    "PLAYER_NAME": "Serah Williams",
+    "TEAM_ABBREVIATION": "POR",
+    "id": "5108550",
+    "PPG": 7.8,
+    "APG": 0.7,
+    "RPG": 2.5,
+    "BPG": 0.7,
+    "FG_PCT": 74.1
+  },
+  {
     "PLAYER_NAME": "Lauren Betts",
     "TEAM_ABBREVIATION": "WSH",
     "id": "5105737",
@@ -770,26 +790,6 @@
     "FG_PCT": 38.5
   },
   {
-    "PLAYER_NAME": "Frieda Buhner",
-    "TEAM_ABBREVIATION": "POR",
-    "id": "5105406",
-    "PPG": 7.2,
-    "APG": 0.7,
-    "RPG": 2.0,
-    "BPG": 0.2,
-    "FG_PCT": 51.9
-  },
-  {
-    "PLAYER_NAME": "Serah Williams",
-    "TEAM_ABBREVIATION": "POR",
-    "id": "5108550",
-    "PPG": 7.2,
-    "APG": 0.7,
-    "RPG": 2.2,
-    "BPG": 0.5,
-    "FG_PCT": 72.0
-  },
-  {
     "PLAYER_NAME": "Tiffany Hayes",
     "TEAM_ABBREVIATION": "GS",
     "id": "1054",
@@ -808,6 +808,16 @@
     "RPG": 1.4,
     "BPG": 0.4,
     "FG_PCT": 45.2
+  },
+  {
+    "PLAYER_NAME": "Maddy Siegrist",
+    "TEAM_ABBREVIATION": "DAL",
+    "id": "4399415",
+    "PPG": 7.0,
+    "APG": 0.6,
+    "RPG": 2.0,
+    "BPG": 0.0,
+    "FG_PCT": 59.1
   },
   {
     "PLAYER_NAME": "Georgia Amoore",
@@ -850,16 +860,6 @@
     "FG_PCT": 33.3
   },
   {
-    "PLAYER_NAME": "Maddy Siegrist",
-    "TEAM_ABBREVIATION": "DAL",
-    "id": "4399415",
-    "PPG": 6.2,
-    "APG": 0.4,
-    "RPG": 1.2,
-    "BPG": 0.0,
-    "FG_PCT": 63.2
-  },
-  {
     "PLAYER_NAME": "Kennedy Burke",
     "TEAM_ABBREVIATION": "CON",
     "id": "3922628",
@@ -875,9 +875,9 @@
     "id": "5346554",
     "PPG": 6.0,
     "APG": 2.2,
-    "RPG": 0.5,
+    "RPG": 0.7,
     "BPG": 0.0,
-    "FG_PCT": 40.0
+    "FG_PCT": 37.8
   },
   {
     "PLAYER_NAME": "Nia Coffey",
@@ -1190,6 +1190,16 @@
     "FG_PCT": 34.8
   },
   {
+    "PLAYER_NAME": "Karlie Samuelson",
+    "TEAM_ABBREVIATION": "POR",
+    "id": "3056730",
+    "PPG": 3.5,
+    "APG": 0.3,
+    "RPG": 0.2,
+    "BPG": 0.0,
+    "FG_PCT": 66.7
+  },
+  {
     "PLAYER_NAME": "Kia Nurse",
     "TEAM_ABBREVIATION": "TOR",
     "id": "3142327",
@@ -1320,16 +1330,6 @@
     "FG_PCT": 26.7
   },
   {
-    "PLAYER_NAME": "Karlie Samuelson",
-    "TEAM_ABBREVIATION": "POR",
-    "id": "3056730",
-    "PPG": 2.3,
-    "APG": 0.2,
-    "RPG": 0.2,
-    "BPG": 0.0,
-    "FG_PCT": 57.1
-  },
-  {
     "PLAYER_NAME": "Chance Gray",
     "TEAM_ABBREVIATION": "LA",
     "id": "5105729",
@@ -1447,7 +1447,7 @@
     "APG": 0.6,
     "RPG": 1.4,
     "BPG": 0.6,
-    "FG_PCT": 27.3
+    "FG_PCT": 23.1
   },
   {
     "PLAYER_NAME": "Gianna Kneepkens",
@@ -1467,6 +1467,16 @@
     "APG": 0.4,
     "RPG": 2.2,
     "BPG": 0.2,
+    "FG_PCT": 42.9
+  },
+  {
+    "PLAYER_NAME": "Holly Winterburn",
+    "TEAM_ABBREVIATION": "POR",
+    "id": "4433690",
+    "PPG": 1.7,
+    "APG": 0.7,
+    "RPG": 0.2,
+    "BPG": 0.0,
     "FG_PCT": 42.9
   },
   {
@@ -1538,16 +1548,6 @@
     "RPG": 0.6,
     "BPG": 0.0,
     "FG_PCT": 60.0
-  },
-  {
-    "PLAYER_NAME": "Holly Winterburn",
-    "TEAM_ABBREVIATION": "POR",
-    "id": "4433690",
-    "PPG": 1.2,
-    "APG": 0.5,
-    "RPG": 0.0,
-    "BPG": 0.0,
-    "FG_PCT": 40.0
   },
   {
     "PLAYER_NAME": "Temi Fagbenle",
