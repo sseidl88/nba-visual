@@ -20,7 +20,10 @@
     </div>
   </div>
 
-  <div class="panels">
+  <!-- Standings view (toggled in place of panels) -->
+  <div id="standings-view" style="display:none"></div>
+
+  <div class="panels" id="panels">
 
     <!-- Yesterday's top scorers -->
     <div class="panel">
@@ -151,7 +154,9 @@
     let rookieData       = [];
     let scorersCache     = { records: [], dateStr: '' };
     let playerGamesCache = null;
+    let standingsCache   = null;
     let activeTeam       = '';
+    let isStandingsView  = false;
     let currentPPGStat   = 'PPG';
     const knownTeams     = new Set();
 
@@ -197,18 +202,28 @@
       const bar    = document.getElementById('filter-bar');
       const sorted = [...knownTeams].sort();
       bar.innerHTML =
-        `<button class="filter-pill${!activeTeam ? ' active' : ''}" data-team="">All Teams</button>` +
+        `<button class="filter-pill${!activeTeam && !isStandingsView ? ' active' : ''}" data-team="">All Teams</button>` +
         sorted.map(t =>
-          `<button class="filter-pill${t === activeTeam ? ' active' : ''}" data-team="${esc(t)}">${esc(t)}</button>`
-        ).join('');
+          `<button class="filter-pill${!isStandingsView && t === activeTeam ? ' active' : ''}" data-team="${esc(t)}">${esc(t)}</button>`
+        ).join('') +
+        `<button class="filter-pill filter-pill-standings${isStandingsView ? ' active' : ''}" data-action="standings">Standings</button>`;
     }
 
     document.getElementById('filter-bar').addEventListener('click', e => {
       const pill = e.target.closest('.filter-pill');
       if (!pill) return;
-      activeTeam = pill.dataset.team;
-      rebuildFilterBar();
-      applyFilter();
+      if (pill.dataset.action === 'standings') {
+        isStandingsView = true;
+        activeTeam      = '';
+        rebuildFilterBar();
+        showStandingsView();
+      } else {
+        isStandingsView = false;
+        activeTeam      = pill.dataset.team;
+        rebuildFilterBar();
+        showPanelsView();
+        applyFilter();
+      }
     });
 
     function applyFilter() {
@@ -585,6 +600,93 @@
         const { updated } = await res.json();
         document.getElementById('meta-updated').textContent = `Updated ${fmtTime(updated)}`;
       } catch (_) {}
+    }
+
+    // ── Standings ─────────────────────────────────────────────────────────────
+    function showStandingsView() {
+      document.getElementById('panels').style.display = 'none';
+      document.getElementById('standings-view').style.display = '';
+      loadStandings();
+    }
+
+    function showPanelsView() {
+      document.getElementById('panels').style.display = '';
+      document.getElementById('standings-view').style.display = 'none';
+    }
+
+    function fmtStreak(s) {
+      if (!s) return '';
+      const m = s.match(/^([WL])(\d+)$/);
+      if (!m) return `<span class="strk-pill">${esc(s)}</span>`;
+      const cls = m[1] === 'W' ? 'strk-win' : 'strk-loss';
+      return `<span class="strk-pill ${cls}">${m[1] === 'W' ? 'W' : 'L'}${m[2]}</span>`;
+    }
+
+    function renderStandings(data) {
+      const sv = document.getElementById('standings-view');
+      if (!data || !data.length) {
+        sv.innerHTML = '<div class="panel"><p class="status">Standings not yet available.</p></div>';
+        return;
+      }
+      const confs = {};
+      data.forEach(t => {
+        if (!confs[t.conference]) confs[t.conference] = [];
+        confs[t.conference].push(t);
+      });
+      sv.innerHTML = Object.entries(confs).map(([conf, teams]) => `
+        <div class="panel" style="margin-bottom:1.25rem">
+          <div class="panel-title standings-conf-label">${esc(conf)}</div>
+          <table class="stats-table">
+            <thead>
+              <tr>
+                <th>Team</th>
+                <th class="num">W</th>
+                <th class="num">L</th>
+                <th class="num">PCT</th>
+                <th class="num">GB</th>
+                <th>Streak</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${teams.map((t, i) => `<tr class="standings-team-row" data-team="${esc(t.team)}" title="View ${esc(t.team)} stats">
+                <td>
+                  <div class="standings-team-name">
+                    <span class="rank">${i + 1}</span>
+                    ${esc(t.name)}&ensp;<span class="team-badge">${esc(t.team)}</span>
+                  </div>
+                </td>
+                <td class="num">${t.wins}</td>
+                <td class="num">${t.losses}</td>
+                <td class="num">${String(t.pct.toFixed(3)).replace(/^0/, '')}</td>
+                <td class="num">${esc(t.gb)}</td>
+                <td>${fmtStreak(t.streak)}</td>
+              </tr>`).join('')}
+            </tbody>
+          </table>
+        </div>`).join('');
+
+      sv.querySelectorAll('.standings-team-row').forEach(row => {
+        row.addEventListener('click', () => {
+          isStandingsView = false;
+          activeTeam      = row.dataset.team;
+          rebuildFilterBar();
+          showPanelsView();
+          applyFilter();
+        });
+      });
+    }
+
+    async function loadStandings() {
+      if (standingsCache) { renderStandings(standingsCache); return; }
+      try {
+        const res = await fetch('data/standings.json');
+        if (!res.ok) throw new Error();
+        standingsCache = await res.json();
+        renderStandings(standingsCache);
+      } catch (_) {
+        document.getElementById('standings-view').innerHTML =
+          '<div class="panel"><p class="status">Standings not yet available.</p></div>';
+      }
     }
 
     // ── Bootstrap ────────────────────────────────────────────────────────────

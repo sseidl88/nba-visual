@@ -545,3 +545,64 @@ h1 {
   text-align: center;
   padding: 1.5rem 0;
 }
+
+/* ── Standings view ── */
+.filter-pill-standings {
+  border-color: #94a3b8;
+  color: #475569;
+}
+
+.filter-pill-standings:hover {
+  border-color: #64748b;
+  color: #1e293b;
+}
+
+.filter-pill-standings.active {
+  background: #334155;
+  border-color: #334155;
+  color: #fff;
+}
+
+#standings-view .panel {
+  max-width: 640px;
+}
+
+.standings-conf-label {
+  margin-bottom: 0.6rem;
+}
+
+.standings-team-name {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.standings-team-row {
+  cursor: pointer;
+}
+
+.standings-team-row:hover td {
+  background: #f5f7ff;
+}
+
+/* ── Win/loss streak pills ── */
+.strk-pill {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.15rem 0.48rem;
+  border-radius: 99px;
+  background: #f3f4f6;
+  color: #555;
+  letter-spacing: 0.02em;
+}
+
+.strk-win {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.strk-loss {
+  background: #fee2e2;
+  color: #991b1b;
+}

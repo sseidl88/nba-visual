@@ -3,9 +3,10 @@ import requests
 import json
 import os
 
-SCOREBOARD = "https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/scoreboard"
-SUMMARY    = "https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/summary"
-TEAMS_URL  = "https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/teams"
+SCOREBOARD    = "https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/scoreboard"
+SUMMARY       = "https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/summary"
+TEAMS_URL     = "https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/teams"
+STANDINGS_URL = "https://site.api.espn.com/apis/v2/sports/basketball/wnba/standings"
 
 
 def safe_get(url, **params):
@@ -338,6 +339,34 @@ top_scorer_streak = {
 print(f"Top scorer streak: {champ.get('PLAYER_NAME','?')} × {streak} nights")
 
 
+# ── team standings ────────────────────────────────────────────────────────────
+
+standings = []
+try:
+    sr = safe_get(STANDINGS_URL)
+    if sr.ok:
+        for conf in sr.json().get("children", []):
+            conf_name = conf.get("name", "")
+            for entry in conf.get("standings", {}).get("entries", []):
+                team      = entry.get("team", {})
+                stats_map = {s["name"]: s for s in entry.get("stats", [])}
+                streak_raw = stats_map.get("streak", {}).get("displayValue", "")
+                standings.append({
+                    "team":       team.get("abbreviation", ""),
+                    "name":       team.get("displayName", ""),
+                    "conference": conf_name,
+                    "wins":       int(stats_map.get("wins",       {}).get("value", 0)),
+                    "losses":     int(stats_map.get("losses",     {}).get("value", 0)),
+                    "pct":        round(float(stats_map.get("winPercent", {}).get("value", 0)), 3),
+                    "gb":         stats_map.get("gamesBehind", {}).get("displayValue", "—"),
+                    "streak":     streak_raw,
+                })
+    standings.sort(key=lambda x: (x["conference"], -x["wins"], x["losses"]))
+    print(f"Fetched {len(standings)} standings entries")
+except Exception as e:
+    print(f"Standings error: {e}")
+
+
 # ── write output ─────────────────────────────────────────────────────────────
 
 os.makedirs("docs/data", exist_ok=True)
@@ -351,6 +380,7 @@ outputs = {
     "top_scorer_streak.json":       top_scorer_streak,
     "game_scores.json":             game_scores,
     "player_games.json":            player_games,
+    "standings.json":               standings,
     "meta.json":                    {"updated": now.strftime("%Y-%m-%dT%H:%M:%SZ")},
 }
 
