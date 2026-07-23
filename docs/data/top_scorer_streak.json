@@ -1,12 +1,18 @@
 {
   "current": {
-    "date": "2026-07-20",
-    "PLAYER_NAME": "Breanna Stewart",
-    "TEAM_ABBREVIATION": "NY",
-    "pts": 33,
+    "date": "2026-07-22",
+    "PLAYER_NAME": "A'ja Wilson",
+    "TEAM_ABBREVIATION": "LV",
+    "pts": 38,
     "streak": 1
   },
   "history": [
+    {
+      "date": "2026-07-22",
+      "PLAYER_NAME": "A'ja Wilson",
+      "TEAM_ABBREVIATION": "LV",
+      "pts": 38
+    },
     {
       "date": "2026-07-20",
       "PLAYER_NAME": "Breanna Stewart",
@@ -60,12 +66,6 @@
       "PLAYER_NAME": "Natisha Hiedeman",
       "TEAM_ABBREVIATION": "SEA",
       "pts": 31
-    },
-    {
-      "date": "2026-07-11",
-      "PLAYER_NAME": "Sabrina Ionescu",
-      "TEAM_ABBREVIATION": "NY",
-      "pts": 25
     }
   ]
 }
