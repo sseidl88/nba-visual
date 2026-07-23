@@ -32,6 +32,7 @@ def parse_box_score(summary_json):
             reb_idx = col("REB")
             blk_idx = col("BLK")
             fg_idx  = col("FG")
+            ft_idx  = col("FT")
 
             for ath_data in group.get("athletes", []):
                 stats = ath_data.get("stats", [])
@@ -72,12 +73,22 @@ def parse_box_score(summary_json):
                         except (ValueError, IndexError):
                             pass
 
+                ftm, fta = 0, 0
+                if ft_idx is not None and ft_idx < len(stats):
+                    ft_str = stats[ft_idx]
+                    if ft_str and ft_str != "--" and "-" in str(ft_str):
+                        try:
+                            parts = str(ft_str).split("-")
+                            ftm, fta = int(parts[0]), int(parts[1])
+                        except (ValueError, IndexError):
+                            pass
+
                 records.append({
                     "_id": aid, "PLAYER_NAME": name,
                     "TEAM_ABBREVIATION": abbrev,
                     "PTS": pts, "PLUS_MINUS": pm,
                     "AST": ast, "REB": reb, "BLK": blk,
-                    "FGM": fgm, "FGA": fga,
+                    "FGM": fgm, "FGA": fga, "FTM": ftm, "FTA": fta,
                 })
             break
     return records
@@ -132,13 +143,15 @@ totals             = {}   # athlete_id → season totals + split halves
 daily_leaders      = {}   # "YYYY-MM-DD" → {PLAYER_NAME, TEAM_ABBREVIATION, pts}
 team_daily_leaders = {}   # "YYYY-MM-DD" → {"TEAM": {PLAYER_NAME, pts, TEAM_ABBREVIATION, date}}
 player_games       = {}   # athlete_id → [{date, opp, pts, ast, reb, blk, fgm, fga}]
-MAX_GAMES  = 50
+MAX_GAMES  = 90
 game_calls = 0
 
-for offset in range(1, 15):
+for offset in range(1, 31):
     if game_calls >= MAX_GAMES:
         break
-    is_recent = offset <= 7
+    is_7d     = offset <= 7
+    is_14d    = offset <= 14
+    is_recent = is_7d    # used by trending logic
     d     = (now - timedelta(days=offset)).strftime("%Y%m%d")
     d_key = (now - timedelta(days=offset)).strftime("%Y-%m-%d")
     r = safe_get(SCOREBOARD, dates=d)
@@ -160,17 +173,27 @@ for offset in range(1, 15):
                     "PLAYER_NAME": p["PLAYER_NAME"],
                     "TEAM_ABBREVIATION": p["TEAM_ABBREVIATION"],
                     "id": p["_id"],
-                    "pts": 0, "ast": 0, "reb": 0, "blk": 0, "fgm": 0, "fga": 0, "games": 0,
+                    # 30-day totals
+                    "pts": 0, "ast": 0, "reb": 0, "blk": 0, "fgm": 0, "fga": 0, "ftm": 0, "fta": 0, "games": 0,
+                    # 14-day totals
+                    "d14_pts": 0, "d14_ast": 0, "d14_reb": 0, "d14_blk": 0, "d14_fgm": 0, "d14_fga": 0, "d14_ftm": 0, "d14_fta": 0, "d14_games": 0,
+                    # 7-day totals (recent, for trending)
                     "r_pts": 0, "r_ast": 0, "r_reb": 0, "r_blk": 0, "r_fgm": 0, "r_fga": 0, "r_games": 0,
+                    # older 14-day half (days 8-14, for trending baseline)
                     "o_pts": 0, "o_ast": 0, "o_reb": 0, "o_blk": 0, "o_fgm": 0, "o_fga": 0, "o_games": 0,
                 }
-            for stat, key in [("PTS","pts"),("AST","ast"),("REB","reb"),("BLK","blk"),("FGM","fgm"),("FGA","fga")]:
+            for stat, key in [("PTS","pts"),("AST","ast"),("REB","reb"),("BLK","blk"),("FGM","fgm"),("FGA","fga"),("FTM","ftm"),("FTA","fta")]:
                 totals[aid][key] += p[stat]
             totals[aid]["games"] += 1
-            pfx = "r_" if is_recent else "o_"
-            for stat, key in [("PTS","pts"),("AST","ast"),("REB","reb"),("BLK","blk"),("FGM","fgm"),("FGA","fga")]:
-                totals[aid][f"{pfx}{key}"] += p[stat]
-            totals[aid][f"{pfx}games"] += 1
+            if is_14d:
+                for stat, key in [("PTS","pts"),("AST","ast"),("REB","reb"),("BLK","blk"),("FGM","fgm"),("FGA","fga"),("FTM","ftm"),("FTA","fta")]:
+                    totals[aid][f"d14_{key}"] += p[stat]
+                totals[aid]["d14_games"] += 1
+            pfx = "r_" if is_7d else ("o_" if offset <= 14 else None)
+            if pfx:
+                for stat, key in [("PTS","pts"),("AST","ast"),("REB","reb"),("BLK","blk"),("FGM","fgm"),("FGA","fga")]:
+                    totals[aid][f"{pfx}{key}"] += p[stat]
+                totals[aid][f"{pfx}games"] += 1
             if d_key not in daily_leaders or p["PTS"] > daily_leaders[d_key]["pts"]:
                 daily_leaders[d_key] = {
                     "PLAYER_NAME": p["PLAYER_NAME"],
@@ -194,12 +217,34 @@ for offset in range(1, 15):
             player_games[aid].append({
                 "date": d_key, "opp": opp,
                 "pts": p["PTS"], "ast": p["AST"], "reb": p["REB"], "blk": p["BLK"],
-                "fgm": p["FGM"], "fga": p["FGA"],
+                "fgm": p["FGM"], "fga": p["FGA"], "fta": p["FTA"],
             })
 
 for games in player_games.values():
     games.sort(key=lambda g: g["date"], reverse=True)
 
+
+def ts_pct(pts, fga, fta):
+    denom = 2 * (fga + 0.44 * fta)
+    return round(pts / denom * 100, 1) if denom > 0 else 0
+
+def window_stats(v, pfx="", g_key="games"):
+    g = v[g_key]
+    if g == 0:
+        return None
+    p   = pfx
+    fga = v[f"{p}fga"]
+    fta = v.get(f"{p}fta", 0)
+    pts = v[f"{p}pts"]
+    return {
+        "PPG":    round(pts / g, 1),
+        "APG":    round(v[f"{p}ast"] / g, 1),
+        "RPG":    round(v[f"{p}reb"] / g, 1),
+        "BPG":    round(v[f"{p}blk"] / g, 1),
+        "FG_PCT": round(v[f"{p}fgm"] / fga * 100, 1) if fga > 0 else 0,
+        "TS_PCT": ts_pct(pts, fga, fta),
+        "games":  g,
+    }
 
 ppg_rows = sorted(
     [
@@ -208,25 +253,27 @@ ppg_rows = sorted(
             "PLAYER_NAME": v["PLAYER_NAME"],
             "TEAM_ABBREVIATION": v["TEAM_ABBREVIATION"],
             "id": v["id"],
-            "PPG":    round(v["pts"] / v["games"], 1),
-            "APG":    round(v["ast"] / v["games"], 1),
-            "RPG":    round(v["reb"] / v["games"], 1),
-            "BPG":    round(v["blk"] / v["games"], 1),
-            "FG_PCT": round(v["fgm"] / v["fga"] * 100, 1) if v["fga"] > 0 else 0,
+            "w30": window_stats(v, "", "games"),
+            "w14": window_stats(v, "d14_", "d14_games"),
+            "w7":  window_stats(v, "r_",  "r_games"),
         }
         for kid, v in totals.items() if v["games"] > 0
     ],
-    key=lambda x: x["PPG"],
+    key=lambda x: (x["w14"] or x["w30"] or {}).get("PPG", 0),
     reverse=True,
 )
 
-season_ppg = [
-    {
+def flatten_window(p, w):
+    s = p[w] or {}
+    return {
         "PLAYER_NAME": p["PLAYER_NAME"], "TEAM_ABBREVIATION": p["TEAM_ABBREVIATION"], "id": p["_id"],
-        "PPG": p["PPG"], "APG": p["APG"], "RPG": p["RPG"], "BPG": p["BPG"], "FG_PCT": p["FG_PCT"],
+        "PPG": s.get("PPG", 0), "APG": s.get("APG", 0), "RPG": s.get("RPG", 0),
+        "BPG": s.get("BPG", 0), "FG_PCT": s.get("FG_PCT", 0), "TS_PCT": s.get("TS_PCT", 0),
+        "games": s.get("games", 0),
+        "w7": p["w7"], "w14": p["w14"], "w30": p["w30"],
     }
-    for p in ppg_rows
-]
+
+season_ppg = [flatten_window(p, "w14") for p in ppg_rows if p["w14"]]
 
 
 # ── identify rookies from team rosters ───────────────────────────────────────
@@ -260,21 +307,23 @@ rookie_ppg = [
         "PLAYER_NAME":       v["PLAYER_NAME"],
         "TEAM_ABBREVIATION": v["TEAM_ABBREVIATION"],
         "id":     v["id"],
-        "PPG":    round(v["pts"] / v["games"], 1),
-        "APG":    round(v["ast"] / v["games"], 1),
-        "RPG":    round(v["reb"] / v["games"], 1),
-        "BPG":    round(v["blk"] / v["games"], 1),
-        "FG_PCT": round(v["fgm"] / v["fga"] * 100, 1) if v["fga"] > 0 else 0,
+        "PPG":    round(v["d14_pts"] / v["d14_games"], 1),
+        "APG":    round(v["d14_ast"] / v["d14_games"], 1),
+        "RPG":    round(v["d14_reb"] / v["d14_games"], 1),
+        "BPG":    round(v["d14_blk"] / v["d14_games"], 1),
+        "FG_PCT": round(v["d14_fgm"] / v["d14_fga"] * 100, 1) if v["d14_fga"] > 0 else 0,
+        "TS_PCT": ts_pct(v["d14_pts"], v["d14_fga"], v["d14_fta"]),
     }
-    for kid, v in sorted(totals.items(), key=lambda kv: kv[1]["pts"] / max(kv[1]["games"], 1), reverse=True)
-    if kid in rookie_ids and v["games"] > 0
+    for kid, v in sorted(totals.items(), key=lambda kv: kv[1]["d14_pts"] / max(kv[1]["d14_games"], 1), reverse=True)
+    if kid in rookie_ids and v["d14_games"] > 0
 ]
 
 
 # ── trending players ─────────────────────────────────────────────────────────
 
-def per_game_stats(v, pfx=""):
-    g   = v[f"{pfx}games"]
+def per_game_stats(v, pfx="", g_key=None):
+    g_key = g_key or f"{pfx}games"
+    g   = v[g_key]
     fga = v[f"{pfx}fga"]
     if g == 0:
         return None

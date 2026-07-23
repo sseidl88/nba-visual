@@ -51,16 +51,22 @@
       <div class="status" id="scores-status"></div>
     </div>
 
-    <!-- Season leaders with stat toggle -->
+    <!-- Season leaders with stat + window toggle -->
     <div class="panel">
       <div class="panel-title">Season Leaders</div>
-      <div class="panel-subtitle">Last 14 days</div>
+      <div class="panel-subtitle" id="ppg-subtitle">Last 14 days</div>
+      <div class="stat-toggle" id="window-toggle" style="margin-bottom:0.35rem">
+        <button class="toggle-btn" data-window="w7">7d</button>
+        <button class="toggle-btn active" data-window="w14">14d</button>
+        <button class="toggle-btn" data-window="w30">30d</button>
+      </div>
       <div class="stat-toggle" id="ppg-toggle">
         <button class="toggle-btn active" data-stat="PPG">PPG</button>
         <button class="toggle-btn" data-stat="APG">APG</button>
         <button class="toggle-btn" data-stat="RPG">RPG</button>
         <button class="toggle-btn" data-stat="BPG">BPG</button>
         <button class="toggle-btn" data-stat="FG_PCT">FG%</button>
+        <button class="toggle-btn" data-stat="TS_PCT">TS%</button>
       </div>
       <table class="stats-table">
         <thead>
@@ -122,6 +128,21 @@
       <div class="panel-subtitle">Last 7 days vs 14-day avg · all stats</div>
       <div id="trend-down-content"></div>
       <div class="status" id="trend-down-status"></div>
+    </div>
+
+    <!-- Team stats (shown only when a team filter is active) -->
+    <div class="panel" id="team-stats-panel" style="display:none">
+      <div class="panel-title">Team Stats</div>
+      <div class="panel-subtitle" id="team-stats-subtitle">Last 14 days</div>
+      <div id="team-stats-content"></div>
+    </div>
+
+    <!-- Player comparison (shown when two players are selected) -->
+    <div class="panel panel-wide" id="compare-panel" style="display:none">
+      <div class="panel-title">Player Comparison</div>
+      <div class="panel-subtitle" id="compare-subtitle">Last 14 days</div>
+      <div id="compare-content"></div>
+      <button class="suggestion-btn" id="compare-clear" style="margin-top:0.75rem;font-size:0.75rem;padding:0.3rem 0.8rem">Clear</button>
     </div>
 
     <!-- Best single-game performances (last 14 days) -->
@@ -190,6 +211,7 @@
     let activeTeam       = '';
     let isStandingsView  = false;
     let currentPPGStat   = 'PPG';
+    let currentWindow    = 'w14';
     const knownTeams     = new Set();
     let playerNameMap    = {};   // id → {name, team}
 
@@ -271,7 +293,9 @@
     async function applyFilter() {
       // Re-render table panels with the current team filter applied
       if (scorersCache.records.length) renderScorers(scorersCache.records, scorersCache.dateStr);
-      if (ppgData.length)              renderPPG(ppgData, currentPPGStat);
+      if (ppgData.length)              renderPPG(ppgData, currentPPGStat, currentWindow);
+      if (ppgData.length)              renderTeamStats(activeTeam);
+      if (compareSlots.length === 2)   renderCompare();
       if (rookieData.length)           renderRookie(rookieData);
 
       // Single-player panels: use team-specific data when a team is active
@@ -383,19 +407,26 @@
       document.getElementById('scores-status').textContent = 'No recent game data found.';
     }
 
-    // ── Season leaders with stat toggle ──────────────────────────────────────
-    function renderPPG(records, stat) {
+    // ── Season leaders with stat + window toggle ─────────────────────────────
+    function windowLabel(w) { return w === 'w7' ? '7 days' : w === 'w14' ? '14 days' : '30 days'; }
+
+    function renderPPG(records, stat, win) {
       stat = stat || currentPPGStat;
+      win  = win  || currentWindow;
       registerTeams(records);
-      const header = stat === 'FG_PCT' ? 'FG%' : stat;
+      const isPct = stat === 'FG_PCT' || stat === 'TS_PCT';
+      const header = stat === 'FG_PCT' ? 'FG%' : stat === 'TS_PCT' ? 'TS%' : stat;
       document.getElementById('ppg-stat-header').textContent = header;
-      const sorted = [...records].sort((a, b) => (b[stat] ?? -1) - (a[stat] ?? -1));
+      document.getElementById('ppg-subtitle').textContent = `Last ${windowLabel(win)}`;
+      const sorted = [...records]
+        .filter(r => r[win] && r[win].games > 0)
+        .sort((a, b) => ((b[win]||{})[stat] ?? -1) - ((a[win]||{})[stat] ?? -1));
       const toShow = activeTeam
         ? sorted.filter(r => r.TEAM_ABBREVIATION === activeTeam)
         : sorted.slice(0, 10);
       document.getElementById('ppg-body').innerHTML = toShow.map((r, i) => {
-        const raw = r[stat];
-        const val = stat === 'FG_PCT' ? (raw !== undefined ? raw + '%' : '') : (raw ?? '');
+        const raw = (r[win]||{})[stat];
+        const val = isPct ? (raw !== undefined ? raw + '%' : '') : (raw ?? '');
         return `<tr>
           <td class="rank num">${i + 1}</td>
           <td>${playerCell(r.id, r.PLAYER_NAME)}</td>
@@ -410,7 +441,15 @@
       if (!btn) return;
       currentPPGStat = btn.dataset.stat;
       document.querySelectorAll('#ppg-toggle .toggle-btn').forEach(b => b.classList.toggle('active', b === btn));
-      if (ppgData.length) renderPPG(ppgData, currentPPGStat);
+      if (ppgData.length) renderPPG(ppgData, currentPPGStat, currentWindow);
+    });
+
+    document.getElementById('window-toggle').addEventListener('click', e => {
+      const btn = e.target.closest('.toggle-btn');
+      if (!btn) return;
+      currentWindow = btn.dataset.window;
+      document.querySelectorAll('#window-toggle .toggle-btn').forEach(b => b.classList.toggle('active', b === btn));
+      if (ppgData.length) renderPPG(ppgData, currentPPGStat, currentWindow);
     });
 
     async function loadPPG() {
@@ -614,12 +653,16 @@
         </tr>`;
       }).join('');
 
+      const alreadyComparing = compareSlots.some(s => s.id === id);
+      const compareBtn = `<button class="suggestion-btn" id="modal-compare-btn" style="font-size:0.72rem;padding:0.28rem 0.7rem;margin-top:0.25rem" data-id="${esc(id)}" data-name="${esc(name)}">${alreadyComparing ? '✓ Added' : '+ Compare'}</button>`;
+
       document.getElementById('modal-content').innerHTML = `
         <div class="modal-header">
           ${photoHtml}
           <div class="modal-header-text">
             <div class="modal-player-name">${esc(name)}</div>
             ${team ? `<div class="modal-player-team">${esc(team)}</div>` : ''}
+            ${compareBtn}
           </div>
         </div>
         ${gameLog.length ? `
@@ -643,6 +686,16 @@
 
     document.getElementById('modal-overlay').addEventListener('click', e => {
       if (e.target === e.currentTarget) closeModal();
+      const cmpBtn = e.target.closest('#modal-compare-btn');
+      if (cmpBtn) {
+        const pid = cmpBtn.dataset.id, pname = cmpBtn.dataset.name;
+        if (!compareSlots.some(s => s.id === pid)) {
+          compareSlots = [...compareSlots.slice(-1), { id: pid, name: pname }];
+          renderCompare();
+        }
+        cmpBtn.textContent = '✓ Added';
+        cmpBtn.disabled = true;
+      }
     });
     document.getElementById('modal-close').addEventListener('click', closeModal);
     document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
@@ -764,6 +817,90 @@
           '<div class="panel"><p class="status">Standings not yet available.</p></div>';
       }
     }
+
+    // ── Team stats panel ──────────────────────────────────────────────────────
+    function renderTeamStats(team) {
+      const panel = document.getElementById('team-stats-panel');
+      if (!team) { panel.style.display = 'none'; return; }
+      const players = ppgData.filter(p => p.TEAM_ABBREVIATION === team);
+      if (!players.length) { panel.style.display = 'none'; return; }
+      panel.style.display = '';
+      document.getElementById('team-stats-subtitle').textContent = `${team} · Last ${windowLabel(currentWindow)}`;
+
+      const totals = { pts:0, ast:0, reb:0, blk:0, fgm:0, fga:0, fta:0, games:0 };
+      players.forEach(p => {
+        const w = p[currentWindow];
+        if (!w || !w.games) return;
+        totals.pts  += w.PPG  * w.games;
+        totals.ast  += w.APG  * w.games;
+        totals.reb  += w.RPG  * w.games;
+        totals.blk  += w.BPG  * w.games;
+        totals.fga  += (p.FG_PCT > 0 ? (w.PPG * w.games / (2 * (w.FG_PCT/100 || 0.5))) : 0);
+        totals.games = Math.max(totals.games, w.games);
+      });
+      const g = totals.games || 1;
+      const stats = [
+        ['Team PPG',  (totals.pts / g).toFixed(1)],
+        ['Team APG',  (totals.ast / g).toFixed(1)],
+        ['Team RPG',  (totals.reb / g).toFixed(1)],
+        ['Team BPG',  (totals.blk / g).toFixed(1)],
+        ['Roster',    `${players.filter(p => p[currentWindow]?.games > 0).length} players`],
+      ];
+      document.getElementById('team-stats-content').innerHTML = `
+        <div class="trend-stats" style="grid-template-columns:repeat(${stats.length},1fr)">
+          ${stats.map(([lbl, val]) => `
+            <div class="trend-stat">
+              <div class="trend-stat-label">${esc(lbl)}</div>
+              <div class="trend-stat-value" style="font-size:0.95rem">${esc(String(val))}</div>
+            </div>`).join('')}
+        </div>`;
+    }
+
+    // ── Player comparison ──────────────────────────────────────────────────────
+    let compareSlots = [];   // up to 2 {id, name}
+
+    function renderCompare() {
+      const panel = document.getElementById('compare-panel');
+      if (compareSlots.length < 2) { panel.style.display = 'none'; return; }
+      panel.style.display = '';
+      const [a, b] = compareSlots;
+      const pa = ppgData.find(p => p.id === a.id) || {};
+      const pb = ppgData.find(p => p.id === b.id) || {};
+      const wa = (pa[currentWindow] || {});
+      const wb = (pb[currentWindow] || {});
+      const STATS = ['PPG','APG','RPG','BPG','FG_PCT','TS_PCT'];
+      const LABELS = ['PPG','APG','RPG','BPG','FG%','TS%'];
+      document.getElementById('compare-subtitle').textContent = `Last ${windowLabel(currentWindow)}`;
+      document.getElementById('compare-content').innerHTML = `
+        <div style="overflow-x:auto">
+          <table class="stats-table">
+            <thead><tr>
+              <th>Stat</th>
+              <th class="num">${esc(a.name)}</th>
+              <th class="num">${esc(b.name)}</th>
+            </tr></thead>
+            <tbody>
+              ${STATS.map((s, i) => {
+                const va = wa[s] ?? '—', vb = wb[s] ?? '—';
+                const isPct = s === 'FG_PCT' || s === 'TS_PCT';
+                const fmt = v => v === '—' ? v : isPct ? v + '%' : v;
+                const aWins = typeof va === 'number' && typeof vb === 'number' && va > vb;
+                const bWins = typeof va === 'number' && typeof vb === 'number' && vb > va;
+                return `<tr>
+                  <td class="team-badge">${LABELS[i]}</td>
+                  <td class="num" style="${aWins ? 'font-weight:700;color:#4f46e5' : ''}">${esc(String(fmt(va)))}</td>
+                  <td class="num" style="${bWins ? 'font-weight:700;color:#4f46e5' : ''}">${esc(String(fmt(vb)))}</td>
+                </tr>`;
+              }).join('')}
+            </tbody>
+          </table>
+        </div>`;
+    }
+
+    document.getElementById('compare-clear').addEventListener('click', () => {
+      compareSlots = [];
+      document.getElementById('compare-panel').style.display = 'none';
+    });
 
     // ── Dark mode ─────────────────────────────────────────────────────────────
     function applyTheme(dark) {

@@ -607,6 +607,12 @@ h1 {
   color: #991b1b;
 }
 
+/* ── Window toggle (7d/14d/30d) ── */
+#window-toggle .toggle-btn { font-size: 0.65rem; padding: 0.14rem 0.45rem; }
+
+/* ── Compare panel winner highlight ── */
+html.dark .compare-win { color: #818cf8; }
+
 /* ── Dark mode toggle button ── */
 .theme-toggle {
   background: none;
