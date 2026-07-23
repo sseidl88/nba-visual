@@ -128,9 +128,10 @@ for event in yest_events:
 
 # ── aggregate last 14 days for PPG / trending / daily leaders ────────────────
 
-totals        = {}   # athlete_id → season totals + split halves
-daily_leaders = {}   # "YYYY-MM-DD" → {PLAYER_NAME, TEAM_ABBREVIATION, pts}
-player_games  = {}   # athlete_id → [{date, opp, pts, ast, reb, blk, fgm, fga}]
+totals             = {}   # athlete_id → season totals + split halves
+daily_leaders      = {}   # "YYYY-MM-DD" → {PLAYER_NAME, TEAM_ABBREVIATION, pts}
+team_daily_leaders = {}   # "YYYY-MM-DD" → {"TEAM": {PLAYER_NAME, pts, TEAM_ABBREVIATION, date}}
+player_games       = {}   # athlete_id → [{date, opp, pts, ast, reb, blk, fgm, fga}]
 MAX_GAMES  = 50
 game_calls = 0
 
@@ -175,6 +176,17 @@ for offset in range(1, 15):
                     "PLAYER_NAME": p["PLAYER_NAME"],
                     "TEAM_ABBREVIATION": p["TEAM_ABBREVIATION"],
                     "pts": p["PTS"],
+                }
+            tm_abbr = p["TEAM_ABBREVIATION"]
+            if d_key not in team_daily_leaders:
+                team_daily_leaders[d_key] = {}
+            if (tm_abbr not in team_daily_leaders[d_key] or
+                    p["PTS"] > team_daily_leaders[d_key][tm_abbr]["pts"]):
+                team_daily_leaders[d_key][tm_abbr] = {
+                    "PLAYER_NAME": p["PLAYER_NAME"],
+                    "TEAM_ABBREVIATION": tm_abbr,
+                    "pts": p["PTS"],
+                    "date": d_key,
                 }
             opp = next((t for t in event_teams if t != p["TEAM_ABBREVIATION"]), "")
             if aid not in player_games:
@@ -313,6 +325,40 @@ trending_up   = strip_score(trend_candidates[0])  if trend_candidates else {}
 trending_down = strip_score(trend_candidates[-1]) if trend_candidates else {}
 
 
+# ── per-team insights (trending + streak per team) ────────────────────────────
+
+all_teams     = {v["TEAM_ABBREVIATION"] for v in totals.values()}
+team_insights = {}
+
+for tm in all_teams:
+    tc = [c for c in trend_candidates if c["TEAM_ABBREVIATION"] == tm]
+
+    tm_history = sorted(
+        [team_daily_leaders[d][tm] for d in team_daily_leaders if tm in team_daily_leaders[d]],
+        key=lambda x: x["date"],
+        reverse=True,
+    )
+
+    tm_streak = 0
+    tm_champ  = {}
+    if tm_history:
+        cn = tm_history[0]["PLAYER_NAME"]
+        for entry in tm_history:
+            if entry["PLAYER_NAME"] == cn:
+                tm_streak += 1
+            else:
+                break
+        tm_champ = {**tm_history[0], "streak": tm_streak}
+
+    team_insights[tm] = {
+        "trending_up":       strip_score(tc[0])  if tc else {},
+        "trending_down":     strip_score(tc[-1]) if tc else {},
+        "top_scorer_streak": {"current": tm_champ, "history": tm_history[:10]},
+    }
+
+print(f"Built per-team insights for {len(team_insights)} teams")
+
+
 # ── top scorer streak ─────────────────────────────────────────────────────────
 
 scorer_history = sorted(
@@ -381,6 +427,7 @@ outputs = {
     "game_scores.json":             game_scores,
     "player_games.json":            player_games,
     "standings.json":               standings,
+    "team_insights.json":           team_insights,
     "meta.json":                    {"updated": now.strftime("%Y-%m-%dT%H:%M:%SZ")},
 }
 

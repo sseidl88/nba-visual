@@ -154,7 +154,11 @@
     let rookieData       = [];
     let scorersCache     = { records: [], dateStr: '' };
     let playerGamesCache = null;
-    let standingsCache   = null;
+    let standingsCache    = null;
+    let teamInsightsCache = null;
+    let leagueTrendUp    = null;
+    let leagueTrendDown  = null;
+    let leagueStreak     = null;
     let activeTeam       = '';
     let isStandingsView  = false;
     let currentPPGStat   = 'PPG';
@@ -226,29 +230,48 @@
       }
     });
 
-    function applyFilter() {
+    async function applyFilter() {
       // Re-render table panels with the current team filter applied
       if (scorersCache.records.length) renderScorers(scorersCache.records, scorersCache.dateStr);
       if (ppgData.length)              renderPPG(ppgData, currentPPGStat);
       if (rookieData.length)           renderRookie(rookieData);
-      // Single-player panels: show/hide by team tag
-      [
-        ['trend-up-content',   'trend-up-status'],
-        ['trend-down-content', 'trend-down-status'],
-        ['streak-content',     'streak-status'],
-      ].forEach(([cid, sid]) => {
-        const el  = document.getElementById(cid);
-        const sta = document.getElementById(sid);
-        if (!el) return;
-        const team = el.dataset.team || '';
-        if (activeTeam && team && team !== activeTeam) {
-          el.style.display = 'none';
-          sta.textContent  = `No ${activeTeam} player in this slot.`;
+
+      // Single-player panels: use team-specific data when a team is active
+      if (activeTeam) {
+        const insights = await loadTeamInsights();
+        const teamData = insights ? insights[activeTeam] : null;
+        if (teamData) {
+          ['trend-up-content', 'trend-down-content', 'streak-content'].forEach(id => {
+            const el = document.getElementById(id);
+            if (el) el.style.display = '';
+          });
+          ['trend-up-status', 'trend-down-status', 'streak-status'].forEach(id => {
+            const el = document.getElementById(id);
+            if (el) el.textContent = '';
+          });
+          renderTrend(teamData.trending_up,   'trend-up-content',   'trend-up-status');
+          renderTrend(teamData.trending_down, 'trend-down-content', 'trend-down-status');
+          renderStreak(teamData.top_scorer_streak);
         } else {
-          el.style.display = '';
-          sta.textContent  = '';
+          ['trend-up-content', 'trend-down-content', 'streak-content'].forEach(id => {
+            const el = document.getElementById(id);
+            if (el) el.style.display = 'none';
+          });
+          ['trend-up-status', 'trend-down-status', 'streak-status'].forEach(id => {
+            const el = document.getElementById(id);
+            if (el) el.textContent = `No ${activeTeam} data available.`;
+          });
         }
-      });
+      } else {
+        // Restore league-wide panels
+        ['trend-up-content', 'trend-down-content', 'streak-content'].forEach(id => {
+          const el = document.getElementById(id);
+          if (el) el.style.display = '';
+        });
+        if (leagueTrendUp)   renderTrend(leagueTrendUp,   'trend-up-content',   'trend-up-status');
+        if (leagueTrendDown) renderTrend(leagueTrendDown, 'trend-down-content', 'trend-down-status');
+        if (leagueStreak)    renderStreak(leagueStreak);
+      }
     }
 
     // ── Game scores (compact chips in header bar) ─────────────────────────────
@@ -413,7 +436,6 @@
         document.getElementById('streak-status').textContent = 'No data yet.';
         return;
       }
-      el.dataset.team = cur.TEAM_ABBREVIATION || '';
       const badge = cur.streak > 1
         ? `<div class="streak-badge">${cur.streak} nights in a row</div>`
         : '';
@@ -434,14 +456,14 @@
           <thead><tr><th>Date</th><th>Player</th><th>Team</th><th class="num">PTS</th></tr></thead>
           <tbody>${rows}</tbody>
         </table>` : ''}`;
-      applyFilter();
     }
 
     async function loadStreak() {
       try {
         const res = await fetch('data/top_scorer_streak.json');
         if (!res.ok) throw new Error();
-        renderStreak(await res.json());
+        leagueStreak = await res.json();
+        renderStreak(leagueStreak);
       } catch (_) {
         document.getElementById('streak-status').textContent = 'Stats not yet available.';
       }
@@ -467,7 +489,6 @@
         document.getElementById(statusId).textContent = 'Not enough data yet.';
         return;
       }
-      el.dataset.team = data.TEAM_ABBREVIATION || '';
       el.innerHTML = `
         <div class="trend-player-header">
           <img class="trend-photo" src="https://a.espncdn.com/i/headshots/wnba/players/full/${esc(data.id||'')}.png" onerror="this.style.display='none'" alt="" loading="lazy">
@@ -485,16 +506,30 @@
               ${fmtDelta(k, data.delta[k])}
             </div>`).join('')}
         </div>`;
-      applyFilter();
     }
 
     async function loadTrend(file, contentId, statusId) {
       try {
         const res = await fetch(`data/${file}`);
         if (!res.ok) throw new Error();
-        renderTrend(await res.json(), contentId, statusId);
+        const data = await res.json();
+        if (file === 'trending_up.json')   leagueTrendUp   = data;
+        if (file === 'trending_down.json') leagueTrendDown = data;
+        renderTrend(data, contentId, statusId);
       } catch (_) {
         document.getElementById(statusId).textContent = 'Stats not yet available.';
+      }
+    }
+
+    async function loadTeamInsights() {
+      if (teamInsightsCache) return teamInsightsCache;
+      try {
+        const res = await fetch('data/team_insights.json');
+        if (!res.ok) throw new Error();
+        teamInsightsCache = await res.json();
+        return teamInsightsCache;
+      } catch (_) {
+        return null;
       }
     }
 
