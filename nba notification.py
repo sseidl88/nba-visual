@@ -276,9 +276,48 @@ def flatten_window(p, w):
 season_ppg = [flatten_window(p, "w14") for p in ppg_rows if p["w14"]]
 
 
-# ── identify rookies from team rosters ───────────────────────────────────────
+# ── identify rookies + injury status from team rosters ───────────────────────
 
-rookie_ids = set()
+rookie_ids    = set()
+injury_status = {}   # player_id → "questionable" | "out" | "ir"
+
+def _parse_status(a):
+    """Return normalized injury status string, or empty string if active."""
+    raw = a.get("status", {})
+    if isinstance(raw, dict):
+        type_s = raw.get("type", "").lower()
+        name_s = raw.get("name", "").lower()
+    elif isinstance(raw, str):
+        type_s = name_s = raw.lower()
+    else:
+        type_s = name_s = ""
+
+    # Trust the explicit active flag — return immediately
+    if type_s == "active" or name_s == "active":
+        return ""
+
+    combined = f"{type_s} {name_s}"
+    if any(k in combined for k in ("injur", "reserve")):
+        return "ir"
+    if "out" in combined:
+        return "out"
+    if any(k in combined for k in ("question", "day-to-day", "day to day", "doubtful")):
+        return "questionable"
+
+    # Only fall back to injuries array if main status was ambiguous (non-active, non-empty)
+    if type_s and type_s != "active":
+        injuries = a.get("injuries", [])
+        if injuries:
+            inj = injuries[0]
+            s = (inj.get("status") or inj.get("type") or "").lower()
+            if any(k in s for k in ("injur", "reserve")):
+                return "ir"
+            if "out" in s:
+                return "out"
+            if any(k in s for k in ("question", "day-to-day", "doubtful")):
+                return "questionable"
+    return ""
+
 try:
     tr = safe_get(TEAMS_URL)
     if tr.ok:
@@ -296,11 +335,16 @@ try:
             else:
                 athletes_flat = athletes_raw
             for a in athletes_flat:
+                pid = str(a.get("id", ""))
                 if a.get("experience", {}).get("years", -1) == 0:
-                    rookie_ids.add(str(a.get("id", "")))
-    print(f"Found {len(rookie_ids)} rookies across all rosters")
+                    rookie_ids.add(pid)
+                if pid:
+                    status = _parse_status(a)
+                    if status:
+                        injury_status[pid] = status
+    print(f"Found {len(rookie_ids)} rookies, {len(injury_status)} non-active players")
 except Exception as e:
-    print(f"Rookie detection error: {e}")
+    print(f"Roster error: {e}")
 
 rookie_ppg = [
     {
@@ -477,6 +521,7 @@ outputs = {
     "player_games.json":            player_games,
     "standings.json":               standings,
     "team_insights.json":           team_insights,
+    "injury_status.json":           injury_status,
     "meta.json":                    {"updated": now.strftime("%Y-%m-%dT%H:%M:%SZ")},
 }
 

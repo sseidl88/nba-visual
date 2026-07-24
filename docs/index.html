@@ -27,6 +27,9 @@
     </div>
   </div>
 
+  <!-- News strip (always visible once loaded) -->
+  <div class="news-strip" id="news-strip" style="display:none"></div>
+
   <!-- Standings view (toggled in place of panels) -->
   <div id="standings-view" style="display:none"></div>
 
@@ -214,6 +217,7 @@
     let currentWindow    = 'w14';
     const knownTeams     = new Set();
     let playerNameMap    = {};   // id → {name, team}
+    let injuryMap        = {};   // id → "questionable" | "out" | "ir"
 
     // ── Utilities ────────────────────────────────────────────────────────────
     function esc(s) {
@@ -238,7 +242,15 @@
     }
 
     function playerCell(id, name) {
-      return `<div class="player-cell">${photoThumb(id)}<span class="player-link" data-id="${esc(id||'')}" data-name="${esc(name||'')}">${esc(name||'')}</span></div>`;
+      return `<div class="player-cell">${photoThumb(id)}<span class="player-link" data-id="${esc(id||'')}" data-name="${esc(name||'')}">${esc(name||'')}</span>${statusBadge(id)}</div>`;
+    }
+
+    function statusBadge(id) {
+      const s = id ? injuryMap[id] : null;
+      if (!s) return '';
+      const labels = { questionable: 'Q', out: 'OUT', ir: 'IR' };
+      const title  = { questionable: 'Questionable', out: 'Out', ir: 'Injured Reserve' };
+      return `<span class="inj-badge inj-${s}" title="${title[s] || s}">${labels[s] || s.toUpperCase()}</span>`;
     }
 
     function ddBadge(pts, reb, ast) {
@@ -902,6 +914,63 @@
       document.getElementById('compare-panel').style.display = 'none';
     });
 
+    // ── Injury status ─────────────────────────────────────────────────────────
+    async function loadInjuries() {
+      try {
+        const res = await fetch('data/injury_status.json');
+        if (!res.ok) return;
+        injuryMap = await res.json();
+        // Re-render any already-loaded tables to show badges
+        if (Object.keys(injuryMap).length) {
+          if (scorersCache.records.length) renderScorers(scorersCache.records, scorersCache.dateStr);
+          if (ppgData.length)              renderPPG(ppgData, currentPPGStat, currentWindow);
+          if (rookieData.length)           renderRookie(rookieData);
+        }
+      } catch (_) {}
+    }
+
+    // ── News strip ────────────────────────────────────────────────────────────
+    function timeAgo(isoStr) {
+      const diff  = Date.now() - new Date(isoStr).getTime();
+      const mins  = Math.floor(diff / 60000);
+      const hours = Math.floor(mins / 60);
+      const days  = Math.floor(hours / 24);
+      if (days  > 0) return `${days}d ago`;
+      if (hours > 0) return `${hours}h ago`;
+      if (mins  > 0) return `${mins}m ago`;
+      return 'just now';
+    }
+
+    async function loadNews() {
+      try {
+        const res = await fetch('https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/news?limit=10');
+        if (!res.ok) return;
+        const { articles = [] } = await res.json();
+        if (!articles.length) return;
+
+        const el = document.getElementById('news-strip');
+        el.innerHTML = articles.map(a => {
+          const url  = a.links?.web?.href || '#';
+          const time = a.published ? timeAgo(a.published) : '';
+          const teamCat = (a.categories || []).find(c => c.type === 'team' && c.description);
+          const tag  = teamCat
+            ? `<div class="news-tag">${esc(teamCat.description)}</div>`
+            : `<div class="news-tag">WNBA</div>`;
+          const desc = a.description
+            ? `<div class="news-desc">${esc(a.description)}</div>`
+            : '';
+          const byline = a.byline ? `<span class="news-byline">${esc(a.byline)}</span>` : '';
+          return `<a class="news-card" href="${esc(url)}" target="_blank" rel="noopener noreferrer">
+            ${tag}
+            <div class="news-headline">${esc(a.headline || '')}</div>
+            ${desc}
+            <div class="news-meta">${byline}<span>${esc(time)}</span></div>
+          </a>`;
+        }).join('');
+        el.style.display = 'flex';
+      } catch (_) {}
+    }
+
     // ── Dark mode ─────────────────────────────────────────────────────────────
     function applyTheme(dark) {
       document.documentElement.classList.toggle('dark', dark);
@@ -1054,6 +1123,8 @@
     // ── Bootstrap ────────────────────────────────────────────────────────────
     initTheme();
     loadMeta();
+    loadNews();
+    loadInjuries();
     loadGameScores().then(() => loadTodaySchedule());
     loadScorers();
     loadPPG().then(() => { loadBestGames(); initURLSync(); });
