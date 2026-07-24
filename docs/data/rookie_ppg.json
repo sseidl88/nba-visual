@@ -25,12 +25,12 @@
     "PLAYER_NAME": "Flau'jae Johnson",
     "TEAM_ABBREVIATION": "SEA",
     "id": "4698736",
-    "PPG": 17.7,
-    "APG": 3.8,
-    "RPG": 4.7,
-    "BPG": 0.7,
-    "FG_PCT": 47.6,
-    "TS_PCT": 56.5
+    "PPG": 18.4,
+    "APG": 3.6,
+    "RPG": 5.2,
+    "BPG": 0.6,
+    "FG_PCT": 48.6,
+    "TS_PCT": 57.7
   },
   {
     "PLAYER_NAME": "Azzi Fudd",
@@ -69,23 +69,45 @@
     "PLAYER_NAME": "Madina Okot",
     "TEAM_ABBREVIATION": "ATL",
     "id": "5108587",
-    "PPG": 9.8,
+    "PPG": 11.0,
     "APG": 0.2,
-    "RPG": 5.0,
-    "BPG": 0.4,
-    "FG_PCT": 59.4,
-    "TS_PCT": 65.0
+    "RPG": 4.8,
+    "BPG": 0.5,
+    "FG_PCT": 63.0,
+    "TS_PCT": 69.1
   },
   {
     "PLAYER_NAME": "Awa Fam",
     "TEAM_ABBREVIATION": "SEA",
     "id": "5345325",
-    "PPG": 9.5,
-    "APG": 3.0,
-    "RPG": 8.5,
-    "BPG": 1.5,
-    "FG_PCT": 41.1,
-    "TS_PCT": 50.1
+    "PPG": 10.6,
+    "APG": 2.8,
+    "RPG": 9.2,
+    "BPG": 1.8,
+    "FG_PCT": 43.8,
+    "TS_PCT": 54.2
+  },
+  {
+    "PLAYER_NAME": "Serah Williams",
+    "TEAM_ABBREVIATION": "POR",
+    "id": "5108550",
+    "PPG": 9.0,
+    "APG": 0.6,
+    "RPG": 3.0,
+    "BPG": 0.8,
+    "FG_PCT": 79.2,
+    "TS_PCT": 83.1
+  },
+  {
+    "PLAYER_NAME": "Frieda Buhner",
+    "TEAM_ABBREVIATION": "POR",
+    "id": "5105406",
+    "PPG": 8.8,
+    "APG": 0.8,
+    "RPG": 2.2,
+    "BPG": 0.2,
+    "FG_PCT": 60.0,
+    "TS_PCT": 79.6
   },
   {
     "PLAYER_NAME": "Pauline Astier",
@@ -99,17 +121,6 @@
     "TS_PCT": 54.6
   },
   {
-    "PLAYER_NAME": "Frieda Buhner",
-    "TEAM_ABBREVIATION": "POR",
-    "id": "5105406",
-    "PPG": 8.3,
-    "APG": 0.7,
-    "RPG": 2.0,
-    "BPG": 0.2,
-    "FG_PCT": 56.7,
-    "TS_PCT": 74.6
-  },
-  {
     "PLAYER_NAME": "Gabriela Jaquez",
     "TEAM_ABBREVIATION": "CHI",
     "id": "4858656",
@@ -121,15 +132,15 @@
     "TS_PCT": 47.8
   },
   {
-    "PLAYER_NAME": "Serah Williams",
-    "TEAM_ABBREVIATION": "POR",
-    "id": "5108550",
-    "PPG": 7.8,
-    "APG": 0.7,
-    "RPG": 2.5,
-    "BPG": 0.7,
-    "FG_PCT": 74.1,
-    "TS_PCT": 78.1
+    "PLAYER_NAME": "Isobel Borlase",
+    "TEAM_ABBREVIATION": "ATL",
+    "id": "5208983",
+    "PPG": 8.0,
+    "APG": 1.2,
+    "RPG": 1.2,
+    "BPG": 0.5,
+    "FG_PCT": 41.4,
+    "TS_PCT": 50.6
   },
   {
     "PLAYER_NAME": "Lauren Betts",
@@ -143,17 +154,6 @@
     "TS_PCT": 62.2
   },
   {
-    "PLAYER_NAME": "Isobel Borlase",
-    "TEAM_ABBREVIATION": "ATL",
-    "id": "5208983",
-    "PPG": 7.2,
-    "APG": 1.0,
-    "RPG": 1.4,
-    "BPG": 0.4,
-    "FG_PCT": 45.2,
-    "TS_PCT": 53.5
-  },
-  {
     "PLAYER_NAME": "Georgia Amoore",
     "TEAM_ABBREVIATION": "WSH",
     "id": "4704180",
@@ -163,17 +163,6 @@
     "BPG": 0.2,
     "FG_PCT": 40.0,
     "TS_PCT": 49.6
-  },
-  {
-    "PLAYER_NAME": "Teja Oblak",
-    "TEAM_ABBREVIATION": "POR",
-    "id": "5346554",
-    "PPG": 6.0,
-    "APG": 2.2,
-    "RPG": 0.7,
-    "BPG": 0.0,
-    "FG_PCT": 37.8,
-    "TS_PCT": 46.4
   },
   {
     "PLAYER_NAME": "Marine Fauthoux",
@@ -187,6 +176,17 @@
     "TS_PCT": 51.2
   },
   {
+    "PLAYER_NAME": "Teja Oblak",
+    "TEAM_ABBREVIATION": "POR",
+    "id": "5346554",
+    "PPG": 5.0,
+    "APG": 2.2,
+    "RPG": 0.6,
+    "BPG": 0.0,
+    "FG_PCT": 34.5,
+    "TS_PCT": 40.6
+  },
+  {
     "PLAYER_NAME": "Charlisse Leger-Walker",
     "TEAM_ABBREVIATION": "CON",
     "id": "4703609",
@@ -196,6 +196,28 @@
     "BPG": 0.0,
     "FG_PCT": 27.0,
     "TS_PCT": 31.3
+  },
+  {
+    "PLAYER_NAME": "Justine Pissott",
+    "TEAM_ABBREVIATION": "LV",
+    "id": "4682855",
+    "PPG": 4.8,
+    "APG": 0.8,
+    "RPG": 0.8,
+    "BPG": 0.5,
+    "FG_PCT": 46.7,
+    "TS_PCT": 63.3
+  },
+  {
+    "PLAYER_NAME": "Noemie Brochant",
+    "TEAM_ABBREVIATION": "PHX",
+    "id": "5345524",
+    "PPG": 4.0,
+    "APG": 1.2,
+    "RPG": 1.6,
+    "BPG": 0.2,
+    "FG_PCT": 44.4,
+    "TS_PCT": 55.6
   },
   {
     "PLAYER_NAME": "Nell Angloma",
@@ -220,28 +242,6 @@
     "TS_PCT": 39.1
   },
   {
-    "PLAYER_NAME": "Justine Pissott",
-    "TEAM_ABBREVIATION": "LV",
-    "id": "4682855",
-    "PPG": 3.8,
-    "APG": 0.6,
-    "RPG": 0.6,
-    "BPG": 0.4,
-    "FG_PCT": 46.7,
-    "TS_PCT": 63.3
-  },
-  {
-    "PLAYER_NAME": "Marta Suarez",
-    "TEAM_ABBREVIATION": "PHX",
-    "id": "4704594",
-    "PPG": 3.7,
-    "APG": 0.3,
-    "RPG": 0.8,
-    "BPG": 0.0,
-    "FG_PCT": 61.5,
-    "TS_PCT": 70.3
-  },
-  {
     "PLAYER_NAME": "Raegan Beers",
     "TEAM_ABBREVIATION": "CON",
     "id": "5105732",
@@ -262,17 +262,6 @@
     "BPG": 0.0,
     "FG_PCT": 34.8,
     "TS_PCT": 42.4
-  },
-  {
-    "PLAYER_NAME": "Noemie Brochant",
-    "TEAM_ABBREVIATION": "PHX",
-    "id": "5345524",
-    "PPG": 3.3,
-    "APG": 1.2,
-    "RPG": 1.5,
-    "BPG": 0.2,
-    "FG_PCT": 40.0,
-    "TS_PCT": 50.0
   },
   {
     "PLAYER_NAME": "Antonia Delaere",
@@ -308,6 +297,17 @@
     "TS_PCT": 62.5
   },
   {
+    "PLAYER_NAME": "Marta Suarez",
+    "TEAM_ABBREVIATION": "PHX",
+    "id": "4704594",
+    "PPG": 2.4,
+    "APG": 0.4,
+    "RPG": 0.6,
+    "BPG": 0.0,
+    "FG_PCT": 57.1,
+    "TS_PCT": 62.2
+  },
+  {
     "PLAYER_NAME": "Tima Pouye",
     "TEAM_ABBREVIATION": "TOR",
     "id": "5355509",
@@ -330,28 +330,6 @@
     "TS_PCT": 59.7
   },
   {
-    "PLAYER_NAME": "Raven Johnson",
-    "TEAM_ABBREVIATION": "IND",
-    "id": "4433797",
-    "PPG": 2.2,
-    "APG": 0.3,
-    "RPG": 1.3,
-    "BPG": 0.0,
-    "FG_PCT": 42.9,
-    "TS_PCT": 46.4
-  },
-  {
-    "PLAYER_NAME": "Nyadiew Puoch",
-    "TEAM_ABBREVIATION": "POR",
-    "id": "5209202",
-    "PPG": 2.2,
-    "APG": 0.3,
-    "RPG": 1.5,
-    "BPG": 0.0,
-    "FG_PCT": 50.0,
-    "TS_PCT": 52.3
-  },
-  {
     "PLAYER_NAME": "Gianna Kneepkens",
     "TEAM_ABBREVIATION": "CON",
     "id": "4898898",
@@ -363,15 +341,15 @@
     "TS_PCT": 76.5
   },
   {
-    "PLAYER_NAME": "Holly Winterburn",
+    "PLAYER_NAME": "Nyadiew Puoch",
     "TEAM_ABBREVIATION": "POR",
-    "id": "4433690",
-    "PPG": 1.7,
-    "APG": 0.7,
-    "RPG": 0.2,
+    "id": "5209202",
+    "PPG": 1.8,
+    "APG": 0.2,
+    "RPG": 1.4,
     "BPG": 0.0,
-    "FG_PCT": 42.9,
-    "TS_PCT": 63.5
+    "FG_PCT": 44.4,
+    "TS_PCT": 50.0
   },
   {
     "PLAYER_NAME": "Jihyun Park",
@@ -383,6 +361,28 @@
     "BPG": 0.0,
     "FG_PCT": 40.0,
     "TS_PCT": 38.3
+  },
+  {
+    "PLAYER_NAME": "Raven Johnson",
+    "TEAM_ABBREVIATION": "IND",
+    "id": "4433797",
+    "PPG": 1.4,
+    "APG": 0.0,
+    "RPG": 0.4,
+    "BPG": 0.0,
+    "FG_PCT": 42.9,
+    "TS_PCT": 50.0
+  },
+  {
+    "PLAYER_NAME": "Holly Winterburn",
+    "TEAM_ABBREVIATION": "POR",
+    "id": "4433690",
+    "PPG": 1.4,
+    "APG": 0.8,
+    "RPG": 0.2,
+    "BPG": 0.0,
+    "FG_PCT": 33.3,
+    "TS_PCT": 50.9
   },
   {
     "PLAYER_NAME": "Eliska Hamzova",
@@ -429,6 +429,17 @@
     "TS_PCT": 150.0
   },
   {
+    "PLAYER_NAME": "Grace VanSlooten",
+    "TEAM_ABBREVIATION": "IND",
+    "id": "5105731",
+    "PPG": 0.4,
+    "APG": 0.0,
+    "RPG": 0.2,
+    "BPG": 0.0,
+    "FG_PCT": 100.0,
+    "TS_PCT": 100.0
+  },
+  {
     "PLAYER_NAME": "Teonni Key",
     "TEAM_ABBREVIATION": "TOR",
     "id": "4434020",
@@ -457,17 +468,6 @@
     "PPG": 0.3,
     "APG": 0.0,
     "RPG": 0.0,
-    "BPG": 0.0,
-    "FG_PCT": 100.0,
-    "TS_PCT": 100.0
-  },
-  {
-    "PLAYER_NAME": "Grace VanSlooten",
-    "TEAM_ABBREVIATION": "IND",
-    "id": "5105731",
-    "PPG": 0.3,
-    "APG": 0.0,
-    "RPG": 0.2,
     "BPG": 0.0,
     "FG_PCT": 100.0,
     "TS_PCT": 100.0
@@ -597,39 +597,6 @@
     "PLAYER_NAME": "Miela Sowah",
     "TEAM_ABBREVIATION": "GS",
     "id": "4398577",
-    "PPG": 0.0,
-    "APG": 0.0,
-    "RPG": 0.0,
-    "BPG": 0.0,
-    "FG_PCT": 0,
-    "TS_PCT": 0
-  },
-  {
-    "PLAYER_NAME": "Shay Ciezki",
-    "TEAM_ABBREVIATION": "PHX",
-    "id": "4688629",
-    "PPG": 0.0,
-    "APG": 0.0,
-    "RPG": 0.0,
-    "BPG": 0.0,
-    "FG_PCT": 0,
-    "TS_PCT": 0
-  },
-  {
-    "PLAYER_NAME": "Quionche Carter",
-    "TEAM_ABBREVIATION": "PHX",
-    "id": "5107404",
-    "PPG": 0.0,
-    "APG": 0.0,
-    "RPG": 0.0,
-    "BPG": 0.0,
-    "FG_PCT": 0,
-    "TS_PCT": 0
-  },
-  {
-    "PLAYER_NAME": "Janiah Barker",
-    "TEAM_ABBREVIATION": "LV",
-    "id": "4565501",
     "PPG": 0.0,
     "APG": 0.0,
     "RPG": 0.0,
