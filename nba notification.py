@@ -2,11 +2,24 @@ from datetime import datetime, timedelta
 import requests
 import json
 import os
+import argparse
 
-SCOREBOARD    = "https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/scoreboard"
-SUMMARY       = "https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/summary"
-TEAMS_URL     = "https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/teams"
-STANDINGS_URL = "https://site.api.espn.com/apis/v2/sports/basketball/wnba/standings"
+parser = argparse.ArgumentParser()
+parser.add_argument("--league", default="wnba", choices=["wnba", "nba"])
+args   = parser.parse_args()
+LEAGUE = args.league
+
+_SPORT  = "basketball"
+_BASE   = f"https://site.api.espn.com/apis/site/v2/sports/{_SPORT}/{LEAGUE}"
+_BASE2  = f"https://site.api.espn.com/apis/v2/sports/{_SPORT}/{LEAGUE}"
+
+SCOREBOARD    = f"{_BASE}/scoreboard"
+SUMMARY       = f"{_BASE}/summary"
+TEAMS_URL     = f"{_BASE}/teams"
+STANDINGS_URL = f"{_BASE2}/standings"
+DATA_DIR      = "docs/data" if LEAGUE == "wnba" else "docs/data/nba"
+
+print(f"Running {LEAGUE.upper()} stats → {DATA_DIR}")
 
 
 def safe_get(url, **params):
@@ -111,7 +124,7 @@ for event in yest_events:
         all_yesterday.extend(parse_box_score(r.json()))
 
 if not all_yesterday:
-    print(f"No WNBA games found for {date_str}")
+    print(f"No {LEAGUE.upper()} games found for {date_str}")
 
 top_scorers = [
     {**{k: v for k, v in p.items() if k != "_id"}, "id": p["_id"]}
@@ -508,7 +521,7 @@ except Exception as e:
 
 # ── write output ─────────────────────────────────────────────────────────────
 
-os.makedirs("docs/data", exist_ok=True)
+os.makedirs(DATA_DIR, exist_ok=True)
 
 outputs = {
     f"top_scorers_{date_str}.json": top_scorers,
@@ -526,7 +539,7 @@ outputs = {
 }
 
 for filename, data in outputs.items():
-    path = os.path.join("docs", "data", filename)
+    path = os.path.join(DATA_DIR, filename)
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
     count = len(data) if isinstance(data, (list, dict)) else 1

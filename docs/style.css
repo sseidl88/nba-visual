@@ -10,7 +10,7 @@ body {
 /* ── Page header ── */
 .page-header {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 0.5rem;
@@ -20,6 +20,38 @@ body {
 h1 {
   font-size: 1.5rem;
   color: #1a1a1a;
+}
+
+/* ── League toggle ── */
+.league-toggle {
+  display: flex;
+  background: #e2e5ea;
+  border-radius: 99px;
+  padding: 0.15rem;
+  gap: 0.15rem;
+}
+
+.league-btn {
+  padding: 0.25rem 0.8rem;
+  border-radius: 99px;
+  border: none;
+  font-size: 0.75rem;
+  font-weight: 700;
+  cursor: pointer;
+  background: transparent;
+  color: #6b7280;
+  transition: background 0.15s, color 0.15s;
+  letter-spacing: 0.04em;
+}
+
+.league-btn.active {
+  background: #4f46e5;
+  color: #fff;
+}
+
+.league-btn:hover:not(.active) {
+  background: #d1d5db;
+  color: #374151;
 }
 
 .meta-updated {
@@ -825,6 +857,11 @@ html.dark body {
 html.dark h1 { color: #e5e7eb; }
 html.dark .meta-updated { color: #4b5563; }
 html.dark .theme-toggle { border-color: #374151; color: #6b7280; }
+
+html.dark .league-toggle { background: #1c1f2b; }
+html.dark .league-btn { color: #6b7280; }
+html.dark .league-btn.active { background: #4f46e5; color: #fff; }
+html.dark .league-btn:hover:not(.active) { background: #2a2d3e; color: #9ca3af; }
 html.dark .theme-toggle:hover { border-color: #818cf8; color: #a5b4fc; }
 
 html.dark .filter-pill { background: #1c1f2b; border-color: #374151; color: #9ca3af; }

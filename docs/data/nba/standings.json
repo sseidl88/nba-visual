@@ -1,0 +1,302 @@
+[
+  {
+    "team": "DET",
+    "name": "Detroit Pistons",
+    "conference": "Eastern Conference",
+    "wins": 60,
+    "losses": 22,
+    "pct": 0.732,
+    "gb": "-",
+    "streak": "W3"
+  },
+  {
+    "team": "BOS",
+    "name": "Boston Celtics",
+    "conference": "Eastern Conference",
+    "wins": 56,
+    "losses": 26,
+    "pct": 0.683,
+    "gb": "4",
+    "streak": "W2"
+  },
+  {
+    "team": "NY",
+    "name": "New York Knicks",
+    "conference": "Eastern Conference",
+    "wins": 53,
+    "losses": 29,
+    "pct": 0.646,
+    "gb": "7",
+    "streak": "L1"
+  },
+  {
+    "team": "CLE",
+    "name": "Cleveland Cavaliers",
+    "conference": "Eastern Conference",
+    "wins": 52,
+    "losses": 30,
+    "pct": 0.634,
+    "gb": "8",
+    "streak": "W1"
+  },
+  {
+    "team": "ATL",
+    "name": "Atlanta Hawks",
+    "conference": "Eastern Conference",
+    "wins": 46,
+    "losses": 36,
+    "pct": 0.561,
+    "gb": "14",
+    "streak": "L1"
+  },
+  {
+    "team": "TOR",
+    "name": "Toronto Raptors",
+    "conference": "Eastern Conference",
+    "wins": 46,
+    "losses": 36,
+    "pct": 0.561,
+    "gb": "14",
+    "streak": "W1"
+  },
+  {
+    "team": "PHI",
+    "name": "Philadelphia 76ers",
+    "conference": "Eastern Conference",
+    "wins": 45,
+    "losses": 37,
+    "pct": 0.549,
+    "gb": "15",
+    "streak": "W2"
+  },
+  {
+    "team": "ORL",
+    "name": "Orlando Magic",
+    "conference": "Eastern Conference",
+    "wins": 45,
+    "losses": 37,
+    "pct": 0.549,
+    "gb": "15",
+    "streak": "L1"
+  },
+  {
+    "team": "CHA",
+    "name": "Charlotte Hornets",
+    "conference": "Eastern Conference",
+    "wins": 44,
+    "losses": 38,
+    "pct": 0.537,
+    "gb": "16",
+    "streak": "W1"
+  },
+  {
+    "team": "MIA",
+    "name": "Miami Heat",
+    "conference": "Eastern Conference",
+    "wins": 43,
+    "losses": 39,
+    "pct": 0.524,
+    "gb": "17",
+    "streak": "W2"
+  },
+  {
+    "team": "MIL",
+    "name": "Milwaukee Bucks",
+    "conference": "Eastern Conference",
+    "wins": 32,
+    "losses": 50,
+    "pct": 0.39,
+    "gb": "28",
+    "streak": "L1"
+  },
+  {
+    "team": "CHI",
+    "name": "Chicago Bulls",
+    "conference": "Eastern Conference",
+    "wins": 31,
+    "losses": 51,
+    "pct": 0.378,
+    "gb": "29",
+    "streak": "L2"
+  },
+  {
+    "team": "BKN",
+    "name": "Brooklyn Nets",
+    "conference": "Eastern Conference",
+    "wins": 20,
+    "losses": 62,
+    "pct": 0.244,
+    "gb": "40",
+    "streak": "L3"
+  },
+  {
+    "team": "IND",
+    "name": "Indiana Pacers",
+    "conference": "Eastern Conference",
+    "wins": 19,
+    "losses": 63,
+    "pct": 0.232,
+    "gb": "41",
+    "streak": "L2"
+  },
+  {
+    "team": "WSH",
+    "name": "Washington Wizards",
+    "conference": "Eastern Conference",
+    "wins": 17,
+    "losses": 65,
+    "pct": 0.207,
+    "gb": "43",
+    "streak": "L10"
+  },
+  {
+    "team": "OKC",
+    "name": "Oklahoma City Thunder",
+    "conference": "Western Conference",
+    "wins": 64,
+    "losses": 18,
+    "pct": 0.78,
+    "gb": "-",
+    "streak": "L2"
+  },
+  {
+    "team": "SA",
+    "name": "San Antonio Spurs",
+    "conference": "Western Conference",
+    "wins": 62,
+    "losses": 20,
+    "pct": 0.756,
+    "gb": "2",
+    "streak": "L1"
+  },
+  {
+    "team": "DEN",
+    "name": "Denver Nuggets",
+    "conference": "Western Conference",
+    "wins": 54,
+    "losses": 28,
+    "pct": 0.659,
+    "gb": "10",
+    "streak": "W12"
+  },
+  {
+    "team": "LAL",
+    "name": "Los Angeles Lakers",
+    "conference": "Western Conference",
+    "wins": 53,
+    "losses": 29,
+    "pct": 0.646,
+    "gb": "11",
+    "streak": "W3"
+  },
+  {
+    "team": "HOU",
+    "name": "Houston Rockets",
+    "conference": "Western Conference",
+    "wins": 52,
+    "losses": 30,
+    "pct": 0.634,
+    "gb": "12",
+    "streak": "W1"
+  },
+  {
+    "team": "MIN",
+    "name": "Minnesota Timberwolves",
+    "conference": "Western Conference",
+    "wins": 49,
+    "losses": 33,
+    "pct": 0.598,
+    "gb": "15",
+    "streak": "W2"
+  },
+  {
+    "team": "PHX",
+    "name": "Phoenix Suns",
+    "conference": "Western Conference",
+    "wins": 45,
+    "losses": 37,
+    "pct": 0.549,
+    "gb": "19",
+    "streak": "W1"
+  },
+  {
+    "team": "POR",
+    "name": "Portland Trail Blazers",
+    "conference": "Western Conference",
+    "wins": 42,
+    "losses": 40,
+    "pct": 0.512,
+    "gb": "22",
+    "streak": "W2"
+  },
+  {
+    "team": "LAC",
+    "name": "LA Clippers",
+    "conference": "Western Conference",
+    "wins": 42,
+    "losses": 40,
+    "pct": 0.512,
+    "gb": "22",
+    "streak": "W1"
+  },
+  {
+    "team": "GS",
+    "name": "Golden State Warriors",
+    "conference": "Western Conference",
+    "wins": 37,
+    "losses": 45,
+    "pct": 0.451,
+    "gb": "27",
+    "streak": "L3"
+  },
+  {
+    "team": "NO",
+    "name": "New Orleans Pelicans",
+    "conference": "Western Conference",
+    "wins": 26,
+    "losses": 56,
+    "pct": 0.317,
+    "gb": "38",
+    "streak": "L2"
+  },
+  {
+    "team": "DAL",
+    "name": "Dallas Mavericks",
+    "conference": "Western Conference",
+    "wins": 26,
+    "losses": 56,
+    "pct": 0.317,
+    "gb": "38",
+    "streak": "W1"
+  },
+  {
+    "team": "MEM",
+    "name": "Memphis Grizzlies",
+    "conference": "Western Conference",
+    "wins": 25,
+    "losses": 57,
+    "pct": 0.305,
+    "gb": "39",
+    "streak": "L8"
+  },
+  {
+    "team": "SAC",
+    "name": "Sacramento Kings",
+    "conference": "Western Conference",
+    "wins": 22,
+    "losses": 60,
+    "pct": 0.268,
+    "gb": "42",
+    "streak": "L1"
+  },
+  {
+    "team": "UTAH",
+    "name": "Utah Jazz",
+    "conference": "Western Conference",
+    "wins": 22,
+    "losses": 60,
+    "pct": 0.268,
+    "gb": "42",
+    "streak": "L1"
+  }
+]

@@ -9,7 +9,13 @@
 <body>
 
   <header class="page-header">
-    <h1>WNBA Stats</h1>
+    <div style="display:flex;align-items:center;gap:0.75rem;flex-wrap:wrap">
+      <h1 id="page-title">WNBA Stats</h1>
+      <div class="league-toggle">
+        <button class="league-btn active" id="btn-wnba" onclick="switchLeague('wnba')">WNBA</button>
+        <button class="league-btn" id="btn-nba" onclick="switchLeague('nba')">NBA</button>
+      </div>
+    </div>
     <div style="display:flex;align-items:center;gap:0.75rem;flex-wrap:wrap">
       <div class="meta-updated" id="meta-updated"></div>
       <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">🌙 Dark</button>
@@ -202,6 +208,7 @@
 
   <script>
     // ── State ────────────────────────────────────────────────────────────────
+    let activeLeague     = 'wnba';
     let ppgData          = [];
     let rookieData       = [];
     let scorersCache     = { records: [], dateStr: '' };
@@ -218,6 +225,16 @@
     const knownTeams     = new Set();
     let playerNameMap    = {};   // id → {name, team}
     let injuryMap        = {};   // id → "questionable" | "out" | "ir"
+
+    // ── League helpers ────────────────────────────────────────────────────────
+    function dataPath(file) {
+      return activeLeague === 'nba' ? `data/nba/${file}` : `data/${file}`;
+    }
+
+    function photoUrl(id) {
+      if (!id) return '';
+      return `https://a.espncdn.com/i/headshots/${activeLeague}/players/full/${esc(id)}.png`;
+    }
 
     // ── Utilities ────────────────────────────────────────────────────────────
     function esc(s) {
@@ -238,7 +255,7 @@
 
     function photoThumb(id) {
       if (!id) return '';
-      return `<img class="player-thumb" src="https://a.espncdn.com/i/headshots/wnba/players/full/${esc(id)}.png" onerror="this.style.display='none'" alt="" loading="lazy">`;
+      return `<img class="player-thumb" src="${photoUrl(id)}" onerror="this.style.display='none'" alt="" loading="lazy">`;
     }
 
     function playerCell(id, name) {
@@ -371,7 +388,7 @@
 
     async function loadGameScores() {
       try {
-        const res = await fetch('data/game_scores.json');
+        const res = await fetch(dataPath('game_scores.json'));
         if (!res.ok) throw new Error();
         renderGameScores(await res.json());
       } catch (_) {
@@ -410,7 +427,7 @@
         const mm   = String(d.getMonth() + 1).padStart(2, '0');
         const dd   = String(d.getDate()).padStart(2, '0');
         try {
-          const res = await fetch(`data/top_scorers_${yyyy}-${mm}-${dd}.json`);
+          const res = await fetch(dataPath(`top_scorers_${yyyy}-${mm}-${dd}.json`));
           if (!res.ok) continue;
           renderScorers(await res.json(), `${yyyy}-${mm}-${dd}`);
           return;
@@ -466,7 +483,7 @@
 
     async function loadPPG() {
       try {
-        const res = await fetch('data/season_ppg.json');
+        const res = await fetch(dataPath('season_ppg.json'));
         if (!res.ok) throw new Error();
         ppgData = await res.json();
         if (!ppgData.length) throw new Error();
@@ -497,7 +514,7 @@
 
     async function loadRookie() {
       try {
-        const res = await fetch('data/rookie_ppg.json');
+        const res = await fetch(dataPath('rookie_ppg.json'));
         if (!res.ok) throw new Error();
         rookieData = await res.json();
         if (!rookieData.length) throw new Error();
@@ -551,7 +568,7 @@
 
     async function loadStreak() {
       try {
-        const res = await fetch('data/top_scorer_streak.json');
+        const res = await fetch(dataPath('top_scorer_streak.json'));
         if (!res.ok) throw new Error();
         leagueStreak = await res.json();
         renderStreak(leagueStreak);
@@ -582,7 +599,7 @@
       }
       el.innerHTML = `
         <div class="trend-player-header">
-          <img class="trend-photo" src="https://a.espncdn.com/i/headshots/wnba/players/full/${esc(data.id||'')}.png" onerror="this.style.display='none'" alt="" loading="lazy">
+          <img class="trend-photo" src="${photoUrl(data.id||'')}" onerror="this.style.display='none'" alt="" loading="lazy">
           <div>
             <div class="trend-name"><span class="player-link" data-id="${esc(data.id||'')}" data-name="${esc(data.PLAYER_NAME)}">${esc(data.PLAYER_NAME)}</span></div>
             <div class="trend-meta">${esc(data.TEAM_ABBREVIATION)} · ${data.recent_games} games (last 7d)</div>
@@ -601,7 +618,7 @@
 
     async function loadTrend(file, contentId, statusId) {
       try {
-        const res = await fetch(`data/${file}`);
+        const res = await fetch(dataPath(file));
         if (!res.ok) throw new Error();
         const data = await res.json();
         if (file === 'trending_up.json')   leagueTrendUp   = data;
@@ -615,7 +632,7 @@
     async function loadTeamInsights() {
       if (teamInsightsCache) return teamInsightsCache;
       try {
-        const res = await fetch('data/team_insights.json');
+        const res = await fetch(dataPath('team_insights.json'));
         if (!res.ok) throw new Error();
         teamInsightsCache = await res.json();
         return teamInsightsCache;
@@ -628,7 +645,7 @@
     async function getPlayerGames() {
       if (playerGamesCache) return playerGamesCache;
       try {
-        const res = await fetch('data/player_games.json');
+        const res = await fetch(dataPath('player_games.json'));
         playerGamesCache = res.ok ? await res.json() : {};
       } catch (_) { playerGamesCache = {}; }
       return playerGamesCache;
@@ -648,7 +665,7 @@
       const team = meta.TEAM_ABBREVIATION || '';
 
       const photoHtml = id
-        ? `<img class="modal-photo" src="https://a.espncdn.com/i/headshots/wnba/players/full/${esc(id)}.png" onerror="this.style.display='none'" alt="" loading="lazy">`
+        ? `<img class="modal-photo" src="${photoUrl(id)}" onerror="this.style.display='none'" alt="" loading="lazy">`
         : '';
 
       const logRows = gameLog.map(g => {
@@ -736,7 +753,7 @@
     // ── Last updated timestamp ────────────────────────────────────────────────
     async function loadMeta() {
       try {
-        const res = await fetch('data/meta.json');
+        const res = await fetch(dataPath('meta.json'));
         if (!res.ok) return;
         const { updated } = await res.json();
         document.getElementById('meta-updated').textContent = `Updated ${fmtTime(updated)}`;
@@ -820,7 +837,7 @@
     async function loadStandings() {
       if (standingsCache) { renderStandings(standingsCache); return; }
       try {
-        const res = await fetch('data/standings.json');
+        const res = await fetch(dataPath('standings.json'));
         if (!res.ok) throw new Error();
         standingsCache = await res.json();
         renderStandings(standingsCache);
@@ -917,7 +934,7 @@
     // ── Injury status ─────────────────────────────────────────────────────────
     async function loadInjuries() {
       try {
-        const res = await fetch('data/injury_status.json');
+        const res = await fetch(dataPath('injury_status.json'));
         if (!res.ok) return;
         injuryMap = await res.json();
         // Re-render any already-loaded tables to show badges
@@ -943,7 +960,7 @@
 
     async function loadNews() {
       try {
-        const res = await fetch('https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/news?limit=10');
+        const res = await fetch(`https://site.api.espn.com/apis/site/v2/sports/basketball/${activeLeague}/news?limit=10`);
         if (!res.ok) return;
         const { articles = [] } = await res.json();
         if (!articles.length) return;
@@ -955,7 +972,7 @@
           const teamCat = (a.categories || []).find(c => c.type === 'team' && c.description);
           const tag  = teamCat
             ? `<div class="news-tag">${esc(teamCat.description)}</div>`
-            : `<div class="news-tag">WNBA</div>`;
+            : `<div class="news-tag">${activeLeague.toUpperCase()}</div>`;
           const desc = a.description
             ? `<div class="news-desc">${esc(a.description)}</div>`
             : '';
@@ -993,6 +1010,8 @@
     // ── Shareable team links ───────────────────────────────────────────────────
     function syncURLToTeam() {
       const url = new URL(location.href);
+      if (activeLeague !== 'wnba') url.searchParams.set('league', activeLeague);
+      else url.searchParams.delete('league');
       if (activeTeam) url.searchParams.set('team', activeTeam);
       else url.searchParams.delete('team');
       history.replaceState(null, '', url);
@@ -1000,12 +1019,83 @@
 
     function initURLSync() {
       const params = new URLSearchParams(location.search);
-      const team   = params.get('team');
+      const league = params.get('league');
+      if (league === 'nba' && activeLeague !== 'nba') {
+        activeLeague = 'nba';
+        document.getElementById('page-title').textContent = 'NBA Stats';
+        document.title = 'NBA Stats';
+        document.getElementById('btn-wnba').classList.remove('active');
+        document.getElementById('btn-nba').classList.add('active');
+      }
+      const team = params.get('team');
       if (team) {
         activeTeam = team;
         rebuildFilterBar();
         applyFilter();
       }
+    }
+
+    function switchLeague(league) {
+      if (league === activeLeague) return;
+      activeLeague = league;
+
+      const isNBA = league === 'nba';
+      document.getElementById('page-title').textContent = isNBA ? 'NBA Stats' : 'WNBA Stats';
+      document.title = isNBA ? 'NBA Stats' : 'WNBA Stats';
+      document.getElementById('btn-wnba').classList.toggle('active', !isNBA);
+      document.getElementById('btn-nba').classList.toggle('active', isNBA);
+
+      // Clear all caches
+      ppgData          = [];
+      rookieData       = [];
+      scorersCache     = { records: [], dateStr: '' };
+      playerGamesCache = null;
+      standingsCache   = null;
+      teamInsightsCache = null;
+      leagueTrendUp    = null;
+      leagueTrendDown  = null;
+      leagueStreak     = null;
+      activeTeam       = '';
+      isStandingsView  = false;
+      knownTeams.clear();
+      playerNameMap    = {};
+      injuryMap        = {};
+      compareSlots     = [];
+
+      // Reset UI
+      document.getElementById('scores-body').innerHTML         = '';
+      document.getElementById('ppg-body').innerHTML            = '';
+      document.getElementById('rookie-body').innerHTML         = '';
+      document.getElementById('trend-up-content').innerHTML    = '';
+      document.getElementById('trend-down-content').innerHTML  = '';
+      document.getElementById('streak-content').innerHTML      = '';
+      document.getElementById('compare-panel').style.display   = 'none';
+      document.getElementById('news-strip').style.display      = 'none';
+      document.getElementById('news-strip').innerHTML          = '';
+      document.getElementById('scores-inline').innerHTML       = '<span class="scores-inline-status" id="game-scores-status"></span>';
+      document.getElementById('standings-view').innerHTML      = '';
+      document.getElementById('standings-view').style.display  = 'none';
+      document.getElementById('panels').style.display          = '';
+      rebuildFilterBar();
+
+      // Sync URL
+      const url = new URL(location.href);
+      if (isNBA) url.searchParams.set('league', 'nba');
+      else url.searchParams.delete('league');
+      url.searchParams.delete('team');
+      history.replaceState(null, '', url);
+
+      // Reload data
+      loadMeta();
+      loadNews();
+      loadInjuries();
+      loadGameScores().then(() => loadTodaySchedule());
+      loadScorers();
+      loadPPG().then(() => { loadBestGames(); });
+      loadRookie();
+      loadStreak();
+      loadTrend('trending_up.json',   'trend-up-content',   'trend-up-status');
+      loadTrend('trending_down.json', 'trend-down-content', 'trend-down-status');
     }
 
     // ── Player search ──────────────────────────────────────────────────────────
@@ -1081,7 +1171,7 @@
     // ── Today's schedule ──────────────────────────────────────────────────────
     async function loadTodaySchedule() {
       try {
-        const res = await fetch('https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/scoreboard');
+        const res = await fetch(`https://site.api.espn.com/apis/site/v2/sports/basketball/${activeLeague}/scoreboard`);
         if (!res.ok) return;
         const { events = [] } = await res.json();
         if (!events.length) return;
