@@ -1,44 +1,5 @@
 [
   {
-    "PLAYER_NAME": "Kayla McBride",
-    "TEAM_ABBREVIATION": "MIN",
-    "id": "2529205",
-    "PPG": 27.6,
-    "APG": 0.8,
-    "RPG": 3.0,
-    "BPG": 0.6,
-    "FG_PCT": 55.8,
-    "TS_PCT": 75.4,
-    "games": 5,
-    "w7": {
-      "PPG": 26.5,
-      "APG": 1.0,
-      "RPG": 2.5,
-      "BPG": 0.5,
-      "FG_PCT": 50.0,
-      "TS_PCT": 88.3,
-      "games": 2
-    },
-    "w14": {
-      "PPG": 27.6,
-      "APG": 0.8,
-      "RPG": 3.0,
-      "BPG": 0.6,
-      "FG_PCT": 55.8,
-      "TS_PCT": 75.4,
-      "games": 5
-    },
-    "w30": {
-      "PPG": 24.9,
-      "APG": 1.5,
-      "RPG": 2.8,
-      "BPG": 0.5,
-      "FG_PCT": 51.6,
-      "TS_PCT": 70.0,
-      "games": 10
-    }
-  },
-  {
     "PLAYER_NAME": "Kelsey Mitchell",
     "TEAM_ABBREVIATION": "COOP",
     "id": "3142191",
@@ -68,13 +29,13 @@
       "games": 5
     },
     "w30": {
-      "PPG": 27.2,
-      "APG": 2.8,
-      "RPG": 2.4,
+      "PPG": 27.3,
+      "APG": 2.9,
+      "RPG": 2.3,
       "BPG": 0.2,
-      "FG_PCT": 52.5,
-      "TS_PCT": 67.3,
-      "games": 10
+      "FG_PCT": 51.2,
+      "TS_PCT": 65.7,
+      "games": 9
     }
   },
   {
@@ -89,13 +50,13 @@
     "TS_PCT": 77.3,
     "games": 3,
     "w7": {
-      "PPG": 25.3,
-      "APG": 3.3,
-      "RPG": 5.3,
-      "BPG": 2.3,
-      "FG_PCT": 67.4,
-      "TS_PCT": 88.4,
-      "games": 3
+      "PPG": 25.0,
+      "APG": 3.0,
+      "RPG": 5.0,
+      "BPG": 1.5,
+      "FG_PCT": 62.1,
+      "TS_PCT": 86.2,
+      "games": 2
     },
     "w14": {
       "PPG": 25.3,
@@ -117,6 +78,45 @@
     }
   },
   {
+    "PLAYER_NAME": "Kayla McBride",
+    "TEAM_ABBREVIATION": "MIN",
+    "id": "2529205",
+    "PPG": 25.2,
+    "APG": 0.8,
+    "RPG": 2.2,
+    "BPG": 0.2,
+    "FG_PCT": 53.3,
+    "TS_PCT": 71.6,
+    "games": 4,
+    "w7": {
+      "PPG": 20.0,
+      "APG": 2.0,
+      "RPG": 3.0,
+      "BPG": 1.0,
+      "FG_PCT": 42.9,
+      "TS_PCT": 71.4,
+      "games": 1
+    },
+    "w14": {
+      "PPG": 25.2,
+      "APG": 0.8,
+      "RPG": 2.2,
+      "BPG": 0.2,
+      "FG_PCT": 53.3,
+      "TS_PCT": 71.6,
+      "games": 4
+    },
+    "w30": {
+      "PPG": 24.9,
+      "APG": 1.5,
+      "RPG": 2.8,
+      "BPG": 0.5,
+      "FG_PCT": 51.6,
+      "TS_PCT": 70.0,
+      "games": 10
+    }
+  },
+  {
     "PLAYER_NAME": "Arike Ogunbowale",
     "TEAM_ABBREVIATION": "DAL",
     "id": "3904577",
@@ -128,13 +128,13 @@
     "TS_PCT": 63.1,
     "games": 3,
     "w7": {
-      "PPG": 26.5,
+      "PPG": 24.0,
       "APG": 6.0,
-      "RPG": 4.0,
+      "RPG": 3.0,
       "BPG": 0.0,
-      "FG_PCT": 47.2,
-      "TS_PCT": 73.6,
-      "games": 2
+      "FG_PCT": 66.7,
+      "TS_PCT": 100.0,
+      "games": 1
     },
     "w14": {
       "PPG": 24.3,
@@ -185,26 +185,26 @@
       "games": 5
     },
     "w30": {
-      "PPG": 15.6,
-      "APG": 5.3,
-      "RPG": 2.7,
-      "BPG": 0.4,
+      "PPG": 17.5,
+      "APG": 6.0,
+      "RPG": 3.0,
+      "BPG": 0.5,
       "FG_PCT": 43.4,
       "TS_PCT": 60.7,
-      "games": 9
+      "games": 8
     }
   },
   {
     "PLAYER_NAME": "Allisha Gray",
     "TEAM_ABBREVIATION": "SPO",
     "id": "3058901",
-    "PPG": 21.5,
-    "APG": 2.2,
-    "RPG": 3.0,
-    "BPG": 0.2,
-    "FG_PCT": 57.7,
-    "TS_PCT": 73.4,
-    "games": 4,
+    "PPG": 22.0,
+    "APG": 2.3,
+    "RPG": 3.7,
+    "BPG": 0.0,
+    "FG_PCT": 59.5,
+    "TS_PCT": 77.2,
+    "games": 3,
     "w7": {
       "PPG": 19.0,
       "APG": 2.0,
@@ -215,22 +215,22 @@
       "games": 1
     },
     "w14": {
-      "PPG": 21.5,
-      "APG": 2.2,
-      "RPG": 3.0,
-      "BPG": 0.2,
-      "FG_PCT": 57.7,
-      "TS_PCT": 73.4,
-      "games": 4
+      "PPG": 22.0,
+      "APG": 2.3,
+      "RPG": 3.7,
+      "BPG": 0.0,
+      "FG_PCT": 59.5,
+      "TS_PCT": 77.2,
+      "games": 3
     },
     "w30": {
-      "PPG": 20.2,
-      "APG": 2.7,
+      "PPG": 20.9,
+      "APG": 2.8,
       "RPG": 3.2,
-      "BPG": 0.3,
-      "FG_PCT": 47.3,
-      "TS_PCT": 59.0,
-      "games": 9
+      "BPG": 0.4,
+      "FG_PCT": 49.6,
+      "TS_PCT": 61.1,
+      "games": 8
     }
   },
   {
@@ -245,13 +245,13 @@
     "TS_PCT": 57.6,
     "games": 4,
     "w7": {
-      "PPG": 19.7,
-      "APG": 6.3,
-      "RPG": 11.7,
+      "PPG": 13.0,
+      "APG": 5.5,
+      "RPG": 11.0,
       "BPG": 2.0,
-      "FG_PCT": 40.0,
-      "TS_PCT": 65.6,
-      "games": 3
+      "FG_PCT": 30.8,
+      "TS_PCT": 50.0,
+      "games": 2
     },
     "w14": {
       "PPG": 21.2,
@@ -323,13 +323,13 @@
     "TS_PCT": 61.0,
     "games": 4,
     "w7": {
-      "PPG": 21.0,
-      "APG": 2.5,
-      "RPG": 3.5,
-      "BPG": 0.5,
-      "FG_PCT": 50.0,
-      "TS_PCT": 75.0,
-      "games": 2
+      "PPG": 16.0,
+      "APG": 4.0,
+      "RPG": 6.0,
+      "BPG": 0.0,
+      "FG_PCT": 41.2,
+      "TS_PCT": 47.1,
+      "games": 1
     },
     "w14": {
       "PPG": 20.8,
@@ -341,13 +341,13 @@
       "games": 4
     },
     "w30": {
-      "PPG": 16.5,
+      "PPG": 15.7,
       "APG": 3.6,
-      "RPG": 5.5,
-      "BPG": 0.5,
-      "FG_PCT": 46.9,
-      "TS_PCT": 56.2,
-      "games": 10
+      "RPG": 4.9,
+      "BPG": 0.6,
+      "FG_PCT": 44.1,
+      "TS_PCT": 53.2,
+      "games": 9
     }
   },
   {
@@ -362,13 +362,13 @@
     "TS_PCT": 60.1,
     "games": 3,
     "w7": {
-      "PPG": 25.0,
-      "APG": 3.0,
+      "PPG": 29.0,
+      "APG": 4.0,
       "RPG": 4.0,
       "BPG": 1.0,
-      "FG_PCT": 44.4,
-      "TS_PCT": 69.4,
-      "games": 2
+      "FG_PCT": 72.7,
+      "TS_PCT": 131.8,
+      "games": 1
     },
     "w14": {
       "PPG": 20.7,
@@ -387,45 +387,6 @@
       "FG_PCT": 43.2,
       "TS_PCT": 58.1,
       "games": 9
-    }
-  },
-  {
-    "PLAYER_NAME": "Olivia Miles",
-    "TEAM_ABBREVIATION": "SPO",
-    "id": "4433791",
-    "PPG": 20.2,
-    "APG": 7.5,
-    "RPG": 5.7,
-    "BPG": 0.7,
-    "FG_PCT": 51.1,
-    "TS_PCT": 61.1,
-    "games": 6,
-    "w7": {
-      "PPG": 18.7,
-      "APG": 7.3,
-      "RPG": 7.7,
-      "BPG": 0.0,
-      "FG_PCT": 52.3,
-      "TS_PCT": 63.6,
-      "games": 3
-    },
-    "w14": {
-      "PPG": 20.2,
-      "APG": 7.5,
-      "RPG": 5.7,
-      "BPG": 0.7,
-      "FG_PCT": 51.1,
-      "TS_PCT": 61.1,
-      "games": 6
-    },
-    "w30": {
-      "PPG": 16.3,
-      "APG": 5.6,
-      "RPG": 4.3,
-      "BPG": 0.5,
-      "FG_PCT": 46.6,
-      "TS_PCT": 58.2,
-      "games": 11
     }
   },
   {
@@ -479,13 +440,13 @@
     "TS_PCT": 56.7,
     "games": 5,
     "w7": {
-      "PPG": 20.0,
-      "APG": 2.5,
-      "RPG": 10.5,
+      "PPG": 25.0,
+      "APG": 3.0,
+      "RPG": 6.0,
       "BPG": 0.0,
-      "FG_PCT": 57.1,
-      "TS_PCT": 71.4,
-      "games": 2
+      "FG_PCT": 55.6,
+      "TS_PCT": 69.4,
+      "games": 1
     },
     "w14": {
       "PPG": 18.8,
@@ -518,13 +479,13 @@
     "TS_PCT": 52.0,
     "games": 5,
     "w7": {
-      "PPG": 15.7,
-      "APG": 1.3,
-      "RPG": 10.3,
+      "PPG": 16.5,
+      "APG": 1.5,
+      "RPG": 11.0,
       "BPG": 2.0,
-      "FG_PCT": 47.6,
-      "TS_PCT": 56.0,
-      "games": 3
+      "FG_PCT": 50.0,
+      "TS_PCT": 55.0,
+      "games": 2
     },
     "w14": {
       "PPG": 18.2,
@@ -536,51 +497,12 @@
       "games": 5
     },
     "w30": {
-      "PPG": 14.6,
-      "APG": 1.9,
-      "RPG": 10.2,
-      "BPG": 1.4,
-      "FG_PCT": 43.1,
-      "TS_PCT": 47.9,
-      "games": 11
-    }
-  },
-  {
-    "PLAYER_NAME": "Kahleah Copper",
-    "TEAM_ABBREVIATION": "COOP",
-    "id": "2998938",
-    "PPG": 18.0,
-    "APG": 2.2,
-    "RPG": 3.2,
-    "BPG": 0.2,
-    "FG_PCT": 51.5,
-    "TS_PCT": 60.2,
-    "games": 5,
-    "w7": {
-      "PPG": 12.5,
-      "APG": 2.5,
-      "RPG": 3.0,
-      "BPG": 0.0,
-      "FG_PCT": 54.5,
-      "TS_PCT": 56.8,
-      "games": 2
-    },
-    "w14": {
-      "PPG": 18.0,
-      "APG": 2.2,
-      "RPG": 3.2,
-      "BPG": 0.2,
-      "FG_PCT": 51.5,
-      "TS_PCT": 60.2,
-      "games": 5
-    },
-    "w30": {
-      "PPG": 20.3,
+      "PPG": 14.5,
       "APG": 1.8,
-      "RPG": 4.1,
-      "BPG": 0.1,
-      "FG_PCT": 51.3,
-      "TS_PCT": 59.5,
+      "RPG": 10.1,
+      "BPG": 1.2,
+      "FG_PCT": 42.1,
+      "TS_PCT": 47.1,
       "games": 10
     }
   },
@@ -596,13 +518,13 @@
     "TS_PCT": 49.1,
     "games": 4,
     "w7": {
-      "PPG": 18.5,
-      "APG": 3.5,
-      "RPG": 2.5,
-      "BPG": 0.5,
-      "FG_PCT": 33.3,
-      "TS_PCT": 44.0,
-      "games": 2
+      "PPG": 23.0,
+      "APG": 2.0,
+      "RPG": 3.0,
+      "BPG": 0.0,
+      "FG_PCT": 42.9,
+      "TS_PCT": 54.8,
+      "games": 1
     },
     "w14": {
       "PPG": 17.8,
@@ -614,13 +536,52 @@
       "games": 4
     },
     "w30": {
-      "PPG": 18.3,
-      "APG": 3.1,
-      "RPG": 2.7,
-      "BPG": 0.3,
+      "PPG": 20.6,
+      "APG": 3.5,
+      "RPG": 3.0,
+      "BPG": 0.4,
       "FG_PCT": 39.7,
       "TS_PCT": 55.4,
-      "games": 9
+      "games": 8
+    }
+  },
+  {
+    "PLAYER_NAME": "Olivia Miles",
+    "TEAM_ABBREVIATION": "SPO",
+    "id": "4433791",
+    "PPG": 17.6,
+    "APG": 7.4,
+    "RPG": 6.2,
+    "BPG": 0.8,
+    "FG_PCT": 48.6,
+    "TS_PCT": 55.7,
+    "games": 5,
+    "w7": {
+      "PPG": 12.0,
+      "APG": 7.0,
+      "RPG": 7.5,
+      "BPG": 0.0,
+      "FG_PCT": 50.0,
+      "TS_PCT": 60.0,
+      "games": 2
+    },
+    "w14": {
+      "PPG": 17.6,
+      "APG": 7.4,
+      "RPG": 6.2,
+      "BPG": 0.8,
+      "FG_PCT": 48.6,
+      "TS_PCT": 55.7,
+      "games": 5
+    },
+    "w30": {
+      "PPG": 16.3,
+      "APG": 5.6,
+      "RPG": 4.3,
+      "BPG": 0.5,
+      "FG_PCT": 46.6,
+      "TS_PCT": 58.2,
+      "games": 11
     }
   },
   {
@@ -635,13 +596,13 @@
     "TS_PCT": 60.6,
     "games": 3,
     "w7": {
-      "PPG": 17.0,
-      "APG": 7.3,
-      "RPG": 3.7,
+      "PPG": 13.5,
+      "APG": 5.0,
+      "RPG": 3.5,
       "BPG": 0.0,
-      "FG_PCT": 51.3,
-      "TS_PCT": 65.4,
-      "games": 3
+      "FG_PCT": 45.5,
+      "TS_PCT": 61.4,
+      "games": 2
     },
     "w14": {
       "PPG": 17.0,
@@ -663,45 +624,6 @@
     }
   },
   {
-    "PLAYER_NAME": "Nneka Ogwumike",
-    "TEAM_ABBREVIATION": "SPO",
-    "id": "1068",
-    "PPG": 16.8,
-    "APG": 3.5,
-    "RPG": 10.2,
-    "BPG": 0.5,
-    "FG_PCT": 56.9,
-    "TS_PCT": 65.0,
-    "games": 6,
-    "w7": {
-      "PPG": 12.0,
-      "APG": 2.0,
-      "RPG": 11.0,
-      "BPG": 0.0,
-      "FG_PCT": 56.2,
-      "TS_PCT": 75.0,
-      "games": 2
-    },
-    "w14": {
-      "PPG": 16.8,
-      "APG": 3.5,
-      "RPG": 10.2,
-      "BPG": 0.5,
-      "FG_PCT": 56.9,
-      "TS_PCT": 65.0,
-      "games": 6
-    },
-    "w30": {
-      "PPG": 18.1,
-      "APG": 3.6,
-      "RPG": 9.9,
-      "BPG": 0.6,
-      "FG_PCT": 53.4,
-      "TS_PCT": 61.9,
-      "games": 10
-    }
-  },
-  {
     "PLAYER_NAME": "Chelsea Gray",
     "TEAM_ABBREVIATION": "LV",
     "id": "2529122",
@@ -713,13 +635,13 @@
     "TS_PCT": 70.5,
     "games": 2,
     "w7": {
-      "PPG": 16.5,
-      "APG": 5.5,
-      "RPG": 2.5,
-      "BPG": 0.5,
-      "FG_PCT": 52.6,
-      "TS_PCT": 86.8,
-      "games": 2
+      "PPG": 19.0,
+      "APG": 4.0,
+      "RPG": 1.0,
+      "BPG": 1.0,
+      "FG_PCT": 50.0,
+      "TS_PCT": 79.2,
+      "games": 1
     },
     "w14": {
       "PPG": 16.5,
@@ -737,6 +659,45 @@
       "BPG": 0.1,
       "FG_PCT": 41.5,
       "TS_PCT": 55.0,
+      "games": 9
+    }
+  },
+  {
+    "PLAYER_NAME": "Nneka Ogwumike",
+    "TEAM_ABBREVIATION": "SPO",
+    "id": "1068",
+    "PPG": 16.4,
+    "APG": 3.2,
+    "RPG": 11.2,
+    "BPG": 0.6,
+    "FG_PCT": 57.6,
+    "TS_PCT": 64.2,
+    "games": 5,
+    "w7": {
+      "PPG": 12.0,
+      "APG": 2.0,
+      "RPG": 11.0,
+      "BPG": 0.0,
+      "FG_PCT": 56.2,
+      "TS_PCT": 75.0,
+      "games": 2
+    },
+    "w14": {
+      "PPG": 16.4,
+      "APG": 3.2,
+      "RPG": 11.2,
+      "BPG": 0.6,
+      "FG_PCT": 57.6,
+      "TS_PCT": 64.2,
+      "games": 5
+    },
+    "w30": {
+      "PPG": 18.2,
+      "APG": 3.8,
+      "RPG": 10.2,
+      "BPG": 0.4,
+      "FG_PCT": 53.3,
+      "TS_PCT": 62.4,
       "games": 9
     }
   },
@@ -780,41 +741,41 @@
     }
   },
   {
-    "PLAYER_NAME": "Rae Burrell",
-    "TEAM_ABBREVIATION": "LA",
-    "id": "4398764",
+    "PLAYER_NAME": "Kahleah Copper",
+    "TEAM_ABBREVIATION": "COOP",
+    "id": "2998938",
     "PPG": 16.0,
-    "APG": 3.2,
-    "RPG": 2.8,
-    "BPG": 0.4,
-    "FG_PCT": 51.9,
-    "TS_PCT": 64.9,
-    "games": 5,
+    "APG": 2.5,
+    "RPG": 3.2,
+    "BPG": 0.2,
+    "FG_PCT": 48.1,
+    "TS_PCT": 54.6,
+    "games": 4,
     "w7": {
-      "PPG": 20.0,
-      "APG": 2.0,
+      "PPG": 12.5,
+      "APG": 2.5,
       "RPG": 3.0,
       "BPG": 0.0,
-      "FG_PCT": 43.8,
-      "TS_PCT": 62.5,
-      "games": 1
+      "FG_PCT": 54.5,
+      "TS_PCT": 56.8,
+      "games": 2
     },
     "w14": {
       "PPG": 16.0,
-      "APG": 3.2,
-      "RPG": 2.8,
-      "BPG": 0.4,
-      "FG_PCT": 51.9,
-      "TS_PCT": 64.9,
-      "games": 5
+      "APG": 2.5,
+      "RPG": 3.2,
+      "BPG": 0.2,
+      "FG_PCT": 48.1,
+      "TS_PCT": 54.6,
+      "games": 4
     },
     "w30": {
-      "PPG": 15.0,
-      "APG": 2.8,
-      "RPG": 2.3,
-      "BPG": 0.4,
-      "FG_PCT": 45.3,
-      "TS_PCT": 55.8,
+      "PPG": 19.6,
+      "APG": 1.9,
+      "RPG": 4.0,
+      "BPG": 0.1,
+      "FG_PCT": 49.6,
+      "TS_PCT": 57.9,
       "games": 9
     }
   },
@@ -830,13 +791,13 @@
     "TS_PCT": 58.6,
     "games": 4,
     "w7": {
-      "PPG": 16.7,
-      "APG": 4.0,
-      "RPG": 11.0,
+      "PPG": 18.0,
+      "APG": 5.0,
+      "RPG": 11.5,
       "BPG": 1.0,
       "FG_PCT": 46.2,
-      "TS_PCT": 64.1,
-      "games": 3
+      "TS_PCT": 69.2,
+      "games": 2
     },
     "w14": {
       "PPG": 15.8,
@@ -858,42 +819,81 @@
     }
   },
   {
-    "PLAYER_NAME": "Alyssa Thomas",
-    "TEAM_ABBREVIATION": "PHX",
-    "id": "2529140",
+    "PLAYER_NAME": "Dearica Hamby",
+    "TEAM_ABBREVIATION": "LA",
+    "id": "2566106",
     "PPG": 15.5,
-    "APG": 11.0,
-    "RPG": 8.2,
+    "APG": 2.8,
+    "RPG": 7.2,
     "BPG": 0.8,
-    "FG_PCT": 50.0,
-    "TS_PCT": 55.5,
+    "FG_PCT": 56.8,
+    "TS_PCT": 61.3,
     "games": 4,
     "w7": {
-      "PPG": 19.0,
-      "APG": 15.0,
-      "RPG": 11.0,
-      "BPG": 1.0,
-      "FG_PCT": 55.6,
-      "TS_PCT": 105.6,
+      "PPG": 18.0,
+      "APG": 5.0,
+      "RPG": 10.0,
+      "BPG": 2.0,
+      "FG_PCT": 58.3,
+      "TS_PCT": 75.0,
       "games": 1
     },
     "w14": {
       "PPG": 15.5,
-      "APG": 11.0,
-      "RPG": 8.2,
+      "APG": 2.8,
+      "RPG": 7.2,
       "BPG": 0.8,
-      "FG_PCT": 50.0,
-      "TS_PCT": 55.5,
+      "FG_PCT": 56.8,
+      "TS_PCT": 61.3,
       "games": 4
     },
     "w30": {
-      "PPG": 12.3,
-      "APG": 7.3,
-      "RPG": 7.2,
-      "BPG": 0.7,
-      "FG_PCT": 48.3,
-      "TS_PCT": 53.3,
-      "games": 9
+      "PPG": 16.1,
+      "APG": 2.5,
+      "RPG": 6.8,
+      "BPG": 0.8,
+      "FG_PCT": 56.5,
+      "TS_PCT": 60.6,
+      "games": 8
+    }
+  },
+  {
+    "PLAYER_NAME": "Rae Burrell",
+    "TEAM_ABBREVIATION": "LA",
+    "id": "4398764",
+    "PPG": 15.5,
+    "APG": 3.0,
+    "RPG": 2.5,
+    "BPG": 0.5,
+    "FG_PCT": 51.2,
+    "TS_PCT": 62.0,
+    "games": 4,
+    "w7": {
+      "PPG": 20.0,
+      "APG": 2.0,
+      "RPG": 3.0,
+      "BPG": 0.0,
+      "FG_PCT": 43.8,
+      "TS_PCT": 62.5,
+      "games": 1
+    },
+    "w14": {
+      "PPG": 15.5,
+      "APG": 3.0,
+      "RPG": 2.5,
+      "BPG": 0.5,
+      "FG_PCT": 51.2,
+      "TS_PCT": 62.0,
+      "games": 4
+    },
+    "w30": {
+      "PPG": 15.5,
+      "APG": 3.0,
+      "RPG": 2.4,
+      "BPG": 0.5,
+      "FG_PCT": 48.4,
+      "TS_PCT": 59.5,
+      "games": 8
     }
   },
   {
@@ -908,13 +908,13 @@
     "TS_PCT": 50.3,
     "games": 4,
     "w7": {
-      "PPG": 13.0,
-      "APG": 4.0,
-      "RPG": 2.5,
+      "PPG": 18.0,
+      "APG": 6.0,
+      "RPG": 5.0,
       "BPG": 0.0,
-      "FG_PCT": 36.7,
-      "TS_PCT": 43.3,
-      "games": 2
+      "FG_PCT": 38.9,
+      "TS_PCT": 50.0,
+      "games": 1
     },
     "w14": {
       "PPG": 15.0,
@@ -975,45 +975,6 @@
     }
   },
   {
-    "PLAYER_NAME": "Dearica Hamby",
-    "TEAM_ABBREVIATION": "LA",
-    "id": "2566106",
-    "PPG": 14.8,
-    "APG": 2.6,
-    "RPG": 6.8,
-    "BPG": 1.0,
-    "FG_PCT": 56.4,
-    "TS_PCT": 59.6,
-    "games": 5,
-    "w7": {
-      "PPG": 18.0,
-      "APG": 5.0,
-      "RPG": 10.0,
-      "BPG": 2.0,
-      "FG_PCT": 58.3,
-      "TS_PCT": 75.0,
-      "games": 1
-    },
-    "w14": {
-      "PPG": 14.8,
-      "APG": 2.6,
-      "RPG": 6.8,
-      "BPG": 1.0,
-      "FG_PCT": 56.4,
-      "TS_PCT": 59.6,
-      "games": 5
-    },
-    "w30": {
-      "PPG": 16.0,
-      "APG": 2.7,
-      "RPG": 6.4,
-      "BPG": 0.7,
-      "FG_PCT": 54.7,
-      "TS_PCT": 58.9,
-      "games": 9
-    }
-  },
-  {
     "PLAYER_NAME": "Isabelle Harrison",
     "TEAM_ABBREVIATION": "TOR",
     "id": "2566453",
@@ -1024,15 +985,7 @@
     "FG_PCT": 55.2,
     "TS_PCT": 62.6,
     "games": 3,
-    "w7": {
-      "PPG": 26.0,
-      "APG": 2.0,
-      "RPG": 11.0,
-      "BPG": 0.0,
-      "FG_PCT": 72.7,
-      "TS_PCT": 118.2,
-      "games": 1
-    },
+    "w7": null,
     "w14": {
       "PPG": 14.7,
       "APG": 1.0,
@@ -1043,44 +996,13 @@
       "games": 3
     },
     "w30": {
-      "PPG": 15.0,
-      "APG": 0.9,
-      "RPG": 6.8,
-      "BPG": 0.5,
-      "FG_PCT": 55.8,
-      "TS_PCT": 61.9,
-      "games": 8
-    }
-  },
-  {
-    "PLAYER_NAME": "Jordin Canada",
-    "TEAM_ABBREVIATION": "ATL",
-    "id": "3142250",
-    "PPG": 14.7,
-    "APG": 10.3,
-    "RPG": 2.0,
-    "BPG": 0.0,
-    "FG_PCT": 45.5,
-    "TS_PCT": 55.6,
-    "games": 3,
-    "w7": null,
-    "w14": {
-      "PPG": 14.7,
-      "APG": 10.3,
-      "RPG": 2.0,
-      "BPG": 0.0,
-      "FG_PCT": 45.5,
-      "TS_PCT": 55.6,
-      "games": 3
-    },
-    "w30": {
-      "PPG": 11.6,
-      "APG": 9.5,
-      "RPG": 3.8,
-      "BPG": 0.1,
-      "FG_PCT": 43.4,
-      "TS_PCT": 51.9,
-      "games": 8
+      "PPG": 15.4,
+      "APG": 1.0,
+      "RPG": 6.7,
+      "BPG": 0.4,
+      "FG_PCT": 57.3,
+      "TS_PCT": 63.4,
+      "games": 7
     }
   },
   {
@@ -1119,6 +1041,76 @@
       "BPG": 0.6,
       "FG_PCT": 40.0,
       "TS_PCT": 54.6,
+      "games": 8
+    }
+  },
+  {
+    "PLAYER_NAME": "Naz Hillmon",
+    "TEAM_ABBREVIATION": "ATL",
+    "id": "4398915",
+    "PPG": 14.5,
+    "APG": 0.5,
+    "RPG": 1.5,
+    "BPG": 0.0,
+    "FG_PCT": 71.4,
+    "TS_PCT": 92.0,
+    "games": 2,
+    "w7": null,
+    "w14": {
+      "PPG": 14.5,
+      "APG": 0.5,
+      "RPG": 1.5,
+      "BPG": 0.0,
+      "FG_PCT": 71.4,
+      "TS_PCT": 92.0,
+      "games": 2
+    },
+    "w30": {
+      "PPG": 9.9,
+      "APG": 1.1,
+      "RPG": 4.0,
+      "BPG": 0.3,
+      "FG_PCT": 51.1,
+      "TS_PCT": 65.4,
+      "games": 7
+    }
+  },
+  {
+    "PLAYER_NAME": "Alyssa Thomas",
+    "TEAM_ABBREVIATION": "PHX",
+    "id": "2529140",
+    "PPG": 14.3,
+    "APG": 10.7,
+    "RPG": 8.3,
+    "BPG": 1.0,
+    "FG_PCT": 46.7,
+    "TS_PCT": 53.6,
+    "games": 3,
+    "w7": {
+      "PPG": 19.0,
+      "APG": 15.0,
+      "RPG": 11.0,
+      "BPG": 1.0,
+      "FG_PCT": 55.6,
+      "TS_PCT": 105.6,
+      "games": 1
+    },
+    "w14": {
+      "PPG": 14.3,
+      "APG": 10.7,
+      "RPG": 8.3,
+      "BPG": 1.0,
+      "FG_PCT": 46.7,
+      "TS_PCT": 53.6,
+      "games": 3
+    },
+    "w30": {
+      "PPG": 13.9,
+      "APG": 8.2,
+      "RPG": 8.1,
+      "BPG": 0.8,
+      "FG_PCT": 48.3,
+      "TS_PCT": 53.3,
       "games": 8
     }
   },
@@ -1162,81 +1154,73 @@
     }
   },
   {
-    "PLAYER_NAME": "DeWanna Bonner",
-    "TEAM_ABBREVIATION": "PHX",
-    "id": "869",
-    "PPG": 13.8,
-    "APG": 2.0,
-    "RPG": 8.0,
-    "BPG": 0.2,
-    "FG_PCT": 46.7,
-    "TS_PCT": 54.7,
-    "games": 4,
-    "w7": {
-      "PPG": 9.0,
-      "APG": 4.0,
-      "RPG": 7.0,
-      "BPG": 0.0,
-      "FG_PCT": 44.4,
-      "TS_PCT": 50.0,
-      "games": 1
-    },
+    "PLAYER_NAME": "Jordin Canada",
+    "TEAM_ABBREVIATION": "ATL",
+    "id": "3142250",
+    "PPG": 14.0,
+    "APG": 11.0,
+    "RPG": 1.5,
+    "BPG": 0.0,
+    "FG_PCT": 47.6,
+    "TS_PCT": 55.1,
+    "games": 2,
+    "w7": null,
     "w14": {
-      "PPG": 13.8,
-      "APG": 2.0,
-      "RPG": 8.0,
-      "BPG": 0.2,
-      "FG_PCT": 46.7,
-      "TS_PCT": 54.7,
-      "games": 4
+      "PPG": 14.0,
+      "APG": 11.0,
+      "RPG": 1.5,
+      "BPG": 0.0,
+      "FG_PCT": 47.6,
+      "TS_PCT": 55.1,
+      "games": 2
     },
     "w30": {
-      "PPG": 10.8,
-      "APG": 2.0,
-      "RPG": 7.7,
-      "BPG": 0.4,
-      "FG_PCT": 40.9,
-      "TS_PCT": 50.3,
-      "games": 9
+      "PPG": 12.1,
+      "APG": 9.4,
+      "RPG": 3.7,
+      "BPG": 0.1,
+      "FG_PCT": 42.3,
+      "TS_PCT": 50.7,
+      "games": 7
     }
   },
   {
-    "PLAYER_NAME": "Angel Reese",
-    "TEAM_ABBREVIATION": "COOP",
-    "id": "4433402",
-    "PPG": 13.5,
-    "APG": 2.2,
-    "RPG": 8.8,
-    "BPG": 0.2,
-    "FG_PCT": 47.2,
-    "TS_PCT": 59.7,
-    "games": 4,
+    "PLAYER_NAME": "Courtney Williams",
+    "TEAM_ABBREVIATION": "SPO",
+    "id": "2987891",
+    "PPG": 13.4,
+    "APG": 5.4,
+    "RPG": 2.8,
+    "BPG": 0.0,
+    "FG_PCT": 48.1,
+    "TS_PCT": 56.9,
+    "games": 5,
     "w7": {
-      "PPG": 0.0,
-      "APG": 4.0,
-      "RPG": 5.0,
+      "PPG": 6.0,
+      "APG": 6.5,
+      "RPG": 3.0,
       "BPG": 0.0,
-      "FG_PCT": 0.0,
-      "TS_PCT": 0.0,
-      "games": 1
+      "FG_PCT": 31.2,
+      "TS_PCT": 37.5,
+      "games": 2
     },
     "w14": {
-      "PPG": 13.5,
-      "APG": 2.2,
-      "RPG": 8.8,
-      "BPG": 0.2,
-      "FG_PCT": 47.2,
-      "TS_PCT": 59.7,
-      "games": 4
+      "PPG": 13.4,
+      "APG": 5.4,
+      "RPG": 2.8,
+      "BPG": 0.0,
+      "FG_PCT": 48.1,
+      "TS_PCT": 56.9,
+      "games": 5
     },
     "w30": {
-      "PPG": 14.9,
-      "APG": 2.1,
-      "RPG": 10.1,
-      "BPG": 0.2,
-      "FG_PCT": 44.9,
-      "TS_PCT": 54.2,
-      "games": 8
+      "PPG": 13.6,
+      "APG": 4.6,
+      "RPG": 5.1,
+      "BPG": 0.1,
+      "FG_PCT": 44.0,
+      "TS_PCT": 50.8,
+      "games": 11
     }
   },
   {
@@ -1251,13 +1235,13 @@
     "TS_PCT": 55.1,
     "games": 6,
     "w7": {
-      "PPG": 15.0,
-      "APG": 1.3,
-      "RPG": 9.3,
+      "PPG": 11.0,
+      "APG": 0.0,
+      "RPG": 8.0,
       "BPG": 0.0,
-      "FG_PCT": 53.1,
-      "TS_PCT": 70.3,
-      "games": 3
+      "FG_PCT": 45.0,
+      "TS_PCT": 55.0,
+      "games": 2
     },
     "w14": {
       "PPG": 13.0,
@@ -1276,37 +1260,6 @@
       "FG_PCT": 47.9,
       "TS_PCT": 53.5,
       "games": 10
-    }
-  },
-  {
-    "PLAYER_NAME": "Naz Hillmon",
-    "TEAM_ABBREVIATION": "ATL",
-    "id": "4398915",
-    "PPG": 13.0,
-    "APG": 1.0,
-    "RPG": 2.7,
-    "BPG": 0.0,
-    "FG_PCT": 66.7,
-    "TS_PCT": 82.5,
-    "games": 3,
-    "w7": null,
-    "w14": {
-      "PPG": 13.0,
-      "APG": 1.0,
-      "RPG": 2.7,
-      "BPG": 0.0,
-      "FG_PCT": 66.7,
-      "TS_PCT": 82.5,
-      "games": 3
-    },
-    "w30": {
-      "PPG": 8.6,
-      "APG": 1.0,
-      "RPG": 3.5,
-      "BPG": 0.2,
-      "FG_PCT": 51.1,
-      "TS_PCT": 65.4,
-      "games": 8
     }
   },
   {
@@ -1349,42 +1302,42 @@
     }
   },
   {
-    "PLAYER_NAME": "Courtney Williams",
-    "TEAM_ABBREVIATION": "SPO",
-    "id": "2987891",
-    "PPG": 12.5,
-    "APG": 5.0,
-    "RPG": 3.5,
-    "BPG": 0.0,
-    "FG_PCT": 47.5,
-    "TS_PCT": 56.2,
-    "games": 6,
+    "PLAYER_NAME": "DeWanna Bonner",
+    "TEAM_ABBREVIATION": "PHX",
+    "id": "869",
+    "PPG": 12.7,
+    "APG": 1.7,
+    "RPG": 7.7,
+    "BPG": 0.3,
+    "FG_PCT": 45.5,
+    "TS_PCT": 52.0,
+    "games": 3,
     "w7": {
-      "PPG": 11.0,
-      "APG": 5.3,
-      "RPG": 3.3,
+      "PPG": 9.0,
+      "APG": 4.0,
+      "RPG": 7.0,
       "BPG": 0.0,
-      "FG_PCT": 44.8,
-      "TS_PCT": 56.9,
-      "games": 3
+      "FG_PCT": 44.4,
+      "TS_PCT": 50.0,
+      "games": 1
     },
     "w14": {
-      "PPG": 12.5,
-      "APG": 5.0,
-      "RPG": 3.5,
-      "BPG": 0.0,
-      "FG_PCT": 47.5,
-      "TS_PCT": 56.2,
-      "games": 6
+      "PPG": 12.7,
+      "APG": 1.7,
+      "RPG": 7.7,
+      "BPG": 0.3,
+      "FG_PCT": 45.5,
+      "TS_PCT": 52.0,
+      "games": 3
     },
     "w30": {
-      "PPG": 13.6,
-      "APG": 4.6,
-      "RPG": 5.1,
-      "BPG": 0.1,
-      "FG_PCT": 44.0,
-      "TS_PCT": 50.8,
-      "games": 11
+      "PPG": 10.5,
+      "APG": 1.9,
+      "RPG": 7.2,
+      "BPG": 0.5,
+      "FG_PCT": 42.7,
+      "TS_PCT": 50.9,
+      "games": 8
     }
   },
   {
@@ -1399,13 +1352,13 @@
     "TS_PCT": 56.1,
     "games": 3,
     "w7": {
-      "PPG": 13.0,
+      "PPG": 11.0,
       "APG": 2.0,
-      "RPG": 0.5,
-      "BPG": 0.5,
-      "FG_PCT": 43.5,
-      "TS_PCT": 56.5,
-      "games": 2
+      "RPG": 0.0,
+      "BPG": 0.0,
+      "FG_PCT": 40.0,
+      "TS_PCT": 55.0,
+      "games": 1
     },
     "w14": {
       "PPG": 12.3,
@@ -1437,15 +1390,7 @@
     "FG_PCT": 50.0,
     "TS_PCT": 75.1,
     "games": 3,
-    "w7": {
-      "PPG": 15.0,
-      "APG": 0.0,
-      "RPG": 3.0,
-      "BPG": 0.0,
-      "FG_PCT": 62.5,
-      "TS_PCT": 93.8,
-      "games": 1
-    },
+    "w7": null,
     "w14": {
       "PPG": 12.3,
       "APG": 0.7,
@@ -1477,13 +1422,13 @@
     "TS_PCT": 67.8,
     "games": 4,
     "w7": {
-      "PPG": 12.7,
-      "APG": 7.0,
-      "RPG": 12.0,
-      "BPG": 0.3,
-      "FG_PCT": 66.7,
-      "TS_PCT": 90.5,
-      "games": 3
+      "PPG": 12.5,
+      "APG": 7.5,
+      "RPG": 10.0,
+      "BPG": 0.5,
+      "FG_PCT": 71.4,
+      "TS_PCT": 89.3,
+      "games": 2
     },
     "w14": {
       "PPG": 12.2,
@@ -1516,13 +1461,13 @@
     "TS_PCT": 60.2,
     "games": 4,
     "w7": {
-      "PPG": 9.0,
-      "APG": 2.5,
-      "RPG": 10.5,
-      "BPG": 1.5,
+      "PPG": 10.0,
+      "APG": 1.0,
+      "RPG": 10.0,
+      "BPG": 2.0,
       "FG_PCT": 44.4,
-      "TS_PCT": 50.0,
-      "games": 2
+      "TS_PCT": 55.6,
+      "games": 1
     },
     "w14": {
       "PPG": 12.0,
@@ -1534,13 +1479,13 @@
       "games": 4
     },
     "w30": {
-      "PPG": 11.0,
-      "APG": 2.5,
-      "RPG": 6.6,
+      "PPG": 9.9,
+      "APG": 2.7,
+      "RPG": 7.2,
       "BPG": 1.4,
-      "FG_PCT": 45.4,
-      "TS_PCT": 55.7,
-      "games": 10
+      "FG_PCT": 40.9,
+      "TS_PCT": 49.6,
+      "games": 9
     }
   },
   {
@@ -1554,15 +1499,7 @@
     "FG_PCT": 65.0,
     "TS_PCT": 72.5,
     "games": 3,
-    "w7": {
-      "PPG": 20.0,
-      "APG": 6.0,
-      "RPG": 2.0,
-      "BPG": 0.0,
-      "FG_PCT": 61.5,
-      "TS_PCT": 76.9,
-      "games": 1
-    },
+    "w7": null,
     "w14": {
       "PPG": 12.0,
       "APG": 3.3,
@@ -1614,45 +1551,6 @@
     }
   },
   {
-    "PLAYER_NAME": "Erica Wheeler",
-    "TEAM_ABBREVIATION": "LA",
-    "id": "2491214",
-    "PPG": 11.6,
-    "APG": 5.6,
-    "RPG": 2.8,
-    "BPG": 0.0,
-    "FG_PCT": 37.5,
-    "TS_PCT": 47.3,
-    "games": 5,
-    "w7": {
-      "PPG": 5.0,
-      "APG": 4.0,
-      "RPG": 2.0,
-      "BPG": 0.0,
-      "FG_PCT": 16.7,
-      "TS_PCT": 41.7,
-      "games": 1
-    },
-    "w14": {
-      "PPG": 11.6,
-      "APG": 5.6,
-      "RPG": 2.8,
-      "BPG": 0.0,
-      "FG_PCT": 37.5,
-      "TS_PCT": 47.3,
-      "games": 5
-    },
-    "w30": {
-      "PPG": 10.0,
-      "APG": 6.0,
-      "RPG": 2.3,
-      "BPG": 0.1,
-      "FG_PCT": 41.0,
-      "TS_PCT": 50.7,
-      "games": 9
-    }
-  },
-  {
     "PLAYER_NAME": "Sonia Citron",
     "TEAM_ABBREVIATION": "COOP",
     "id": "4433524",
@@ -1664,13 +1562,13 @@
     "TS_PCT": 56.4,
     "games": 6,
     "w7": {
-      "PPG": 15.0,
-      "APG": 5.3,
-      "RPG": 2.3,
-      "BPG": 0.3,
-      "FG_PCT": 48.4,
-      "TS_PCT": 72.6,
-      "games": 3
+      "PPG": 14.0,
+      "APG": 5.0,
+      "RPG": 2.5,
+      "BPG": 0.0,
+      "FG_PCT": 52.6,
+      "TS_PCT": 73.7,
+      "games": 2
     },
     "w14": {
       "PPG": 11.2,
@@ -1704,12 +1602,12 @@
     "games": 4,
     "w7": {
       "PPG": 12.0,
-      "APG": 6.5,
-      "RPG": 1.5,
+      "APG": 3.0,
+      "RPG": 2.0,
       "BPG": 0.0,
-      "FG_PCT": 32.0,
-      "TS_PCT": 48.0,
-      "games": 2
+      "FG_PCT": 30.8,
+      "TS_PCT": 46.2,
+      "games": 1
     },
     "w14": {
       "PPG": 11.2,
@@ -1721,13 +1619,13 @@
       "games": 4
     },
     "w30": {
-      "PPG": 15.9,
-      "APG": 4.6,
-      "RPG": 3.0,
+      "PPG": 15.4,
+      "APG": 4.4,
+      "RPG": 3.1,
       "BPG": 0.1,
-      "FG_PCT": 46.6,
-      "TS_PCT": 55.8,
-      "games": 10
+      "FG_PCT": 45.5,
+      "TS_PCT": 53.5,
+      "games": 9
     }
   },
   {
@@ -1820,13 +1718,13 @@
     "TS_PCT": 76.2,
     "games": 2,
     "w7": {
-      "PPG": 11.0,
-      "APG": 1.0,
-      "RPG": 4.0,
-      "BPG": 1.5,
-      "FG_PCT": 78.6,
-      "TS_PCT": 78.6,
-      "games": 2
+      "PPG": 4.0,
+      "APG": 0.0,
+      "RPG": 3.0,
+      "BPG": 3.0,
+      "FG_PCT": 50.0,
+      "TS_PCT": 50.0,
+      "games": 1
     },
     "w14": {
       "PPG": 11.0,
@@ -1848,84 +1746,6 @@
     }
   },
   {
-    "PLAYER_NAME": "Ariel Atkins",
-    "TEAM_ABBREVIATION": "LA",
-    "id": "3146151",
-    "PPG": 10.8,
-    "APG": 3.4,
-    "RPG": 3.0,
-    "BPG": 0.8,
-    "FG_PCT": 38.0,
-    "TS_PCT": 50.0,
-    "games": 5,
-    "w7": {
-      "PPG": 15.0,
-      "APG": 3.0,
-      "RPG": 4.0,
-      "BPG": 2.0,
-      "FG_PCT": 55.6,
-      "TS_PCT": 83.3,
-      "games": 1
-    },
-    "w14": {
-      "PPG": 10.8,
-      "APG": 3.4,
-      "RPG": 3.0,
-      "BPG": 0.8,
-      "FG_PCT": 38.0,
-      "TS_PCT": 50.0,
-      "games": 5
-    },
-    "w30": {
-      "PPG": 11.1,
-      "APG": 3.0,
-      "RPG": 3.2,
-      "BPG": 0.4,
-      "FG_PCT": 42.5,
-      "TS_PCT": 53.9,
-      "games": 9
-    }
-  },
-  {
-    "PLAYER_NAME": "Natasha Howard",
-    "TEAM_ABBREVIATION": "COOP",
-    "id": "2529130",
-    "PPG": 10.7,
-    "APG": 3.7,
-    "RPG": 6.8,
-    "BPG": 0.8,
-    "FG_PCT": 51.9,
-    "TS_PCT": 55.6,
-    "games": 6,
-    "w7": {
-      "PPG": 8.3,
-      "APG": 2.0,
-      "RPG": 7.0,
-      "BPG": 0.3,
-      "FG_PCT": 40.7,
-      "TS_PCT": 46.3,
-      "games": 3
-    },
-    "w14": {
-      "PPG": 10.7,
-      "APG": 3.7,
-      "RPG": 6.8,
-      "BPG": 0.8,
-      "FG_PCT": 51.9,
-      "TS_PCT": 55.6,
-      "games": 6
-    },
-    "w30": {
-      "PPG": 12.5,
-      "APG": 3.1,
-      "RPG": 7.8,
-      "BPG": 1.0,
-      "FG_PCT": 50.0,
-      "TS_PCT": 55.6,
-      "games": 11
-    }
-  },
-  {
     "PLAYER_NAME": "Janelle Salaun",
     "TEAM_ABBREVIATION": "GS",
     "id": "4790264",
@@ -1936,15 +1756,7 @@
     "FG_PCT": 40.0,
     "TS_PCT": 56.1,
     "games": 3,
-    "w7": {
-      "PPG": 11.0,
-      "APG": 2.0,
-      "RPG": 4.0,
-      "BPG": 0.0,
-      "FG_PCT": 25.0,
-      "TS_PCT": 45.8,
-      "games": 1
-    },
+    "w7": null,
     "w14": {
       "PPG": 10.7,
       "APG": 1.3,
@@ -1962,45 +1774,6 @@
       "FG_PCT": 44.7,
       "TS_PCT": 61.9,
       "games": 8
-    }
-  },
-  {
-    "PLAYER_NAME": "Monique Akoa Makani",
-    "TEAM_ABBREVIATION": "PHX",
-    "id": "5274110",
-    "PPG": 10.5,
-    "APG": 2.8,
-    "RPG": 2.5,
-    "BPG": 0.0,
-    "FG_PCT": 42.5,
-    "TS_PCT": 51.4,
-    "games": 4,
-    "w7": {
-      "PPG": 14.0,
-      "APG": 2.0,
-      "RPG": 1.0,
-      "BPG": 0.0,
-      "FG_PCT": 42.9,
-      "TS_PCT": 50.0,
-      "games": 1
-    },
-    "w14": {
-      "PPG": 10.5,
-      "APG": 2.8,
-      "RPG": 2.5,
-      "BPG": 0.0,
-      "FG_PCT": 42.5,
-      "TS_PCT": 51.4,
-      "games": 4
-    },
-    "w30": {
-      "PPG": 9.0,
-      "APG": 2.0,
-      "RPG": 1.4,
-      "BPG": 0.0,
-      "FG_PCT": 43.9,
-      "TS_PCT": 57.2,
-      "games": 9
     }
   },
   {
@@ -2111,13 +1884,130 @@
       "games": 5
     },
     "w30": {
-      "PPG": 14.1,
-      "APG": 2.0,
+      "PPG": 13.8,
+      "APG": 1.9,
       "RPG": 6.4,
-      "BPG": 0.9,
-      "FG_PCT": 60.5,
-      "TS_PCT": 67.3,
-      "games": 9
+      "BPG": 0.6,
+      "FG_PCT": 58.8,
+      "TS_PCT": 64.2,
+      "games": 8
+    }
+  },
+  {
+    "PLAYER_NAME": "Angel Reese",
+    "TEAM_ABBREVIATION": "COOP",
+    "id": "4433402",
+    "PPG": 10.3,
+    "APG": 2.3,
+    "RPG": 7.3,
+    "BPG": 0.3,
+    "FG_PCT": 40.0,
+    "TS_PCT": 50.5,
+    "games": 3,
+    "w7": {
+      "PPG": 0.0,
+      "APG": 4.0,
+      "RPG": 5.0,
+      "BPG": 0.0,
+      "FG_PCT": 0.0,
+      "TS_PCT": 0.0,
+      "games": 1
+    },
+    "w14": {
+      "PPG": 10.3,
+      "APG": 2.3,
+      "RPG": 7.3,
+      "BPG": 0.3,
+      "FG_PCT": 40.0,
+      "TS_PCT": 50.5,
+      "games": 3
+    },
+    "w30": {
+      "PPG": 14.6,
+      "APG": 2.4,
+      "RPG": 10.3,
+      "BPG": 0.3,
+      "FG_PCT": 45.6,
+      "TS_PCT": 53.8,
+      "games": 7
+    }
+  },
+  {
+    "PLAYER_NAME": "Natasha Howard",
+    "TEAM_ABBREVIATION": "COOP",
+    "id": "2529130",
+    "PPG": 10.2,
+    "APG": 3.0,
+    "RPG": 7.6,
+    "BPG": 1.0,
+    "FG_PCT": 53.5,
+    "TS_PCT": 57.0,
+    "games": 5,
+    "w7": {
+      "PPG": 9.5,
+      "APG": 1.5,
+      "RPG": 4.5,
+      "BPG": 0.5,
+      "FG_PCT": 42.1,
+      "TS_PCT": 50.0,
+      "games": 2
+    },
+    "w14": {
+      "PPG": 10.2,
+      "APG": 3.0,
+      "RPG": 7.6,
+      "BPG": 1.0,
+      "FG_PCT": 53.5,
+      "TS_PCT": 57.0,
+      "games": 5
+    },
+    "w30": {
+      "PPG": 12.5,
+      "APG": 3.1,
+      "RPG": 7.8,
+      "BPG": 1.0,
+      "FG_PCT": 50.0,
+      "TS_PCT": 55.6,
+      "games": 11
+    }
+  },
+  {
+    "PLAYER_NAME": "Ariel Atkins",
+    "TEAM_ABBREVIATION": "LA",
+    "id": "3146151",
+    "PPG": 10.2,
+    "APG": 3.8,
+    "RPG": 3.0,
+    "BPG": 0.8,
+    "FG_PCT": 35.9,
+    "TS_PCT": 49.2,
+    "games": 4,
+    "w7": {
+      "PPG": 15.0,
+      "APG": 3.0,
+      "RPG": 4.0,
+      "BPG": 2.0,
+      "FG_PCT": 55.6,
+      "TS_PCT": 83.3,
+      "games": 1
+    },
+    "w14": {
+      "PPG": 10.2,
+      "APG": 3.8,
+      "RPG": 3.0,
+      "BPG": 0.8,
+      "FG_PCT": 35.9,
+      "TS_PCT": 49.2,
+      "games": 4
+    },
+    "w30": {
+      "PPG": 11.0,
+      "APG": 3.0,
+      "RPG": 3.2,
+      "BPG": 0.5,
+      "FG_PCT": 40.5,
+      "TS_PCT": 51.9,
+      "games": 8
     }
   },
   {
@@ -2132,13 +2022,13 @@
     "TS_PCT": 57.4,
     "games": 5,
     "w7": {
-      "PPG": 11.0,
-      "APG": 2.0,
-      "RPG": 0.5,
+      "PPG": 10.0,
+      "APG": 3.0,
+      "RPG": 1.0,
       "BPG": 0.0,
-      "FG_PCT": 42.9,
-      "TS_PCT": 78.6,
-      "games": 2
+      "FG_PCT": 50.0,
+      "TS_PCT": 125.0,
+      "games": 1
     },
     "w14": {
       "PPG": 10.2,
@@ -2156,45 +2046,6 @@
       "BPG": 0.2,
       "FG_PCT": 39.4,
       "TS_PCT": 55.4,
-      "games": 9
-    }
-  },
-  {
-    "PLAYER_NAME": "Rhyne Howard",
-    "TEAM_ABBREVIATION": "SPO",
-    "id": "4398674",
-    "PPG": 10.0,
-    "APG": 4.2,
-    "RPG": 4.5,
-    "BPG": 0.8,
-    "FG_PCT": 32.6,
-    "TS_PCT": 42.3,
-    "games": 4,
-    "w7": {
-      "PPG": 8.0,
-      "APG": 3.0,
-      "RPG": 3.0,
-      "BPG": 0.0,
-      "FG_PCT": 25.0,
-      "TS_PCT": 33.3,
-      "games": 1
-    },
-    "w14": {
-      "PPG": 10.0,
-      "APG": 4.2,
-      "RPG": 4.5,
-      "BPG": 0.8,
-      "FG_PCT": 32.6,
-      "TS_PCT": 42.3,
-      "games": 4
-    },
-    "w30": {
-      "PPG": 15.4,
-      "APG": 3.6,
-      "RPG": 3.6,
-      "BPG": 0.7,
-      "FG_PCT": 39.7,
-      "TS_PCT": 53.7,
       "games": 9
     }
   },
@@ -2249,13 +2100,13 @@
     "TS_PCT": 75.5,
     "games": 3,
     "w7": {
-      "PPG": 13.5,
-      "APG": 1.0,
-      "RPG": 4.0,
+      "PPG": 14.0,
+      "APG": 2.0,
+      "RPG": 5.0,
       "BPG": 0.0,
-      "FG_PCT": 58.8,
-      "TS_PCT": 79.4,
-      "games": 2
+      "FG_PCT": 50.0,
+      "TS_PCT": 70.0,
+      "games": 1
     },
     "w14": {
       "PPG": 10.0,
@@ -2326,15 +2177,7 @@
     "FG_PCT": 36.0,
     "TS_PCT": 51.8,
     "games": 3,
-    "w7": {
-      "PPG": 15.0,
-      "APG": 4.0,
-      "RPG": 8.0,
-      "BPG": 0.0,
-      "FG_PCT": 50.0,
-      "TS_PCT": 62.5,
-      "games": 1
-    },
+    "w7": null,
     "w14": {
       "PPG": 10.0,
       "APG": 4.0,
@@ -2346,11 +2189,50 @@
     },
     "w30": {
       "PPG": 9.9,
-      "APG": 4.1,
-      "RPG": 5.0,
+      "APG": 3.9,
+      "RPG": 4.9,
       "BPG": 0.1,
-      "FG_PCT": 35.1,
-      "TS_PCT": 47.5,
+      "FG_PCT": 36.5,
+      "TS_PCT": 50.2,
+      "games": 7
+    }
+  },
+  {
+    "PLAYER_NAME": "Rhyne Howard",
+    "TEAM_ABBREVIATION": "SPO",
+    "id": "4398674",
+    "PPG": 9.7,
+    "APG": 4.7,
+    "RPG": 4.3,
+    "BPG": 1.0,
+    "FG_PCT": 30.6,
+    "TS_PCT": 38.9,
+    "games": 3,
+    "w7": {
+      "PPG": 8.0,
+      "APG": 3.0,
+      "RPG": 3.0,
+      "BPG": 0.0,
+      "FG_PCT": 25.0,
+      "TS_PCT": 33.3,
+      "games": 1
+    },
+    "w14": {
+      "PPG": 9.7,
+      "APG": 4.7,
+      "RPG": 4.3,
+      "BPG": 1.0,
+      "FG_PCT": 30.6,
+      "TS_PCT": 38.9,
+      "games": 3
+    },
+    "w30": {
+      "PPG": 14.0,
+      "APG": 3.6,
+      "RPG": 4.0,
+      "BPG": 0.8,
+      "FG_PCT": 36.5,
+      "TS_PCT": 50.4,
       "games": 8
     }
   },
@@ -2365,15 +2247,7 @@
     "FG_PCT": 47.6,
     "TS_PCT": 61.3,
     "games": 3,
-    "w7": {
-      "PPG": 0.0,
-      "APG": 0.0,
-      "RPG": 0.0,
-      "BPG": 0.0,
-      "FG_PCT": 0,
-      "TS_PCT": 0,
-      "games": 1
-    },
+    "w7": null,
     "w14": {
       "PPG": 9.7,
       "APG": 1.0,
@@ -2384,12 +2258,51 @@
       "games": 3
     },
     "w30": {
-      "PPG": 9.0,
+      "PPG": 8.3,
       "APG": 1.4,
-      "RPG": 3.0,
-      "BPG": 0.2,
-      "FG_PCT": 52.9,
-      "TS_PCT": 61.6,
+      "RPG": 2.9,
+      "BPG": 0.3,
+      "FG_PCT": 53.7,
+      "TS_PCT": 62.7,
+      "games": 7
+    }
+  },
+  {
+    "PLAYER_NAME": "Erica Wheeler",
+    "TEAM_ABBREVIATION": "LA",
+    "id": "2491214",
+    "PPG": 9.5,
+    "APG": 6.0,
+    "RPG": 2.8,
+    "BPG": 0.0,
+    "FG_PCT": 32.5,
+    "TS_PCT": 42.8,
+    "games": 4,
+    "w7": {
+      "PPG": 5.0,
+      "APG": 4.0,
+      "RPG": 2.0,
+      "BPG": 0.0,
+      "FG_PCT": 16.7,
+      "TS_PCT": 41.7,
+      "games": 1
+    },
+    "w14": {
+      "PPG": 9.5,
+      "APG": 6.0,
+      "RPG": 2.8,
+      "BPG": 0.0,
+      "FG_PCT": 32.5,
+      "TS_PCT": 42.8,
+      "games": 4
+    },
+    "w30": {
+      "PPG": 11.0,
+      "APG": 6.1,
+      "RPG": 2.6,
+      "BPG": 0.0,
+      "FG_PCT": 41.2,
+      "TS_PCT": 51.3,
       "games": 8
     }
   },
@@ -2444,13 +2357,13 @@
     "TS_PCT": 58.2,
     "games": 2,
     "w7": {
-      "PPG": 9.5,
-      "APG": 0.5,
-      "RPG": 1.5,
+      "PPG": 8.0,
+      "APG": 0.0,
+      "RPG": 2.0,
       "BPG": 0.0,
-      "FG_PCT": 40.0,
-      "TS_PCT": 63.3,
-      "games": 2
+      "FG_PCT": 28.6,
+      "TS_PCT": 57.1,
+      "games": 1
     },
     "w14": {
       "PPG": 9.5,
@@ -2472,37 +2385,6 @@
     }
   },
   {
-    "PLAYER_NAME": "Isobel Borlase",
-    "TEAM_ABBREVIATION": "ATL",
-    "id": "5208983",
-    "PPG": 9.3,
-    "APG": 0.7,
-    "RPG": 1.3,
-    "BPG": 0.3,
-    "FG_PCT": 45.8,
-    "TS_PCT": 54.3,
-    "games": 3,
-    "w7": null,
-    "w14": {
-      "PPG": 9.3,
-      "APG": 0.7,
-      "RPG": 1.3,
-      "BPG": 0.3,
-      "FG_PCT": 45.8,
-      "TS_PCT": 54.3,
-      "games": 3
-    },
-    "w30": {
-      "PPG": 5.8,
-      "APG": 0.9,
-      "RPG": 1.5,
-      "BPG": 0.2,
-      "FG_PCT": 41.9,
-      "TS_PCT": 50.4,
-      "games": 8
-    }
-  },
-  {
     "PLAYER_NAME": "Zia Cooke",
     "TEAM_ABBREVIATION": "SEA",
     "id": "4432832",
@@ -2514,13 +2396,13 @@
     "TS_PCT": 54.4,
     "games": 4,
     "w7": {
-      "PPG": 12.5,
-      "APG": 0.5,
-      "RPG": 1.5,
+      "PPG": 7.0,
+      "APG": 0.0,
+      "RPG": 1.0,
       "BPG": 0.0,
-      "FG_PCT": 40.9,
-      "TS_PCT": 56.8,
-      "games": 2
+      "FG_PCT": 30.0,
+      "TS_PCT": 35.0,
+      "games": 1
     },
     "w14": {
       "PPG": 9.0,
@@ -2533,12 +2415,12 @@
     },
     "w30": {
       "PPG": 6.1,
-      "APG": 0.7,
+      "APG": 0.6,
       "RPG": 1.2,
       "BPG": 0.0,
-      "FG_PCT": 36.4,
-      "TS_PCT": 48.8,
-      "games": 10
+      "FG_PCT": 34.0,
+      "TS_PCT": 46.5,
+      "games": 9
     }
   },
   {
@@ -2571,13 +2453,13 @@
       "games": 4
     },
     "w30": {
-      "PPG": 8.1,
-      "APG": 1.7,
+      "PPG": 7.2,
+      "APG": 1.6,
       "RPG": 5.8,
-      "BPG": 0.4,
-      "FG_PCT": 54.0,
-      "TS_PCT": 59.8,
-      "games": 9
+      "BPG": 0.5,
+      "FG_PCT": 52.5,
+      "TS_PCT": 59.4,
+      "games": 8
     }
   },
   {
@@ -2630,15 +2512,7 @@
     "FG_PCT": 58.8,
     "TS_PCT": 79.4,
     "games": 3,
-    "w7": {
-      "PPG": 3.0,
-      "APG": 4.0,
-      "RPG": 5.0,
-      "BPG": 0.0,
-      "FG_PCT": 50.0,
-      "TS_PCT": 75.0,
-      "games": 1
-    },
+    "w7": null,
     "w14": {
       "PPG": 9.0,
       "APG": 4.0,
@@ -2649,13 +2523,13 @@
       "games": 3
     },
     "w30": {
-      "PPG": 6.8,
-      "APG": 5.9,
-      "RPG": 4.4,
-      "BPG": 0.2,
-      "FG_PCT": 56.8,
-      "TS_PCT": 73.0,
-      "games": 8
+      "PPG": 6.1,
+      "APG": 5.3,
+      "RPG": 4.0,
+      "BPG": 0.1,
+      "FG_PCT": 54.8,
+      "TS_PCT": 69.4,
+      "games": 7
     }
   },
   {
@@ -2669,15 +2543,7 @@
     "FG_PCT": 50.0,
     "TS_PCT": 62.0,
     "games": 3,
-    "w7": {
-      "PPG": 12.0,
-      "APG": 7.0,
-      "RPG": 2.0,
-      "BPG": 0.0,
-      "FG_PCT": 62.5,
-      "TS_PCT": 75.0,
-      "games": 1
-    },
+    "w7": null,
     "w14": {
       "PPG": 9.0,
       "APG": 7.3,
@@ -2698,6 +2564,37 @@
     }
   },
   {
+    "PLAYER_NAME": "Isobel Borlase",
+    "TEAM_ABBREVIATION": "ATL",
+    "id": "5208983",
+    "PPG": 9.0,
+    "APG": 0.5,
+    "RPG": 1.5,
+    "BPG": 0.5,
+    "FG_PCT": 40.0,
+    "TS_PCT": 53.7,
+    "games": 2,
+    "w7": null,
+    "w14": {
+      "PPG": 9.0,
+      "APG": 0.5,
+      "RPG": 1.5,
+      "BPG": 0.5,
+      "FG_PCT": 40.0,
+      "TS_PCT": 53.7,
+      "games": 2
+    },
+    "w30": {
+      "PPG": 5.6,
+      "APG": 0.9,
+      "RPG": 1.4,
+      "BPG": 0.3,
+      "FG_PCT": 40.5,
+      "TS_PCT": 49.2,
+      "games": 7
+    }
+  },
+  {
     "PLAYER_NAME": "Jade Melbourne",
     "TEAM_ABBREVIATION": "SEA",
     "id": "5017726",
@@ -2709,13 +2606,13 @@
     "TS_PCT": 53.8,
     "games": 4,
     "w7": {
-      "PPG": 4.5,
-      "APG": 3.5,
-      "RPG": 1.5,
+      "PPG": 4.0,
+      "APG": 4.0,
+      "RPG": 2.0,
       "BPG": 0.0,
-      "FG_PCT": 44.4,
-      "TS_PCT": 50.0,
-      "games": 2
+      "FG_PCT": 33.3,
+      "TS_PCT": 33.3,
+      "games": 1
     },
     "w14": {
       "PPG": 8.8,
@@ -2727,13 +2624,13 @@
       "games": 4
     },
     "w30": {
-      "PPG": 8.6,
-      "APG": 4.0,
-      "RPG": 2.1,
+      "PPG": 8.4,
+      "APG": 3.9,
+      "RPG": 1.9,
       "BPG": 0.0,
-      "FG_PCT": 54.1,
-      "TS_PCT": 60.5,
-      "games": 10
+      "FG_PCT": 55.8,
+      "TS_PCT": 61.2,
+      "games": 9
     }
   },
   {
@@ -2766,13 +2663,52 @@
       "games": 4
     },
     "w30": {
-      "PPG": 6.8,
-      "APG": 0.8,
-      "RPG": 3.4,
-      "BPG": 1.2,
+      "PPG": 8.5,
+      "APG": 1.0,
+      "RPG": 4.2,
+      "BPG": 1.5,
       "FG_PCT": 34.5,
       "TS_PCT": 50.9,
-      "games": 5
+      "games": 4
+    }
+  },
+  {
+    "PLAYER_NAME": "Monique Akoa Makani",
+    "TEAM_ABBREVIATION": "PHX",
+    "id": "5274110",
+    "PPG": 8.3,
+    "APG": 2.3,
+    "RPG": 3.0,
+    "BPG": 0.0,
+    "FG_PCT": 35.5,
+    "TS_PCT": 40.3,
+    "games": 3,
+    "w7": {
+      "PPG": 14.0,
+      "APG": 2.0,
+      "RPG": 1.0,
+      "BPG": 0.0,
+      "FG_PCT": 42.9,
+      "TS_PCT": 50.0,
+      "games": 1
+    },
+    "w14": {
+      "PPG": 8.3,
+      "APG": 2.3,
+      "RPG": 3.0,
+      "BPG": 0.0,
+      "FG_PCT": 35.5,
+      "TS_PCT": 40.3,
+      "games": 3
+    },
+    "w30": {
+      "PPG": 10.1,
+      "APG": 2.2,
+      "RPG": 1.6,
+      "BPG": 0.0,
+      "FG_PCT": 43.9,
+      "TS_PCT": 57.2,
+      "games": 8
     }
   },
   {
@@ -2787,13 +2723,13 @@
     "TS_PCT": 50.7,
     "games": 3,
     "w7": {
-      "PPG": 8.0,
-      "APG": 3.0,
-      "RPG": 1.5,
+      "PPG": 9.0,
+      "APG": 5.0,
+      "RPG": 1.0,
       "BPG": 0.0,
-      "FG_PCT": 37.5,
-      "TS_PCT": 50.0,
-      "games": 2
+      "FG_PCT": 50.0,
+      "TS_PCT": 75.0,
+      "games": 1
     },
     "w14": {
       "PPG": 8.3,
@@ -2812,37 +2748,6 @@
       "FG_PCT": 50.8,
       "TS_PCT": 60.5,
       "games": 9
-    }
-  },
-  {
-    "PLAYER_NAME": "Madina Okot",
-    "TEAM_ABBREVIATION": "ATL",
-    "id": "5108587",
-    "PPG": 8.3,
-    "APG": 0.3,
-    "RPG": 3.7,
-    "BPG": 0.3,
-    "FG_PCT": 76.9,
-    "TS_PCT": 79.9,
-    "games": 3,
-    "w7": null,
-    "w14": {
-      "PPG": 8.3,
-      "APG": 0.3,
-      "RPG": 3.7,
-      "BPG": 0.3,
-      "FG_PCT": 76.9,
-      "TS_PCT": 79.9,
-      "games": 3
-    },
-    "w30": {
-      "PPG": 8.8,
-      "APG": 0.1,
-      "RPG": 4.4,
-      "BPG": 0.2,
-      "FG_PCT": 61.4,
-      "TS_PCT": 67.4,
-      "games": 8
     }
   },
   {
@@ -2914,13 +2819,13 @@
       "games": 4
     },
     "w30": {
-      "PPG": 9.8,
-      "APG": 3.7,
-      "RPG": 1.8,
+      "PPG": 9.0,
+      "APG": 3.8,
+      "RPG": 1.4,
       "BPG": 0.1,
-      "FG_PCT": 53.6,
-      "TS_PCT": 68.8,
-      "games": 9
+      "FG_PCT": 52.1,
+      "TS_PCT": 67.0,
+      "games": 8
     }
   },
   {
@@ -2963,6 +2868,37 @@
     }
   },
   {
+    "PLAYER_NAME": "Madina Okot",
+    "TEAM_ABBREVIATION": "ATL",
+    "id": "5108587",
+    "PPG": 8.0,
+    "APG": 0.0,
+    "RPG": 2.5,
+    "BPG": 0.5,
+    "FG_PCT": 77.8,
+    "TS_PCT": 81.0,
+    "games": 2,
+    "w7": null,
+    "w14": {
+      "PPG": 8.0,
+      "APG": 0.0,
+      "RPG": 2.5,
+      "BPG": 0.5,
+      "FG_PCT": 77.8,
+      "TS_PCT": 81.0,
+      "games": 2
+    },
+    "w30": {
+      "PPG": 9.1,
+      "APG": 0.1,
+      "RPG": 4.3,
+      "BPG": 0.3,
+      "FG_PCT": 62.5,
+      "TS_PCT": 68.0,
+      "games": 7
+    }
+  },
+  {
     "PLAYER_NAME": "Sophie Cunningham",
     "TEAM_ABBREVIATION": "IND",
     "id": "3907781",
@@ -2996,9 +2932,9 @@
       "APG": 1.0,
       "RPG": 1.9,
       "BPG": 0.2,
-      "FG_PCT": 44.0,
-      "TS_PCT": 66.5,
-      "games": 9
+      "FG_PCT": 43.5,
+      "TS_PCT": 65.8,
+      "games": 8
     }
   },
   {
@@ -3012,15 +2948,7 @@
     "FG_PCT": 43.5,
     "TS_PCT": 49.1,
     "games": 3,
-    "w7": {
-      "PPG": 7.0,
-      "APG": 1.0,
-      "RPG": 1.0,
-      "BPG": 0.0,
-      "FG_PCT": 42.9,
-      "TS_PCT": 50.0,
-      "games": 1
-    },
+    "w7": null,
     "w14": {
       "PPG": 7.7,
       "APG": 0.7,
@@ -3130,13 +3058,13 @@
     "TS_PCT": 53.9,
     "games": 5,
     "w7": {
-      "PPG": 9.5,
-      "APG": 4.5,
-      "RPG": 1.0,
-      "BPG": 0.5,
-      "FG_PCT": 63.6,
-      "TS_PCT": 86.4,
-      "games": 2
+      "PPG": 10.0,
+      "APG": 1.0,
+      "RPG": 2.0,
+      "BPG": 1.0,
+      "FG_PCT": 66.7,
+      "TS_PCT": 83.3,
+      "games": 1
     },
     "w14": {
       "PPG": 7.4,
@@ -3169,13 +3097,13 @@
     "TS_PCT": 80.7,
     "games": 4,
     "w7": {
-      "PPG": 5.0,
-      "APG": 0.5,
-      "RPG": 3.0,
+      "PPG": 3.0,
+      "APG": 1.0,
+      "RPG": 4.0,
       "BPG": 0.0,
-      "FG_PCT": 33.3,
-      "TS_PCT": 83.3,
-      "games": 2
+      "FG_PCT": 0.0,
+      "TS_PCT": 75.0,
+      "games": 1
     },
     "w14": {
       "PPG": 7.2,
@@ -3187,13 +3115,13 @@
       "games": 4
     },
     "w30": {
-      "PPG": 5.1,
-      "APG": 0.4,
+      "PPG": 5.4,
+      "APG": 0.1,
       "RPG": 1.9,
       "BPG": 0.1,
-      "FG_PCT": 51.7,
-      "TS_PCT": 72.5,
-      "games": 10
+      "FG_PCT": 60.0,
+      "TS_PCT": 80.9,
+      "games": 9
     }
   },
   {
@@ -3236,6 +3164,45 @@
     }
   },
   {
+    "PLAYER_NAME": "Valeriane Ayayi",
+    "TEAM_ABBREVIATION": "PHX",
+    "id": "3919496",
+    "PPG": 7.0,
+    "APG": 1.0,
+    "RPG": 1.7,
+    "BPG": 0.0,
+    "FG_PCT": 35.7,
+    "TS_PCT": 58.5,
+    "games": 3,
+    "w7": {
+      "PPG": 3.0,
+      "APG": 1.0,
+      "RPG": 3.0,
+      "BPG": 0.0,
+      "FG_PCT": 25.0,
+      "TS_PCT": 37.5,
+      "games": 1
+    },
+    "w14": {
+      "PPG": 7.0,
+      "APG": 1.0,
+      "RPG": 1.7,
+      "BPG": 0.0,
+      "FG_PCT": 35.7,
+      "TS_PCT": 58.5,
+      "games": 3
+    },
+    "w30": {
+      "PPG": 8.4,
+      "APG": 1.4,
+      "RPG": 2.9,
+      "BPG": 0.0,
+      "FG_PCT": 38.3,
+      "TS_PCT": 57.3,
+      "games": 8
+    }
+  },
+  {
     "PLAYER_NAME": "Lauren Betts",
     "TEAM_ABBREVIATION": "WSH",
     "id": "5105737",
@@ -3247,13 +3214,13 @@
     "TS_PCT": 63.3,
     "games": 5,
     "w7": {
-      "PPG": 8.5,
-      "APG": 1.0,
-      "RPG": 2.5,
-      "BPG": 2.0,
-      "FG_PCT": 60.0,
-      "TS_PCT": 85.0,
-      "games": 2
+      "PPG": 13.0,
+      "APG": 2.0,
+      "RPG": 3.0,
+      "BPG": 0.0,
+      "FG_PCT": 66.7,
+      "TS_PCT": 108.3,
+      "games": 1
     },
     "w14": {
       "PPG": 7.0,
@@ -3285,15 +3252,7 @@
     "FG_PCT": 36.0,
     "TS_PCT": 39.2,
     "games": 3,
-    "w7": {
-      "PPG": 6.0,
-      "APG": 1.0,
-      "RPG": 3.0,
-      "BPG": 0.0,
-      "FG_PCT": 22.2,
-      "TS_PCT": 33.3,
-      "games": 1
-    },
+    "w7": null,
     "w14": {
       "PPG": 7.0,
       "APG": 0.7,
@@ -3304,13 +3263,52 @@
       "games": 3
     },
     "w30": {
-      "PPG": 9.6,
+      "PPG": 11.0,
       "APG": 1.4,
-      "RPG": 3.4,
+      "RPG": 3.3,
       "BPG": 0.4,
-      "FG_PCT": 50.8,
-      "TS_PCT": 59.9,
-      "games": 8
+      "FG_PCT": 51.7,
+      "TS_PCT": 60.8,
+      "games": 7
+    }
+  },
+  {
+    "PLAYER_NAME": "Nia Coffey",
+    "TEAM_ABBREVIATION": "MIN",
+    "id": "3054590",
+    "PPG": 6.8,
+    "APG": 1.8,
+    "RPG": 2.8,
+    "BPG": 0.5,
+    "FG_PCT": 47.8,
+    "TS_PCT": 57.6,
+    "games": 4,
+    "w7": {
+      "PPG": 7.0,
+      "APG": 3.0,
+      "RPG": 2.0,
+      "BPG": 0.0,
+      "FG_PCT": 60.0,
+      "TS_PCT": 70.0,
+      "games": 1
+    },
+    "w14": {
+      "PPG": 6.8,
+      "APG": 1.8,
+      "RPG": 2.8,
+      "BPG": 0.5,
+      "FG_PCT": 47.8,
+      "TS_PCT": 57.6,
+      "games": 4
+    },
+    "w30": {
+      "PPG": 5.4,
+      "APG": 2.0,
+      "RPG": 3.7,
+      "BPG": 1.2,
+      "FG_PCT": 34.5,
+      "TS_PCT": 45.1,
+      "games": 10
     }
   },
   {
@@ -3324,15 +3322,7 @@
     "FG_PCT": 55.6,
     "TS_PCT": 74.6,
     "games": 3,
-    "w7": {
-      "PPG": 0.0,
-      "APG": 2.0,
-      "RPG": 0.0,
-      "BPG": 0.0,
-      "FG_PCT": 0.0,
-      "TS_PCT": 0.0,
-      "games": 1
-    },
+    "w7": null,
     "w14": {
       "PPG": 6.7,
       "APG": 1.7,
@@ -3350,84 +3340,6 @@
       "FG_PCT": 45.9,
       "TS_PCT": 60.2,
       "games": 8
-    }
-  },
-  {
-    "PLAYER_NAME": "Nia Coffey",
-    "TEAM_ABBREVIATION": "MIN",
-    "id": "3054590",
-    "PPG": 6.4,
-    "APG": 1.4,
-    "RPG": 2.8,
-    "BPG": 0.8,
-    "FG_PCT": 48.1,
-    "TS_PCT": 58.3,
-    "games": 5,
-    "w7": {
-      "PPG": 5.0,
-      "APG": 2.0,
-      "RPG": 1.5,
-      "BPG": 0.0,
-      "FG_PCT": 44.4,
-      "TS_PCT": 55.6,
-      "games": 2
-    },
-    "w14": {
-      "PPG": 6.4,
-      "APG": 1.4,
-      "RPG": 2.8,
-      "BPG": 0.8,
-      "FG_PCT": 48.1,
-      "TS_PCT": 58.3,
-      "games": 5
-    },
-    "w30": {
-      "PPG": 5.4,
-      "APG": 2.0,
-      "RPG": 3.7,
-      "BPG": 1.2,
-      "FG_PCT": 34.5,
-      "TS_PCT": 45.1,
-      "games": 10
-    }
-  },
-  {
-    "PLAYER_NAME": "Valeriane Ayayi",
-    "TEAM_ABBREVIATION": "PHX",
-    "id": "3919496",
-    "PPG": 6.2,
-    "APG": 1.0,
-    "RPG": 1.5,
-    "BPG": 0.0,
-    "FG_PCT": 29.4,
-    "TS_PCT": 55.0,
-    "games": 4,
-    "w7": {
-      "PPG": 3.0,
-      "APG": 1.0,
-      "RPG": 3.0,
-      "BPG": 0.0,
-      "FG_PCT": 25.0,
-      "TS_PCT": 37.5,
-      "games": 1
-    },
-    "w14": {
-      "PPG": 6.2,
-      "APG": 1.0,
-      "RPG": 1.5,
-      "BPG": 0.0,
-      "FG_PCT": 29.4,
-      "TS_PCT": 55.0,
-      "games": 4
-    },
-    "w30": {
-      "PPG": 9.7,
-      "APG": 1.4,
-      "RPG": 3.2,
-      "BPG": 0.1,
-      "FG_PCT": 41.0,
-      "TS_PCT": 58.6,
-      "games": 9
     }
   },
   {
@@ -3470,6 +3382,45 @@
     }
   },
   {
+    "PLAYER_NAME": "Napheesa Collier",
+    "TEAM_ABBREVIATION": "MIN",
+    "id": "3917450",
+    "PPG": 6.0,
+    "APG": 0.2,
+    "RPG": 2.5,
+    "BPG": 0.0,
+    "FG_PCT": 45.0,
+    "TS_PCT": 55.1,
+    "games": 4,
+    "w7": {
+      "PPG": 24.0,
+      "APG": 1.0,
+      "RPG": 10.0,
+      "BPG": 0.0,
+      "FG_PCT": 45.0,
+      "TS_PCT": 60.0,
+      "games": 1
+    },
+    "w14": {
+      "PPG": 6.0,
+      "APG": 0.2,
+      "RPG": 2.5,
+      "BPG": 0.0,
+      "FG_PCT": 45.0,
+      "TS_PCT": 55.1,
+      "games": 4
+    },
+    "w30": {
+      "PPG": 3.0,
+      "APG": 0.1,
+      "RPG": 1.2,
+      "BPG": 0.0,
+      "FG_PCT": 45.0,
+      "TS_PCT": 55.1,
+      "games": 8
+    }
+  },
+  {
     "PLAYER_NAME": "Rebecca Allen",
     "TEAM_ABBREVIATION": "NY",
     "id": "3102133",
@@ -3481,13 +3432,13 @@
     "TS_PCT": 43.1,
     "games": 3,
     "w7": {
-      "PPG": 9.0,
-      "APG": 0.5,
-      "RPG": 3.5,
-      "BPG": 0.5,
-      "FG_PCT": 36.8,
-      "TS_PCT": 47.4,
-      "games": 2
+      "PPG": 12.0,
+      "APG": 0.0,
+      "RPG": 4.0,
+      "BPG": 0.0,
+      "FG_PCT": 41.7,
+      "TS_PCT": 50.0,
+      "games": 1
     },
     "w14": {
       "PPG": 6.0,
@@ -3520,13 +3471,13 @@
     "TS_PCT": 54.7,
     "games": 3,
     "w7": {
-      "PPG": 7.0,
-      "APG": 1.0,
-      "RPG": 3.5,
-      "BPG": 2.5,
-      "FG_PCT": 53.8,
-      "TS_PCT": 53.8,
-      "games": 2
+      "PPG": 4.0,
+      "APG": 0.0,
+      "RPG": 3.0,
+      "BPG": 1.0,
+      "FG_PCT": 40.0,
+      "TS_PCT": 40.0,
+      "games": 1
     },
     "w14": {
       "PPG": 6.0,
@@ -3569,13 +3520,13 @@
       "games": 2
     },
     "w30": {
-      "PPG": 2.0,
-      "APG": 0.8,
-      "RPG": 2.7,
+      "PPG": 2.4,
+      "APG": 1.0,
+      "RPG": 3.2,
       "BPG": 0.0,
       "FG_PCT": 30.0,
       "TS_PCT": 47.5,
-      "games": 6
+      "games": 5
     }
   },
   {
@@ -3590,70 +3541,31 @@
     "TS_PCT": 51.2,
     "games": 3,
     "w7": {
-      "PPG": 6.0,
-      "APG": 1.5,
-      "RPG": 5.5,
-      "BPG": 0.0,
-      "FG_PCT": 33.3,
-      "TS_PCT": 66.7,
-      "games": 2
-    },
-    "w14": {
-      "PPG": 5.3,
-      "APG": 2.3,
-      "RPG": 3.7,
-      "BPG": 0.0,
-      "FG_PCT": 38.5,
-      "TS_PCT": 51.2,
-      "games": 3
-    },
-    "w30": {
-      "PPG": 5.3,
-      "APG": 2.3,
-      "RPG": 3.7,
-      "BPG": 0.0,
-      "FG_PCT": 38.5,
-      "TS_PCT": 51.2,
-      "games": 3
-    }
-  },
-  {
-    "PLAYER_NAME": "Sami Whitcomb",
-    "TEAM_ABBREVIATION": "PHX",
-    "id": "887",
-    "PPG": 5.2,
-    "APG": 0.8,
-    "RPG": 1.2,
-    "BPG": 0.0,
-    "FG_PCT": 57.1,
-    "TS_PCT": 75.0,
-    "games": 4,
-    "w7": {
-      "PPG": 8.0,
+      "PPG": 2.0,
       "APG": 1.0,
-      "RPG": 3.0,
+      "RPG": 1.0,
       "BPG": 0.0,
-      "FG_PCT": 37.5,
-      "TS_PCT": 50.0,
+      "FG_PCT": 25.0,
+      "TS_PCT": 25.0,
       "games": 1
     },
     "w14": {
-      "PPG": 5.2,
-      "APG": 0.8,
-      "RPG": 1.2,
+      "PPG": 5.3,
+      "APG": 2.3,
+      "RPG": 3.7,
       "BPG": 0.0,
-      "FG_PCT": 57.1,
-      "TS_PCT": 75.0,
-      "games": 4
+      "FG_PCT": 38.5,
+      "TS_PCT": 51.2,
+      "games": 3
     },
     "w30": {
-      "PPG": 2.6,
-      "APG": 0.8,
-      "RPG": 1.3,
+      "PPG": 5.3,
+      "APG": 2.3,
+      "RPG": 3.7,
       "BPG": 0.0,
-      "FG_PCT": 36.4,
-      "TS_PCT": 50.3,
-      "games": 9
+      "FG_PCT": 38.5,
+      "TS_PCT": 51.2,
+      "games": 3
     }
   },
   {
@@ -3764,13 +3676,13 @@
       "games": 4
     },
     "w30": {
-      "PPG": 6.6,
-      "APG": 0.9,
-      "RPG": 2.6,
-      "BPG": 0.3,
-      "FG_PCT": 46.2,
-      "TS_PCT": 55.3,
-      "games": 9
+      "PPG": 6.8,
+      "APG": 0.6,
+      "RPG": 2.0,
+      "BPG": 0.2,
+      "FG_PCT": 48.9,
+      "TS_PCT": 58.3,
+      "games": 8
     }
   },
   {
@@ -3803,13 +3715,13 @@
       "games": 4
     },
     "w30": {
-      "PPG": 4.7,
-      "APG": 0.7,
-      "RPG": 5.1,
-      "BPG": 1.0,
+      "PPG": 4.6,
+      "APG": 0.8,
+      "RPG": 5.5,
+      "BPG": 1.1,
       "FG_PCT": 53.6,
-      "TS_PCT": 60.7,
-      "games": 9
+      "TS_PCT": 57.9,
+      "games": 8
     }
   },
   {
@@ -3824,13 +3736,13 @@
     "TS_PCT": 71.3,
     "games": 3,
     "w7": {
-      "PPG": 5.5,
-      "APG": 0.5,
-      "RPG": 1.0,
+      "PPG": 4.0,
+      "APG": 0.0,
+      "RPG": 2.0,
       "BPG": 0.0,
-      "FG_PCT": 66.7,
-      "TS_PCT": 91.7,
-      "games": 2
+      "FG_PCT": 50.0,
+      "TS_PCT": 100.0,
+      "games": 1
     },
     "w14": {
       "PPG": 5.0,
@@ -3862,15 +3774,7 @@
     "FG_PCT": 33.3,
     "TS_PCT": 52.8,
     "games": 3,
-    "w7": {
-      "PPG": 7.0,
-      "APG": 1.0,
-      "RPG": 1.0,
-      "BPG": 0.0,
-      "FG_PCT": 33.3,
-      "TS_PCT": 58.3,
-      "games": 1
-    },
+    "w7": null,
     "w14": {
       "PPG": 5.0,
       "APG": 1.0,
@@ -3881,52 +3785,13 @@
       "games": 3
     },
     "w30": {
-      "PPG": 6.1,
+      "PPG": 5.3,
       "APG": 1.0,
-      "RPG": 0.8,
+      "RPG": 0.7,
       "BPG": 0.0,
-      "FG_PCT": 36.6,
-      "TS_PCT": 54.0,
-      "games": 8
-    }
-  },
-  {
-    "PLAYER_NAME": "Napheesa Collier",
-    "TEAM_ABBREVIATION": "MIN",
-    "id": "3917450",
-    "PPG": 4.8,
-    "APG": 0.2,
-    "RPG": 2.0,
-    "BPG": 0.0,
-    "FG_PCT": 45.0,
-    "TS_PCT": 55.1,
-    "games": 5,
-    "w7": {
-      "PPG": 12.0,
-      "APG": 0.5,
-      "RPG": 5.0,
-      "BPG": 0.0,
-      "FG_PCT": 45.0,
-      "TS_PCT": 60.0,
-      "games": 2
-    },
-    "w14": {
-      "PPG": 4.8,
-      "APG": 0.2,
-      "RPG": 2.0,
-      "BPG": 0.0,
-      "FG_PCT": 45.0,
-      "TS_PCT": 55.1,
-      "games": 5
-    },
-    "w30": {
-      "PPG": 3.0,
-      "APG": 0.1,
-      "RPG": 1.2,
-      "BPG": 0.0,
-      "FG_PCT": 45.0,
-      "TS_PCT": 55.1,
-      "games": 8
+      "FG_PCT": 34.4,
+      "TS_PCT": 52.1,
+      "games": 7
     }
   },
   {
@@ -3969,6 +3834,45 @@
     }
   },
   {
+    "PLAYER_NAME": "Natasha Mack",
+    "TEAM_ABBREVIATION": "PHX",
+    "id": "4068042",
+    "PPG": 4.7,
+    "APG": 0.3,
+    "RPG": 2.7,
+    "BPG": 1.0,
+    "FG_PCT": 58.3,
+    "TS_PCT": 58.3,
+    "games": 3,
+    "w7": {
+      "PPG": 10.0,
+      "APG": 1.0,
+      "RPG": 3.0,
+      "BPG": 2.0,
+      "FG_PCT": 62.5,
+      "TS_PCT": 62.5,
+      "games": 1
+    },
+    "w14": {
+      "PPG": 4.7,
+      "APG": 0.3,
+      "RPG": 2.7,
+      "BPG": 1.0,
+      "FG_PCT": 58.3,
+      "TS_PCT": 58.3,
+      "games": 3
+    },
+    "w30": {
+      "PPG": 2.0,
+      "APG": 0.1,
+      "RPG": 1.1,
+      "BPG": 0.4,
+      "FG_PCT": 58.3,
+      "TS_PCT": 58.3,
+      "games": 7
+    }
+  },
+  {
     "PLAYER_NAME": "Odyssey Sims",
     "TEAM_ABBREVIATION": "DAL",
     "id": "2529047",
@@ -3980,13 +3884,13 @@
     "TS_PCT": 45.7,
     "games": 3,
     "w7": {
-      "PPG": 3.5,
+      "PPG": 2.0,
       "APG": 1.0,
-      "RPG": 1.0,
+      "RPG": 0.0,
       "BPG": 0.0,
-      "FG_PCT": 33.3,
-      "TS_PCT": 58.3,
-      "games": 2
+      "FG_PCT": 0.0,
+      "TS_PCT": 50.0,
+      "games": 1
     },
     "w14": {
       "PPG": 4.7,
@@ -4039,42 +3943,198 @@
     }
   },
   {
-    "PLAYER_NAME": "Lexi Held",
-    "TEAM_ABBREVIATION": "PHX",
-    "id": "4399342",
-    "PPG": 3.8,
-    "APG": 2.0,
-    "RPG": 0.5,
+    "PLAYER_NAME": "Maya Caldwell",
+    "TEAM_ABBREVIATION": "MIN",
+    "id": "4280850",
+    "PPG": 4.5,
+    "APG": 1.0,
+    "RPG": 2.0,
     "BPG": 0.2,
-    "FG_PCT": 40.0,
-    "TS_PCT": 47.2,
+    "FG_PCT": 37.5,
+    "TS_PCT": 53.3,
     "games": 4,
     "w7": {
-      "PPG": 0.0,
-      "APG": 1.0,
-      "RPG": 1.0,
-      "BPG": 1.0,
-      "FG_PCT": 0.0,
-      "TS_PCT": 0.0,
+      "PPG": 8.0,
+      "APG": 2.0,
+      "RPG": 6.0,
+      "BPG": 0.0,
+      "FG_PCT": 50.0,
+      "TS_PCT": 100.0,
       "games": 1
     },
     "w14": {
-      "PPG": 3.8,
-      "APG": 2.0,
-      "RPG": 0.5,
+      "PPG": 4.5,
+      "APG": 1.0,
+      "RPG": 2.0,
       "BPG": 0.2,
-      "FG_PCT": 40.0,
-      "TS_PCT": 47.2,
+      "FG_PCT": 37.5,
+      "TS_PCT": 53.3,
       "games": 4
     },
     "w30": {
-      "PPG": 6.6,
-      "APG": 2.2,
-      "RPG": 1.4,
+      "PPG": 3.9,
+      "APG": 1.3,
+      "RPG": 1.9,
       "BPG": 0.1,
-      "FG_PCT": 42.3,
-      "TS_PCT": 54.4,
-      "games": 9
+      "FG_PCT": 38.2,
+      "TS_PCT": 53.2,
+      "games": 10
+    }
+  },
+  {
+    "PLAYER_NAME": "Anastasiia Olairi Kosu",
+    "TEAM_ABBREVIATION": "MIN",
+    "id": "5278237",
+    "PPG": 4.2,
+    "APG": 0.5,
+    "RPG": 2.5,
+    "BPG": 0.2,
+    "FG_PCT": 40.0,
+    "TS_PCT": 59.0,
+    "games": 4,
+    "w7": {
+      "PPG": 0.0,
+      "APG": 0.0,
+      "RPG": 0.0,
+      "BPG": 0.0,
+      "FG_PCT": 0,
+      "TS_PCT": 0,
+      "games": 1
+    },
+    "w14": {
+      "PPG": 4.2,
+      "APG": 0.5,
+      "RPG": 2.5,
+      "BPG": 0.2,
+      "FG_PCT": 40.0,
+      "TS_PCT": 59.0,
+      "games": 4
+    },
+    "w30": {
+      "PPG": 3.4,
+      "APG": 0.8,
+      "RPG": 1.7,
+      "BPG": 0.2,
+      "FG_PCT": 47.6,
+      "TS_PCT": 59.7,
+      "games": 10
+    }
+  },
+  {
+    "PLAYER_NAME": "Noemie Brochant",
+    "TEAM_ABBREVIATION": "PHX",
+    "id": "5345524",
+    "PPG": 4.0,
+    "APG": 1.0,
+    "RPG": 1.7,
+    "BPG": 0.3,
+    "FG_PCT": 41.7,
+    "TS_PCT": 50.0,
+    "games": 3,
+    "w7": {
+      "PPG": 2.0,
+      "APG": 0.0,
+      "RPG": 2.0,
+      "BPG": 1.0,
+      "FG_PCT": 20.0,
+      "TS_PCT": 20.0,
+      "games": 1
+    },
+    "w14": {
+      "PPG": 4.0,
+      "APG": 1.0,
+      "RPG": 1.7,
+      "BPG": 0.3,
+      "FG_PCT": 41.7,
+      "TS_PCT": 50.0,
+      "games": 3
+    },
+    "w30": {
+      "PPG": 2.5,
+      "APG": 0.9,
+      "RPG": 1.5,
+      "BPG": 0.1,
+      "FG_PCT": 36.4,
+      "TS_PCT": 45.5,
+      "games": 8
+    }
+  },
+  {
+    "PLAYER_NAME": "Sami Whitcomb",
+    "TEAM_ABBREVIATION": "PHX",
+    "id": "887",
+    "PPG": 4.0,
+    "APG": 0.3,
+    "RPG": 1.3,
+    "BPG": 0.0,
+    "FG_PCT": 50.0,
+    "TS_PCT": 60.0,
+    "games": 3,
+    "w7": {
+      "PPG": 8.0,
+      "APG": 1.0,
+      "RPG": 3.0,
+      "BPG": 0.0,
+      "FG_PCT": 37.5,
+      "TS_PCT": 50.0,
+      "games": 1
+    },
+    "w14": {
+      "PPG": 4.0,
+      "APG": 0.3,
+      "RPG": 1.3,
+      "BPG": 0.0,
+      "FG_PCT": 50.0,
+      "TS_PCT": 60.0,
+      "games": 3
+    },
+    "w30": {
+      "PPG": 2.9,
+      "APG": 0.9,
+      "RPG": 1.5,
+      "BPG": 0.0,
+      "FG_PCT": 36.4,
+      "TS_PCT": 50.3,
+      "games": 8
+    }
+  },
+  {
+    "PLAYER_NAME": "Dorka Juhasz",
+    "TEAM_ABBREVIATION": "MIN",
+    "id": "4398938",
+    "PPG": 4.0,
+    "APG": 2.0,
+    "RPG": 2.8,
+    "BPG": 0.8,
+    "FG_PCT": 41.2,
+    "TS_PCT": 44.7,
+    "games": 4,
+    "w7": {
+      "PPG": 3.0,
+      "APG": 0.0,
+      "RPG": 2.0,
+      "BPG": 1.0,
+      "FG_PCT": 20.0,
+      "TS_PCT": 30.0,
+      "games": 1
+    },
+    "w14": {
+      "PPG": 4.0,
+      "APG": 2.0,
+      "RPG": 2.8,
+      "BPG": 0.8,
+      "FG_PCT": 41.2,
+      "TS_PCT": 44.7,
+      "games": 4
+    },
+    "w30": {
+      "PPG": 3.9,
+      "APG": 1.6,
+      "RPG": 3.0,
+      "BPG": 0.8,
+      "FG_PCT": 36.4,
+      "TS_PCT": 45.7,
+      "games": 8
     }
   },
   {
@@ -4089,13 +4149,13 @@
     "TS_PCT": 58.8,
     "games": 4,
     "w7": {
-      "PPG": 6.0,
-      "APG": 1.0,
-      "RPG": 4.5,
-      "BPG": 0.5,
-      "FG_PCT": 62.5,
-      "TS_PCT": 75.0,
-      "games": 2
+      "PPG": 3.0,
+      "APG": 2.0,
+      "RPG": 5.0,
+      "BPG": 1.0,
+      "FG_PCT": 33.3,
+      "TS_PCT": 50.0,
+      "games": 1
     },
     "w14": {
       "PPG": 3.8,
@@ -4107,13 +4167,13 @@
       "games": 4
     },
     "w30": {
-      "PPG": 3.9,
-      "APG": 1.1,
-      "RPG": 2.7,
+      "PPG": 4.3,
+      "APG": 1.2,
+      "RPG": 3.0,
       "BPG": 0.1,
       "FG_PCT": 50.0,
       "TS_PCT": 53.6,
-      "games": 10
+      "games": 9
     }
   },
   {
@@ -4128,13 +4188,13 @@
     "TS_PCT": 41.4,
     "games": 5,
     "w7": {
-      "PPG": 5.0,
-      "APG": 2.5,
-      "RPG": 4.0,
+      "PPG": 7.0,
+      "APG": 3.0,
+      "RPG": 6.0,
       "BPG": 0.0,
-      "FG_PCT": 66.7,
-      "TS_PCT": 83.3,
-      "games": 2
+      "FG_PCT": 60.0,
+      "TS_PCT": 70.0,
+      "games": 1
     },
     "w14": {
       "PPG": 3.8,
@@ -4234,6 +4294,45 @@
     }
   },
   {
+    "PLAYER_NAME": "Lexi Held",
+    "TEAM_ABBREVIATION": "PHX",
+    "id": "4399342",
+    "PPG": 3.7,
+    "APG": 1.7,
+    "RPG": 0.7,
+    "BPG": 0.3,
+    "FG_PCT": 41.7,
+    "TS_PCT": 45.8,
+    "games": 3,
+    "w7": {
+      "PPG": 0.0,
+      "APG": 1.0,
+      "RPG": 1.0,
+      "BPG": 1.0,
+      "FG_PCT": 0.0,
+      "TS_PCT": 0.0,
+      "games": 1
+    },
+    "w14": {
+      "PPG": 3.7,
+      "APG": 1.7,
+      "RPG": 0.7,
+      "BPG": 0.3,
+      "FG_PCT": 41.7,
+      "TS_PCT": 45.8,
+      "games": 3
+    },
+    "w30": {
+      "PPG": 5.4,
+      "APG": 2.2,
+      "RPG": 1.4,
+      "BPG": 0.1,
+      "FG_PCT": 41.5,
+      "TS_PCT": 51.3,
+      "games": 8
+    }
+  },
+  {
     "PLAYER_NAME": "Kaila Charles",
     "TEAM_ABBREVIATION": "GS",
     "id": "4065780",
@@ -4244,15 +4343,7 @@
     "FG_PCT": 42.9,
     "TS_PCT": 62.8,
     "games": 3,
-    "w7": {
-      "PPG": 3.0,
-      "APG": 0.0,
-      "RPG": 5.0,
-      "BPG": 1.0,
-      "FG_PCT": 33.3,
-      "TS_PCT": 50.0,
-      "games": 1
-    },
+    "w7": null,
     "w14": {
       "PPG": 3.7,
       "APG": 0.3,
@@ -4269,123 +4360,6 @@
       "BPG": 0.1,
       "FG_PCT": 40.4,
       "TS_PCT": 49.8,
-      "games": 8
-    }
-  },
-  {
-    "PLAYER_NAME": "Maya Caldwell",
-    "TEAM_ABBREVIATION": "MIN",
-    "id": "4280850",
-    "PPG": 3.6,
-    "APG": 1.0,
-    "RPG": 1.8,
-    "BPG": 0.2,
-    "FG_PCT": 35.3,
-    "TS_PCT": 50.3,
-    "games": 5,
-    "w7": {
-      "PPG": 6.5,
-      "APG": 1.0,
-      "RPG": 3.5,
-      "BPG": 0.0,
-      "FG_PCT": 40.0,
-      "TS_PCT": 65.0,
-      "games": 2
-    },
-    "w14": {
-      "PPG": 3.6,
-      "APG": 1.0,
-      "RPG": 1.8,
-      "BPG": 0.2,
-      "FG_PCT": 35.3,
-      "TS_PCT": 50.3,
-      "games": 5
-    },
-    "w30": {
-      "PPG": 3.9,
-      "APG": 1.3,
-      "RPG": 1.9,
-      "BPG": 0.1,
-      "FG_PCT": 38.2,
-      "TS_PCT": 53.2,
-      "games": 10
-    }
-  },
-  {
-    "PLAYER_NAME": "Noemie Brochant",
-    "TEAM_ABBREVIATION": "PHX",
-    "id": "5345524",
-    "PPG": 3.5,
-    "APG": 1.2,
-    "RPG": 1.8,
-    "BPG": 0.2,
-    "FG_PCT": 40.0,
-    "TS_PCT": 46.7,
-    "games": 4,
-    "w7": {
-      "PPG": 2.0,
-      "APG": 0.0,
-      "RPG": 2.0,
-      "BPG": 1.0,
-      "FG_PCT": 20.0,
-      "TS_PCT": 20.0,
-      "games": 1
-    },
-    "w14": {
-      "PPG": 3.5,
-      "APG": 1.2,
-      "RPG": 1.8,
-      "BPG": 0.2,
-      "FG_PCT": 40.0,
-      "TS_PCT": 46.7,
-      "games": 4
-    },
-    "w30": {
-      "PPG": 2.6,
-      "APG": 1.0,
-      "RPG": 1.6,
-      "BPG": 0.1,
-      "FG_PCT": 34.6,
-      "TS_PCT": 44.2,
-      "games": 9
-    }
-  },
-  {
-    "PLAYER_NAME": "Natasha Mack",
-    "TEAM_ABBREVIATION": "PHX",
-    "id": "4068042",
-    "PPG": 3.5,
-    "APG": 0.2,
-    "RPG": 2.0,
-    "BPG": 0.8,
-    "FG_PCT": 58.3,
-    "TS_PCT": 58.3,
-    "games": 4,
-    "w7": {
-      "PPG": 10.0,
-      "APG": 1.0,
-      "RPG": 3.0,
-      "BPG": 2.0,
-      "FG_PCT": 62.5,
-      "TS_PCT": 62.5,
-      "games": 1
-    },
-    "w14": {
-      "PPG": 3.5,
-      "APG": 0.2,
-      "RPG": 2.0,
-      "BPG": 0.8,
-      "FG_PCT": 58.3,
-      "TS_PCT": 58.3,
-      "games": 4
-    },
-    "w30": {
-      "PPG": 1.8,
-      "APG": 0.1,
-      "RPG": 1.0,
-      "BPG": 0.4,
-      "FG_PCT": 58.3,
-      "TS_PCT": 58.3,
       "games": 8
     }
   },
@@ -4468,45 +4442,6 @@
     }
   },
   {
-    "PLAYER_NAME": "Anastasiia Olairi Kosu",
-    "TEAM_ABBREVIATION": "MIN",
-    "id": "5278237",
-    "PPG": 3.4,
-    "APG": 0.4,
-    "RPG": 2.0,
-    "BPG": 0.2,
-    "FG_PCT": 40.0,
-    "TS_PCT": 59.0,
-    "games": 5,
-    "w7": {
-      "PPG": 2.0,
-      "APG": 0.5,
-      "RPG": 1.0,
-      "BPG": 0.5,
-      "FG_PCT": 50.0,
-      "TS_PCT": 100.0,
-      "games": 2
-    },
-    "w14": {
-      "PPG": 3.4,
-      "APG": 0.4,
-      "RPG": 2.0,
-      "BPG": 0.2,
-      "FG_PCT": 40.0,
-      "TS_PCT": 59.0,
-      "games": 5
-    },
-    "w30": {
-      "PPG": 3.4,
-      "APG": 0.8,
-      "RPG": 1.7,
-      "BPG": 0.2,
-      "FG_PCT": 47.6,
-      "TS_PCT": 59.7,
-      "games": 10
-    }
-  },
-  {
     "PLAYER_NAME": "Alicia Florez",
     "TEAM_ABBREVIATION": "WSH",
     "id": "5349415",
@@ -4518,13 +4453,13 @@
     "TS_PCT": 45.0,
     "games": 5,
     "w7": {
-      "PPG": 4.0,
-      "APG": 1.5,
+      "PPG": 3.0,
+      "APG": 2.0,
       "RPG": 0.0,
       "BPG": 0.0,
-      "FG_PCT": 60.0,
-      "TS_PCT": 80.0,
-      "games": 2
+      "FG_PCT": 33.3,
+      "TS_PCT": 50.0,
+      "games": 1
     },
     "w14": {
       "PPG": 3.4,
@@ -4557,13 +4492,13 @@
     "TS_PCT": 47.9,
     "games": 3,
     "w7": {
-      "PPG": 3.5,
-      "APG": 0.5,
+      "PPG": 5.0,
+      "APG": 0.0,
       "RPG": 2.0,
       "BPG": 0.0,
       "FG_PCT": 50.0,
-      "TS_PCT": 58.3,
-      "games": 2
+      "TS_PCT": 62.5,
+      "games": 1
     },
     "w14": {
       "PPG": 3.3,
@@ -4596,13 +4531,13 @@
     "TS_PCT": 50.6,
     "games": 3,
     "w7": {
-      "PPG": 5.0,
+      "PPG": 4.0,
       "APG": 0.0,
-      "RPG": 5.0,
-      "BPG": 0.5,
-      "FG_PCT": 44.4,
-      "TS_PCT": 55.6,
-      "games": 2
+      "RPG": 6.0,
+      "BPG": 0.0,
+      "FG_PCT": 16.7,
+      "TS_PCT": 33.3,
+      "games": 1
     },
     "w14": {
       "PPG": 3.3,
@@ -4635,13 +4570,13 @@
     "TS_PCT": 43.0,
     "games": 3,
     "w7": {
-      "PPG": 2.5,
+      "PPG": 1.0,
       "APG": 1.0,
       "RPG": 2.0,
-      "BPG": 1.5,
-      "FG_PCT": 20.0,
-      "TS_PCT": 50.0,
-      "games": 2
+      "BPG": 1.0,
+      "FG_PCT": 0.0,
+      "TS_PCT": 25.0,
+      "games": 1
     },
     "w14": {
       "PPG": 3.3,
@@ -4673,15 +4608,7 @@
     "FG_PCT": 25.0,
     "TS_PCT": 31.2,
     "games": 3,
-    "w7": {
-      "PPG": 3.0,
-      "APG": 0.0,
-      "RPG": 4.0,
-      "BPG": 2.0,
-      "FG_PCT": 25.0,
-      "TS_PCT": 37.5,
-      "games": 1
-    },
+    "w7": null,
     "w14": {
       "PPG": 3.3,
       "APG": 0.3,
@@ -4702,41 +4629,41 @@
     }
   },
   {
-    "PLAYER_NAME": "Dorka Juhasz",
-    "TEAM_ABBREVIATION": "MIN",
-    "id": "4398938",
+    "PLAYER_NAME": "Chance Gray",
+    "TEAM_ABBREVIATION": "LA",
+    "id": "5105729",
     "PPG": 3.2,
-    "APG": 1.6,
-    "RPG": 2.2,
-    "BPG": 0.6,
-    "FG_PCT": 41.2,
-    "TS_PCT": 44.7,
-    "games": 5,
+    "APG": 0.5,
+    "RPG": 0.5,
+    "BPG": 0.0,
+    "FG_PCT": 44.4,
+    "TS_PCT": 65.8,
+    "games": 4,
     "w7": {
-      "PPG": 2.0,
-      "APG": 1.5,
-      "RPG": 3.0,
-      "BPG": 1.0,
-      "FG_PCT": 14.3,
-      "TS_PCT": 28.6,
-      "games": 2
+      "PPG": 4.0,
+      "APG": 0.0,
+      "RPG": 1.0,
+      "BPG": 0.0,
+      "FG_PCT": 25.0,
+      "TS_PCT": 50.0,
+      "games": 1
     },
     "w14": {
       "PPG": 3.2,
-      "APG": 1.6,
-      "RPG": 2.2,
-      "BPG": 0.6,
-      "FG_PCT": 41.2,
-      "TS_PCT": 44.7,
-      "games": 5
+      "APG": 0.5,
+      "RPG": 0.5,
+      "BPG": 0.0,
+      "FG_PCT": 44.4,
+      "TS_PCT": 65.8,
+      "games": 4
     },
     "w30": {
-      "PPG": 3.9,
-      "APG": 1.6,
-      "RPG": 3.0,
-      "BPG": 0.8,
-      "FG_PCT": 36.4,
-      "TS_PCT": 45.7,
+      "PPG": 2.0,
+      "APG": 0.2,
+      "RPG": 0.6,
+      "BPG": 0.0,
+      "FG_PCT": 41.7,
+      "TS_PCT": 62.1,
       "games": 8
     }
   },
@@ -4752,13 +4679,13 @@
     "TS_PCT": 33.3,
     "games": 2,
     "w7": {
-      "PPG": 3.0,
+      "PPG": 2.0,
       "APG": 0.0,
-      "RPG": 0.5,
-      "BPG": 0.5,
-      "FG_PCT": 33.3,
-      "TS_PCT": 33.3,
-      "games": 2
+      "RPG": 0.0,
+      "BPG": 0.0,
+      "FG_PCT": 100.0,
+      "TS_PCT": 100.0,
+      "games": 1
     },
     "w14": {
       "PPG": 3.0,
@@ -4791,13 +4718,13 @@
     "TS_PCT": 75.0,
     "games": 2,
     "w7": {
-      "PPG": 3.0,
+      "PPG": 4.0,
       "APG": 0.0,
       "RPG": 2.0,
       "BPG": 0.0,
-      "FG_PCT": 75.0,
-      "TS_PCT": 75.0,
-      "games": 2
+      "FG_PCT": 100.0,
+      "TS_PCT": 100.0,
+      "games": 1
     },
     "w14": {
       "PPG": 3.0,
@@ -4830,13 +4757,13 @@
     "TS_PCT": 33.3,
     "games": 2,
     "w7": {
-      "PPG": 3.0,
+      "PPG": 0.0,
       "APG": 2.0,
-      "RPG": 1.5,
+      "RPG": 1.0,
       "BPG": 0.0,
-      "FG_PCT": 22.2,
-      "TS_PCT": 33.3,
-      "games": 2
+      "FG_PCT": 0.0,
+      "TS_PCT": 0.0,
+      "games": 1
     },
     "w14": {
       "PPG": 3.0,
@@ -4887,13 +4814,13 @@
       "games": 4
     },
     "w30": {
-      "PPG": 2.3,
-      "APG": 1.0,
+      "PPG": 1.8,
+      "APG": 0.8,
       "RPG": 2.4,
-      "BPG": 0.2,
-      "FG_PCT": 47.4,
-      "TS_PCT": 50.6,
-      "games": 9
+      "BPG": 0.1,
+      "FG_PCT": 46.2,
+      "TS_PCT": 50.4,
+      "games": 8
     }
   },
   {
@@ -4946,15 +4873,7 @@
     "FG_PCT": 50.0,
     "TS_PCT": 58.1,
     "games": 3,
-    "w7": {
-      "PPG": 6.0,
-      "APG": 1.0,
-      "RPG": 6.0,
-      "BPG": 0.0,
-      "FG_PCT": 60.0,
-      "TS_PCT": 60.0,
-      "games": 1
-    },
+    "w7": null,
     "w14": {
       "PPG": 2.7,
       "APG": 0.7,
@@ -4975,42 +4894,42 @@
     }
   },
   {
-    "PLAYER_NAME": "Chance Gray",
-    "TEAM_ABBREVIATION": "LA",
-    "id": "5105729",
-    "PPG": 2.6,
-    "APG": 0.4,
-    "RPG": 0.4,
+    "PLAYER_NAME": "Antonia Delaere",
+    "TEAM_ABBREVIATION": "MIN",
+    "id": "4873358",
+    "PPG": 2.5,
+    "APG": 0.8,
+    "RPG": 1.0,
     "BPG": 0.0,
-    "FG_PCT": 44.4,
-    "TS_PCT": 65.8,
-    "games": 5,
+    "FG_PCT": 42.9,
+    "TS_PCT": 63.5,
+    "games": 4,
     "w7": {
-      "PPG": 4.0,
+      "PPG": 0.0,
       "APG": 0.0,
-      "RPG": 1.0,
+      "RPG": 0.0,
       "BPG": 0.0,
-      "FG_PCT": 25.0,
-      "TS_PCT": 50.0,
+      "FG_PCT": 0.0,
+      "TS_PCT": 0.0,
       "games": 1
     },
     "w14": {
-      "PPG": 2.6,
-      "APG": 0.4,
-      "RPG": 0.4,
+      "PPG": 2.5,
+      "APG": 0.8,
+      "RPG": 1.0,
       "BPG": 0.0,
-      "FG_PCT": 44.4,
-      "TS_PCT": 65.8,
-      "games": 5
+      "FG_PCT": 42.9,
+      "TS_PCT": 63.5,
+      "games": 4
     },
     "w30": {
-      "PPG": 2.4,
-      "APG": 0.7,
-      "RPG": 0.6,
+      "PPG": 4.0,
+      "APG": 0.6,
+      "RPG": 0.9,
       "BPG": 0.0,
-      "FG_PCT": 43.8,
-      "TS_PCT": 61.9,
-      "games": 9
+      "FG_PCT": 50.0,
+      "TS_PCT": 68.2,
+      "games": 10
     }
   },
   {
@@ -5063,15 +4982,7 @@
     "FG_PCT": 20.0,
     "TS_PCT": 42.5,
     "games": 2,
-    "w7": {
-      "PPG": 0.0,
-      "APG": 0.0,
-      "RPG": 0.0,
-      "BPG": 0.0,
-      "FG_PCT": 0,
-      "TS_PCT": 0,
-      "games": 1
-    },
+    "w7": null,
     "w14": {
       "PPG": 2.5,
       "APG": 0.0,
@@ -5133,15 +5044,7 @@
     "FG_PCT": 33.3,
     "TS_PCT": 50.9,
     "games": 3,
-    "w7": {
-      "PPG": 2.0,
-      "APG": 1.0,
-      "RPG": 1.0,
-      "BPG": 0.0,
-      "FG_PCT": 0.0,
-      "TS_PCT": 33.3,
-      "games": 1
-    },
+    "w7": null,
     "w14": {
       "PPG": 2.3,
       "APG": 1.0,
@@ -5152,12 +5055,51 @@
       "games": 3
     },
     "w30": {
-      "PPG": 3.6,
-      "APG": 1.2,
-      "RPG": 0.8,
+      "PPG": 2.3,
+      "APG": 0.9,
+      "RPG": 0.6,
       "BPG": 0.0,
-      "FG_PCT": 35.5,
+      "FG_PCT": 28.6,
+      "TS_PCT": 36.6,
+      "games": 7
+    }
+  },
+  {
+    "PLAYER_NAME": "Jihyun Park",
+    "TEAM_ABBREVIATION": "LA",
+    "id": "4874375",
+    "PPG": 2.2,
+    "APG": 0.5,
+    "RPG": 1.0,
+    "BPG": 0.0,
+    "FG_PCT": 44.4,
+    "TS_PCT": 45.5,
+    "games": 4,
+    "w7": {
+      "PPG": 2.0,
+      "APG": 1.0,
+      "RPG": 0.0,
+      "BPG": 0.0,
+      "FG_PCT": 50.0,
+      "TS_PCT": 50.0,
+      "games": 1
+    },
+    "w14": {
+      "PPG": 2.2,
+      "APG": 0.5,
+      "RPG": 1.0,
+      "BPG": 0.0,
+      "FG_PCT": 44.4,
       "TS_PCT": 45.5,
+      "games": 4
+    },
+    "w30": {
+      "PPG": 1.5,
+      "APG": 0.4,
+      "RPG": 1.6,
+      "BPG": 0.0,
+      "FG_PCT": 25.0,
+      "TS_PCT": 30.7,
       "games": 8
     }
   },
@@ -5198,45 +5140,6 @@
       "FG_PCT": 50.0,
       "TS_PCT": 72.3,
       "games": 8
-    }
-  },
-  {
-    "PLAYER_NAME": "Antonia Delaere",
-    "TEAM_ABBREVIATION": "MIN",
-    "id": "4873358",
-    "PPG": 2.0,
-    "APG": 0.6,
-    "RPG": 0.8,
-    "BPG": 0.0,
-    "FG_PCT": 42.9,
-    "TS_PCT": 63.5,
-    "games": 5,
-    "w7": {
-      "PPG": 0.0,
-      "APG": 0.5,
-      "RPG": 0.5,
-      "BPG": 0.0,
-      "FG_PCT": 0.0,
-      "TS_PCT": 0.0,
-      "games": 2
-    },
-    "w14": {
-      "PPG": 2.0,
-      "APG": 0.6,
-      "RPG": 0.8,
-      "BPG": 0.0,
-      "FG_PCT": 42.9,
-      "TS_PCT": 63.5,
-      "games": 5
-    },
-    "w30": {
-      "PPG": 4.0,
-      "APG": 0.6,
-      "RPG": 0.9,
-      "BPG": 0.0,
-      "FG_PCT": 50.0,
-      "TS_PCT": 68.2,
-      "games": 10
     }
   },
   {
@@ -5290,13 +5193,13 @@
     "TS_PCT": 66.7,
     "games": 2,
     "w7": {
-      "PPG": 2.0,
+      "PPG": 0.0,
       "APG": 0.0,
-      "RPG": 3.5,
-      "BPG": 0.5,
-      "FG_PCT": 66.7,
-      "TS_PCT": 66.7,
-      "games": 2
+      "RPG": 1.0,
+      "BPG": 0.0,
+      "FG_PCT": 0.0,
+      "TS_PCT": 0.0,
+      "games": 1
     },
     "w14": {
       "PPG": 2.0,
@@ -5328,15 +5231,7 @@
     "FG_PCT": 42.9,
     "TS_PCT": 42.9,
     "games": 3,
-    "w7": {
-      "PPG": 2.0,
-      "APG": 0.0,
-      "RPG": 2.0,
-      "BPG": 0.0,
-      "FG_PCT": 25.0,
-      "TS_PCT": 25.0,
-      "games": 1
-    },
+    "w7": null,
     "w14": {
       "PPG": 2.0,
       "APG": 0.3,
@@ -5347,13 +5242,13 @@
       "games": 3
     },
     "w30": {
-      "PPG": 1.8,
-      "APG": 0.5,
-      "RPG": 0.9,
+      "PPG": 0.9,
+      "APG": 0.1,
+      "RPG": 0.4,
       "BPG": 0.1,
-      "FG_PCT": 53.8,
-      "TS_PCT": 50.4,
-      "games": 8
+      "FG_PCT": 42.9,
+      "TS_PCT": 42.9,
+      "games": 7
     }
   },
   {
@@ -5367,15 +5262,7 @@
     "FG_PCT": 25.0,
     "TS_PCT": 30.7,
     "games": 3,
-    "w7": {
-      "PPG": 3.0,
-      "APG": 1.0,
-      "RPG": 2.0,
-      "BPG": 1.0,
-      "FG_PCT": 33.3,
-      "TS_PCT": 50.0,
-      "games": 1
-    },
+    "w7": null,
     "w14": {
       "PPG": 2.0,
       "APG": 1.0,
@@ -5399,13 +5286,13 @@
     "PLAYER_NAME": "Marta Suarez",
     "TEAM_ABBREVIATION": "PHX",
     "id": "4704594",
-    "PPG": 1.8,
+    "PPG": 1.7,
     "APG": 0.0,
-    "RPG": 0.8,
+    "RPG": 0.7,
     "BPG": 0.0,
-    "FG_PCT": 66.7,
-    "TS_PCT": 73.5,
-    "games": 4,
+    "FG_PCT": 50.0,
+    "TS_PCT": 66.5,
+    "games": 3,
     "w7": {
       "PPG": 0.0,
       "APG": 0.0,
@@ -5416,138 +5303,21 @@
       "games": 1
     },
     "w14": {
-      "PPG": 1.8,
+      "PPG": 1.7,
       "APG": 0.0,
-      "RPG": 0.8,
-      "BPG": 0.0,
-      "FG_PCT": 66.7,
-      "TS_PCT": 73.5,
-      "games": 4
-    },
-    "w30": {
-      "PPG": 3.6,
-      "APG": 0.2,
-      "RPG": 1.0,
-      "BPG": 0.0,
-      "FG_PCT": 48.0,
-      "TS_PCT": 56.1,
-      "games": 9
-    }
-  },
-  {
-    "PLAYER_NAME": "Jihyun Park",
-    "TEAM_ABBREVIATION": "LA",
-    "id": "4874375",
-    "PPG": 1.8,
-    "APG": 0.4,
-    "RPG": 1.4,
-    "BPG": 0.0,
-    "FG_PCT": 44.4,
-    "TS_PCT": 41.8,
-    "games": 5,
-    "w7": {
-      "PPG": 2.0,
-      "APG": 1.0,
-      "RPG": 0.0,
+      "RPG": 0.7,
       "BPG": 0.0,
       "FG_PCT": 50.0,
-      "TS_PCT": 50.0,
-      "games": 1
-    },
-    "w14": {
-      "PPG": 1.8,
-      "APG": 0.4,
-      "RPG": 1.4,
-      "BPG": 0.0,
-      "FG_PCT": 44.4,
-      "TS_PCT": 41.8,
-      "games": 5
+      "TS_PCT": 66.5,
+      "games": 3
     },
     "w30": {
-      "PPG": 2.2,
-      "APG": 0.4,
-      "RPG": 1.9,
-      "BPG": 0.1,
-      "FG_PCT": 31.8,
-      "TS_PCT": 38.5,
-      "games": 9
-    }
-  },
-  {
-    "PLAYER_NAME": "Eliska Hamzova",
-    "TEAM_ABBREVIATION": "MIN",
-    "id": "5345478",
-    "PPG": 1.6,
-    "APG": 0.2,
-    "RPG": 0.4,
-    "BPG": 0.2,
-    "FG_PCT": 42.9,
-    "TS_PCT": 50.8,
-    "games": 5,
-    "w7": {
-      "PPG": 0.0,
-      "APG": 0.0,
-      "RPG": 0.0,
-      "BPG": 0.0,
-      "FG_PCT": 0.0,
-      "TS_PCT": 0.0,
-      "games": 2
-    },
-    "w14": {
-      "PPG": 1.6,
+      "PPG": 3.5,
       "APG": 0.2,
-      "RPG": 0.4,
-      "BPG": 0.2,
-      "FG_PCT": 42.9,
-      "TS_PCT": 50.8,
-      "games": 5
-    },
-    "w30": {
-      "PPG": 1.7,
-      "APG": 1.0,
-      "RPG": 0.7,
-      "BPG": 0.2,
-      "FG_PCT": 44.4,
-      "TS_PCT": 59.9,
-      "games": 9
-    }
-  },
-  {
-    "PLAYER_NAME": "Kiana Williams",
-    "TEAM_ABBREVIATION": "LA",
-    "id": "4282168",
-    "PPG": 1.5,
-    "APG": 0.8,
-    "RPG": 0.0,
-    "BPG": 0.0,
-    "FG_PCT": 33.3,
-    "TS_PCT": 43.6,
-    "games": 4,
-    "w7": {
-      "PPG": 0.0,
-      "APG": 1.0,
-      "RPG": 0.0,
+      "RPG": 1.1,
       "BPG": 0.0,
-      "FG_PCT": 0.0,
-      "TS_PCT": 0.0,
-      "games": 1
-    },
-    "w14": {
-      "PPG": 1.5,
-      "APG": 0.8,
-      "RPG": 0.0,
-      "BPG": 0.0,
-      "FG_PCT": 33.3,
-      "TS_PCT": 43.6,
-      "games": 4
-    },
-    "w30": {
-      "PPG": 2.4,
-      "APG": 1.9,
-      "RPG": 0.2,
-      "BPG": 0.0,
-      "FG_PCT": 33.3,
-      "TS_PCT": 38.2,
+      "FG_PCT": 50.0,
+      "TS_PCT": 59.5,
       "games": 8
     }
   },
@@ -5591,45 +5361,6 @@
     }
   },
   {
-    "PLAYER_NAME": "Emma Cannon",
-    "TEAM_ABBREVIATION": "LA",
-    "id": "2284331",
-    "PPG": 1.4,
-    "APG": 0.0,
-    "RPG": 0.2,
-    "BPG": 0.0,
-    "FG_PCT": 100.0,
-    "TS_PCT": 121.5,
-    "games": 5,
-    "w7": {
-      "PPG": 0.0,
-      "APG": 0.0,
-      "RPG": 0.0,
-      "BPG": 0.0,
-      "FG_PCT": 0,
-      "TS_PCT": 0,
-      "games": 1
-    },
-    "w14": {
-      "PPG": 1.4,
-      "APG": 0.0,
-      "RPG": 0.2,
-      "BPG": 0.0,
-      "FG_PCT": 100.0,
-      "TS_PCT": 121.5,
-      "games": 5
-    },
-    "w30": {
-      "PPG": 3.3,
-      "APG": 0.4,
-      "RPG": 1.0,
-      "BPG": 0.1,
-      "FG_PCT": 69.2,
-      "TS_PCT": 90.8,
-      "games": 9
-    }
-  },
-  {
     "PLAYER_NAME": "Raquel Carrera",
     "TEAM_ABBREVIATION": "NY",
     "id": "4790258",
@@ -5642,12 +5373,12 @@
     "games": 3,
     "w7": {
       "PPG": 0.0,
-      "APG": 0.5,
+      "APG": 1.0,
       "RPG": 0.0,
       "BPG": 0.0,
       "FG_PCT": 0,
       "TS_PCT": 0,
-      "games": 2
+      "games": 1
     },
     "w14": {
       "PPG": 1.3,
@@ -5681,12 +5412,12 @@
     "games": 3,
     "w7": {
       "PPG": 2.0,
-      "APG": 4.0,
+      "APG": 1.0,
       "RPG": 1.0,
       "BPG": 0.0,
-      "FG_PCT": 33.3,
-      "TS_PCT": 33.3,
-      "games": 2
+      "FG_PCT": 100.0,
+      "TS_PCT": 100.0,
+      "games": 1
     },
     "w14": {
       "PPG": 1.3,
@@ -5719,13 +5450,13 @@
     "TS_PCT": 43.4,
     "games": 4,
     "w7": {
-      "PPG": 1.5,
-      "APG": 2.0,
-      "RPG": 1.5,
+      "PPG": 0.0,
+      "APG": 1.0,
+      "RPG": 2.0,
       "BPG": 0.0,
-      "FG_PCT": 33.3,
-      "TS_PCT": 50.0,
-      "games": 2
+      "FG_PCT": 0.0,
+      "TS_PCT": 0.0,
+      "games": 1
     },
     "w14": {
       "PPG": 1.2,
@@ -5737,13 +5468,13 @@
       "games": 4
     },
     "w30": {
-      "PPG": 2.1,
-      "APG": 1.2,
+      "PPG": 1.8,
+      "APG": 1.0,
       "RPG": 1.8,
       "BPG": 0.1,
-      "FG_PCT": 43.8,
-      "TS_PCT": 56.3,
-      "games": 10
+      "FG_PCT": 38.5,
+      "TS_PCT": 51.2,
+      "games": 9
     }
   },
   {
@@ -5758,13 +5489,13 @@
     "TS_PCT": 13.9,
     "games": 5,
     "w7": {
-      "PPG": 1.0,
-      "APG": 0.5,
-      "RPG": 1.0,
+      "PPG": 0.0,
+      "APG": 0.0,
+      "RPG": 0.0,
       "BPG": 0.0,
-      "FG_PCT": 16.7,
-      "TS_PCT": 16.7,
-      "games": 2
+      "FG_PCT": 0.0,
+      "TS_PCT": 0.0,
+      "games": 1
     },
     "w14": {
       "PPG": 1.0,
@@ -5803,7 +5534,7 @@
       "BPG": 0.0,
       "FG_PCT": 0,
       "TS_PCT": 0,
-      "games": 2
+      "games": 1
     },
     "w14": {
       "PPG": 1.0,
@@ -5856,37 +5587,6 @@
     }
   },
   {
-    "PLAYER_NAME": "Te-Hina Paopao",
-    "TEAM_ABBREVIATION": "ATL",
-    "id": "4433431",
-    "PPG": 1.0,
-    "APG": 1.0,
-    "RPG": 0.0,
-    "BPG": 0.0,
-    "FG_PCT": 0.0,
-    "TS_PCT": 25.8,
-    "games": 2,
-    "w7": null,
-    "w14": {
-      "PPG": 1.0,
-      "APG": 1.0,
-      "RPG": 0.0,
-      "BPG": 0.0,
-      "FG_PCT": 0.0,
-      "TS_PCT": 25.8,
-      "games": 2
-    },
-    "w30": {
-      "PPG": 1.1,
-      "APG": 1.3,
-      "RPG": 0.1,
-      "BPG": 0.0,
-      "FG_PCT": 12.5,
-      "TS_PCT": 23.7,
-      "games": 7
-    }
-  },
-  {
     "PLAYER_NAME": "Teonni Key",
     "TEAM_ABBREVIATION": "TOR",
     "id": "4434020",
@@ -5897,15 +5597,7 @@
     "FG_PCT": 100.0,
     "TS_PCT": 100.0,
     "games": 3,
-    "w7": {
-      "PPG": 2.0,
-      "APG": 0.0,
-      "RPG": 1.0,
-      "BPG": 0.0,
-      "FG_PCT": 100.0,
-      "TS_PCT": 100.0,
-      "games": 1
-    },
+    "w7": null,
     "w14": {
       "PPG": 0.7,
       "APG": 0.3,
@@ -5916,12 +5608,51 @@
       "games": 3
     },
     "w30": {
-      "PPG": 1.1,
+      "PPG": 1.3,
       "APG": 0.1,
-      "RPG": 0.2,
+      "RPG": 0.3,
       "BPG": 0.1,
       "FG_PCT": 80.0,
       "TS_PCT": 82.7,
+      "games": 7
+    }
+  },
+  {
+    "PLAYER_NAME": "Emma Cannon",
+    "TEAM_ABBREVIATION": "LA",
+    "id": "2284331",
+    "PPG": 0.5,
+    "APG": 0.0,
+    "RPG": 0.0,
+    "BPG": 0.0,
+    "FG_PCT": 0,
+    "TS_PCT": 113.6,
+    "games": 4,
+    "w7": {
+      "PPG": 0.0,
+      "APG": 0.0,
+      "RPG": 0.0,
+      "BPG": 0.0,
+      "FG_PCT": 0,
+      "TS_PCT": 0,
+      "games": 1
+    },
+    "w14": {
+      "PPG": 0.5,
+      "APG": 0.0,
+      "RPG": 0.0,
+      "BPG": 0.0,
+      "FG_PCT": 0,
+      "TS_PCT": 113.6,
+      "games": 4
+    },
+    "w30": {
+      "PPG": 3.0,
+      "APG": 0.4,
+      "RPG": 1.0,
+      "BPG": 0.1,
+      "FG_PCT": 72.7,
+      "TS_PCT": 94.0,
       "games": 8
     }
   },
@@ -5955,13 +5686,13 @@
       "games": 4
     },
     "w30": {
-      "PPG": 0.7,
-      "APG": 0.1,
+      "PPG": 0.2,
+      "APG": 0.0,
       "RPG": 0.4,
-      "BPG": 0.1,
+      "BPG": 0.0,
       "FG_PCT": 100.0,
       "TS_PCT": 100.0,
-      "games": 9
+      "games": 8
     }
   },
   {
@@ -5994,13 +5725,13 @@
       "games": 4
     },
     "w30": {
-      "PPG": 2.7,
-      "APG": 1.1,
-      "RPG": 2.1,
+      "PPG": 2.8,
+      "APG": 0.8,
+      "RPG": 2.0,
       "BPG": 0.0,
-      "FG_PCT": 32.4,
-      "TS_PCT": 34.4,
-      "games": 9
+      "FG_PCT": 31.2,
+      "TS_PCT": 33.5,
+      "games": 8
     }
   },
   {
@@ -6016,12 +5747,12 @@
     "games": 5,
     "w7": {
       "PPG": 0.0,
-      "APG": 1.0,
-      "RPG": 1.0,
+      "APG": 2.0,
+      "RPG": 2.0,
       "BPG": 0.0,
       "FG_PCT": 0,
       "TS_PCT": 0,
-      "games": 2
+      "games": 1
     },
     "w14": {
       "PPG": 0.4,
@@ -6060,7 +5791,7 @@
       "BPG": 0.0,
       "FG_PCT": 0,
       "TS_PCT": 0,
-      "games": 2
+      "games": 1
     },
     "w14": {
       "PPG": 0.4,
@@ -6079,6 +5810,45 @@
       "FG_PCT": 100.0,
       "TS_PCT": 100.0,
       "games": 9
+    }
+  },
+  {
+    "PLAYER_NAME": "Kiana Williams",
+    "TEAM_ABBREVIATION": "LA",
+    "id": "4282168",
+    "PPG": 0.3,
+    "APG": 0.7,
+    "RPG": 0.0,
+    "BPG": 0.0,
+    "FG_PCT": 0.0,
+    "TS_PCT": 17.4,
+    "games": 3,
+    "w7": {
+      "PPG": 0.0,
+      "APG": 1.0,
+      "RPG": 0.0,
+      "BPG": 0.0,
+      "FG_PCT": 0.0,
+      "TS_PCT": 0.0,
+      "games": 1
+    },
+    "w14": {
+      "PPG": 0.3,
+      "APG": 0.7,
+      "RPG": 0.0,
+      "BPG": 0.0,
+      "FG_PCT": 0.0,
+      "TS_PCT": 17.4,
+      "games": 3
+    },
+    "w30": {
+      "PPG": 2.1,
+      "APG": 2.1,
+      "RPG": 0.1,
+      "BPG": 0.0,
+      "FG_PCT": 35.3,
+      "TS_PCT": 41.9,
+      "games": 7
     }
   },
   {
@@ -6130,6 +5900,45 @@
     "BPG": 0.0,
     "FG_PCT": 0,
     "TS_PCT": 0,
+    "games": 3,
+    "w7": {
+      "PPG": 0.0,
+      "APG": 0.0,
+      "RPG": 0.0,
+      "BPG": 0.0,
+      "FG_PCT": 0,
+      "TS_PCT": 0,
+      "games": 1
+    },
+    "w14": {
+      "PPG": 0.0,
+      "APG": 0.0,
+      "RPG": 0.0,
+      "BPG": 0.0,
+      "FG_PCT": 0,
+      "TS_PCT": 0,
+      "games": 3
+    },
+    "w30": {
+      "PPG": 0.0,
+      "APG": 0.1,
+      "RPG": 0.1,
+      "BPG": 0.2,
+      "FG_PCT": 0.0,
+      "TS_PCT": 0.0,
+      "games": 8
+    }
+  },
+  {
+    "PLAYER_NAME": "Kate Martin",
+    "TEAM_ABBREVIATION": "LA",
+    "id": "4398907",
+    "PPG": 0.0,
+    "APG": 0.0,
+    "RPG": 0.0,
+    "BPG": 0.0,
+    "FG_PCT": 0,
+    "TS_PCT": 0,
     "games": 4,
     "w7": {
       "PPG": 0.0,
@@ -6150,26 +5959,65 @@
       "games": 4
     },
     "w30": {
-      "PPG": 0.4,
-      "APG": 0.4,
-      "RPG": 0.6,
-      "BPG": 0.3,
+      "PPG": 1.2,
+      "APG": 0.1,
+      "RPG": 1.0,
+      "BPG": 0.0,
+      "FG_PCT": 20.0,
+      "TS_PCT": 39.6,
+      "games": 8
+    }
+  },
+  {
+    "PLAYER_NAME": "Eliska Hamzova",
+    "TEAM_ABBREVIATION": "MIN",
+    "id": "5345478",
+    "PPG": 0.0,
+    "APG": 0.2,
+    "RPG": 0.2,
+    "BPG": 0.2,
+    "FG_PCT": 0.0,
+    "TS_PCT": 0.0,
+    "games": 4,
+    "w7": {
+      "PPG": 0.0,
+      "APG": 0.0,
+      "RPG": 0.0,
+      "BPG": 0.0,
       "FG_PCT": 0.0,
-      "TS_PCT": 26.2,
+      "TS_PCT": 0.0,
+      "games": 1
+    },
+    "w14": {
+      "PPG": 0.0,
+      "APG": 0.2,
+      "RPG": 0.2,
+      "BPG": 0.2,
+      "FG_PCT": 0.0,
+      "TS_PCT": 0.0,
+      "games": 4
+    },
+    "w30": {
+      "PPG": 1.7,
+      "APG": 1.0,
+      "RPG": 0.7,
+      "BPG": 0.2,
+      "FG_PCT": 44.4,
+      "TS_PCT": 59.9,
       "games": 9
     }
   },
   {
-    "PLAYER_NAME": "Kate Martin",
-    "TEAM_ABBREVIATION": "LA",
-    "id": "4398907",
+    "PLAYER_NAME": "Emma Cechova",
+    "TEAM_ABBREVIATION": "MIN",
+    "id": "5345322",
     "PPG": 0.0,
     "APG": 0.0,
     "RPG": 0.0,
     "BPG": 0.0,
-    "FG_PCT": 0.0,
-    "TS_PCT": 0.0,
-    "games": 5,
+    "FG_PCT": 0,
+    "TS_PCT": 0,
+    "games": 4,
     "w7": {
       "PPG": 0.0,
       "APG": 0.0,
@@ -6184,48 +6032,9 @@
       "APG": 0.0,
       "RPG": 0.0,
       "BPG": 0.0,
-      "FG_PCT": 0.0,
-      "TS_PCT": 0.0,
-      "games": 5
-    },
-    "w30": {
-      "PPG": 1.2,
-      "APG": 0.1,
-      "RPG": 1.0,
-      "BPG": 0.0,
-      "FG_PCT": 20.0,
-      "TS_PCT": 39.6,
-      "games": 8
-    }
-  },
-  {
-    "PLAYER_NAME": "Emma Cechova",
-    "TEAM_ABBREVIATION": "MIN",
-    "id": "5345322",
-    "PPG": 0.0,
-    "APG": 0.0,
-    "RPG": 0.0,
-    "BPG": 0.0,
-    "FG_PCT": 0,
-    "TS_PCT": 0,
-    "games": 5,
-    "w7": {
-      "PPG": 0.0,
-      "APG": 0.0,
-      "RPG": 0.0,
-      "BPG": 0.0,
       "FG_PCT": 0,
       "TS_PCT": 0,
-      "games": 2
-    },
-    "w14": {
-      "PPG": 0.0,
-      "APG": 0.0,
-      "RPG": 0.0,
-      "BPG": 0.0,
-      "FG_PCT": 0,
-      "TS_PCT": 0,
-      "games": 5
+      "games": 4
     },
     "w30": {
       "PPG": 0.0,
@@ -6255,7 +6064,7 @@
       "BPG": 0.0,
       "FG_PCT": 0,
       "TS_PCT": 0,
-      "games": 2
+      "games": 1
     },
     "w14": {
       "PPG": 0.0,
@@ -6267,13 +6076,13 @@
       "games": 4
     },
     "w30": {
-      "PPG": 1.4,
+      "PPG": 1.6,
       "APG": 0.4,
-      "RPG": 1.6,
+      "RPG": 1.8,
       "BPG": 0.3,
       "FG_PCT": 37.5,
       "TS_PCT": 43.8,
-      "games": 10
+      "games": 9
     }
   },
   {
@@ -6294,7 +6103,7 @@
       "BPG": 0.0,
       "FG_PCT": 0,
       "TS_PCT": 0,
-      "games": 2
+      "games": 1
     },
     "w14": {
       "PPG": 0.0,
@@ -6306,13 +6115,13 @@
       "games": 4
     },
     "w30": {
-      "PPG": 0.3,
+      "PPG": 0.2,
       "APG": 0.0,
-      "RPG": 0.5,
+      "RPG": 0.6,
       "BPG": 0.0,
       "FG_PCT": 100.0,
-      "TS_PCT": 79.8,
-      "games": 10
+      "TS_PCT": 100.0,
+      "games": 9
     }
   },
   {
@@ -6333,7 +6142,7 @@
       "BPG": 0.0,
       "FG_PCT": 0,
       "TS_PCT": 0,
-      "games": 2
+      "games": 1
     },
     "w14": {
       "PPG": 0.0,
@@ -6349,9 +6158,9 @@
       "APG": 0.0,
       "RPG": 0.1,
       "BPG": 0.0,
-      "FG_PCT": 0.0,
-      "TS_PCT": 0.0,
-      "games": 10
+      "FG_PCT": 0,
+      "TS_PCT": 0,
+      "games": 9
     }
   },
   {
@@ -6372,7 +6181,7 @@
       "BPG": 0.0,
       "FG_PCT": 0,
       "TS_PCT": 0,
-      "games": 2
+      "games": 1
     },
     "w14": {
       "PPG": 0.0,
@@ -6411,7 +6220,7 @@
       "BPG": 0.0,
       "FG_PCT": 0,
       "TS_PCT": 0,
-      "games": 2
+      "games": 1
     },
     "w14": {
       "PPG": 0.0,
@@ -6445,12 +6254,12 @@
     "games": 2,
     "w7": {
       "PPG": 0.0,
-      "APG": 0.5,
+      "APG": 0.0,
       "RPG": 0.0,
-      "BPG": 0.5,
-      "FG_PCT": 0.0,
-      "TS_PCT": 0.0,
-      "games": 2
+      "BPG": 0.0,
+      "FG_PCT": 0,
+      "TS_PCT": 0,
+      "games": 1
     },
     "w14": {
       "PPG": 0.0,
@@ -6489,7 +6298,7 @@
       "BPG": 0.0,
       "FG_PCT": 0,
       "TS_PCT": 0,
-      "games": 2
+      "games": 1
     },
     "w14": {
       "PPG": 0.0,
@@ -6540,13 +6349,13 @@
       "games": 4
     },
     "w30": {
-      "PPG": 1.3,
-      "APG": 0.3,
+      "PPG": 1.5,
+      "APG": 0.2,
       "RPG": 0.9,
       "BPG": 0.0,
-      "FG_PCT": 36.4,
-      "TS_PCT": 50.5,
-      "games": 9
+      "FG_PCT": 57.1,
+      "TS_PCT": 76.1,
+      "games": 8
     }
   },
   {
@@ -6562,12 +6371,12 @@
     "games": 3,
     "w7": {
       "PPG": 0.0,
-      "APG": 0.5,
+      "APG": 0.0,
       "RPG": 0.0,
       "BPG": 0.0,
-      "FG_PCT": 0.0,
-      "TS_PCT": 0.0,
-      "games": 2
+      "FG_PCT": 0,
+      "TS_PCT": 0,
+      "games": 1
     },
     "w14": {
       "PPG": 0.0,
@@ -6677,15 +6486,7 @@
     "FG_PCT": 0,
     "TS_PCT": 0,
     "games": 1,
-    "w7": {
-      "PPG": 0.0,
-      "APG": 0.0,
-      "RPG": 0.0,
-      "BPG": 0.0,
-      "FG_PCT": 0,
-      "TS_PCT": 0,
-      "games": 1
-    },
+    "w7": null,
     "w14": {
       "PPG": 0.0,
       "APG": 0.0,
@@ -6716,15 +6517,7 @@
     "FG_PCT": 0,
     "TS_PCT": 0,
     "games": 3,
-    "w7": {
-      "PPG": 0.0,
-      "APG": 0.0,
-      "RPG": 0.0,
-      "BPG": 0.0,
-      "FG_PCT": 0,
-      "TS_PCT": 0,
-      "games": 1
-    },
+    "w7": null,
     "w14": {
       "PPG": 0.0,
       "APG": 0.0,
@@ -6741,7 +6534,7 @@
       "BPG": 0.0,
       "FG_PCT": 0,
       "TS_PCT": 0,
-      "games": 8
+      "games": 7
     }
   },
   {
@@ -6755,15 +6548,7 @@
     "FG_PCT": 0,
     "TS_PCT": 0,
     "games": 3,
-    "w7": {
-      "PPG": 0.0,
-      "APG": 0.0,
-      "RPG": 0.0,
-      "BPG": 0.0,
-      "FG_PCT": 0,
-      "TS_PCT": 0,
-      "games": 1
-    },
+    "w7": null,
     "w14": {
       "PPG": 0.0,
       "APG": 0.0,
@@ -6780,7 +6565,7 @@
       "BPG": 0.0,
       "FG_PCT": 0,
       "TS_PCT": 0,
-      "games": 8
+      "games": 7
     }
   },
   {
@@ -6794,15 +6579,7 @@
     "FG_PCT": 0,
     "TS_PCT": 0,
     "games": 1,
-    "w7": {
-      "PPG": 0.0,
-      "APG": 0.0,
-      "RPG": 0.0,
-      "BPG": 0.0,
-      "FG_PCT": 0,
-      "TS_PCT": 0,
-      "games": 1
-    },
+    "w7": null,
     "w14": {
       "PPG": 0.0,
       "APG": 0.0,
@@ -6833,15 +6610,7 @@
     "FG_PCT": 0,
     "TS_PCT": 0,
     "games": 1,
-    "w7": {
-      "PPG": 0.0,
-      "APG": 0.0,
-      "RPG": 0.0,
-      "BPG": 0.0,
-      "FG_PCT": 0,
-      "TS_PCT": 0,
-      "games": 1
-    },
+    "w7": null,
     "w14": {
       "PPG": 0.0,
       "APG": 0.0,
@@ -6872,15 +6641,7 @@
     "FG_PCT": 0,
     "TS_PCT": 0,
     "games": 3,
-    "w7": {
-      "PPG": 0.0,
-      "APG": 0.0,
-      "RPG": 0.0,
-      "BPG": 0.0,
-      "FG_PCT": 0,
-      "TS_PCT": 0,
-      "games": 1
-    },
+    "w7": null,
     "w14": {
       "PPG": 0.0,
       "APG": 0.0,
@@ -6911,15 +6672,7 @@
     "FG_PCT": 0,
     "TS_PCT": 0,
     "games": 2,
-    "w7": {
-      "PPG": 0.0,
-      "APG": 0.0,
-      "RPG": 0.0,
-      "BPG": 0.0,
-      "FG_PCT": 0,
-      "TS_PCT": 0,
-      "games": 1
-    },
+    "w7": null,
     "w14": {
       "PPG": 0.0,
       "APG": 0.0,
@@ -6945,29 +6698,29 @@
     "id": "5017721",
     "PPG": 0.0,
     "APG": 0.0,
-    "RPG": 0.3,
+    "RPG": 0.0,
     "BPG": 0.0,
-    "FG_PCT": 0.0,
-    "TS_PCT": 0.0,
-    "games": 3,
+    "FG_PCT": 0,
+    "TS_PCT": 0,
+    "games": 2,
     "w7": null,
     "w14": {
       "PPG": 0.0,
       "APG": 0.0,
-      "RPG": 0.3,
+      "RPG": 0.0,
       "BPG": 0.0,
-      "FG_PCT": 0.0,
-      "TS_PCT": 0.0,
-      "games": 3
+      "FG_PCT": 0,
+      "TS_PCT": 0,
+      "games": 2
     },
     "w30": {
-      "PPG": 2.6,
-      "APG": 0.2,
-      "RPG": 1.2,
+      "PPG": 2.1,
+      "APG": 0.0,
+      "RPG": 1.1,
       "BPG": 0.0,
-      "FG_PCT": 27.3,
-      "TS_PCT": 41.1,
-      "games": 8
+      "FG_PCT": 23.5,
+      "TS_PCT": 38.2,
+      "games": 7
     }
   },
   {
@@ -6980,7 +6733,7 @@
     "BPG": 0.0,
     "FG_PCT": 0,
     "TS_PCT": 0,
-    "games": 3,
+    "games": 2,
     "w7": null,
     "w14": {
       "PPG": 0.0,
@@ -6989,7 +6742,7 @@
       "BPG": 0.0,
       "FG_PCT": 0,
       "TS_PCT": 0,
-      "games": 3
+      "games": 2
     },
     "w30": {
       "PPG": 0.0,
@@ -7011,7 +6764,7 @@
     "BPG": 0.0,
     "FG_PCT": 0,
     "TS_PCT": 0,
-    "games": 3,
+    "games": 2,
     "w7": null,
     "w14": {
       "PPG": 0.0,
@@ -7020,7 +6773,7 @@
       "BPG": 0.0,
       "FG_PCT": 0,
       "TS_PCT": 0,
-      "games": 3
+      "games": 2
     },
     "w30": {
       "PPG": 0.0,
@@ -7029,7 +6782,7 @@
       "BPG": 0.0,
       "FG_PCT": 0.0,
       "TS_PCT": 0.0,
-      "games": 8
+      "games": 7
     }
   },
   {
@@ -7157,6 +6910,37 @@
     }
   },
   {
+    "PLAYER_NAME": "Te-Hina Paopao",
+    "TEAM_ABBREVIATION": "ATL",
+    "id": "4433431",
+    "PPG": 0.0,
+    "APG": 0.0,
+    "RPG": 0.0,
+    "BPG": 0.0,
+    "FG_PCT": 0,
+    "TS_PCT": 0,
+    "games": 1,
+    "w7": null,
+    "w14": {
+      "PPG": 0.0,
+      "APG": 0.0,
+      "RPG": 0.0,
+      "BPG": 0.0,
+      "FG_PCT": 0,
+      "TS_PCT": 0,
+      "games": 1
+    },
+    "w30": {
+      "PPG": 0.8,
+      "APG": 0.8,
+      "RPG": 0.2,
+      "BPG": 0.0,
+      "FG_PCT": 10.0,
+      "TS_PCT": 23.0,
+      "games": 6
+    }
+  },
+  {
     "PLAYER_NAME": "Kelsey Plum",
     "TEAM_ABBREVIATION": "LA",
     "id": "3065570",
@@ -7184,7 +6968,7 @@
       "BPG": 0.0,
       "FG_PCT": 0,
       "TS_PCT": 0,
-      "games": 3
+      "games": 2
     }
   },
   {
@@ -7339,37 +7123,6 @@
       "BPG": 0.0,
       "FG_PCT": 0,
       "TS_PCT": 0,
-      "games": 4
-    }
-  },
-  {
-    "PLAYER_NAME": "Alissa Pili",
-    "TEAM_ABBREVIATION": "LA",
-    "id": "5105752",
-    "PPG": 0.0,
-    "APG": 0.0,
-    "RPG": 1.0,
-    "BPG": 0.0,
-    "FG_PCT": 0,
-    "TS_PCT": 0,
-    "games": 1,
-    "w7": null,
-    "w14": {
-      "PPG": 0.0,
-      "APG": 0.0,
-      "RPG": 1.0,
-      "BPG": 0.0,
-      "FG_PCT": 0,
-      "TS_PCT": 0,
-      "games": 1
-    },
-    "w30": {
-      "PPG": 1.0,
-      "APG": 0.5,
-      "RPG": 1.5,
-      "BPG": 0.0,
-      "FG_PCT": 50.0,
-      "TS_PCT": 50.0,
       "games": 4
     }
   }
