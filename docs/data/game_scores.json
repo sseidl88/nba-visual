@@ -1,4 +1,35 @@
 {
-  "date": "2026-07-27",
-  "games": []
+  "date": "2026-07-28",
+  "games": [
+    {
+      "home": "WSH",
+      "home_score": 92,
+      "away": "CON",
+      "away_score": 84
+    },
+    {
+      "home": "MIN",
+      "home_score": 100,
+      "away": "TOR",
+      "away_score": 93
+    },
+    {
+      "home": "SEA",
+      "home_score": 95,
+      "away": "IND",
+      "away_score": 105
+    },
+    {
+      "home": "LV",
+      "home_score": 98,
+      "away": "POR",
+      "away_score": 83
+    },
+    {
+      "home": "LA",
+      "home_score": 109,
+      "away": "NY",
+      "away_score": 113
+    }
+  ]
 }
