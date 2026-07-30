@@ -13,11 +13,11 @@
     "team": "ATL",
     "name": "Atlanta Dream",
     "conference": "Eastern Conference",
-    "wins": 16,
+    "wins": 17,
     "losses": 10,
-    "pct": 0.615,
-    "gb": "1",
-    "streak": "W3"
+    "pct": 0.63,
+    "gb": "0.5",
+    "streak": "W4"
   },
   {
     "team": "NY",
@@ -94,20 +94,20 @@
     "name": "Golden State Valkyries",
     "conference": "Western Conference",
     "wins": 19,
-    "losses": 8,
-    "pct": 0.704,
-    "gb": "3",
-    "streak": "L1"
+    "losses": 9,
+    "pct": 0.679,
+    "gb": "3.5",
+    "streak": "L2"
   },
   {
     "team": "DAL",
     "name": "Dallas Wings",
     "conference": "Western Conference",
     "wins": 18,
-    "losses": 9,
-    "pct": 0.667,
-    "gb": "4",
-    "streak": "W1"
+    "losses": 10,
+    "pct": 0.643,
+    "gb": "4.5",
+    "streak": "L1"
   },
   {
     "team": "POR",
@@ -120,6 +120,16 @@
     "streak": "L3"
   },
   {
+    "team": "PHX",
+    "name": "Phoenix Mercury",
+    "conference": "Western Conference",
+    "wins": 11,
+    "losses": 18,
+    "pct": 0.379,
+    "gb": "12",
+    "streak": "W3"
+  },
+  {
     "team": "LA",
     "name": "Los Angeles Sparks",
     "conference": "Western Conference",
@@ -128,16 +138,6 @@
     "pct": 0.37,
     "gb": "12",
     "streak": "L6"
-  },
-  {
-    "team": "PHX",
-    "name": "Phoenix Mercury",
-    "conference": "Western Conference",
-    "wins": 10,
-    "losses": 18,
-    "pct": 0.357,
-    "gb": "12.5",
-    "streak": "W2"
   },
   {
     "team": "SEA",
