@@ -78,14 +78,7 @@
         <button class="toggle-btn" data-stat="TS_PCT">TS%</button>
       </div>
       <table class="stats-table">
-        <thead>
-          <tr>
-            <th class="rank">#</th>
-            <th>Player</th>
-            <th>Team</th>
-            <th class="num" id="ppg-stat-header">PPG</th>
-          </tr>
-        </thead>
+        <thead id="ppg-thead"></thead>
         <tbody id="ppg-body"></tbody>
       </table>
       <div class="status" id="ppg-status"></div>
@@ -225,6 +218,8 @@
     const knownTeams     = new Set();
     let playerNameMap    = {};   // id → {name, team}
     let injuryMap        = {};   // id → "questionable" | "out" | "ir"
+    let currentPPGSortCol = 'stat';
+    let currentPPGSortDir = 'desc';
 
     // ── League helpers ────────────────────────────────────────────────────────
     function dataPath(file) {
@@ -234,6 +229,60 @@
     function photoUrl(id) {
       if (!id) return '';
       return `https://a.espncdn.com/i/headshots/${activeLeague}/players/full/${esc(id)}.png`;
+    }
+
+    function sparkline(id, statKey) {
+      if (!statKey || !playerGamesCache) return '';
+      const games = (playerGamesCache[id] || []).slice(0, 7).reverse();
+      if (!games.length) return '';
+      const keyMap = { pts: 'pts', ast: 'ast', reb: 'reb', blk: 'blk' };
+      const vals = games.map(g => g[keyMap[statKey]] || 0);
+      const max = Math.max(...vals, 1);
+      const W = 56, H = 22, barW = 6, gap = 2;
+      const bars = vals.map((v, i) => {
+        const h = Math.max(2, Math.round((v / max) * H));
+        return `<rect x="${i * (barW + gap)}" y="${H - h}" width="${barW}" height="${h}" rx="1"/>`;
+      }).join('');
+      return `<svg class="spk" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}">${bars}</svg>`;
+    }
+
+    function breakoutBadge(player) {
+      if (!playerGamesCache) return '';
+      const games = (playerGamesCache[player.id] || []).slice(0, 3);
+      if (games.length < 3) return '';
+      const avg3 = games.reduce((s, g) => s + (g.pts || 0), 0) / 3;
+      const base = (player.w14 || {}).PPG;
+      if (base && avg3 >= base * 1.2 && avg3 >= base + 2)
+        return `<span class="breakout-badge" title="${avg3.toFixed(1)} PPG last 3 games (avg ${base})">🔥</span>`;
+      return '';
+    }
+
+    function radarChart(player) {
+      const dims = [
+        { label: 'PPG', key: 'PPG' }, { label: 'APG', key: 'APG' },
+        { label: 'RPG', key: 'RPG' }, { label: 'BPG', key: 'BPG' },
+        { label: 'TS%', key: 'TS_PCT' },
+      ];
+      const n = dims.length;
+      const maxes = dims.map(d => Math.max(...ppgData.map(p => (p.w14||{})[d.key] || 0), 1));
+      const vals = dims.map((d, i) => Math.min(1, ((player.w14||{})[d.key] || 0) / maxes[i]));
+      const cx = 80, cy = 80, r = 52;
+      const pt = (frac, i) => {
+        const a = (Math.PI * 2 * i / n) - Math.PI / 2;
+        return `${(cx + r * frac * Math.cos(a)).toFixed(1)},${(cy + r * frac * Math.sin(a)).toFixed(1)}`;
+      };
+      const rings = [0.25, 0.5, 0.75, 1].map(f =>
+        `<polygon points="${dims.map((_, i) => pt(f, i)).join(' ')}" class="radar-ring"/>`).join('');
+      const axes = dims.map((_, i) =>
+        `<line x1="${cx}" y1="${cy}" x2="${pt(1, i).split(',').join('" y2="')}" class="radar-axis"/>`).join('');
+      const polyPts = vals.map((v, i) => pt(v, i)).join(' ');
+      const labels = dims.map((d, i) => {
+        const a = (Math.PI * 2 * i / n) - Math.PI / 2;
+        const lx = cx + (r + 15) * Math.cos(a), ly = cy + (r + 15) * Math.sin(a);
+        const anchor = Math.cos(a) > 0.3 ? 'start' : Math.cos(a) < -0.3 ? 'end' : 'middle';
+        return `<text x="${lx.toFixed(1)}" y="${(ly + 3.5).toFixed(1)}" text-anchor="${anchor}" class="radar-label">${d.label}</text>`;
+      }).join('');
+      return `<svg class="radar-chart" viewBox="0 0 160 160" width="160" height="160">${rings}${axes}<polygon points="${polyPts}" class="radar-poly"/>${labels}</svg>`;
     }
 
     // ── Utilities ────────────────────────────────────────────────────────────
@@ -443,23 +492,52 @@
       stat = stat || currentPPGStat;
       win  = win  || currentWindow;
       registerTeams(records);
-      const isPct = stat === 'FG_PCT' || stat === 'TS_PCT';
-      const header = stat === 'FG_PCT' ? 'FG%' : stat === 'TS_PCT' ? 'TS%' : stat;
-      document.getElementById('ppg-stat-header').textContent = header;
+      const isPct   = stat === 'FG_PCT' || stat === 'TS_PCT';
+      const header  = stat === 'FG_PCT' ? 'FG%' : stat === 'TS_PCT' ? 'TS%' : stat;
+      const spkKey  = { PPG: 'pts', APG: 'ast', RPG: 'reb', BPG: 'blk' }[stat] || null;
       document.getElementById('ppg-subtitle').textContent = `Last ${windowLabel(win)}`;
-      const sorted = [...records]
-        .filter(r => r[win] && r[win].games > 0)
-        .sort((a, b) => ((b[win]||{})[stat] ?? -1) - ((a[win]||{})[stat] ?? -1));
-      const toShow = activeTeam
-        ? sorted.filter(r => r.TEAM_ABBREVIATION === activeTeam)
-        : sorted.slice(0, 10);
+
+      // Sort
+      let base = [...records].filter(r => r[win] && r[win].games > 0);
+      if (currentPPGSortCol === 'PLAYER_NAME') {
+        base.sort((a, b) => currentPPGSortDir === 'asc'
+          ? (a.PLAYER_NAME||'').localeCompare(b.PLAYER_NAME||'')
+          : (b.PLAYER_NAME||'').localeCompare(a.PLAYER_NAME||''));
+      } else if (currentPPGSortCol === 'TEAM_ABBREVIATION') {
+        base.sort((a, b) => currentPPGSortDir === 'asc'
+          ? (a.TEAM_ABBREVIATION||'').localeCompare(b.TEAM_ABBREVIATION||'')
+          : (b.TEAM_ABBREVIATION||'').localeCompare(a.TEAM_ABBREVIATION||''));
+      } else {
+        base.sort((a, b) => currentPPGSortDir === 'asc'
+          ? ((a[win]||{})[stat] ?? -1) - ((b[win]||{})[stat] ?? -1)
+          : ((b[win]||{})[stat] ?? -1) - ((a[win]||{})[stat] ?? -1));
+      }
+
+      const toShow = activeTeam ? base.filter(r => r.TEAM_ABBREVIATION === activeTeam) : base.slice(0, 10);
+
+      // Render sortable thead
+      const si = col => {
+        const active = currentPPGSortCol === col;
+        const arrow  = active ? (currentPPGSortDir === 'asc' ? '▴' : '▾') : '⇅';
+        return `<span class="sort-icon${active ? ' active' : ''}">${arrow}</span>`;
+      };
+      document.getElementById('ppg-thead').innerHTML = `<tr>
+        <th class="rank">#</th>
+        <th class="sort-th" data-ppg-sort="PLAYER_NAME">Player ${si('PLAYER_NAME')}</th>
+        <th class="sort-th" data-ppg-sort="TEAM_ABBREVIATION">Team ${si('TEAM_ABBREVIATION')}</th>
+        ${spkKey ? '<th class="spk-th"></th>' : ''}
+        <th class="num sort-th" data-ppg-sort="stat">${header} ${si('stat')}</th>
+      </tr>`;
+
       document.getElementById('ppg-body').innerHTML = toShow.map((r, i) => {
         const raw = (r[win]||{})[stat];
         const val = isPct ? (raw !== undefined ? raw + '%' : '') : (raw ?? '');
+        const cell = `<div class="player-cell">${photoThumb(r.id)}<span class="player-link" data-id="${esc(r.id||'')}" data-name="${esc(r.PLAYER_NAME||'')}">${esc(r.PLAYER_NAME||'')}</span>${statusBadge(r.id)}${breakoutBadge(r)}</div>`;
         return `<tr>
           <td class="rank num">${i + 1}</td>
-          <td>${playerCell(r.id, r.PLAYER_NAME)}</td>
+          <td>${cell}</td>
           <td class="team-badge">${esc(r.TEAM_ABBREVIATION||'')}</td>
+          ${spkKey ? `<td class="spk-td">${sparkline(r.id, spkKey)}</td>` : ''}
           <td class="num">${esc(String(val))}</td>
         </tr>`;
       }).join('');
@@ -481,9 +559,21 @@
       if (ppgData.length) renderPPG(ppgData, currentPPGStat, currentWindow);
     });
 
+    document.getElementById('ppg-thead').addEventListener('click', e => {
+      const th = e.target.closest('[data-ppg-sort]');
+      if (!th) return;
+      const col = th.dataset.ppgSort;
+      if (currentPPGSortCol === col) currentPPGSortDir = currentPPGSortDir === 'desc' ? 'asc' : 'desc';
+      else { currentPPGSortCol = col; currentPPGSortDir = 'desc'; }
+      if (ppgData.length) renderPPG(ppgData, currentPPGStat, currentWindow);
+    });
+
     async function loadPPG() {
       try {
-        const res = await fetch(dataPath('season_ppg.json'));
+        const [res] = await Promise.all([
+          fetch(dataPath('season_ppg.json')),
+          getPlayerGames(),
+        ]);
         if (!res.ok) throw new Error();
         ppgData = await res.json();
         if (!ppgData.length) throw new Error();
@@ -685,6 +775,35 @@
       const alreadyComparing = compareSlots.some(s => s.id === id);
       const compareBtn = `<button class="suggestion-btn" id="modal-compare-btn" style="font-size:0.72rem;padding:0.28rem 0.7rem;margin-top:0.25rem" data-id="${esc(id)}" data-name="${esc(name)}">${alreadyComparing ? '✓ Added' : '+ Compare'}</button>`;
 
+      // Recent form: last 3 games vs 14d avg
+      const last3 = gameLog.slice(0, 3);
+      const formStats = [
+        { label: 'PPG', key: 'pts', base: (meta.w14||{}).PPG },
+        { label: 'APG', key: 'ast', base: (meta.w14||{}).APG },
+        { label: 'RPG', key: 'reb', base: (meta.w14||{}).RPG },
+        { label: 'BPG', key: 'blk', base: (meta.w14||{}).BPG },
+      ];
+      const formHtml = last3.length >= 1 ? `
+        <div style="flex:1;min-width:160px">
+          <div class="modal-section-title" style="margin-bottom:0.4rem">Recent Form <span style="font-size:0.62rem;font-weight:400;opacity:0.6">(last ${last3.length} vs 14d avg)</span></div>
+          <div class="form-splits">
+            ${formStats.map(({ label, key, base }) => {
+              const avg = last3.reduce((s, g) => s + (g[key]||0), 0) / last3.length;
+              const diff = base != null ? avg - base : null;
+              const cls  = diff === null ? '' : diff > 0.4 ? 'form-up' : diff < -0.4 ? 'form-down' : '';
+              const dir  = diff === null ? '' : diff > 0.4 ? '↑' : diff < -0.4 ? '↓' : '→';
+              return `<div class="form-stat ${cls}">
+                <span class="form-label">${label}</span>
+                <span class="form-recent">${avg.toFixed(1)}</span>
+                <span class="form-dir">${dir}</span>
+                ${base != null ? `<span class="form-base">avg ${base}</span>` : ''}
+              </div>`;
+            }).join('')}
+          </div>
+        </div>` : '';
+
+      const hasRadar = ppgData.length > 0 && Object.keys(meta).length > 0;
+
       document.getElementById('modal-content').innerHTML = `
         <div class="modal-header">
           ${photoHtml}
@@ -694,6 +813,10 @@
             ${compareBtn}
           </div>
         </div>
+        ${hasRadar || formHtml ? `<div class="modal-insights">
+          ${hasRadar ? radarChart(meta) : ''}
+          ${formHtml}
+        </div>` : ''}
         ${gameLog.length ? `
         <div class="modal-section-title">Last 14 Days</div>
         <div style="overflow-x:auto">
@@ -800,7 +923,7 @@
                 <th>Team</th>
                 <th class="num">W</th>
                 <th class="num">L</th>
-                <th class="num">PCT</th>
+                <th>PCT</th>
                 <th class="num">GB</th>
                 <th>Streak</th>
               </tr>
@@ -815,7 +938,10 @@
                 </td>
                 <td class="num">${t.wins}</td>
                 <td class="num">${t.losses}</td>
-                <td class="num">${String(t.pct.toFixed(3)).replace(/^0/, '')}</td>
+                <td class="pct-cell">
+                  <div class="pct-bar-track"><div class="pct-bar" style="width:${(t.pct*100).toFixed(0)}%"></div></div>
+                  <div class="pct-val">${String(t.pct.toFixed(3)).replace(/^0/, '')}</div>
+                </td>
                 <td class="num">${esc(t.gb)}</td>
                 <td>${fmtStreak(t.streak)}</td>
               </tr>`).join('')}
@@ -1045,6 +1171,10 @@
       document.getElementById('btn-wnba').classList.toggle('active', !isNBA);
       document.getElementById('btn-nba').classList.toggle('active', isNBA);
 
+      // Reset sort state
+      currentPPGSortCol = 'stat';
+      currentPPGSortDir = 'desc';
+
       // Clear all caches
       ppgData          = [];
       rookieData       = [];
@@ -1064,6 +1194,7 @@
 
       // Reset UI
       document.getElementById('scores-body').innerHTML         = '';
+      document.getElementById('ppg-thead').innerHTML           = '';
       document.getElementById('ppg-body').innerHTML            = '';
       document.getElementById('rookie-body').innerHTML         = '';
       document.getElementById('trend-up-content').innerHTML    = '';
