@@ -24,10 +24,10 @@
     "name": "New York Liberty",
     "conference": "Eastern Conference",
     "wins": 16,
-    "losses": 12,
-    "pct": 0.571,
-    "gb": "2",
-    "streak": "W3"
+    "losses": 13,
+    "pct": 0.552,
+    "gb": "2.5",
+    "streak": "L1"
   },
   {
     "team": "WSH",
@@ -44,50 +44,50 @@
     "name": "Toronto Tempo",
     "conference": "Eastern Conference",
     "wins": 10,
-    "losses": 17,
-    "pct": 0.37,
-    "gb": "7.5",
-    "streak": "L4"
+    "losses": 18,
+    "pct": 0.357,
+    "gb": "8",
+    "streak": "L5"
   },
   {
     "team": "CHI",
     "name": "Chicago Sky",
     "conference": "Eastern Conference",
-    "wins": 9,
+    "wins": 10,
     "losses": 18,
-    "pct": 0.333,
-    "gb": "8.5",
-    "streak": "L2"
+    "pct": 0.357,
+    "gb": "8",
+    "streak": "W1"
   },
   {
     "team": "CON",
     "name": "Connecticut Sun",
     "conference": "Eastern Conference",
     "wins": 7,
-    "losses": 21,
-    "pct": 0.25,
-    "gb": "11",
-    "streak": "L3"
+    "losses": 22,
+    "pct": 0.241,
+    "gb": "11.5",
+    "streak": "L4"
   },
   {
     "team": "MIN",
     "name": "Minnesota Lynx",
     "conference": "Western Conference",
-    "wins": 23,
+    "wins": 24,
     "losses": 6,
-    "pct": 0.793,
+    "pct": 0.8,
     "gb": "-",
-    "streak": "W8"
+    "streak": "W9"
   },
   {
     "team": "LV",
     "name": "Las Vegas Aces",
     "conference": "Western Conference",
-    "wins": 19,
+    "wins": 20,
     "losses": 8,
-    "pct": 0.704,
+    "pct": 0.714,
     "gb": "3",
-    "streak": "W1"
+    "streak": "W2"
   },
   {
     "team": "GS",
@@ -96,7 +96,7 @@
     "wins": 19,
     "losses": 9,
     "pct": 0.679,
-    "gb": "3.5",
+    "gb": "4",
     "streak": "L2"
   },
   {
@@ -106,7 +106,7 @@
     "wins": 18,
     "losses": 10,
     "pct": 0.643,
-    "gb": "4.5",
+    "gb": "5",
     "streak": "L1"
   },
   {
@@ -116,7 +116,7 @@
     "wins": 11,
     "losses": 17,
     "pct": 0.393,
-    "gb": "11.5",
+    "gb": "12",
     "streak": "L3"
   },
   {
@@ -126,7 +126,7 @@
     "wins": 11,
     "losses": 18,
     "pct": 0.379,
-    "gb": "12",
+    "gb": "12.5",
     "streak": "W3"
   },
   {
@@ -136,7 +136,7 @@
     "wins": 10,
     "losses": 17,
     "pct": 0.37,
-    "gb": "12",
+    "gb": "12.5",
     "streak": "L6"
   },
   {
@@ -146,7 +146,7 @@
     "wins": 6,
     "losses": 24,
     "pct": 0.2,
-    "gb": "17.5",
+    "gb": "18",
     "streak": "L7"
   }
 ]
