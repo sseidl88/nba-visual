@@ -5,19 +5,32 @@ import os
 import argparse
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--league", default="wnba", choices=["wnba", "nba"])
+parser.add_argument("--league", default="wnba", choices=["wnba", "nba", "ncaam", "ncaaw"])
 args   = parser.parse_args()
 LEAGUE = args.league
 
+_ESPN_SLUG = {
+    "wnba":  "wnba",
+    "nba":   "nba",
+    "ncaam": "mens-college-basketball",
+    "ncaaw": "womens-college-basketball",
+}[LEAGUE]
+
 _SPORT  = "basketball"
-_BASE   = f"https://site.api.espn.com/apis/site/v2/sports/{_SPORT}/{LEAGUE}"
-_BASE2  = f"https://site.api.espn.com/apis/v2/sports/{_SPORT}/{LEAGUE}"
+_BASE   = f"https://site.api.espn.com/apis/site/v2/sports/{_SPORT}/{_ESPN_SLUG}"
+_BASE2  = f"https://site.api.espn.com/apis/v2/sports/{_SPORT}/{_ESPN_SLUG}"
 
 SCOREBOARD    = f"{_BASE}/scoreboard"
 SUMMARY       = f"{_BASE}/summary"
 TEAMS_URL     = f"{_BASE}/teams"
 STANDINGS_URL = f"{_BASE2}/standings"
-DATA_DIR      = "docs/data" if LEAGUE == "wnba" else "docs/data/nba"
+DATA_DIR      = {
+    "wnba":  "docs/data",
+    "nba":   "docs/data/nba",
+    "ncaam": "docs/data/ncaam",
+    "ncaaw": "docs/data/ncaaw",
+}[LEAGUE]
+IS_NCAA = LEAGUE.startswith("ncaa")
 
 print(f"Running {LEAGUE.upper()} stats → {DATA_DIR}")
 
@@ -156,7 +169,7 @@ totals             = {}   # athlete_id → season totals + split halves
 daily_leaders      = {}   # "YYYY-MM-DD" → {PLAYER_NAME, TEAM_ABBREVIATION, pts}
 team_daily_leaders = {}   # "YYYY-MM-DD" → {"TEAM": {PLAYER_NAME, pts, TEAM_ABBREVIATION, date}}
 player_games       = {}   # athlete_id → [{date, opp, pts, ast, reb, blk, fgm, fga}]
-MAX_GAMES  = 90
+MAX_GAMES  = 150 if IS_NCAA else 90
 game_calls = 0
 
 for offset in range(1, 31):
@@ -331,33 +344,36 @@ def _parse_status(a):
                 return "questionable"
     return ""
 
-try:
-    tr = safe_get(TEAMS_URL)
-    if tr.ok:
-        leagues = tr.json().get("sports", [{}])[0].get("leagues", [{}])[0]
-        for team_entry in leagues.get("teams", []):
-            tid = team_entry.get("team", {}).get("id")
-            if not tid:
-                continue
-            rr = safe_get(f"{TEAMS_URL}/{tid}/roster")
-            if not rr.ok:
-                continue
-            athletes_raw = rr.json().get("athletes", [])
-            if athletes_raw and "items" in (athletes_raw[0] if athletes_raw else {}):
-                athletes_flat = [a for grp in athletes_raw for a in grp.get("items", [])]
-            else:
-                athletes_flat = athletes_raw
-            for a in athletes_flat:
-                pid = str(a.get("id", ""))
-                if a.get("experience", {}).get("years", -1) == 0:
-                    rookie_ids.add(pid)
-                if pid:
-                    status = _parse_status(a)
-                    if status:
-                        injury_status[pid] = status
-    print(f"Found {len(rookie_ids)} rookies, {len(injury_status)} non-active players")
-except Exception as e:
-    print(f"Roster error: {e}")
+if IS_NCAA:
+    print("Skipping roster fetch for NCAA (too many teams)")
+else:
+    try:
+        tr = safe_get(TEAMS_URL)
+        if tr.ok:
+            leagues = tr.json().get("sports", [{}])[0].get("leagues", [{}])[0]
+            for team_entry in leagues.get("teams", []):
+                tid = team_entry.get("team", {}).get("id")
+                if not tid:
+                    continue
+                rr = safe_get(f"{TEAMS_URL}/{tid}/roster")
+                if not rr.ok:
+                    continue
+                athletes_raw = rr.json().get("athletes", [])
+                if athletes_raw and "items" in (athletes_raw[0] if athletes_raw else {}):
+                    athletes_flat = [a for grp in athletes_raw for a in grp.get("items", [])]
+                else:
+                    athletes_flat = athletes_raw
+                for a in athletes_flat:
+                    pid = str(a.get("id", ""))
+                    if a.get("experience", {}).get("years", -1) == 0:
+                        rookie_ids.add(pid)
+                    if pid:
+                        status = _parse_status(a)
+                        if status:
+                            injury_status[pid] = status
+        print(f"Found {len(rookie_ids)} rookies, {len(injury_status)} non-active players")
+    except Exception as e:
+        print(f"Roster error: {e}")
 
 rookie_ppg = [
     {

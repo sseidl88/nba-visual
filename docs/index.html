@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>WNBA Stats</title>
+  <title>Hoops Stats</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,8 +12,11 @@
     <div style="display:flex;align-items:center;gap:0.75rem;flex-wrap:wrap">
       <h1 id="page-title">WNBA Stats</h1>
       <div class="league-toggle">
-        <button class="league-btn active" id="btn-wnba" onclick="switchLeague('wnba')">WNBA</button>
-        <button class="league-btn" id="btn-nba" onclick="switchLeague('nba')">NBA</button>
+        <button class="league-btn active" id="btn-wnba"  onclick="switchLeague('wnba')">WNBA</button>
+        <button class="league-btn"        id="btn-nba"   onclick="switchLeague('nba')">NBA</button>
+        <span class="league-divider"></span>
+        <button class="league-btn"        id="btn-ncaaw" onclick="switchLeague('ncaaw')">NCAAW</button>
+        <button class="league-btn"        id="btn-ncaam" onclick="switchLeague('ncaam')">NCAAM</button>
       </div>
     </div>
     <div style="display:flex;align-items:center;gap:0.75rem;flex-wrap:wrap">
@@ -222,13 +225,21 @@
     let currentPPGSortDir = 'desc';
 
     // ── League helpers ────────────────────────────────────────────────────────
+    const _DATA_DIRS = { wnba: 'data', nba: 'data/nba', ncaam: 'data/ncaam', ncaaw: 'data/ncaaw' };
+    const _ESPN_SLUGS = { wnba: 'wnba', nba: 'nba', ncaam: 'mens-college-basketball', ncaaw: 'womens-college-basketball' };
+    const _LEAGUE_TITLES = { wnba: 'WNBA Stats', nba: 'NBA Stats', ncaam: "NCAA Men's Basketball", ncaaw: "NCAA Women's Basketball" };
+
     function dataPath(file) {
-      return activeLeague === 'nba' ? `data/nba/${file}` : `data/${file}`;
+      return `${_DATA_DIRS[activeLeague] || 'data'}/${file}`;
+    }
+
+    function espnSlug() {
+      return _ESPN_SLUGS[activeLeague] || activeLeague;
     }
 
     function photoUrl(id) {
       if (!id) return '';
-      return `https://a.espncdn.com/i/headshots/${activeLeague}/players/full/${esc(id)}.png`;
+      return `https://a.espncdn.com/i/headshots/${espnSlug()}/players/full/${esc(id)}.png`;
     }
 
     function sparkline(id, statKey) {
@@ -1086,7 +1097,7 @@
 
     async function loadNews() {
       try {
-        const res = await fetch(`https://site.api.espn.com/apis/site/v2/sports/basketball/${activeLeague}/news?limit=10`);
+        const res = await fetch(`https://site.api.espn.com/apis/site/v2/sports/basketball/${espnSlug()}/news?limit=10`);
         if (!res.ok) return;
         const { articles = [] } = await res.json();
         if (!articles.length) return;
@@ -1098,7 +1109,7 @@
           const teamCat = (a.categories || []).find(c => c.type === 'team' && c.description);
           const tag  = teamCat
             ? `<div class="news-tag">${esc(teamCat.description)}</div>`
-            : `<div class="news-tag">${activeLeague.toUpperCase()}</div>`;
+            : `<div class="news-tag">${{ wnba:'WNBA', nba:'NBA', ncaam:'NCAAM', ncaaw:'NCAAW' }[activeLeague] || activeLeague.toUpperCase()}</div>`;
           const desc = a.description
             ? `<div class="news-desc">${esc(a.description)}</div>`
             : '';
@@ -1136,22 +1147,31 @@
     // ── Shareable team links ───────────────────────────────────────────────────
     function syncURLToTeam() {
       const url = new URL(location.href);
-      if (activeLeague !== 'wnba') url.searchParams.set('league', activeLeague);
+      if (activeLeague && activeLeague !== 'wnba') url.searchParams.set('league', activeLeague);
       else url.searchParams.delete('league');
       if (activeTeam) url.searchParams.set('team', activeTeam);
       else url.searchParams.delete('team');
       history.replaceState(null, '', url);
     }
 
+    const _ALL_LEAGUE_BTNS = ['wnba', 'nba', 'ncaaw', 'ncaam'];
+
+    function _applyLeagueUI(league) {
+      const title = _LEAGUE_TITLES[league] || league.toUpperCase();
+      document.getElementById('page-title').textContent = title;
+      document.title = title;
+      _ALL_LEAGUE_BTNS.forEach(l => {
+        const btn = document.getElementById(`btn-${l}`);
+        if (btn) btn.classList.toggle('active', l === league);
+      });
+    }
+
     function initURLSync() {
       const params = new URLSearchParams(location.search);
       const league = params.get('league');
-      if (league === 'nba' && activeLeague !== 'nba') {
-        activeLeague = 'nba';
-        document.getElementById('page-title').textContent = 'NBA Stats';
-        document.title = 'NBA Stats';
-        document.getElementById('btn-wnba').classList.remove('active');
-        document.getElementById('btn-nba').classList.add('active');
+      if (league && league !== 'wnba' && _ALL_LEAGUE_BTNS.includes(league)) {
+        activeLeague = league;
+        _applyLeagueUI(league);
       }
       const team = params.get('team');
       if (team) {
@@ -1165,11 +1185,7 @@
       if (league === activeLeague) return;
       activeLeague = league;
 
-      const isNBA = league === 'nba';
-      document.getElementById('page-title').textContent = isNBA ? 'NBA Stats' : 'WNBA Stats';
-      document.title = isNBA ? 'NBA Stats' : 'WNBA Stats';
-      document.getElementById('btn-wnba').classList.toggle('active', !isNBA);
-      document.getElementById('btn-nba').classList.toggle('active', isNBA);
+      _applyLeagueUI(league);
 
       // Reset sort state
       currentPPGSortCol = 'stat';
@@ -1211,7 +1227,7 @@
 
       // Sync URL
       const url = new URL(location.href);
-      if (isNBA) url.searchParams.set('league', 'nba');
+      if (league !== 'wnba') url.searchParams.set('league', league);
       else url.searchParams.delete('league');
       url.searchParams.delete('team');
       history.replaceState(null, '', url);
@@ -1302,7 +1318,7 @@
     // ── Today's schedule ──────────────────────────────────────────────────────
     async function loadTodaySchedule() {
       try {
-        const res = await fetch(`https://site.api.espn.com/apis/site/v2/sports/basketball/${activeLeague}/scoreboard`);
+        const res = await fetch(`https://site.api.espn.com/apis/site/v2/sports/basketball/${espnSlug()}/scoreboard`);
         if (!res.ok) return;
         const { events = [] } = await res.json();
         if (!events.length) return;

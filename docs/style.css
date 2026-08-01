@@ -54,6 +54,15 @@ h1 {
   color: #374151;
 }
 
+.league-divider {
+  display: inline-block;
+  width: 1px;
+  background: #c4c9d4;
+  align-self: stretch;
+  margin: 0.15rem 0.05rem;
+  flex-shrink: 0;
+}
+
 .meta-updated {
   font-size: 0.75rem;
   color: #bbb;
@@ -862,6 +871,7 @@ html.dark .league-toggle { background: #1c1f2b; }
 html.dark .league-btn { color: #6b7280; }
 html.dark .league-btn.active { background: #4f46e5; color: #fff; }
 html.dark .league-btn:hover:not(.active) { background: #2a2d3e; color: #9ca3af; }
+html.dark .league-divider { background: #374151; }
 html.dark .theme-toggle:hover { border-color: #818cf8; color: #a5b4fc; }
 
 html.dark .filter-pill { background: #1c1f2b; border-color: #374151; color: #9ca3af; }
