@@ -1,12 +1,18 @@
 {
   "current": {
-    "date": "2026-07-31",
-    "PLAYER_NAME": "Shakira Austin",
-    "TEAM_ABBREVIATION": "WSH",
-    "pts": 28,
+    "date": "2026-08-01",
+    "PLAYER_NAME": "A'ja Wilson",
+    "TEAM_ABBREVIATION": "LV",
+    "pts": 36,
     "streak": 1
   },
   "history": [
+    {
+      "date": "2026-08-01",
+      "PLAYER_NAME": "A'ja Wilson",
+      "TEAM_ABBREVIATION": "LV",
+      "pts": 36
+    },
     {
       "date": "2026-07-31",
       "PLAYER_NAME": "Shakira Austin",
@@ -60,12 +66,6 @@
       "PLAYER_NAME": "Kelsey Mitchell",
       "TEAM_ABBREVIATION": "IND",
       "pts": 33
-    },
-    {
-      "date": "2026-07-17",
-      "PLAYER_NAME": "Caitlin Clark",
-      "TEAM_ABBREVIATION": "IND",
-      "pts": 45
     }
   ]
 }

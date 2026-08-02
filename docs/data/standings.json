@@ -20,6 +20,16 @@
     "streak": "W5"
   },
   {
+    "team": "NY",
+    "name": "New York Liberty",
+    "conference": "Eastern Conference",
+    "wins": 17,
+    "losses": 13,
+    "pct": 0.567,
+    "gb": "2.5",
+    "streak": "W1"
+  },
+  {
     "team": "WSH",
     "name": "Washington Mystics",
     "conference": "Eastern Conference",
@@ -30,14 +40,14 @@
     "streak": "W4"
   },
   {
-    "team": "NY",
-    "name": "New York Liberty",
+    "team": "CHI",
+    "name": "Chicago Sky",
     "conference": "Eastern Conference",
-    "wins": 16,
-    "losses": 13,
-    "pct": 0.552,
-    "gb": "3",
-    "streak": "L1"
+    "wins": 11,
+    "losses": 18,
+    "pct": 0.379,
+    "gb": "8",
+    "streak": "W2"
   },
   {
     "team": "TOR",
@@ -48,16 +58,6 @@
     "pct": 0.357,
     "gb": "8.5",
     "streak": "L5"
-  },
-  {
-    "team": "CHI",
-    "name": "Chicago Sky",
-    "conference": "Eastern Conference",
-    "wins": 10,
-    "losses": 18,
-    "pct": 0.357,
-    "gb": "8.5",
-    "streak": "W1"
   },
   {
     "team": "CON",
@@ -84,10 +84,10 @@
     "name": "Las Vegas Aces",
     "conference": "Western Conference",
     "wins": 20,
-    "losses": 8,
-    "pct": 0.714,
-    "gb": "3",
-    "streak": "W2"
+    "losses": 9,
+    "pct": 0.69,
+    "gb": "3.5",
+    "streak": "L1"
   },
   {
     "team": "GS",
@@ -110,16 +110,6 @@
     "streak": "L2"
   },
   {
-    "team": "PHX",
-    "name": "Phoenix Mercury",
-    "conference": "Western Conference",
-    "wins": 11,
-    "losses": 18,
-    "pct": 0.379,
-    "gb": "12.5",
-    "streak": "W3"
-  },
-  {
     "team": "POR",
     "name": "Portland Fire",
     "conference": "Western Conference",
@@ -128,6 +118,16 @@
     "pct": 0.379,
     "gb": "12.5",
     "streak": "L4"
+  },
+  {
+    "team": "PHX",
+    "name": "Phoenix Mercury",
+    "conference": "Western Conference",
+    "wins": 11,
+    "losses": 19,
+    "pct": 0.367,
+    "gb": "13",
+    "streak": "L1"
   },
   {
     "team": "LA",
