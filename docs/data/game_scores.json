@@ -1,17 +1,29 @@
 {
-  "date": "2026-08-01",
+  "date": "2026-08-02",
   "games": [
     {
-      "home": "CHI",
-      "home_score": 84,
-      "away": "LV",
-      "away_score": 83
+      "home": "MIN",
+      "home_score": 108,
+      "away": "IND",
+      "away_score": 100
     },
     {
-      "home": "PHX",
-      "home_score": 92,
-      "away": "NY",
-      "away_score": 94
+      "home": "POR",
+      "home_score": 101,
+      "away": "LA",
+      "away_score": 106
+    },
+    {
+      "home": "DAL",
+      "home_score": 83,
+      "away": "CON",
+      "away_score": 63
+    },
+    {
+      "home": "GS",
+      "home_score": 96,
+      "away": "TOR",
+      "away_score": 79
     }
   ]
 }

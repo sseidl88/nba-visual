@@ -4,10 +4,10 @@
     "name": "Indiana Fever",
     "conference": "Eastern Conference",
     "wins": 19,
-    "losses": 10,
-    "pct": 0.655,
+    "losses": 11,
+    "pct": 0.633,
     "gb": "-",
-    "streak": "W5"
+    "streak": "L1"
   },
   {
     "team": "ATL",
@@ -16,7 +16,7 @@
     "wins": 18,
     "losses": 10,
     "pct": 0.643,
-    "gb": "0.5",
+    "gb": "-",
     "streak": "W5"
   },
   {
@@ -26,7 +26,7 @@
     "wins": 17,
     "losses": 13,
     "pct": 0.567,
-    "gb": "2.5",
+    "gb": "2",
     "streak": "W1"
   },
   {
@@ -36,7 +36,7 @@
     "wins": 16,
     "losses": 12,
     "pct": 0.571,
-    "gb": "2.5",
+    "gb": "2",
     "streak": "W4"
   },
   {
@@ -46,7 +46,7 @@
     "wins": 11,
     "losses": 18,
     "pct": 0.379,
-    "gb": "8",
+    "gb": "7.5",
     "streak": "W2"
   },
   {
@@ -54,30 +54,30 @@
     "name": "Toronto Tempo",
     "conference": "Eastern Conference",
     "wins": 10,
-    "losses": 18,
-    "pct": 0.357,
+    "losses": 19,
+    "pct": 0.345,
     "gb": "8.5",
-    "streak": "L5"
+    "streak": "L6"
   },
   {
     "team": "CON",
     "name": "Connecticut Sun",
     "conference": "Eastern Conference",
     "wins": 7,
-    "losses": 22,
-    "pct": 0.241,
+    "losses": 23,
+    "pct": 0.233,
     "gb": "12",
-    "streak": "L4"
+    "streak": "L5"
   },
   {
     "team": "MIN",
     "name": "Minnesota Lynx",
     "conference": "Western Conference",
-    "wins": 24,
+    "wins": 25,
     "losses": 6,
-    "pct": 0.8,
+    "pct": 0.806,
     "gb": "-",
-    "streak": "W9"
+    "streak": "W10"
   },
   {
     "team": "LV",
@@ -86,38 +86,38 @@
     "wins": 20,
     "losses": 9,
     "pct": 0.69,
-    "gb": "3.5",
+    "gb": "4",
     "streak": "L1"
   },
   {
     "team": "GS",
     "name": "Golden State Valkyries",
     "conference": "Western Conference",
-    "wins": 19,
+    "wins": 20,
     "losses": 9,
-    "pct": 0.679,
+    "pct": 0.69,
     "gb": "4",
-    "streak": "L2"
+    "streak": "W1"
   },
   {
     "team": "DAL",
     "name": "Dallas Wings",
     "conference": "Western Conference",
-    "wins": 18,
+    "wins": 19,
     "losses": 11,
-    "pct": 0.621,
+    "pct": 0.633,
     "gb": "5.5",
-    "streak": "L2"
+    "streak": "W1"
   },
   {
-    "team": "POR",
-    "name": "Portland Fire",
+    "team": "LA",
+    "name": "Los Angeles Sparks",
     "conference": "Western Conference",
     "wins": 11,
-    "losses": 18,
-    "pct": 0.379,
+    "losses": 17,
+    "pct": 0.393,
     "gb": "12.5",
-    "streak": "L4"
+    "streak": "W1"
   },
   {
     "team": "PHX",
@@ -126,18 +126,18 @@
     "wins": 11,
     "losses": 19,
     "pct": 0.367,
-    "gb": "13",
+    "gb": "13.5",
     "streak": "L1"
   },
   {
-    "team": "LA",
-    "name": "Los Angeles Sparks",
+    "team": "POR",
+    "name": "Portland Fire",
     "conference": "Western Conference",
-    "wins": 10,
-    "losses": 17,
-    "pct": 0.37,
-    "gb": "12.5",
-    "streak": "L6"
+    "wins": 11,
+    "losses": 19,
+    "pct": 0.367,
+    "gb": "13.5",
+    "streak": "L5"
   },
   {
     "team": "SEA",
@@ -146,7 +146,7 @@
     "wins": 6,
     "losses": 25,
     "pct": 0.194,
-    "gb": "18.5",
+    "gb": "19",
     "streak": "L8"
   }
 ]
