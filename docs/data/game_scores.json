@@ -1,11 +1,29 @@
 {
-  "date": "2026-08-04",
+  "date": "2026-08-05",
   "games": [
     {
-      "home": "GS",
+      "home": "ATL",
+      "home_score": 96,
+      "away": "PHX",
+      "away_score": 82
+    },
+    {
+      "home": "NY",
       "home_score": 92,
-      "away": "TOR",
-      "away_score": 81
+      "away": "SEA",
+      "away_score": 86
+    },
+    {
+      "home": "WSH",
+      "home_score": 96,
+      "away": "DAL",
+      "away_score": 92
+    },
+    {
+      "home": "CHI",
+      "home_score": 95,
+      "away": "LA",
+      "away_score": 88
     }
   ]
 }

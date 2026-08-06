@@ -1,5 +1,15 @@
 [
   {
+    "team": "ATL",
+    "name": "Atlanta Dream",
+    "conference": "Eastern Conference",
+    "wins": 19,
+    "losses": 11,
+    "pct": 0.633,
+    "gb": "-",
+    "streak": "W1"
+  },
+  {
     "team": "IND",
     "name": "Indiana Fever",
     "conference": "Eastern Conference",
@@ -10,44 +20,34 @@
     "streak": "L1"
   },
   {
-    "team": "ATL",
-    "name": "Atlanta Dream",
-    "conference": "Eastern Conference",
-    "wins": 18,
-    "losses": 11,
-    "pct": 0.621,
-    "gb": "0.5",
-    "streak": "L1"
-  },
-  {
     "team": "NY",
     "name": "New York Liberty",
     "conference": "Eastern Conference",
-    "wins": 18,
+    "wins": 19,
     "losses": 13,
-    "pct": 0.581,
-    "gb": "1.5",
-    "streak": "W2"
+    "pct": 0.594,
+    "gb": "1",
+    "streak": "W3"
   },
   {
     "team": "WSH",
     "name": "Washington Mystics",
     "conference": "Eastern Conference",
-    "wins": 16,
+    "wins": 17,
     "losses": 12,
-    "pct": 0.571,
-    "gb": "2",
-    "streak": "W4"
+    "pct": 0.586,
+    "gb": "1.5",
+    "streak": "W5"
   },
   {
     "team": "CHI",
     "name": "Chicago Sky",
     "conference": "Eastern Conference",
-    "wins": 11,
+    "wins": 12,
     "losses": 19,
-    "pct": 0.367,
-    "gb": "8",
-    "streak": "L1"
+    "pct": 0.387,
+    "gb": "7.5",
+    "streak": "W1"
   },
   {
     "team": "TOR",
@@ -104,30 +104,30 @@
     "name": "Dallas Wings",
     "conference": "Western Conference",
     "wins": 19,
-    "losses": 11,
-    "pct": 0.633,
-    "gb": "5.5",
-    "streak": "W1"
+    "losses": 12,
+    "pct": 0.613,
+    "gb": "6",
+    "streak": "L1"
   },
   {
     "team": "PHX",
     "name": "Phoenix Mercury",
     "conference": "Western Conference",
     "wins": 12,
-    "losses": 19,
-    "pct": 0.387,
-    "gb": "13",
-    "streak": "W1"
+    "losses": 20,
+    "pct": 0.375,
+    "gb": "13.5",
+    "streak": "L1"
   },
   {
     "team": "LA",
     "name": "Los Angeles Sparks",
     "conference": "Western Conference",
     "wins": 11,
-    "losses": 17,
-    "pct": 0.393,
-    "gb": "12.5",
-    "streak": "W1"
+    "losses": 18,
+    "pct": 0.379,
+    "gb": "13",
+    "streak": "L1"
   },
   {
     "team": "POR",
@@ -144,9 +144,9 @@
     "name": "Seattle Storm",
     "conference": "Western Conference",
     "wins": 6,
-    "losses": 26,
-    "pct": 0.188,
-    "gb": "19.5",
-    "streak": "L9"
+    "losses": 27,
+    "pct": 0.182,
+    "gb": "20",
+    "streak": "L10"
   }
 ]

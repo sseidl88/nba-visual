@@ -1,12 +1,18 @@
 {
   "current": {
-    "date": "2026-08-04",
-    "PLAYER_NAME": "Nyara Sabally",
-    "TEAM_ABBREVIATION": "TOR",
-    "pts": 21,
+    "date": "2026-08-05",
+    "PLAYER_NAME": "Dominique Malonga",
+    "TEAM_ABBREVIATION": "SEA",
+    "pts": 31,
     "streak": 1
   },
   "history": [
+    {
+      "date": "2026-08-05",
+      "PLAYER_NAME": "Dominique Malonga",
+      "TEAM_ABBREVIATION": "SEA",
+      "pts": 31
+    },
     {
       "date": "2026-08-04",
       "PLAYER_NAME": "Nyara Sabally",
@@ -60,12 +66,6 @@
       "PLAYER_NAME": "Kelsey Mitchell",
       "TEAM_ABBREVIATION": "COOP",
       "pts": 28
-    },
-    {
-      "date": "2026-07-22",
-      "PLAYER_NAME": "A'ja Wilson",
-      "TEAM_ABBREVIATION": "LV",
-      "pts": 38
     }
   ]
 }
