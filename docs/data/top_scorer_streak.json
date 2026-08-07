@@ -1,12 +1,18 @@
 {
   "current": {
-    "date": "2026-08-05",
-    "PLAYER_NAME": "Dominique Malonga",
-    "TEAM_ABBREVIATION": "SEA",
-    "pts": 31,
+    "date": "2026-08-06",
+    "PLAYER_NAME": "Kelsey Mitchell",
+    "TEAM_ABBREVIATION": "IND",
+    "pts": 28,
     "streak": 1
   },
   "history": [
+    {
+      "date": "2026-08-06",
+      "PLAYER_NAME": "Kelsey Mitchell",
+      "TEAM_ABBREVIATION": "IND",
+      "pts": 28
+    },
     {
       "date": "2026-08-05",
       "PLAYER_NAME": "Dominique Malonga",
@@ -60,12 +66,6 @@
       "PLAYER_NAME": "Natisha Hiedeman",
       "TEAM_ABBREVIATION": "SEA",
       "pts": 33
-    },
-    {
-      "date": "2026-07-25",
-      "PLAYER_NAME": "Kelsey Mitchell",
-      "TEAM_ABBREVIATION": "COOP",
-      "pts": 28
     }
   ]
 }
