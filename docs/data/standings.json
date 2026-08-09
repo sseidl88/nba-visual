@@ -1,23 +1,23 @@
 [
   {
+    "team": "IND",
+    "name": "Indiana Fever",
+    "conference": "Eastern Conference",
+    "wins": 20,
+    "losses": 12,
+    "pct": 0.625,
+    "gb": "-",
+    "streak": "W1"
+  },
+  {
     "team": "ATL",
     "name": "Atlanta Dream",
     "conference": "Eastern Conference",
     "wins": 19,
     "losses": 12,
     "pct": 0.613,
-    "gb": "-",
+    "gb": "0.5",
     "streak": "L1"
-  },
-  {
-    "team": "IND",
-    "name": "Indiana Fever",
-    "conference": "Eastern Conference",
-    "wins": 19,
-    "losses": 12,
-    "pct": 0.613,
-    "gb": "-",
-    "streak": "L2"
   },
   {
     "team": "NY",
@@ -26,7 +26,7 @@
     "wins": 19,
     "losses": 13,
     "pct": 0.594,
-    "gb": "0.5",
+    "gb": "1",
     "streak": "W3"
   },
   {
@@ -36,7 +36,7 @@
     "wins": 18,
     "losses": 12,
     "pct": 0.6,
-    "gb": "0.5",
+    "gb": "1",
     "streak": "W6"
   },
   {
@@ -44,10 +44,10 @@
     "name": "Chicago Sky",
     "conference": "Eastern Conference",
     "wins": 12,
-    "losses": 19,
-    "pct": 0.387,
-    "gb": "7",
-    "streak": "W1"
+    "losses": 20,
+    "pct": 0.375,
+    "gb": "8",
+    "streak": "L1"
   },
   {
     "team": "TOR",
@@ -56,7 +56,7 @@
     "wins": 10,
     "losses": 21,
     "pct": 0.323,
-    "gb": "9",
+    "gb": "9.5",
     "streak": "L8"
   },
   {
@@ -66,28 +66,18 @@
     "wins": 8,
     "losses": 23,
     "pct": 0.258,
-    "gb": "11",
+    "gb": "11.5",
     "streak": "W1"
   },
   {
     "team": "MIN",
     "name": "Minnesota Lynx",
     "conference": "Western Conference",
-    "wins": 25,
+    "wins": 26,
     "losses": 7,
-    "pct": 0.781,
+    "pct": 0.788,
     "gb": "-",
-    "streak": "L1"
-  },
-  {
-    "team": "LV",
-    "name": "Las Vegas Aces",
-    "conference": "Western Conference",
-    "wins": 22,
-    "losses": 9,
-    "pct": 0.71,
-    "gb": "2.5",
-    "streak": "W2"
+    "streak": "W1"
   },
   {
     "team": "GS",
@@ -96,8 +86,18 @@
     "wins": 22,
     "losses": 9,
     "pct": 0.71,
-    "gb": "2.5",
+    "gb": "3",
     "streak": "W3"
+  },
+  {
+    "team": "LV",
+    "name": "Las Vegas Aces",
+    "conference": "Western Conference",
+    "wins": 22,
+    "losses": 10,
+    "pct": 0.688,
+    "gb": "3.5",
+    "streak": "L1"
   },
   {
     "team": "DAL",
@@ -106,8 +106,18 @@
     "wins": 19,
     "losses": 13,
     "pct": 0.594,
-    "gb": "6",
+    "gb": "6.5",
     "streak": "L2"
+  },
+  {
+    "team": "POR",
+    "name": "Portland Fire",
+    "conference": "Western Conference",
+    "wins": 13,
+    "losses": 19,
+    "pct": 0.406,
+    "gb": "12.5",
+    "streak": "W2"
   },
   {
     "team": "LA",
@@ -116,16 +126,6 @@
     "wins": 12,
     "losses": 18,
     "pct": 0.4,
-    "gb": "12",
-    "streak": "W1"
-  },
-  {
-    "team": "POR",
-    "name": "Portland Fire",
-    "conference": "Western Conference",
-    "wins": 12,
-    "losses": 19,
-    "pct": 0.387,
     "gb": "12.5",
     "streak": "W1"
   },
@@ -136,7 +136,7 @@
     "wins": 12,
     "losses": 21,
     "pct": 0.364,
-    "gb": "13.5",
+    "gb": "14",
     "streak": "L2"
   },
   {
@@ -144,9 +144,9 @@
     "name": "Seattle Storm",
     "conference": "Western Conference",
     "wins": 6,
-    "losses": 27,
-    "pct": 0.182,
-    "gb": "19.5",
-    "streak": "L10"
+    "losses": 28,
+    "pct": 0.176,
+    "gb": "20.5",
+    "streak": "L11"
   }
 ]
