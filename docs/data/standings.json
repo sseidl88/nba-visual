@@ -1,22 +1,22 @@
 [
   {
+    "team": "IND",
+    "name": "Indiana Fever",
+    "conference": "Eastern Conference",
+    "wins": 21,
+    "losses": 12,
+    "pct": 0.636,
+    "gb": "-",
+    "streak": "W2"
+  },
+  {
     "team": "ATL",
     "name": "Atlanta Dream",
     "conference": "Eastern Conference",
     "wins": 20,
     "losses": 12,
     "pct": 0.625,
-    "gb": "-",
-    "streak": "W1"
-  },
-  {
-    "team": "IND",
-    "name": "Indiana Fever",
-    "conference": "Eastern Conference",
-    "wins": 20,
-    "losses": 12,
-    "pct": 0.625,
-    "gb": "-",
+    "gb": "0.5",
     "streak": "W1"
   },
   {
@@ -24,20 +24,20 @@
     "name": "New York Liberty",
     "conference": "Eastern Conference",
     "wins": 20,
-    "losses": 13,
-    "pct": 0.606,
-    "gb": "0.5",
-    "streak": "W4"
+    "losses": 14,
+    "pct": 0.588,
+    "gb": "1.5",
+    "streak": "L1"
   },
   {
     "team": "WSH",
     "name": "Washington Mystics",
     "conference": "Eastern Conference",
     "wins": 19,
-    "losses": 12,
-    "pct": 0.613,
-    "gb": "0.5",
-    "streak": "W7"
+    "losses": 13,
+    "pct": 0.594,
+    "gb": "1.5",
+    "streak": "L1"
   },
   {
     "team": "CHI",
@@ -46,7 +46,7 @@
     "wins": 12,
     "losses": 21,
     "pct": 0.364,
-    "gb": "8.5",
+    "gb": "9",
     "streak": "L2"
   },
   {
@@ -56,7 +56,7 @@
     "wins": 10,
     "losses": 22,
     "pct": 0.312,
-    "gb": "10",
+    "gb": "10.5",
     "streak": "L9"
   },
   {
@@ -66,7 +66,7 @@
     "wins": 8,
     "losses": 23,
     "pct": 0.258,
-    "gb": "11.5",
+    "gb": "12",
     "streak": "W1"
   },
   {
@@ -93,11 +93,11 @@
     "team": "LV",
     "name": "Las Vegas Aces",
     "conference": "Western Conference",
-    "wins": 22,
+    "wins": 23,
     "losses": 11,
-    "pct": 0.667,
-    "gb": "4.5",
-    "streak": "L2"
+    "pct": 0.676,
+    "gb": "4",
+    "streak": "W1"
   },
   {
     "team": "DAL",
@@ -120,24 +120,24 @@
     "streak": "W2"
   },
   {
+    "team": "PHX",
+    "name": "Phoenix Mercury",
+    "conference": "Western Conference",
+    "wins": 13,
+    "losses": 22,
+    "pct": 0.371,
+    "gb": "14.5",
+    "streak": "W1"
+  },
+  {
     "team": "LA",
     "name": "Los Angeles Sparks",
     "conference": "Western Conference",
     "wins": 12,
-    "losses": 19,
-    "pct": 0.387,
-    "gb": "13.5",
-    "streak": "L1"
-  },
-  {
-    "team": "PHX",
-    "name": "Phoenix Mercury",
-    "conference": "Western Conference",
-    "wins": 12,
-    "losses": 22,
-    "pct": 0.353,
-    "gb": "15",
-    "streak": "L3"
+    "losses": 20,
+    "pct": 0.375,
+    "gb": "14",
+    "streak": "L2"
   },
   {
     "team": "SEA",

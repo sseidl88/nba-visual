@@ -1,12 +1,18 @@
 {
   "current": {
-    "date": "2026-08-10",
-    "PLAYER_NAME": "Marina Mabrey",
-    "TEAM_ABBREVIATION": "TOR",
-    "pts": 36,
+    "date": "2026-08-11",
+    "PLAYER_NAME": "Kelsey Mitchell",
+    "TEAM_ABBREVIATION": "IND",
+    "pts": 28,
     "streak": 1
   },
   "history": [
+    {
+      "date": "2026-08-11",
+      "PLAYER_NAME": "Kelsey Mitchell",
+      "TEAM_ABBREVIATION": "IND",
+      "pts": 28
+    },
     {
       "date": "2026-08-10",
       "PLAYER_NAME": "Marina Mabrey",
@@ -60,12 +66,6 @@
       "PLAYER_NAME": "Kelsey Mitchell",
       "TEAM_ABBREVIATION": "IND",
       "pts": 37
-    },
-    {
-      "date": "2026-08-01",
-      "PLAYER_NAME": "A'ja Wilson",
-      "TEAM_ABBREVIATION": "LV",
-      "pts": 36
     }
   ]
 }
