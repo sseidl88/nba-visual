@@ -44,20 +44,20 @@
     "name": "Chicago Sky",
     "conference": "Eastern Conference",
     "wins": 12,
-    "losses": 21,
-    "pct": 0.364,
-    "gb": "9",
-    "streak": "L2"
+    "losses": 22,
+    "pct": 0.353,
+    "gb": "9.5",
+    "streak": "L3"
   },
   {
     "team": "TOR",
     "name": "Toronto Tempo",
     "conference": "Eastern Conference",
     "wins": 10,
-    "losses": 22,
-    "pct": 0.312,
-    "gb": "10.5",
-    "streak": "L9"
+    "losses": 23,
+    "pct": 0.303,
+    "gb": "11",
+    "streak": "L10"
   },
   {
     "team": "CON",
@@ -73,21 +73,21 @@
     "team": "MIN",
     "name": "Minnesota Lynx",
     "conference": "Western Conference",
-    "wins": 27,
+    "wins": 28,
     "losses": 7,
-    "pct": 0.794,
+    "pct": 0.8,
     "gb": "-",
-    "streak": "W2"
+    "streak": "W3"
   },
   {
     "team": "GS",
     "name": "Golden State Valkyries",
     "conference": "Western Conference",
-    "wins": 23,
+    "wins": 24,
     "losses": 9,
-    "pct": 0.719,
+    "pct": 0.727,
     "gb": "3",
-    "streak": "W4"
+    "streak": "W5"
   },
   {
     "team": "LV",
@@ -96,28 +96,28 @@
     "wins": 23,
     "losses": 11,
     "pct": 0.676,
-    "gb": "4",
+    "gb": "4.5",
     "streak": "W1"
   },
   {
     "team": "DAL",
     "name": "Dallas Wings",
     "conference": "Western Conference",
-    "wins": 19,
+    "wins": 20,
     "losses": 14,
-    "pct": 0.576,
+    "pct": 0.588,
     "gb": "7.5",
-    "streak": "L3"
+    "streak": "W1"
   },
   {
     "team": "POR",
     "name": "Portland Fire",
     "conference": "Western Conference",
     "wins": 13,
-    "losses": 19,
-    "pct": 0.406,
-    "gb": "13",
-    "streak": "W2"
+    "losses": 20,
+    "pct": 0.394,
+    "gb": "14",
+    "streak": "L1"
   },
   {
     "team": "PHX",
@@ -126,7 +126,7 @@
     "wins": 13,
     "losses": 22,
     "pct": 0.371,
-    "gb": "14.5",
+    "gb": "15",
     "streak": "W1"
   },
   {
@@ -136,7 +136,7 @@
     "wins": 12,
     "losses": 20,
     "pct": 0.375,
-    "gb": "14",
+    "gb": "14.5",
     "streak": "L2"
   },
   {
@@ -146,7 +146,7 @@
     "wins": 7,
     "losses": 28,
     "pct": 0.2,
-    "gb": "20.5",
+    "gb": "21",
     "streak": "W1"
   }
 ]
