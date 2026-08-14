@@ -1,12 +1,18 @@
 {
   "current": {
-    "date": "2026-08-12",
-    "PLAYER_NAME": "Marina Mabrey",
-    "TEAM_ABBREVIATION": "TOR",
-    "pts": 23,
+    "date": "2026-08-13",
+    "PLAYER_NAME": "Jackie Young",
+    "TEAM_ABBREVIATION": "LV",
+    "pts": 32,
     "streak": 1
   },
   "history": [
+    {
+      "date": "2026-08-13",
+      "PLAYER_NAME": "Jackie Young",
+      "TEAM_ABBREVIATION": "LV",
+      "pts": 32
+    },
     {
       "date": "2026-08-12",
       "PLAYER_NAME": "Marina Mabrey",
@@ -60,12 +66,6 @@
       "PLAYER_NAME": "Nyara Sabally",
       "TEAM_ABBREVIATION": "TOR",
       "pts": 21
-    },
-    {
-      "date": "2026-08-03",
-      "PLAYER_NAME": "Kahleah Copper",
-      "TEAM_ABBREVIATION": "PHX",
-      "pts": 31
     }
   ]
 }
