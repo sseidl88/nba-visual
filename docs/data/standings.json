@@ -3,11 +3,11 @@
     "team": "IND",
     "name": "Indiana Fever",
     "conference": "Eastern Conference",
-    "wins": 22,
+    "wins": 23,
     "losses": 12,
-    "pct": 0.647,
+    "pct": 0.657,
     "gb": "-",
-    "streak": "W3"
+    "streak": "W4"
   },
   {
     "team": "NY",
@@ -16,7 +16,7 @@
     "wins": 22,
     "losses": 14,
     "pct": 0.611,
-    "gb": "1",
+    "gb": "1.5",
     "streak": "W2"
   },
   {
@@ -24,10 +24,10 @@
     "name": "Atlanta Dream",
     "conference": "Eastern Conference",
     "wins": 21,
-    "losses": 12,
-    "pct": 0.636,
-    "gb": "0.5",
-    "streak": "W2"
+    "losses": 13,
+    "pct": 0.618,
+    "gb": "1.5",
+    "streak": "L1"
   },
   {
     "team": "WSH",
@@ -36,18 +36,18 @@
     "wins": 20,
     "losses": 14,
     "pct": 0.588,
-    "gb": "2",
+    "gb": "2.5",
     "streak": "W1"
   },
   {
     "team": "CHI",
     "name": "Chicago Sky",
     "conference": "Eastern Conference",
-    "wins": 12,
+    "wins": 13,
     "losses": 22,
-    "pct": 0.353,
+    "pct": 0.371,
     "gb": "10",
-    "streak": "L3"
+    "streak": "W1"
   },
   {
     "team": "TOR",
@@ -56,7 +56,7 @@
     "wins": 10,
     "losses": 23,
     "pct": 0.303,
-    "gb": "11.5",
+    "gb": "12",
     "streak": "L10"
   },
   {
@@ -66,7 +66,7 @@
     "wins": 8,
     "losses": 25,
     "pct": 0.242,
-    "gb": "13.5",
+    "gb": "14",
     "streak": "L2"
   },
   {
@@ -113,21 +113,21 @@
     "team": "POR",
     "name": "Portland Fire",
     "conference": "Western Conference",
-    "wins": 14,
+    "wins": 15,
     "losses": 20,
-    "pct": 0.412,
-    "gb": "14",
-    "streak": "W1"
+    "pct": 0.429,
+    "gb": "13.5",
+    "streak": "W2"
   },
   {
     "team": "PHX",
     "name": "Phoenix Mercury",
     "conference": "Western Conference",
     "wins": 13,
-    "losses": 22,
-    "pct": 0.371,
-    "gb": "15.5",
-    "streak": "W1"
+    "losses": 23,
+    "pct": 0.361,
+    "gb": "16",
+    "streak": "L1"
   },
   {
     "team": "LA",
@@ -144,9 +144,9 @@
     "name": "Seattle Storm",
     "conference": "Western Conference",
     "wins": 7,
-    "losses": 29,
-    "pct": 0.194,
-    "gb": "22",
-    "streak": "L1"
+    "losses": 30,
+    "pct": 0.189,
+    "gb": "22.5",
+    "streak": "L2"
   }
 ]
