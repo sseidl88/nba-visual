@@ -1,12 +1,18 @@
 {
   "current": {
-    "date": "2026-08-18",
-    "PLAYER_NAME": "Natasha Cloud",
-    "TEAM_ABBREVIATION": "CHI",
-    "pts": 35,
+    "date": "2026-08-19",
+    "PLAYER_NAME": "Kiki Iriafen",
+    "TEAM_ABBREVIATION": "WSH",
+    "pts": 21,
     "streak": 1
   },
   "history": [
+    {
+      "date": "2026-08-19",
+      "PLAYER_NAME": "Kiki Iriafen",
+      "TEAM_ABBREVIATION": "WSH",
+      "pts": 21
+    },
     {
       "date": "2026-08-18",
       "PLAYER_NAME": "Natasha Cloud",
@@ -60,12 +66,6 @@
       "PLAYER_NAME": "Marina Mabrey",
       "TEAM_ABBREVIATION": "TOR",
       "pts": 36
-    },
-    {
-      "date": "2026-08-09",
-      "PLAYER_NAME": "Kayla McBride",
-      "TEAM_ABBREVIATION": "MIN",
-      "pts": 43
     }
   ]
 }
