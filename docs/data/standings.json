@@ -4,20 +4,20 @@
     "name": "Indiana Fever",
     "conference": "Eastern Conference",
     "wins": 24,
-    "losses": 12,
-    "pct": 0.667,
+    "losses": 13,
+    "pct": 0.649,
     "gb": "-",
-    "streak": "W5"
+    "streak": "L1"
   },
   {
     "team": "ATL",
     "name": "Atlanta Dream",
     "conference": "Eastern Conference",
-    "wins": 22,
+    "wins": 23,
     "losses": 13,
-    "pct": 0.629,
-    "gb": "1.5",
-    "streak": "W1"
+    "pct": 0.639,
+    "gb": "0.5",
+    "streak": "W2"
   },
   {
     "team": "NY",
@@ -26,7 +26,7 @@
     "wins": 22,
     "losses": 15,
     "pct": 0.595,
-    "gb": "2.5",
+    "gb": "2",
     "streak": "L1"
   },
   {
@@ -36,7 +36,7 @@
     "wins": 21,
     "losses": 14,
     "pct": 0.6,
-    "gb": "2.5",
+    "gb": "2",
     "streak": "W2"
   },
   {
@@ -46,7 +46,7 @@
     "wins": 14,
     "losses": 22,
     "pct": 0.389,
-    "gb": "10",
+    "gb": "9.5",
     "streak": "W2"
   },
   {
@@ -56,7 +56,7 @@
     "wins": 10,
     "losses": 25,
     "pct": 0.286,
-    "gb": "13.5",
+    "gb": "13",
     "streak": "L12"
   },
   {
@@ -64,10 +64,10 @@
     "name": "Connecticut Sun",
     "conference": "Eastern Conference",
     "wins": 9,
-    "losses": 25,
-    "pct": 0.265,
+    "losses": 26,
+    "pct": 0.257,
     "gb": "14",
-    "streak": "W1"
+    "streak": "L1"
   },
   {
     "team": "MIN",
@@ -93,21 +93,21 @@
     "team": "LV",
     "name": "Las Vegas Aces",
     "conference": "Western Conference",
-    "wins": 24,
+    "wins": 25,
     "losses": 13,
-    "pct": 0.649,
-    "gb": "6",
-    "streak": "L2"
+    "pct": 0.658,
+    "gb": "5.5",
+    "streak": "W1"
   },
   {
     "team": "DAL",
     "name": "Dallas Wings",
     "conference": "Western Conference",
-    "wins": 20,
+    "wins": 21,
     "losses": 16,
-    "pct": 0.556,
-    "gb": "9.5",
-    "streak": "L2"
+    "pct": 0.568,
+    "gb": "9",
+    "streak": "W1"
   },
   {
     "team": "POR",
@@ -134,10 +134,10 @@
     "name": "Los Angeles Sparks",
     "conference": "Western Conference",
     "wins": 12,
-    "losses": 23,
-    "pct": 0.343,
-    "gb": "17",
-    "streak": "L5"
+    "losses": 24,
+    "pct": 0.333,
+    "gb": "17.5",
+    "streak": "L6"
   },
   {
     "team": "SEA",
