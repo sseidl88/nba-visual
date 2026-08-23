@@ -1,33 +1,33 @@
 [
   {
-    "team": "IND",
-    "name": "Indiana Fever",
+    "team": "ATL",
+    "name": "Atlanta Dream",
     "conference": "Eastern Conference",
     "wins": 24,
     "losses": 13,
     "pct": 0.649,
     "gb": "-",
-    "streak": "L1"
+    "streak": "W3"
   },
   {
-    "team": "ATL",
-    "name": "Atlanta Dream",
+    "team": "IND",
+    "name": "Indiana Fever",
     "conference": "Eastern Conference",
-    "wins": 23,
-    "losses": 13,
-    "pct": 0.639,
+    "wins": 24,
+    "losses": 14,
+    "pct": 0.632,
     "gb": "0.5",
-    "streak": "W2"
+    "streak": "L2"
   },
   {
     "team": "NY",
     "name": "New York Liberty",
     "conference": "Eastern Conference",
-    "wins": 22,
+    "wins": 23,
     "losses": 15,
-    "pct": 0.595,
-    "gb": "2",
-    "streak": "L1"
+    "pct": 0.605,
+    "gb": "1.5",
+    "streak": "W1"
   },
   {
     "team": "WSH",
@@ -64,10 +64,10 @@
     "name": "Connecticut Sun",
     "conference": "Eastern Conference",
     "wins": 9,
-    "losses": 26,
-    "pct": 0.257,
-    "gb": "14",
-    "streak": "L1"
+    "losses": 27,
+    "pct": 0.25,
+    "gb": "14.5",
+    "streak": "L2"
   },
   {
     "team": "MIN",
@@ -120,24 +120,24 @@
     "streak": "L1"
   },
   {
+    "team": "LA",
+    "name": "Los Angeles Sparks",
+    "conference": "Western Conference",
+    "wins": 13,
+    "losses": 24,
+    "pct": 0.351,
+    "gb": "17.5",
+    "streak": "W1"
+  },
+  {
     "team": "PHX",
     "name": "Phoenix Mercury",
     "conference": "Western Conference",
     "wins": 13,
-    "losses": 23,
-    "pct": 0.361,
-    "gb": "17",
-    "streak": "L1"
-  },
-  {
-    "team": "LA",
-    "name": "Los Angeles Sparks",
-    "conference": "Western Conference",
-    "wins": 12,
     "losses": 24,
-    "pct": 0.333,
-    "gb": "18",
-    "streak": "L6"
+    "pct": 0.351,
+    "gb": "17.5",
+    "streak": "L2"
   },
   {
     "team": "SEA",
