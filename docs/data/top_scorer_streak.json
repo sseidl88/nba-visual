@@ -1,12 +1,18 @@
 {
   "current": {
-    "date": "2026-08-23",
-    "PLAYER_NAME": "Caitlin Clark",
-    "TEAM_ABBREVIATION": "IND",
-    "pts": 37,
+    "date": "2026-08-24",
+    "PLAYER_NAME": "Nneka Ogwumike",
+    "TEAM_ABBREVIATION": "LA",
+    "pts": 27,
     "streak": 1
   },
   "history": [
+    {
+      "date": "2026-08-24",
+      "PLAYER_NAME": "Nneka Ogwumike",
+      "TEAM_ABBREVIATION": "LA",
+      "pts": 27
+    },
     {
       "date": "2026-08-23",
       "PLAYER_NAME": "Caitlin Clark",
@@ -60,12 +66,6 @@
       "PLAYER_NAME": "A'ja Wilson",
       "TEAM_ABBREVIATION": "LV",
       "pts": 32
-    },
-    {
-      "date": "2026-08-14",
-      "PLAYER_NAME": "Paige Bueckers",
-      "TEAM_ABBREVIATION": "DAL",
-      "pts": 29
     }
   ]
 }
