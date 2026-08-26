@@ -33,21 +33,21 @@
     "team": "WSH",
     "name": "Washington Mystics",
     "conference": "Eastern Conference",
-    "wins": 22,
+    "wins": 23,
     "losses": 15,
-    "pct": 0.595,
-    "gb": "2.5",
-    "streak": "W1"
+    "pct": 0.605,
+    "gb": "2",
+    "streak": "W2"
   },
   {
     "team": "CHI",
     "name": "Chicago Sky",
     "conference": "Eastern Conference",
     "wins": 15,
-    "losses": 23,
-    "pct": 0.395,
-    "gb": "10",
-    "streak": "L1"
+    "losses": 24,
+    "pct": 0.385,
+    "gb": "10.5",
+    "streak": "L2"
   },
   {
     "team": "TOR",
@@ -63,11 +63,11 @@
     "team": "CON",
     "name": "Connecticut Sun",
     "conference": "Eastern Conference",
-    "wins": 9,
+    "wins": 10,
     "losses": 27,
-    "pct": 0.25,
-    "gb": "15",
-    "streak": "L2"
+    "pct": 0.27,
+    "gb": "14.5",
+    "streak": "W1"
   },
   {
     "team": "MIN",
@@ -103,31 +103,21 @@
     "team": "DAL",
     "name": "Dallas Wings",
     "conference": "Western Conference",
-    "wins": 22,
+    "wins": 23,
     "losses": 16,
-    "pct": 0.579,
-    "gb": "8.5",
-    "streak": "W2"
+    "pct": 0.59,
+    "gb": "8",
+    "streak": "W3"
   },
   {
     "team": "POR",
     "name": "Portland Fire",
     "conference": "Western Conference",
     "wins": 15,
-    "losses": 22,
-    "pct": 0.405,
-    "gb": "15",
-    "streak": "L2"
-  },
-  {
-    "team": "PHX",
-    "name": "Phoenix Mercury",
-    "conference": "Western Conference",
-    "wins": 13,
-    "losses": 24,
-    "pct": 0.351,
-    "gb": "17",
-    "streak": "L2"
+    "losses": 23,
+    "pct": 0.395,
+    "gb": "15.5",
+    "streak": "L3"
   },
   {
     "team": "LA",
@@ -138,6 +128,16 @@
     "pct": 0.342,
     "gb": "17.5",
     "streak": "L1"
+  },
+  {
+    "team": "PHX",
+    "name": "Phoenix Mercury",
+    "conference": "Western Conference",
+    "wins": 13,
+    "losses": 25,
+    "pct": 0.342,
+    "gb": "17.5",
+    "streak": "L3"
   },
   {
     "team": "SEA",
