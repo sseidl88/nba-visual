@@ -1,12 +1,18 @@
 {
   "current": {
-    "date": "2026-08-25",
-    "PLAYER_NAME": "Aaliyah Edwards",
-    "TEAM_ABBREVIATION": "CON",
-    "pts": 26,
+    "date": "2026-08-26",
+    "PLAYER_NAME": "Kiki Rice",
+    "TEAM_ABBREVIATION": "TOR",
+    "pts": 24,
     "streak": 1
   },
   "history": [
+    {
+      "date": "2026-08-26",
+      "PLAYER_NAME": "Kiki Rice",
+      "TEAM_ABBREVIATION": "TOR",
+      "pts": 24
+    },
     {
       "date": "2026-08-25",
       "PLAYER_NAME": "Aaliyah Edwards",
@@ -60,12 +66,6 @@
       "PLAYER_NAME": "Gabby Williams",
       "TEAM_ABBREVIATION": "GS",
       "pts": 23
-    },
-    {
-      "date": "2026-08-16",
-      "PLAYER_NAME": "Allisha Gray",
-      "TEAM_ABBREVIATION": "ATL",
-      "pts": 32
     }
   ]
 }
