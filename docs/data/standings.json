@@ -20,24 +20,24 @@
     "streak": "W1"
   },
   {
+    "team": "WSH",
+    "name": "Washington Mystics",
+    "conference": "Eastern Conference",
+    "wins": 24,
+    "losses": 15,
+    "pct": 0.615,
+    "gb": "1.5",
+    "streak": "W3"
+  },
+  {
     "team": "NY",
     "name": "New York Liberty",
     "conference": "Eastern Conference",
     "wins": 23,
-    "losses": 15,
-    "pct": 0.605,
-    "gb": "2",
-    "streak": "W1"
-  },
-  {
-    "team": "WSH",
-    "name": "Washington Mystics",
-    "conference": "Eastern Conference",
-    "wins": 23,
-    "losses": 15,
-    "pct": 0.605,
-    "gb": "2",
-    "streak": "W2"
+    "losses": 16,
+    "pct": 0.59,
+    "gb": "2.5",
+    "streak": "L1"
   },
   {
     "team": "CHI",
@@ -83,11 +83,11 @@
     "team": "GS",
     "name": "Golden State Valkyries",
     "conference": "Western Conference",
-    "wins": 27,
+    "wins": 28,
     "losses": 11,
-    "pct": 0.711,
-    "gb": "3.5",
-    "streak": "W2"
+    "pct": 0.718,
+    "gb": "3",
+    "streak": "W3"
   },
   {
     "team": "LV",
@@ -134,10 +134,10 @@
     "name": "Phoenix Mercury",
     "conference": "Western Conference",
     "wins": 13,
-    "losses": 25,
-    "pct": 0.342,
-    "gb": "17.5",
-    "streak": "L3"
+    "losses": 26,
+    "pct": 0.333,
+    "gb": "18",
+    "streak": "L4"
   },
   {
     "team": "SEA",
