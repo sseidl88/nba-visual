@@ -1,108 +1,57 @@
 {
-  "ATL": {
+  "POR": {
     "trending_up": {},
     "trending_down": {},
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Allisha Gray",
-        "TEAM_ABBREVIATION": "ATL",
-        "pts": 23,
+        "PLAYER_NAME": "Emily Engstler",
+        "TEAM_ABBREVIATION": "POR",
+        "pts": 12,
         "date": "2026-08-30",
         "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Allisha Gray",
-          "TEAM_ABBREVIATION": "ATL",
-          "pts": 23,
+          "PLAYER_NAME": "Emily Engstler",
+          "TEAM_ABBREVIATION": "POR",
+          "pts": 12,
           "date": "2026-08-30"
         },
         {
-          "PLAYER_NAME": "Rhyne Howard",
-          "TEAM_ABBREVIATION": "ATL",
+          "PLAYER_NAME": "Carla Leite",
+          "TEAM_ABBREVIATION": "POR",
           "pts": 26,
           "date": "2026-08-28"
         },
         {
-          "PLAYER_NAME": "Allisha Gray",
-          "TEAM_ABBREVIATION": "ATL",
-          "pts": 20,
-          "date": "2026-08-24"
-        },
-        {
-          "PLAYER_NAME": "Angel Reese",
-          "TEAM_ABBREVIATION": "ATL",
-          "pts": 31,
-          "date": "2026-08-22"
-        },
-        {
-          "PLAYER_NAME": "Rhyne Howard",
-          "TEAM_ABBREVIATION": "ATL",
-          "pts": 26,
-          "date": "2026-08-20"
-        },
-        {
-          "PLAYER_NAME": "Rhyne Howard",
-          "TEAM_ABBREVIATION": "ATL",
-          "pts": 23,
-          "date": "2026-08-18"
-        },
-        {
-          "PLAYER_NAME": "Allisha Gray",
-          "TEAM_ABBREVIATION": "ATL",
-          "pts": 32,
-          "date": "2026-08-16"
-        },
-        {
-          "PLAYER_NAME": "Allisha Gray",
-          "TEAM_ABBREVIATION": "ATL",
-          "pts": 29,
-          "date": "2026-08-13"
-        }
-      ]
-    }
-  },
-  "PHX": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Noemie Brochant",
-        "TEAM_ABBREVIATION": "PHX",
-        "pts": 15,
-        "date": "2026-08-29",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Noemie Brochant",
-          "TEAM_ABBREVIATION": "PHX",
-          "pts": 15,
-          "date": "2026-08-29"
-        },
-        {
-          "PLAYER_NAME": "Kahleah Copper",
-          "TEAM_ABBREVIATION": "PHX",
-          "pts": 35,
-          "date": "2026-08-27"
-        },
-        {
-          "PLAYER_NAME": "Natasha Mack",
-          "TEAM_ABBREVIATION": "PHX",
-          "pts": 19,
+          "PLAYER_NAME": "Bridget Carleton",
+          "TEAM_ABBREVIATION": "POR",
+          "pts": 14,
           "date": "2026-08-25"
         },
         {
-          "PLAYER_NAME": "Kahleah Copper",
-          "TEAM_ABBREVIATION": "PHX",
-          "pts": 38,
-          "date": "2026-08-22"
+          "PLAYER_NAME": "Carla Leite",
+          "TEAM_ABBREVIATION": "POR",
+          "pts": 27,
+          "date": "2026-08-23"
         },
         {
-          "PLAYER_NAME": "DeWanna Bonner",
-          "TEAM_ABBREVIATION": "PHX",
+          "PLAYER_NAME": "Bridget Carleton",
+          "TEAM_ABBREVIATION": "POR",
+          "pts": 18,
+          "date": "2026-08-21"
+        },
+        {
+          "PLAYER_NAME": "Carla Leite",
+          "TEAM_ABBREVIATION": "POR",
           "pts": 23,
           "date": "2026-08-16"
+        },
+        {
+          "PLAYER_NAME": "Holly Winterburn",
+          "TEAM_ABBREVIATION": "POR",
+          "pts": 20,
+          "date": "2026-08-14"
         }
       ]
     }
@@ -229,63 +178,6 @@
           "TEAM_ABBREVIATION": "GS",
           "pts": 23,
           "date": "2026-08-17"
-        },
-        {
-          "PLAYER_NAME": "Tiffany Hayes",
-          "TEAM_ABBREVIATION": "GS",
-          "pts": 22,
-          "date": "2026-08-12"
-        }
-      ]
-    }
-  },
-  "LV": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "A'ja Wilson",
-        "TEAM_ABBREVIATION": "LV",
-        "pts": 27,
-        "date": "2026-08-28",
-        "streak": 2
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "A'ja Wilson",
-          "TEAM_ABBREVIATION": "LV",
-          "pts": 27,
-          "date": "2026-08-28"
-        },
-        {
-          "PLAYER_NAME": "A'ja Wilson",
-          "TEAM_ABBREVIATION": "LV",
-          "pts": 27,
-          "date": "2026-08-23"
-        },
-        {
-          "PLAYER_NAME": "Jackie Young",
-          "TEAM_ABBREVIATION": "LV",
-          "pts": 24,
-          "date": "2026-08-20"
-        },
-        {
-          "PLAYER_NAME": "A'ja Wilson",
-          "TEAM_ABBREVIATION": "LV",
-          "pts": 27,
-          "date": "2026-08-18"
-        },
-        {
-          "PLAYER_NAME": "A'ja Wilson",
-          "TEAM_ABBREVIATION": "LV",
-          "pts": 32,
-          "date": "2026-08-15"
-        },
-        {
-          "PLAYER_NAME": "Jackie Young",
-          "TEAM_ABBREVIATION": "LV",
-          "pts": 32,
-          "date": "2026-08-13"
         }
       ]
     }
@@ -392,6 +284,324 @@
       ]
     }
   },
+  "DAL": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Arike Ogunbowale",
+        "TEAM_ABBREVIATION": "DAL",
+        "pts": 18,
+        "date": "2026-08-30",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Arike Ogunbowale",
+          "TEAM_ABBREVIATION": "DAL",
+          "pts": 18,
+          "date": "2026-08-30"
+        },
+        {
+          "PLAYER_NAME": "Paige Bueckers",
+          "TEAM_ABBREVIATION": "DAL",
+          "pts": 22,
+          "date": "2026-08-25"
+        },
+        {
+          "PLAYER_NAME": "Paige Bueckers",
+          "TEAM_ABBREVIATION": "DAL",
+          "pts": 32,
+          "date": "2026-08-23"
+        },
+        {
+          "PLAYER_NAME": "Arike Ogunbowale",
+          "TEAM_ABBREVIATION": "DAL",
+          "pts": 32,
+          "date": "2026-08-20"
+        },
+        {
+          "PLAYER_NAME": "Paige Bueckers",
+          "TEAM_ABBREVIATION": "DAL",
+          "pts": 21,
+          "date": "2026-08-17"
+        },
+        {
+          "PLAYER_NAME": "Paige Bueckers",
+          "TEAM_ABBREVIATION": "DAL",
+          "pts": 29,
+          "date": "2026-08-14"
+        }
+      ]
+    }
+  },
+  "LV": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "A'ja Wilson",
+        "TEAM_ABBREVIATION": "LV",
+        "pts": 27,
+        "date": "2026-08-28",
+        "streak": 2
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "A'ja Wilson",
+          "TEAM_ABBREVIATION": "LV",
+          "pts": 27,
+          "date": "2026-08-28"
+        },
+        {
+          "PLAYER_NAME": "A'ja Wilson",
+          "TEAM_ABBREVIATION": "LV",
+          "pts": 27,
+          "date": "2026-08-23"
+        },
+        {
+          "PLAYER_NAME": "Jackie Young",
+          "TEAM_ABBREVIATION": "LV",
+          "pts": 24,
+          "date": "2026-08-20"
+        },
+        {
+          "PLAYER_NAME": "A'ja Wilson",
+          "TEAM_ABBREVIATION": "LV",
+          "pts": 27,
+          "date": "2026-08-18"
+        },
+        {
+          "PLAYER_NAME": "A'ja Wilson",
+          "TEAM_ABBREVIATION": "LV",
+          "pts": 32,
+          "date": "2026-08-15"
+        },
+        {
+          "PLAYER_NAME": "Jackie Young",
+          "TEAM_ABBREVIATION": "LV",
+          "pts": 32,
+          "date": "2026-08-13"
+        }
+      ]
+    }
+  },
+  "PHX": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Noemie Brochant",
+        "TEAM_ABBREVIATION": "PHX",
+        "pts": 15,
+        "date": "2026-08-29",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Noemie Brochant",
+          "TEAM_ABBREVIATION": "PHX",
+          "pts": 15,
+          "date": "2026-08-29"
+        },
+        {
+          "PLAYER_NAME": "Kahleah Copper",
+          "TEAM_ABBREVIATION": "PHX",
+          "pts": 35,
+          "date": "2026-08-27"
+        },
+        {
+          "PLAYER_NAME": "Natasha Mack",
+          "TEAM_ABBREVIATION": "PHX",
+          "pts": 19,
+          "date": "2026-08-25"
+        },
+        {
+          "PLAYER_NAME": "Kahleah Copper",
+          "TEAM_ABBREVIATION": "PHX",
+          "pts": 38,
+          "date": "2026-08-22"
+        },
+        {
+          "PLAYER_NAME": "DeWanna Bonner",
+          "TEAM_ABBREVIATION": "PHX",
+          "pts": 23,
+          "date": "2026-08-16"
+        }
+      ]
+    }
+  },
+  "ATL": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Allisha Gray",
+        "TEAM_ABBREVIATION": "ATL",
+        "pts": 23,
+        "date": "2026-08-30",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Allisha Gray",
+          "TEAM_ABBREVIATION": "ATL",
+          "pts": 23,
+          "date": "2026-08-30"
+        },
+        {
+          "PLAYER_NAME": "Rhyne Howard",
+          "TEAM_ABBREVIATION": "ATL",
+          "pts": 26,
+          "date": "2026-08-28"
+        },
+        {
+          "PLAYER_NAME": "Allisha Gray",
+          "TEAM_ABBREVIATION": "ATL",
+          "pts": 20,
+          "date": "2026-08-24"
+        },
+        {
+          "PLAYER_NAME": "Angel Reese",
+          "TEAM_ABBREVIATION": "ATL",
+          "pts": 31,
+          "date": "2026-08-22"
+        },
+        {
+          "PLAYER_NAME": "Rhyne Howard",
+          "TEAM_ABBREVIATION": "ATL",
+          "pts": 26,
+          "date": "2026-08-20"
+        },
+        {
+          "PLAYER_NAME": "Rhyne Howard",
+          "TEAM_ABBREVIATION": "ATL",
+          "pts": 23,
+          "date": "2026-08-18"
+        },
+        {
+          "PLAYER_NAME": "Allisha Gray",
+          "TEAM_ABBREVIATION": "ATL",
+          "pts": 32,
+          "date": "2026-08-16"
+        },
+        {
+          "PLAYER_NAME": "Allisha Gray",
+          "TEAM_ABBREVIATION": "ATL",
+          "pts": 29,
+          "date": "2026-08-13"
+        }
+      ]
+    }
+  },
+  "NY": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Han Xu",
+        "TEAM_ABBREVIATION": "NY",
+        "pts": 19,
+        "date": "2026-08-29",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Han Xu",
+          "TEAM_ABBREVIATION": "NY",
+          "pts": 19,
+          "date": "2026-08-29"
+        },
+        {
+          "PLAYER_NAME": "Jonquel Jones",
+          "TEAM_ABBREVIATION": "NY",
+          "pts": 18,
+          "date": "2026-08-27"
+        },
+        {
+          "PLAYER_NAME": "Breanna Stewart",
+          "TEAM_ABBREVIATION": "NY",
+          "pts": 22,
+          "date": "2026-08-22"
+        },
+        {
+          "PLAYER_NAME": "Breanna Stewart",
+          "TEAM_ABBREVIATION": "NY",
+          "pts": 22,
+          "date": "2026-08-18"
+        },
+        {
+          "PLAYER_NAME": "Jonquel Jones",
+          "TEAM_ABBREVIATION": "NY",
+          "pts": 23,
+          "date": "2026-08-15"
+        },
+        {
+          "PLAYER_NAME": "Sabrina Ionescu",
+          "TEAM_ABBREVIATION": "NY",
+          "pts": 20,
+          "date": "2026-08-13"
+        }
+      ]
+    }
+  },
+  "TOR": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Isabelle Harrison",
+        "TEAM_ABBREVIATION": "TOR",
+        "pts": 16,
+        "date": "2026-08-29",
+        "streak": 2
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Isabelle Harrison",
+          "TEAM_ABBREVIATION": "TOR",
+          "pts": 16,
+          "date": "2026-08-29"
+        },
+        {
+          "PLAYER_NAME": "Isabelle Harrison",
+          "TEAM_ABBREVIATION": "TOR",
+          "pts": 15,
+          "date": "2026-08-28"
+        },
+        {
+          "PLAYER_NAME": "Kiki Rice",
+          "TEAM_ABBREVIATION": "TOR",
+          "pts": 24,
+          "date": "2026-08-26"
+        },
+        {
+          "PLAYER_NAME": "Kia Nurse",
+          "TEAM_ABBREVIATION": "TOR",
+          "pts": 19,
+          "date": "2026-08-23"
+        },
+        {
+          "PLAYER_NAME": "Isabelle Harrison",
+          "TEAM_ABBREVIATION": "TOR",
+          "pts": 25,
+          "date": "2026-08-21"
+        },
+        {
+          "PLAYER_NAME": "Kiki Rice",
+          "TEAM_ABBREVIATION": "TOR",
+          "pts": 19,
+          "date": "2026-08-19"
+        },
+        {
+          "PLAYER_NAME": "Marina Mabrey",
+          "TEAM_ABBREVIATION": "TOR",
+          "pts": 22,
+          "date": "2026-08-18"
+        }
+      ]
+    }
+  },
   "MIN": {
     "trending_up": {},
     "trending_down": {},
@@ -433,75 +643,6 @@
           "TEAM_ABBREVIATION": "MIN",
           "pts": 23,
           "date": "2026-08-15"
-        },
-        {
-          "PLAYER_NAME": "Napheesa Collier",
-          "TEAM_ABBREVIATION": "MIN",
-          "pts": 20,
-          "date": "2026-08-12"
-        }
-      ]
-    }
-  },
-  "POR": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Emily Engstler",
-        "TEAM_ABBREVIATION": "POR",
-        "pts": 12,
-        "date": "2026-08-30",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Emily Engstler",
-          "TEAM_ABBREVIATION": "POR",
-          "pts": 12,
-          "date": "2026-08-30"
-        },
-        {
-          "PLAYER_NAME": "Carla Leite",
-          "TEAM_ABBREVIATION": "POR",
-          "pts": 26,
-          "date": "2026-08-28"
-        },
-        {
-          "PLAYER_NAME": "Bridget Carleton",
-          "TEAM_ABBREVIATION": "POR",
-          "pts": 14,
-          "date": "2026-08-25"
-        },
-        {
-          "PLAYER_NAME": "Carla Leite",
-          "TEAM_ABBREVIATION": "POR",
-          "pts": 27,
-          "date": "2026-08-23"
-        },
-        {
-          "PLAYER_NAME": "Bridget Carleton",
-          "TEAM_ABBREVIATION": "POR",
-          "pts": 18,
-          "date": "2026-08-21"
-        },
-        {
-          "PLAYER_NAME": "Carla Leite",
-          "TEAM_ABBREVIATION": "POR",
-          "pts": 23,
-          "date": "2026-08-16"
-        },
-        {
-          "PLAYER_NAME": "Holly Winterburn",
-          "TEAM_ABBREVIATION": "POR",
-          "pts": 20,
-          "date": "2026-08-14"
-        },
-        {
-          "PLAYER_NAME": "Bridget Carleton",
-          "TEAM_ABBREVIATION": "POR",
-          "pts": 16,
-          "date": "2026-08-12"
         }
       ]
     }
@@ -569,120 +710,6 @@
       ]
     }
   },
-  "CHI": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Natasha Cloud",
-        "TEAM_ABBREVIATION": "CHI",
-        "pts": 14,
-        "date": "2026-08-29",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Natasha Cloud",
-          "TEAM_ABBREVIATION": "CHI",
-          "pts": 14,
-          "date": "2026-08-29"
-        },
-        {
-          "PLAYER_NAME": "Kamilla Cardoso",
-          "TEAM_ABBREVIATION": "CHI",
-          "pts": 24,
-          "date": "2026-08-25"
-        },
-        {
-          "PLAYER_NAME": "Natasha Cloud",
-          "TEAM_ABBREVIATION": "CHI",
-          "pts": 16,
-          "date": "2026-08-23"
-        },
-        {
-          "PLAYER_NAME": "Natasha Cloud",
-          "TEAM_ABBREVIATION": "CHI",
-          "pts": 17,
-          "date": "2026-08-21"
-        },
-        {
-          "PLAYER_NAME": "Natasha Cloud",
-          "TEAM_ABBREVIATION": "CHI",
-          "pts": 35,
-          "date": "2026-08-18"
-        },
-        {
-          "PLAYER_NAME": "Kamilla Cardoso",
-          "TEAM_ABBREVIATION": "CHI",
-          "pts": 22,
-          "date": "2026-08-16"
-        },
-        {
-          "PLAYER_NAME": "Kamilla Cardoso",
-          "TEAM_ABBREVIATION": "CHI",
-          "pts": 20,
-          "date": "2026-08-12"
-        }
-      ]
-    }
-  },
-  "DAL": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Arike Ogunbowale",
-        "TEAM_ABBREVIATION": "DAL",
-        "pts": 18,
-        "date": "2026-08-30",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Arike Ogunbowale",
-          "TEAM_ABBREVIATION": "DAL",
-          "pts": 18,
-          "date": "2026-08-30"
-        },
-        {
-          "PLAYER_NAME": "Paige Bueckers",
-          "TEAM_ABBREVIATION": "DAL",
-          "pts": 22,
-          "date": "2026-08-25"
-        },
-        {
-          "PLAYER_NAME": "Paige Bueckers",
-          "TEAM_ABBREVIATION": "DAL",
-          "pts": 32,
-          "date": "2026-08-23"
-        },
-        {
-          "PLAYER_NAME": "Arike Ogunbowale",
-          "TEAM_ABBREVIATION": "DAL",
-          "pts": 32,
-          "date": "2026-08-20"
-        },
-        {
-          "PLAYER_NAME": "Paige Bueckers",
-          "TEAM_ABBREVIATION": "DAL",
-          "pts": 21,
-          "date": "2026-08-17"
-        },
-        {
-          "PLAYER_NAME": "Paige Bueckers",
-          "TEAM_ABBREVIATION": "DAL",
-          "pts": 29,
-          "date": "2026-08-14"
-        },
-        {
-          "PLAYER_NAME": "Paige Bueckers",
-          "TEAM_ABBREVIATION": "DAL",
-          "pts": 22,
-          "date": "2026-08-12"
-        }
-      ]
-    }
-  },
   "LA": {
     "trending_up": {},
     "trending_down": {},
@@ -746,116 +773,53 @@
       ]
     }
   },
-  "TOR": {
+  "CHI": {
     "trending_up": {},
     "trending_down": {},
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Isabelle Harrison",
-        "TEAM_ABBREVIATION": "TOR",
-        "pts": 16,
-        "date": "2026-08-29",
-        "streak": 2
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Isabelle Harrison",
-          "TEAM_ABBREVIATION": "TOR",
-          "pts": 16,
-          "date": "2026-08-29"
-        },
-        {
-          "PLAYER_NAME": "Isabelle Harrison",
-          "TEAM_ABBREVIATION": "TOR",
-          "pts": 15,
-          "date": "2026-08-28"
-        },
-        {
-          "PLAYER_NAME": "Kiki Rice",
-          "TEAM_ABBREVIATION": "TOR",
-          "pts": 24,
-          "date": "2026-08-26"
-        },
-        {
-          "PLAYER_NAME": "Kia Nurse",
-          "TEAM_ABBREVIATION": "TOR",
-          "pts": 19,
-          "date": "2026-08-23"
-        },
-        {
-          "PLAYER_NAME": "Isabelle Harrison",
-          "TEAM_ABBREVIATION": "TOR",
-          "pts": 25,
-          "date": "2026-08-21"
-        },
-        {
-          "PLAYER_NAME": "Kiki Rice",
-          "TEAM_ABBREVIATION": "TOR",
-          "pts": 19,
-          "date": "2026-08-19"
-        },
-        {
-          "PLAYER_NAME": "Marina Mabrey",
-          "TEAM_ABBREVIATION": "TOR",
-          "pts": 22,
-          "date": "2026-08-18"
-        },
-        {
-          "PLAYER_NAME": "Marina Mabrey",
-          "TEAM_ABBREVIATION": "TOR",
-          "pts": 23,
-          "date": "2026-08-12"
-        }
-      ]
-    }
-  },
-  "NY": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Han Xu",
-        "TEAM_ABBREVIATION": "NY",
-        "pts": 19,
+        "PLAYER_NAME": "Natasha Cloud",
+        "TEAM_ABBREVIATION": "CHI",
+        "pts": 14,
         "date": "2026-08-29",
         "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Han Xu",
-          "TEAM_ABBREVIATION": "NY",
-          "pts": 19,
+          "PLAYER_NAME": "Natasha Cloud",
+          "TEAM_ABBREVIATION": "CHI",
+          "pts": 14,
           "date": "2026-08-29"
         },
         {
-          "PLAYER_NAME": "Jonquel Jones",
-          "TEAM_ABBREVIATION": "NY",
-          "pts": 18,
-          "date": "2026-08-27"
+          "PLAYER_NAME": "Kamilla Cardoso",
+          "TEAM_ABBREVIATION": "CHI",
+          "pts": 24,
+          "date": "2026-08-25"
         },
         {
-          "PLAYER_NAME": "Breanna Stewart",
-          "TEAM_ABBREVIATION": "NY",
-          "pts": 22,
-          "date": "2026-08-22"
+          "PLAYER_NAME": "Natasha Cloud",
+          "TEAM_ABBREVIATION": "CHI",
+          "pts": 16,
+          "date": "2026-08-23"
         },
         {
-          "PLAYER_NAME": "Breanna Stewart",
-          "TEAM_ABBREVIATION": "NY",
-          "pts": 22,
+          "PLAYER_NAME": "Natasha Cloud",
+          "TEAM_ABBREVIATION": "CHI",
+          "pts": 17,
+          "date": "2026-08-21"
+        },
+        {
+          "PLAYER_NAME": "Natasha Cloud",
+          "TEAM_ABBREVIATION": "CHI",
+          "pts": 35,
           "date": "2026-08-18"
         },
         {
-          "PLAYER_NAME": "Jonquel Jones",
-          "TEAM_ABBREVIATION": "NY",
-          "pts": 23,
-          "date": "2026-08-15"
-        },
-        {
-          "PLAYER_NAME": "Sabrina Ionescu",
-          "TEAM_ABBREVIATION": "NY",
-          "pts": 20,
-          "date": "2026-08-13"
+          "PLAYER_NAME": "Kamilla Cardoso",
+          "TEAM_ABBREVIATION": "CHI",
+          "pts": 22,
+          "date": "2026-08-16"
         }
       ]
     }
