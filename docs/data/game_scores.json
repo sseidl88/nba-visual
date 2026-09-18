@@ -1,4 +1,35 @@
 {
-  "date": "2026-09-16",
-  "games": []
+  "date": "2026-09-17",
+  "games": [
+    {
+      "home": "ATL",
+      "home_score": 103,
+      "away": "CON",
+      "away_score": 59
+    },
+    {
+      "home": "CHI",
+      "home_score": 80,
+      "away": "WSH",
+      "away_score": 110
+    },
+    {
+      "home": "DAL",
+      "home_score": 97,
+      "away": "LA",
+      "away_score": 77
+    },
+    {
+      "home": "POR",
+      "home_score": 91,
+      "away": "PHX",
+      "away_score": 94
+    },
+    {
+      "home": "SEA",
+      "home_score": 77,
+      "away": "LV",
+      "away_score": 114
+    }
+  ]
 }
