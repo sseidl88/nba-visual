@@ -1,248 +1,133 @@
 {
-  "LA": {
+  "CHI": {
     "trending_up": {
-      "PLAYER_NAME": "Aaliyah Nye",
-      "TEAM_ABBREVIATION": "LA",
-      "id": "4597509",
+      "PLAYER_NAME": "Gabriela Jaquez",
+      "TEAM_ABBREVIATION": "CHI",
+      "id": "4858656",
       "recent_games": 1,
       "recent": {
-        "PPG": 6.0,
-        "APG": 1.0,
+        "PPG": 10.0,
+        "APG": 0.0,
         "RPG": 3.0,
         "BPG": 0.0,
-        "FG_PCT": 40.0
+        "FG_PCT": 57.1
       },
       "avg": {
-        "PPG": 1.8,
-        "APG": 0.2,
-        "RPG": 0.6,
-        "BPG": 0.0,
-        "FG_PCT": 37.5
+        "PPG": 4.4,
+        "APG": 0.4,
+        "RPG": 1.2,
+        "BPG": 0.2,
+        "FG_PCT": 41.7
       },
       "delta": {
-        "PPG": 4.2,
-        "APG": 0.8,
-        "RPG": 2.4,
-        "BPG": 0.0,
-        "FG_PCT": 2.5
+        "PPG": 5.6,
+        "APG": -0.4,
+        "RPG": 1.8,
+        "BPG": -0.2,
+        "FG_PCT": 15.4
       }
     },
     "trending_down": {
-      "PLAYER_NAME": "Chance Gray",
-      "TEAM_ABBREVIATION": "LA",
-      "id": "5105729",
+      "PLAYER_NAME": "Natasha Cloud",
+      "TEAM_ABBREVIATION": "CHI",
+      "id": "2529137",
       "recent_games": 1,
       "recent": {
-        "PPG": 0.0,
-        "APG": 0.0,
-        "RPG": 0.0,
-        "BPG": 0.0,
-        "FG_PCT": 0.0
-      },
-      "avg": {
-        "PPG": 3.2,
-        "APG": 0.8,
-        "RPG": 0.3,
+        "PPG": 2.0,
+        "APG": 2.0,
+        "RPG": 1.0,
         "BPG": 0.0,
         "FG_PCT": 50.0
       },
+      "avg": {
+        "PPG": 10.4,
+        "APG": 3.6,
+        "RPG": 2.4,
+        "BPG": 0.4,
+        "FG_PCT": 62.5
+      },
       "delta": {
-        "PPG": -3.2,
-        "APG": -0.8,
-        "RPG": -0.3,
-        "BPG": 0.0,
-        "FG_PCT": -50.0
+        "PPG": -8.4,
+        "APG": -1.6,
+        "RPG": -1.4,
+        "BPG": -0.4,
+        "FG_PCT": -12.5
       }
     },
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Nneka Ogwumike",
-        "TEAM_ABBREVIATION": "LA",
-        "pts": 18,
-        "date": "2026-09-17",
-        "streak": 4
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Nneka Ogwumike",
-          "TEAM_ABBREVIATION": "LA",
-          "pts": 18,
-          "date": "2026-09-17"
-        },
-        {
-          "PLAYER_NAME": "Nneka Ogwumike",
-          "TEAM_ABBREVIATION": "LA",
-          "pts": 23,
-          "date": "2026-08-30"
-        },
-        {
-          "PLAYER_NAME": "Nneka Ogwumike",
-          "TEAM_ABBREVIATION": "LA",
-          "pts": 24,
-          "date": "2026-08-28"
-        },
-        {
-          "PLAYER_NAME": "Nneka Ogwumike",
-          "TEAM_ABBREVIATION": "LA",
-          "pts": 27,
-          "date": "2026-08-24"
-        },
-        {
-          "PLAYER_NAME": "Rae Burrell",
-          "TEAM_ABBREVIATION": "LA",
-          "pts": 20,
-          "date": "2026-08-22"
-        },
-        {
-          "PLAYER_NAME": "Cameron Brink",
-          "TEAM_ABBREVIATION": "LA",
-          "pts": 14,
-          "date": "2026-08-20"
-        }
-      ]
-    }
-  },
-  "WSH": {
-    "trending_up": {
-      "PLAYER_NAME": "Cotie McMahon",
-      "TEAM_ABBREVIATION": "WSH",
-      "id": "4583144",
-      "recent_games": 1,
-      "recent": {
-        "PPG": 11.0,
-        "APG": 4.0,
-        "RPG": 4.0,
-        "BPG": 0.0,
-        "FG_PCT": 71.4
-      },
-      "avg": {
-        "PPG": 5.0,
-        "APG": 1.7,
-        "RPG": 2.1,
-        "BPG": 0.0,
-        "FG_PCT": 41.4
-      },
-      "delta": {
-        "PPG": 6.0,
-        "APG": 2.3,
-        "RPG": 1.9,
-        "BPG": 0.0,
-        "FG_PCT": 30.0
-      }
-    },
-    "trending_down": {
-      "PLAYER_NAME": "Sonia Citron",
-      "TEAM_ABBREVIATION": "WSH",
-      "id": "4433524",
-      "recent_games": 1,
-      "recent": {
-        "PPG": 0.0,
-        "APG": 0.0,
-        "RPG": 0.0,
-        "BPG": 0.0,
-        "FG_PCT": 0.0
-      },
-      "avg": {
-        "PPG": 12.4,
-        "APG": 4.9,
-        "RPG": 2.3,
-        "BPG": 0.1,
-        "FG_PCT": 49.1
-      },
-      "delta": {
-        "PPG": -12.4,
-        "APG": -4.9,
-        "RPG": -2.3,
-        "BPG": -0.1,
-        "FG_PCT": -49.1
-      }
-    },
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Shakira Austin",
-        "TEAM_ABBREVIATION": "WSH",
-        "pts": 20,
+        "PLAYER_NAME": "Courtney Vandersloot",
+        "TEAM_ABBREVIATION": "CHI",
+        "pts": 14,
         "date": "2026-09-17",
         "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Shakira Austin",
-          "TEAM_ABBREVIATION": "WSH",
-          "pts": 20,
+          "PLAYER_NAME": "Courtney Vandersloot",
+          "TEAM_ABBREVIATION": "CHI",
+          "pts": 14,
           "date": "2026-09-17"
         },
         {
-          "PLAYER_NAME": "Sonia Citron",
-          "TEAM_ABBREVIATION": "WSH",
-          "pts": 22,
-          "date": "2026-08-28"
+          "PLAYER_NAME": "Natasha Cloud",
+          "TEAM_ABBREVIATION": "CHI",
+          "pts": 14,
+          "date": "2026-08-29"
         },
         {
-          "PLAYER_NAME": "Georgia Amoore",
-          "TEAM_ABBREVIATION": "WSH",
-          "pts": 25,
-          "date": "2026-08-27"
-        },
-        {
-          "PLAYER_NAME": "Sonia Citron",
-          "TEAM_ABBREVIATION": "WSH",
-          "pts": 19,
+          "PLAYER_NAME": "Kamilla Cardoso",
+          "TEAM_ABBREVIATION": "CHI",
+          "pts": 24,
           "date": "2026-08-25"
         },
         {
-          "PLAYER_NAME": "Shakira Austin",
-          "TEAM_ABBREVIATION": "WSH",
-          "pts": 31,
+          "PLAYER_NAME": "Natasha Cloud",
+          "TEAM_ABBREVIATION": "CHI",
+          "pts": 16,
           "date": "2026-08-23"
         },
         {
-          "PLAYER_NAME": "Kiki Iriafen",
-          "TEAM_ABBREVIATION": "WSH",
-          "pts": 19,
+          "PLAYER_NAME": "Natasha Cloud",
+          "TEAM_ABBREVIATION": "CHI",
+          "pts": 17,
           "date": "2026-08-21"
-        },
-        {
-          "PLAYER_NAME": "Kiki Iriafen",
-          "TEAM_ABBREVIATION": "WSH",
-          "pts": 21,
-          "date": "2026-08-19"
         }
       ]
     }
   },
-  "PHX": {
+  "IND": {
     "trending_up": {
-      "PLAYER_NAME": "Saylor Poffenbarger",
-      "TEAM_ABBREVIATION": "PHX",
-      "id": "4433542",
+      "PLAYER_NAME": "Mercedes Russell",
+      "TEAM_ABBREVIATION": "IND",
+      "id": "3056672",
       "recent_games": 1,
       "recent": {
         "PPG": 3.0,
         "APG": 0.0,
-        "RPG": 2.0,
+        "RPG": 1.0,
         "BPG": 0.0,
         "FG_PCT": 100.0
       },
       "avg": {
-        "PPG": 0.8,
-        "APG": 0.0,
+        "PPG": 1.8,
+        "APG": 0.8,
         "RPG": 1.0,
         "BPG": 0.0,
-        "FG_PCT": 20.0
+        "FG_PCT": 50.0
       },
       "delta": {
-        "PPG": 2.2,
-        "APG": 0.0,
-        "RPG": 1.0,
+        "PPG": 1.2,
+        "APG": -0.8,
+        "RPG": 0.0,
         "BPG": 0.0,
-        "FG_PCT": 80.0
+        "FG_PCT": 50.0
       }
     },
     "trending_down": {
-      "PLAYER_NAME": "Kahleah Copper",
-      "TEAM_ABBREVIATION": "PHX",
-      "id": "2998938",
+      "PLAYER_NAME": "Bree Hall",
+      "TEAM_ABBREVIATION": "IND",
+      "id": "4898383",
       "recent_games": 1,
       "recent": {
         "PPG": 0.0,
@@ -252,94 +137,94 @@
         "FG_PCT": 0.0
       },
       "avg": {
-        "PPG": 18.4,
-        "APG": 0.8,
-        "RPG": 2.0,
+        "PPG": 0.8,
+        "APG": 0.0,
+        "RPG": 0.0,
         "BPG": 0.0,
-        "FG_PCT": 55.9
+        "FG_PCT": 100.0
       },
       "delta": {
-        "PPG": -18.4,
-        "APG": -0.8,
-        "RPG": -2.0,
+        "PPG": -0.8,
+        "APG": 0.0,
+        "RPG": 0.0,
         "BPG": 0.0,
-        "FG_PCT": -55.9
+        "FG_PCT": -100.0
       }
     },
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Shay Ciezki",
-        "TEAM_ABBREVIATION": "PHX",
-        "pts": 22,
-        "date": "2026-09-17",
-        "streak": 1
+        "PLAYER_NAME": "Kelsey Mitchell",
+        "TEAM_ABBREVIATION": "IND",
+        "pts": 33,
+        "date": "2026-09-18",
+        "streak": 2
       },
       "history": [
         {
-          "PLAYER_NAME": "Shay Ciezki",
-          "TEAM_ABBREVIATION": "PHX",
-          "pts": 22,
-          "date": "2026-09-17"
+          "PLAYER_NAME": "Kelsey Mitchell",
+          "TEAM_ABBREVIATION": "IND",
+          "pts": 33,
+          "date": "2026-09-18"
         },
         {
-          "PLAYER_NAME": "Noemie Brochant",
-          "TEAM_ABBREVIATION": "PHX",
-          "pts": 15,
-          "date": "2026-08-29"
+          "PLAYER_NAME": "Kelsey Mitchell",
+          "TEAM_ABBREVIATION": "IND",
+          "pts": 34,
+          "date": "2026-08-28"
         },
         {
-          "PLAYER_NAME": "Kahleah Copper",
-          "TEAM_ABBREVIATION": "PHX",
-          "pts": 35,
-          "date": "2026-08-27"
+          "PLAYER_NAME": "Caitlin Clark",
+          "TEAM_ABBREVIATION": "IND",
+          "pts": 37,
+          "date": "2026-08-23"
         },
         {
-          "PLAYER_NAME": "Natasha Mack",
-          "TEAM_ABBREVIATION": "PHX",
-          "pts": 19,
-          "date": "2026-08-25"
-        },
-        {
-          "PLAYER_NAME": "Kahleah Copper",
-          "TEAM_ABBREVIATION": "PHX",
-          "pts": 38,
+          "PLAYER_NAME": "Kelsey Mitchell",
+          "TEAM_ABBREVIATION": "IND",
+          "pts": 25,
           "date": "2026-08-22"
+        },
+        {
+          "PLAYER_NAME": "Kelsey Mitchell",
+          "TEAM_ABBREVIATION": "IND",
+          "pts": 37,
+          "date": "2026-08-20"
         }
       ]
     }
   },
   "POR": {
     "trending_up": {
-      "PLAYER_NAME": "Jordan Harrison",
+      "PLAYER_NAME": "Frieda Buhner",
       "TEAM_ABBREVIATION": "POR",
-      "id": "5108051",
-      "recent_games": 1,
+      "id": "5105406",
+      "recent_games": 2,
       "recent": {
         "PPG": 8.0,
-        "APG": 10.0,
-        "RPG": 2.0,
+        "APG": 2.0,
+        "RPG": 1.5,
         "BPG": 0.0,
-        "FG_PCT": 40.0
+        "FG_PCT": 53.8
       },
       "avg": {
-        "PPG": 4.3,
-        "APG": 3.8,
+        "PPG": 5.8,
+        "APG": 1.0,
         "RPG": 1.2,
         "BPG": 0.0,
-        "FG_PCT": 37.5
+        "FG_PCT": 39.3
       },
       "delta": {
-        "PPG": 3.7,
-        "APG": 6.2,
-        "RPG": 0.8,
+        "PPG": 2.2,
+        "APG": 1.0,
+        "RPG": 0.3,
         "BPG": 0.0,
-        "FG_PCT": 2.5
+        "FG_PCT": 14.5
       }
     },
     "trending_down": {
-      "PLAYER_NAME": "Megan DiLeo",
+      "PLAYER_NAME": "Bridget Carleton",
       "TEAM_ABBREVIATION": "POR",
-      "id": "3934218",
+      "id": "3906972",
       "recent_games": 1,
       "recent": {
         "PPG": 0.0,
@@ -349,29 +234,35 @@
         "FG_PCT": 0.0
       },
       "avg": {
-        "PPG": 12.7,
-        "APG": 0.3,
-        "RPG": 3.3,
-        "BPG": 0.3,
-        "FG_PCT": 61.7
+        "PPG": 10.8,
+        "APG": 2.3,
+        "RPG": 3.5,
+        "BPG": 0.0,
+        "FG_PCT": 38.6
       },
       "delta": {
-        "PPG": -12.7,
-        "APG": -0.3,
-        "RPG": -3.3,
-        "BPG": -0.3,
-        "FG_PCT": -61.7
+        "PPG": -10.8,
+        "APG": -2.3,
+        "RPG": -3.5,
+        "BPG": 0.0,
+        "FG_PCT": -38.6
       }
     },
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Emily Engstler",
+        "PLAYER_NAME": "Frieda Buhner",
         "TEAM_ABBREVIATION": "POR",
-        "pts": 21,
-        "date": "2026-09-17",
-        "streak": 2
+        "pts": 14,
+        "date": "2026-09-18",
+        "streak": 1
       },
       "history": [
+        {
+          "PLAYER_NAME": "Frieda Buhner",
+          "TEAM_ABBREVIATION": "POR",
+          "pts": 14,
+          "date": "2026-09-18"
+        },
         {
           "PLAYER_NAME": "Emily Engstler",
           "TEAM_ABBREVIATION": "POR",
@@ -411,144 +302,196 @@
       ]
     }
   },
-  "ATL": {
+  "TOR": {
     "trending_up": {
-      "PLAYER_NAME": "Te-Hina Paopao",
-      "TEAM_ABBREVIATION": "ATL",
-      "id": "4433431",
+      "PLAYER_NAME": "Teonni Key",
+      "TEAM_ABBREVIATION": "TOR",
+      "id": "4434020",
       "recent_games": 1,
       "recent": {
-        "PPG": 10.0,
-        "APG": 2.0,
-        "RPG": 2.0,
+        "PPG": 2.0,
+        "APG": 0.0,
+        "RPG": 3.0,
         "BPG": 0.0,
-        "FG_PCT": 80.0
+        "FG_PCT": 100.0
       },
       "avg": {
-        "PPG": 4.2,
+        "PPG": 3.0,
         "APG": 1.0,
-        "RPG": 0.7,
-        "BPG": 0.0,
-        "FG_PCT": 52.9
+        "RPG": 3.7,
+        "BPG": 0.7,
+        "FG_PCT": 30.8
       },
       "delta": {
-        "PPG": 5.8,
-        "APG": 1.0,
-        "RPG": 1.3,
-        "BPG": 0.0,
-        "FG_PCT": 27.1
+        "PPG": -1.0,
+        "APG": -1.0,
+        "RPG": -0.7,
+        "BPG": -0.7,
+        "FG_PCT": 69.2
       }
     },
     "trending_down": {
-      "PLAYER_NAME": "Jordin Canada",
-      "TEAM_ABBREVIATION": "ATL",
-      "id": "3142250",
+      "PLAYER_NAME": "Maria Conde",
+      "TEAM_ABBREVIATION": "TOR",
+      "id": "3910470",
       "recent_games": 1,
       "recent": {
-        "PPG": 5.0,
-        "APG": 1.0,
+        "PPG": 0.0,
+        "APG": 0.0,
         "RPG": 0.0,
+        "BPG": 0.0,
+        "FG_PCT": 0.0
+      },
+      "avg": {
+        "PPG": 1.0,
+        "APG": 1.0,
+        "RPG": 1.0,
         "BPG": 0.0,
         "FG_PCT": 40.0
       },
-      "avg": {
-        "PPG": 10.3,
-        "APG": 6.2,
-        "RPG": 2.7,
-        "BPG": 0.8,
-        "FG_PCT": 44.4
-      },
       "delta": {
-        "PPG": -5.3,
-        "APG": -5.2,
-        "RPG": -2.7,
-        "BPG": -0.8,
-        "FG_PCT": -4.4
+        "PPG": -1.0,
+        "APG": -1.0,
+        "RPG": -1.0,
+        "BPG": 0.0,
+        "FG_PCT": -40.0
       }
     },
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Angel Reese",
-        "TEAM_ABBREVIATION": "ATL",
-        "pts": 30,
-        "date": "2026-09-17",
+        "PLAYER_NAME": "Laura Juskaite",
+        "TEAM_ABBREVIATION": "TOR",
+        "pts": 22,
+        "date": "2026-09-18",
         "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Angel Reese",
-          "TEAM_ABBREVIATION": "ATL",
-          "pts": 30,
-          "date": "2026-09-17"
+          "PLAYER_NAME": "Laura Juskaite",
+          "TEAM_ABBREVIATION": "TOR",
+          "pts": 22,
+          "date": "2026-09-18"
         },
         {
-          "PLAYER_NAME": "Allisha Gray",
-          "TEAM_ABBREVIATION": "ATL",
-          "pts": 23,
-          "date": "2026-08-30"
+          "PLAYER_NAME": "Isabelle Harrison",
+          "TEAM_ABBREVIATION": "TOR",
+          "pts": 16,
+          "date": "2026-08-29"
         },
         {
-          "PLAYER_NAME": "Rhyne Howard",
-          "TEAM_ABBREVIATION": "ATL",
-          "pts": 26,
+          "PLAYER_NAME": "Isabelle Harrison",
+          "TEAM_ABBREVIATION": "TOR",
+          "pts": 15,
           "date": "2026-08-28"
         },
         {
-          "PLAYER_NAME": "Allisha Gray",
-          "TEAM_ABBREVIATION": "ATL",
-          "pts": 20,
-          "date": "2026-08-24"
+          "PLAYER_NAME": "Kiki Rice",
+          "TEAM_ABBREVIATION": "TOR",
+          "pts": 24,
+          "date": "2026-08-26"
         },
         {
-          "PLAYER_NAME": "Angel Reese",
-          "TEAM_ABBREVIATION": "ATL",
-          "pts": 31,
-          "date": "2026-08-22"
+          "PLAYER_NAME": "Kia Nurse",
+          "TEAM_ABBREVIATION": "TOR",
+          "pts": 19,
+          "date": "2026-08-23"
         },
         {
-          "PLAYER_NAME": "Rhyne Howard",
-          "TEAM_ABBREVIATION": "ATL",
-          "pts": 26,
-          "date": "2026-08-20"
+          "PLAYER_NAME": "Isabelle Harrison",
+          "TEAM_ABBREVIATION": "TOR",
+          "pts": 25,
+          "date": "2026-08-21"
         }
       ]
     }
   },
-  "MIN": {
-    "trending_up": {},
-    "trending_down": {},
+  "SEA": {
+    "trending_up": {
+      "PLAYER_NAME": "Mackenzie Holmes",
+      "TEAM_ABBREVIATION": "SEA",
+      "id": "4433643",
+      "recent_games": 1,
+      "recent": {
+        "PPG": 4.0,
+        "APG": 0.0,
+        "RPG": 2.0,
+        "BPG": 0.0,
+        "FG_PCT": 100.0
+      },
+      "avg": {
+        "PPG": 1.8,
+        "APG": 0.0,
+        "RPG": 1.2,
+        "BPG": 0.0,
+        "FG_PCT": 60.0
+      },
+      "delta": {
+        "PPG": 2.2,
+        "APG": 0.0,
+        "RPG": 0.8,
+        "BPG": 0.0,
+        "FG_PCT": 40.0
+      }
+    },
+    "trending_down": {
+      "PLAYER_NAME": "Jade Melbourne",
+      "TEAM_ABBREVIATION": "SEA",
+      "id": "5017726",
+      "recent_games": 1,
+      "recent": {
+        "PPG": 0.0,
+        "APG": 0.0,
+        "RPG": 0.0,
+        "BPG": 0.0,
+        "FG_PCT": 0.0
+      },
+      "avg": {
+        "PPG": 9.0,
+        "APG": 2.5,
+        "RPG": 2.8,
+        "BPG": 0.0,
+        "FG_PCT": 42.9
+      },
+      "delta": {
+        "PPG": -9.0,
+        "APG": -2.5,
+        "RPG": -2.8,
+        "BPG": 0.0,
+        "FG_PCT": -42.9
+      }
+    },
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Olivia Miles",
-        "TEAM_ABBREVIATION": "MIN",
-        "pts": 21,
-        "date": "2026-08-30",
-        "streak": 1
+        "PLAYER_NAME": "Flau'jae Johnson",
+        "TEAM_ABBREVIATION": "SEA",
+        "pts": 25,
+        "date": "2026-09-17",
+        "streak": 4
       },
       "history": [
         {
-          "PLAYER_NAME": "Olivia Miles",
-          "TEAM_ABBREVIATION": "MIN",
-          "pts": 21,
+          "PLAYER_NAME": "Flau'jae Johnson",
+          "TEAM_ABBREVIATION": "SEA",
+          "pts": 25,
+          "date": "2026-09-17"
+        },
+        {
+          "PLAYER_NAME": "Flau'jae Johnson",
+          "TEAM_ABBREVIATION": "SEA",
+          "pts": 19,
           "date": "2026-08-30"
         },
         {
-          "PLAYER_NAME": "Natasha Howard",
-          "TEAM_ABBREVIATION": "MIN",
-          "pts": 13,
-          "date": "2026-08-24"
-        },
-        {
-          "PLAYER_NAME": "Olivia Miles",
-          "TEAM_ABBREVIATION": "MIN",
-          "pts": 24,
-          "date": "2026-08-21"
-        },
-        {
-          "PLAYER_NAME": "Kayla McBride",
-          "TEAM_ABBREVIATION": "MIN",
+          "PLAYER_NAME": "Flau'jae Johnson",
+          "TEAM_ABBREVIATION": "SEA",
           "pts": 20,
-          "date": "2026-08-19"
+          "date": "2026-08-26"
+        },
+        {
+          "PLAYER_NAME": "Flau'jae Johnson",
+          "TEAM_ABBREVIATION": "SEA",
+          "pts": 23,
+          "date": "2026-08-23"
         }
       ]
     }
@@ -646,220 +589,6 @@
           "TEAM_ABBREVIATION": "DAL",
           "pts": 32,
           "date": "2026-08-20"
-        }
-      ]
-    }
-  },
-  "GS": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Tiffany Hayes",
-        "TEAM_ABBREVIATION": "GS",
-        "pts": 18,
-        "date": "2026-08-30",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Tiffany Hayes",
-          "TEAM_ABBREVIATION": "GS",
-          "pts": 18,
-          "date": "2026-08-30"
-        },
-        {
-          "PLAYER_NAME": "Cecilia Zandalasini",
-          "TEAM_ABBREVIATION": "GS",
-          "pts": 20,
-          "date": "2026-08-27"
-        },
-        {
-          "PLAYER_NAME": "Janelle Salaun",
-          "TEAM_ABBREVIATION": "GS",
-          "pts": 15,
-          "date": "2026-08-26"
-        },
-        {
-          "PLAYER_NAME": "Cecilia Zandalasini",
-          "TEAM_ABBREVIATION": "GS",
-          "pts": 18,
-          "date": "2026-08-24"
-        },
-        {
-          "PLAYER_NAME": "Laeticia Amihere",
-          "TEAM_ABBREVIATION": "GS",
-          "pts": 16,
-          "date": "2026-08-21"
-        },
-        {
-          "PLAYER_NAME": "Janelle Salaun",
-          "TEAM_ABBREVIATION": "GS",
-          "pts": 15,
-          "date": "2026-08-19"
-        }
-      ]
-    }
-  },
-  "IND": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Kelsey Mitchell",
-        "TEAM_ABBREVIATION": "IND",
-        "pts": 34,
-        "date": "2026-08-28",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Kelsey Mitchell",
-          "TEAM_ABBREVIATION": "IND",
-          "pts": 34,
-          "date": "2026-08-28"
-        },
-        {
-          "PLAYER_NAME": "Caitlin Clark",
-          "TEAM_ABBREVIATION": "IND",
-          "pts": 37,
-          "date": "2026-08-23"
-        },
-        {
-          "PLAYER_NAME": "Kelsey Mitchell",
-          "TEAM_ABBREVIATION": "IND",
-          "pts": 25,
-          "date": "2026-08-22"
-        },
-        {
-          "PLAYER_NAME": "Kelsey Mitchell",
-          "TEAM_ABBREVIATION": "IND",
-          "pts": 37,
-          "date": "2026-08-20"
-        }
-      ]
-    }
-  },
-  "SEA": {
-    "trending_up": {
-      "PLAYER_NAME": "Mackenzie Holmes",
-      "TEAM_ABBREVIATION": "SEA",
-      "id": "4433643",
-      "recent_games": 1,
-      "recent": {
-        "PPG": 4.0,
-        "APG": 0.0,
-        "RPG": 2.0,
-        "BPG": 0.0,
-        "FG_PCT": 100.0
-      },
-      "avg": {
-        "PPG": 1.8,
-        "APG": 0.0,
-        "RPG": 1.2,
-        "BPG": 0.0,
-        "FG_PCT": 60.0
-      },
-      "delta": {
-        "PPG": 2.2,
-        "APG": 0.0,
-        "RPG": 0.8,
-        "BPG": 0.0,
-        "FG_PCT": 40.0
-      }
-    },
-    "trending_down": {
-      "PLAYER_NAME": "Jade Melbourne",
-      "TEAM_ABBREVIATION": "SEA",
-      "id": "5017726",
-      "recent_games": 1,
-      "recent": {
-        "PPG": 0.0,
-        "APG": 0.0,
-        "RPG": 0.0,
-        "BPG": 0.0,
-        "FG_PCT": 0.0
-      },
-      "avg": {
-        "PPG": 9.0,
-        "APG": 2.5,
-        "RPG": 2.8,
-        "BPG": 0.0,
-        "FG_PCT": 42.9
-      },
-      "delta": {
-        "PPG": -9.0,
-        "APG": -2.5,
-        "RPG": -2.8,
-        "BPG": 0.0,
-        "FG_PCT": -42.9
-      }
-    },
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Flau'jae Johnson",
-        "TEAM_ABBREVIATION": "SEA",
-        "pts": 25,
-        "date": "2026-09-17",
-        "streak": 4
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Flau'jae Johnson",
-          "TEAM_ABBREVIATION": "SEA",
-          "pts": 25,
-          "date": "2026-09-17"
-        },
-        {
-          "PLAYER_NAME": "Flau'jae Johnson",
-          "TEAM_ABBREVIATION": "SEA",
-          "pts": 19,
-          "date": "2026-08-30"
-        },
-        {
-          "PLAYER_NAME": "Flau'jae Johnson",
-          "TEAM_ABBREVIATION": "SEA",
-          "pts": 20,
-          "date": "2026-08-26"
-        },
-        {
-          "PLAYER_NAME": "Flau'jae Johnson",
-          "TEAM_ABBREVIATION": "SEA",
-          "pts": 23,
-          "date": "2026-08-23"
-        }
-      ]
-    }
-  },
-  "NY": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Han Xu",
-        "TEAM_ABBREVIATION": "NY",
-        "pts": 19,
-        "date": "2026-08-29",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Han Xu",
-          "TEAM_ABBREVIATION": "NY",
-          "pts": 19,
-          "date": "2026-08-29"
-        },
-        {
-          "PLAYER_NAME": "Jonquel Jones",
-          "TEAM_ABBREVIATION": "NY",
-          "pts": 18,
-          "date": "2026-08-27"
-        },
-        {
-          "PLAYER_NAME": "Breanna Stewart",
-          "TEAM_ABBREVIATION": "NY",
-          "pts": 22,
-          "date": "2026-08-22"
         }
       ]
     }
@@ -1064,150 +793,693 @@
       ]
     }
   },
-  "TOR": {
-    "trending_up": {},
-    "trending_down": {},
+  "GS": {
+    "trending_up": {
+      "PLAYER_NAME": "Kaitlyn Chen",
+      "TEAM_ABBREVIATION": "GS",
+      "id": "4899328",
+      "recent_games": 1,
+      "recent": {
+        "PPG": 17.0,
+        "APG": 3.0,
+        "RPG": 1.0,
+        "BPG": 1.0,
+        "FG_PCT": 60.0
+      },
+      "avg": {
+        "PPG": 9.0,
+        "APG": 2.0,
+        "RPG": 1.2,
+        "BPG": 0.2,
+        "FG_PCT": 50.0
+      },
+      "delta": {
+        "PPG": 8.0,
+        "APG": 1.0,
+        "RPG": -0.2,
+        "BPG": 0.8,
+        "FG_PCT": 10.0
+      }
+    },
+    "trending_down": {
+      "PLAYER_NAME": "Veronica Burton",
+      "TEAM_ABBREVIATION": "GS",
+      "id": "4398935",
+      "recent_games": 1,
+      "recent": {
+        "PPG": 4.0,
+        "APG": 3.0,
+        "RPG": 4.0,
+        "BPG": 1.0,
+        "FG_PCT": 0.0
+      },
+      "avg": {
+        "PPG": 10.0,
+        "APG": 6.7,
+        "RPG": 3.8,
+        "BPG": 0.3,
+        "FG_PCT": 42.6
+      },
+      "delta": {
+        "PPG": -6.0,
+        "APG": -3.7,
+        "RPG": 0.2,
+        "BPG": 0.7,
+        "FG_PCT": -42.6
+      }
+    },
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Isabelle Harrison",
-        "TEAM_ABBREVIATION": "TOR",
-        "pts": 16,
-        "date": "2026-08-29",
-        "streak": 2
+        "PLAYER_NAME": "Laeticia Amihere",
+        "TEAM_ABBREVIATION": "GS",
+        "pts": 17,
+        "date": "2026-09-18",
+        "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Isabelle Harrison",
-          "TEAM_ABBREVIATION": "TOR",
-          "pts": 16,
-          "date": "2026-08-29"
+          "PLAYER_NAME": "Laeticia Amihere",
+          "TEAM_ABBREVIATION": "GS",
+          "pts": 17,
+          "date": "2026-09-18"
         },
         {
-          "PLAYER_NAME": "Isabelle Harrison",
-          "TEAM_ABBREVIATION": "TOR",
+          "PLAYER_NAME": "Tiffany Hayes",
+          "TEAM_ABBREVIATION": "GS",
+          "pts": 18,
+          "date": "2026-08-30"
+        },
+        {
+          "PLAYER_NAME": "Cecilia Zandalasini",
+          "TEAM_ABBREVIATION": "GS",
+          "pts": 20,
+          "date": "2026-08-27"
+        },
+        {
+          "PLAYER_NAME": "Janelle Salaun",
+          "TEAM_ABBREVIATION": "GS",
           "pts": 15,
-          "date": "2026-08-28"
-        },
-        {
-          "PLAYER_NAME": "Kiki Rice",
-          "TEAM_ABBREVIATION": "TOR",
-          "pts": 24,
           "date": "2026-08-26"
         },
         {
-          "PLAYER_NAME": "Kia Nurse",
-          "TEAM_ABBREVIATION": "TOR",
-          "pts": 19,
-          "date": "2026-08-23"
+          "PLAYER_NAME": "Cecilia Zandalasini",
+          "TEAM_ABBREVIATION": "GS",
+          "pts": 18,
+          "date": "2026-08-24"
         },
         {
-          "PLAYER_NAME": "Isabelle Harrison",
-          "TEAM_ABBREVIATION": "TOR",
-          "pts": 25,
+          "PLAYER_NAME": "Laeticia Amihere",
+          "TEAM_ABBREVIATION": "GS",
+          "pts": 16,
           "date": "2026-08-21"
-        },
-        {
-          "PLAYER_NAME": "Kiki Rice",
-          "TEAM_ABBREVIATION": "TOR",
-          "pts": 19,
-          "date": "2026-08-19"
         }
       ]
     }
   },
-  "CHI": {
+  "MIN": {
     "trending_up": {
-      "PLAYER_NAME": "Gabriela Jaquez",
-      "TEAM_ABBREVIATION": "CHI",
-      "id": "4858656",
+      "PLAYER_NAME": "Napheesa Collier",
+      "TEAM_ABBREVIATION": "MIN",
+      "id": "3917450",
       "recent_games": 1,
       "recent": {
-        "PPG": 10.0,
-        "APG": 0.0,
-        "RPG": 3.0,
-        "BPG": 0.0,
-        "FG_PCT": 57.1
+        "PPG": 14.0,
+        "APG": 4.0,
+        "RPG": 7.0,
+        "BPG": 2.0,
+        "FG_PCT": 63.6
       },
       "avg": {
-        "PPG": 4.4,
-        "APG": 0.4,
-        "RPG": 1.2,
-        "BPG": 0.2,
-        "FG_PCT": 41.7
+        "PPG": 10.0,
+        "APG": 2.0,
+        "RPG": 5.2,
+        "BPG": 0.8,
+        "FG_PCT": 44.4
       },
       "delta": {
-        "PPG": 5.6,
-        "APG": -0.4,
+        "PPG": 4.0,
+        "APG": 2.0,
         "RPG": 1.8,
-        "BPG": -0.2,
-        "FG_PCT": 15.4
+        "BPG": 1.2,
+        "FG_PCT": 19.2
       }
     },
     "trending_down": {
-      "PLAYER_NAME": "Natasha Cloud",
-      "TEAM_ABBREVIATION": "CHI",
-      "id": "2529137",
+      "PLAYER_NAME": "Chloe Bibby",
+      "TEAM_ABBREVIATION": "MIN",
+      "id": "4280877",
       "recent_games": 1,
       "recent": {
-        "PPG": 2.0,
-        "APG": 2.0,
-        "RPG": 1.0,
+        "PPG": 0.0,
+        "APG": 0.0,
+        "RPG": 0.0,
         "BPG": 0.0,
-        "FG_PCT": 50.0
+        "FG_PCT": 0.0
       },
       "avg": {
-        "PPG": 10.4,
-        "APG": 3.6,
-        "RPG": 2.4,
-        "BPG": 0.4,
-        "FG_PCT": 62.5
+        "PPG": 1.8,
+        "APG": 0.0,
+        "RPG": 0.5,
+        "BPG": 0.5,
+        "FG_PCT": 42.9
       },
       "delta": {
-        "PPG": -8.4,
-        "APG": -1.6,
-        "RPG": -1.4,
-        "BPG": -0.4,
-        "FG_PCT": -12.5
+        "PPG": -1.8,
+        "APG": 0.0,
+        "RPG": -0.5,
+        "BPG": -0.5,
+        "FG_PCT": -42.9
       }
     },
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Courtney Vandersloot",
-        "TEAM_ABBREVIATION": "CHI",
-        "pts": 14,
+        "PLAYER_NAME": "Olivia Miles",
+        "TEAM_ABBREVIATION": "MIN",
+        "pts": 20,
+        "date": "2026-09-18",
+        "streak": 2
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Olivia Miles",
+          "TEAM_ABBREVIATION": "MIN",
+          "pts": 20,
+          "date": "2026-09-18"
+        },
+        {
+          "PLAYER_NAME": "Olivia Miles",
+          "TEAM_ABBREVIATION": "MIN",
+          "pts": 21,
+          "date": "2026-08-30"
+        },
+        {
+          "PLAYER_NAME": "Natasha Howard",
+          "TEAM_ABBREVIATION": "MIN",
+          "pts": 13,
+          "date": "2026-08-24"
+        },
+        {
+          "PLAYER_NAME": "Olivia Miles",
+          "TEAM_ABBREVIATION": "MIN",
+          "pts": 24,
+          "date": "2026-08-21"
+        }
+      ]
+    }
+  },
+  "LA": {
+    "trending_up": {
+      "PLAYER_NAME": "Aaliyah Nye",
+      "TEAM_ABBREVIATION": "LA",
+      "id": "4597509",
+      "recent_games": 1,
+      "recent": {
+        "PPG": 6.0,
+        "APG": 1.0,
+        "RPG": 3.0,
+        "BPG": 0.0,
+        "FG_PCT": 40.0
+      },
+      "avg": {
+        "PPG": 1.8,
+        "APG": 0.2,
+        "RPG": 0.6,
+        "BPG": 0.0,
+        "FG_PCT": 37.5
+      },
+      "delta": {
+        "PPG": 4.2,
+        "APG": 0.8,
+        "RPG": 2.4,
+        "BPG": 0.0,
+        "FG_PCT": 2.5
+      }
+    },
+    "trending_down": {
+      "PLAYER_NAME": "Chance Gray",
+      "TEAM_ABBREVIATION": "LA",
+      "id": "5105729",
+      "recent_games": 1,
+      "recent": {
+        "PPG": 0.0,
+        "APG": 0.0,
+        "RPG": 0.0,
+        "BPG": 0.0,
+        "FG_PCT": 0.0
+      },
+      "avg": {
+        "PPG": 3.2,
+        "APG": 0.8,
+        "RPG": 0.3,
+        "BPG": 0.0,
+        "FG_PCT": 50.0
+      },
+      "delta": {
+        "PPG": -3.2,
+        "APG": -0.8,
+        "RPG": -0.3,
+        "BPG": 0.0,
+        "FG_PCT": -50.0
+      }
+    },
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Nneka Ogwumike",
+        "TEAM_ABBREVIATION": "LA",
+        "pts": 18,
+        "date": "2026-09-17",
+        "streak": 4
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Nneka Ogwumike",
+          "TEAM_ABBREVIATION": "LA",
+          "pts": 18,
+          "date": "2026-09-17"
+        },
+        {
+          "PLAYER_NAME": "Nneka Ogwumike",
+          "TEAM_ABBREVIATION": "LA",
+          "pts": 23,
+          "date": "2026-08-30"
+        },
+        {
+          "PLAYER_NAME": "Nneka Ogwumike",
+          "TEAM_ABBREVIATION": "LA",
+          "pts": 24,
+          "date": "2026-08-28"
+        },
+        {
+          "PLAYER_NAME": "Nneka Ogwumike",
+          "TEAM_ABBREVIATION": "LA",
+          "pts": 27,
+          "date": "2026-08-24"
+        },
+        {
+          "PLAYER_NAME": "Rae Burrell",
+          "TEAM_ABBREVIATION": "LA",
+          "pts": 20,
+          "date": "2026-08-22"
+        },
+        {
+          "PLAYER_NAME": "Cameron Brink",
+          "TEAM_ABBREVIATION": "LA",
+          "pts": 14,
+          "date": "2026-08-20"
+        }
+      ]
+    }
+  },
+  "WSH": {
+    "trending_up": {
+      "PLAYER_NAME": "Cotie McMahon",
+      "TEAM_ABBREVIATION": "WSH",
+      "id": "4583144",
+      "recent_games": 1,
+      "recent": {
+        "PPG": 11.0,
+        "APG": 4.0,
+        "RPG": 4.0,
+        "BPG": 0.0,
+        "FG_PCT": 71.4
+      },
+      "avg": {
+        "PPG": 5.5,
+        "APG": 1.7,
+        "RPG": 1.8,
+        "BPG": 0.0,
+        "FG_PCT": 50.0
+      },
+      "delta": {
+        "PPG": 5.5,
+        "APG": 2.3,
+        "RPG": 2.2,
+        "BPG": 0.0,
+        "FG_PCT": 21.4
+      }
+    },
+    "trending_down": {
+      "PLAYER_NAME": "Sonia Citron",
+      "TEAM_ABBREVIATION": "WSH",
+      "id": "4433524",
+      "recent_games": 1,
+      "recent": {
+        "PPG": 0.0,
+        "APG": 0.0,
+        "RPG": 0.0,
+        "BPG": 0.0,
+        "FG_PCT": 0.0
+      },
+      "avg": {
+        "PPG": 12.3,
+        "APG": 4.7,
+        "RPG": 1.8,
+        "BPG": 0.2,
+        "FG_PCT": 52.1
+      },
+      "delta": {
+        "PPG": -12.3,
+        "APG": -4.7,
+        "RPG": -1.8,
+        "BPG": -0.2,
+        "FG_PCT": -52.1
+      }
+    },
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Shakira Austin",
+        "TEAM_ABBREVIATION": "WSH",
+        "pts": 20,
         "date": "2026-09-17",
         "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Courtney Vandersloot",
-          "TEAM_ABBREVIATION": "CHI",
-          "pts": 14,
+          "PLAYER_NAME": "Shakira Austin",
+          "TEAM_ABBREVIATION": "WSH",
+          "pts": 20,
           "date": "2026-09-17"
         },
         {
-          "PLAYER_NAME": "Natasha Cloud",
-          "TEAM_ABBREVIATION": "CHI",
-          "pts": 14,
-          "date": "2026-08-29"
+          "PLAYER_NAME": "Sonia Citron",
+          "TEAM_ABBREVIATION": "WSH",
+          "pts": 22,
+          "date": "2026-08-28"
         },
         {
-          "PLAYER_NAME": "Kamilla Cardoso",
-          "TEAM_ABBREVIATION": "CHI",
-          "pts": 24,
+          "PLAYER_NAME": "Georgia Amoore",
+          "TEAM_ABBREVIATION": "WSH",
+          "pts": 25,
+          "date": "2026-08-27"
+        },
+        {
+          "PLAYER_NAME": "Sonia Citron",
+          "TEAM_ABBREVIATION": "WSH",
+          "pts": 19,
           "date": "2026-08-25"
         },
         {
-          "PLAYER_NAME": "Natasha Cloud",
-          "TEAM_ABBREVIATION": "CHI",
-          "pts": 16,
+          "PLAYER_NAME": "Shakira Austin",
+          "TEAM_ABBREVIATION": "WSH",
+          "pts": 31,
           "date": "2026-08-23"
         },
         {
-          "PLAYER_NAME": "Natasha Cloud",
-          "TEAM_ABBREVIATION": "CHI",
-          "pts": 17,
+          "PLAYER_NAME": "Kiki Iriafen",
+          "TEAM_ABBREVIATION": "WSH",
+          "pts": 19,
           "date": "2026-08-21"
+        }
+      ]
+    }
+  },
+  "ATL": {
+    "trending_up": {
+      "PLAYER_NAME": "Te-Hina Paopao",
+      "TEAM_ABBREVIATION": "ATL",
+      "id": "4433431",
+      "recent_games": 1,
+      "recent": {
+        "PPG": 10.0,
+        "APG": 2.0,
+        "RPG": 2.0,
+        "BPG": 0.0,
+        "FG_PCT": 80.0
+      },
+      "avg": {
+        "PPG": 4.2,
+        "APG": 1.0,
+        "RPG": 0.7,
+        "BPG": 0.0,
+        "FG_PCT": 52.9
+      },
+      "delta": {
+        "PPG": 5.8,
+        "APG": 1.0,
+        "RPG": 1.3,
+        "BPG": 0.0,
+        "FG_PCT": 27.1
+      }
+    },
+    "trending_down": {
+      "PLAYER_NAME": "Jordin Canada",
+      "TEAM_ABBREVIATION": "ATL",
+      "id": "3142250",
+      "recent_games": 1,
+      "recent": {
+        "PPG": 5.0,
+        "APG": 1.0,
+        "RPG": 0.0,
+        "BPG": 0.0,
+        "FG_PCT": 40.0
+      },
+      "avg": {
+        "PPG": 10.3,
+        "APG": 6.2,
+        "RPG": 2.7,
+        "BPG": 0.8,
+        "FG_PCT": 44.4
+      },
+      "delta": {
+        "PPG": -5.3,
+        "APG": -5.2,
+        "RPG": -2.7,
+        "BPG": -0.8,
+        "FG_PCT": -4.4
+      }
+    },
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Angel Reese",
+        "TEAM_ABBREVIATION": "ATL",
+        "pts": 30,
+        "date": "2026-09-17",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Angel Reese",
+          "TEAM_ABBREVIATION": "ATL",
+          "pts": 30,
+          "date": "2026-09-17"
+        },
+        {
+          "PLAYER_NAME": "Allisha Gray",
+          "TEAM_ABBREVIATION": "ATL",
+          "pts": 23,
+          "date": "2026-08-30"
+        },
+        {
+          "PLAYER_NAME": "Rhyne Howard",
+          "TEAM_ABBREVIATION": "ATL",
+          "pts": 26,
+          "date": "2026-08-28"
+        },
+        {
+          "PLAYER_NAME": "Allisha Gray",
+          "TEAM_ABBREVIATION": "ATL",
+          "pts": 20,
+          "date": "2026-08-24"
+        },
+        {
+          "PLAYER_NAME": "Angel Reese",
+          "TEAM_ABBREVIATION": "ATL",
+          "pts": 31,
+          "date": "2026-08-22"
+        },
+        {
+          "PLAYER_NAME": "Rhyne Howard",
+          "TEAM_ABBREVIATION": "ATL",
+          "pts": 26,
+          "date": "2026-08-20"
+        }
+      ]
+    }
+  },
+  "NY": {
+    "trending_up": {
+      "PLAYER_NAME": "Pauline Astier",
+      "TEAM_ABBREVIATION": "NY",
+      "id": "5345320",
+      "recent_games": 1,
+      "recent": {
+        "PPG": 14.0,
+        "APG": 3.0,
+        "RPG": 5.0,
+        "BPG": 0.0,
+        "FG_PCT": 75.0
+      },
+      "avg": {
+        "PPG": 8.5,
+        "APG": 2.8,
+        "RPG": 3.5,
+        "BPG": 0.2,
+        "FG_PCT": 50.0
+      },
+      "delta": {
+        "PPG": 5.5,
+        "APG": 0.2,
+        "RPG": 1.5,
+        "BPG": -0.2,
+        "FG_PCT": 25.0
+      }
+    },
+    "trending_down": {
+      "PLAYER_NAME": "Han Xu",
+      "TEAM_ABBREVIATION": "NY",
+      "id": "4337216",
+      "recent_games": 1,
+      "recent": {
+        "PPG": 0.0,
+        "APG": 0.0,
+        "RPG": 1.0,
+        "BPG": 0.0,
+        "FG_PCT": 0.0
+      },
+      "avg": {
+        "PPG": 7.0,
+        "APG": 0.5,
+        "RPG": 2.0,
+        "BPG": 0.8,
+        "FG_PCT": 55.6
+      },
+      "delta": {
+        "PPG": -7.0,
+        "APG": -0.5,
+        "RPG": -1.0,
+        "BPG": -0.8,
+        "FG_PCT": -55.6
+      }
+    },
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Breanna Stewart",
+        "TEAM_ABBREVIATION": "NY",
+        "pts": 24,
+        "date": "2026-09-18",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Breanna Stewart",
+          "TEAM_ABBREVIATION": "NY",
+          "pts": 24,
+          "date": "2026-09-18"
+        },
+        {
+          "PLAYER_NAME": "Han Xu",
+          "TEAM_ABBREVIATION": "NY",
+          "pts": 19,
+          "date": "2026-08-29"
+        },
+        {
+          "PLAYER_NAME": "Jonquel Jones",
+          "TEAM_ABBREVIATION": "NY",
+          "pts": 18,
+          "date": "2026-08-27"
+        },
+        {
+          "PLAYER_NAME": "Breanna Stewart",
+          "TEAM_ABBREVIATION": "NY",
+          "pts": 22,
+          "date": "2026-08-22"
+        }
+      ]
+    }
+  },
+  "PHX": {
+    "trending_up": {
+      "PLAYER_NAME": "Saylor Poffenbarger",
+      "TEAM_ABBREVIATION": "PHX",
+      "id": "4433542",
+      "recent_games": 1,
+      "recent": {
+        "PPG": 3.0,
+        "APG": 0.0,
+        "RPG": 2.0,
+        "BPG": 0.0,
+        "FG_PCT": 100.0
+      },
+      "avg": {
+        "PPG": 0.8,
+        "APG": 0.0,
+        "RPG": 1.0,
+        "BPG": 0.0,
+        "FG_PCT": 20.0
+      },
+      "delta": {
+        "PPG": 2.2,
+        "APG": 0.0,
+        "RPG": 1.0,
+        "BPG": 0.0,
+        "FG_PCT": 80.0
+      }
+    },
+    "trending_down": {
+      "PLAYER_NAME": "Kahleah Copper",
+      "TEAM_ABBREVIATION": "PHX",
+      "id": "2998938",
+      "recent_games": 1,
+      "recent": {
+        "PPG": 0.0,
+        "APG": 0.0,
+        "RPG": 0.0,
+        "BPG": 0.0,
+        "FG_PCT": 0.0
+      },
+      "avg": {
+        "PPG": 18.4,
+        "APG": 0.8,
+        "RPG": 2.0,
+        "BPG": 0.0,
+        "FG_PCT": 55.9
+      },
+      "delta": {
+        "PPG": -18.4,
+        "APG": -0.8,
+        "RPG": -2.0,
+        "BPG": 0.0,
+        "FG_PCT": -55.9
+      }
+    },
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Shay Ciezki",
+        "TEAM_ABBREVIATION": "PHX",
+        "pts": 22,
+        "date": "2026-09-17",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Shay Ciezki",
+          "TEAM_ABBREVIATION": "PHX",
+          "pts": 22,
+          "date": "2026-09-17"
+        },
+        {
+          "PLAYER_NAME": "Noemie Brochant",
+          "TEAM_ABBREVIATION": "PHX",
+          "pts": 15,
+          "date": "2026-08-29"
+        },
+        {
+          "PLAYER_NAME": "Kahleah Copper",
+          "TEAM_ABBREVIATION": "PHX",
+          "pts": 35,
+          "date": "2026-08-27"
+        },
+        {
+          "PLAYER_NAME": "Natasha Mack",
+          "TEAM_ABBREVIATION": "PHX",
+          "pts": 19,
+          "date": "2026-08-25"
+        },
+        {
+          "PLAYER_NAME": "Kahleah Copper",
+          "TEAM_ABBREVIATION": "PHX",
+          "pts": 38,
+          "date": "2026-08-22"
         }
       ]
     }
