@@ -1,27 +1,27 @@
 {
-  "PLAYER_NAME": "Alanna Smith",
-  "TEAM_ABBREVIATION": "DAL",
-  "id": "3913881",
-  "recent_games": 1,
+  "PLAYER_NAME": "Rori Harmon",
+  "TEAM_ABBREVIATION": "WSH",
+  "id": "4433523",
+  "recent_games": 3,
   "recent": {
     "PPG": 0.0,
-    "APG": 0.0,
+    "APG": 1.0,
     "RPG": 0.0,
     "BPG": 0.0,
     "FG_PCT": 0.0
   },
   "avg": {
-    "PPG": 6.5,
+    "PPG": 0.3,
     "APG": 0.5,
-    "RPG": 2.8,
-    "BPG": 0.2,
-    "FG_PCT": 81.8
+    "RPG": 0.0,
+    "BPG": 0.0,
+    "FG_PCT": 100.0
   },
   "delta": {
-    "PPG": -6.5,
-    "APG": -0.5,
-    "RPG": -2.8,
-    "BPG": -0.2,
-    "FG_PCT": -81.8
+    "PPG": -0.3,
+    "APG": 0.5,
+    "RPG": 0.0,
+    "BPG": 0.0,
+    "FG_PCT": -100.0
   }
 }
