@@ -1,12 +1,18 @@
 {
   "current": {
-    "date": "2026-09-24",
+    "date": "2026-09-27",
     "PLAYER_NAME": "A'ja Wilson",
     "TEAM_ABBREVIATION": "LV",
-    "pts": 34,
-    "streak": 1
+    "pts": 38,
+    "streak": 2
   },
   "history": [
+    {
+      "date": "2026-09-27",
+      "PLAYER_NAME": "A'ja Wilson",
+      "TEAM_ABBREVIATION": "LV",
+      "pts": 38
+    },
     {
       "date": "2026-09-24",
       "PLAYER_NAME": "A'ja Wilson",
@@ -60,12 +66,6 @@
       "PLAYER_NAME": "Aaliyah Edwards",
       "TEAM_ABBREVIATION": "CON",
       "pts": 26
-    },
-    {
-      "date": "2026-08-29",
-      "PLAYER_NAME": "Han Xu",
-      "TEAM_ABBREVIATION": "NY",
-      "pts": 19
     }
   ]
 }
