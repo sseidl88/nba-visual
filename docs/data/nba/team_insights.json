@@ -1,1 +1,44 @@
-{}
+{
+  "MIA": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Tim Hardaway Jr.",
+        "TEAM_ABBREVIATION": "MIA",
+        "pts": 14,
+        "date": "2026-10-03",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Tim Hardaway Jr.",
+          "TEAM_ABBREVIATION": "MIA",
+          "pts": 14,
+          "date": "2026-10-03"
+        }
+      ]
+    }
+  },
+  "TOR": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "RJ Barrett",
+        "TEAM_ABBREVIATION": "TOR",
+        "pts": 15,
+        "date": "2026-10-03",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "RJ Barrett",
+          "TEAM_ABBREVIATION": "TOR",
+          "pts": 15,
+          "date": "2026-10-03"
+        }
+      ]
+    }
+  }
+}

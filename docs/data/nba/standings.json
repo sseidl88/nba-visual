@@ -1,12 +1,22 @@
 [
   {
+    "team": "MIA",
+    "name": "Miami Heat",
+    "conference": "Eastern Conference",
+    "wins": 1,
+    "losses": 0,
+    "pct": 1.0,
+    "gb": "-",
+    "streak": "W1"
+  },
+  {
     "team": "ATL",
     "name": "Atlanta Hawks",
     "conference": "Eastern Conference",
     "wins": 0,
     "losses": 0,
     "pct": 0.0,
-    "gb": "-",
+    "gb": "0.5",
     "streak": "-"
   },
   {
@@ -16,7 +26,7 @@
     "wins": 0,
     "losses": 0,
     "pct": 0.0,
-    "gb": "-",
+    "gb": "0.5",
     "streak": "-"
   },
   {
@@ -26,7 +36,7 @@
     "wins": 0,
     "losses": 0,
     "pct": 0.0,
-    "gb": "-",
+    "gb": "0.5",
     "streak": "-"
   },
   {
@@ -36,7 +46,7 @@
     "wins": 0,
     "losses": 0,
     "pct": 0.0,
-    "gb": "-",
+    "gb": "0.5",
     "streak": "-"
   },
   {
@@ -46,7 +56,7 @@
     "wins": 0,
     "losses": 0,
     "pct": 0.0,
-    "gb": "-",
+    "gb": "0.5",
     "streak": "-"
   },
   {
@@ -56,17 +66,7 @@
     "wins": 0,
     "losses": 0,
     "pct": 0.0,
-    "gb": "-",
-    "streak": "-"
-  },
-  {
-    "team": "MIA",
-    "name": "Miami Heat",
-    "conference": "Eastern Conference",
-    "wins": 0,
-    "losses": 0,
-    "pct": 0.0,
-    "gb": "-",
+    "gb": "0.5",
     "streak": "-"
   },
   {
@@ -76,7 +76,7 @@
     "wins": 0,
     "losses": 0,
     "pct": 0.0,
-    "gb": "-",
+    "gb": "0.5",
     "streak": "-"
   },
   {
@@ -86,7 +86,7 @@
     "wins": 0,
     "losses": 0,
     "pct": 0.0,
-    "gb": "-",
+    "gb": "0.5",
     "streak": "-"
   },
   {
@@ -96,7 +96,7 @@
     "wins": 0,
     "losses": 0,
     "pct": 0.0,
-    "gb": "-",
+    "gb": "0.5",
     "streak": "-"
   },
   {
@@ -106,7 +106,7 @@
     "wins": 0,
     "losses": 0,
     "pct": 0.0,
-    "gb": "-",
+    "gb": "0.5",
     "streak": "-"
   },
   {
@@ -116,7 +116,7 @@
     "wins": 0,
     "losses": 0,
     "pct": 0.0,
-    "gb": "-",
+    "gb": "0.5",
     "streak": "-"
   },
   {
@@ -126,17 +126,7 @@
     "wins": 0,
     "losses": 0,
     "pct": 0.0,
-    "gb": "-",
-    "streak": "-"
-  },
-  {
-    "team": "TOR",
-    "name": "Toronto Raptors",
-    "conference": "Eastern Conference",
-    "wins": 0,
-    "losses": 0,
-    "pct": 0.0,
-    "gb": "-",
+    "gb": "0.5",
     "streak": "-"
   },
   {
@@ -146,8 +136,18 @@
     "wins": 0,
     "losses": 0,
     "pct": 0.0,
-    "gb": "-",
+    "gb": "0.5",
     "streak": "-"
+  },
+  {
+    "team": "TOR",
+    "name": "Toronto Raptors",
+    "conference": "Eastern Conference",
+    "wins": 0,
+    "losses": 1,
+    "pct": 0.0,
+    "gb": "1",
+    "streak": "L1"
   },
   {
     "team": "NO",
