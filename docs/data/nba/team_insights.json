@@ -1,21 +1,42 @@
 {
-  "MIA": {
+  "LAC": {
     "trending_up": {},
     "trending_down": {},
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Tim Hardaway Jr.",
-        "TEAM_ABBREVIATION": "MIA",
-        "pts": 14,
-        "date": "2026-10-03",
+        "PLAYER_NAME": "Rui Hachimura",
+        "TEAM_ABBREVIATION": "LAC",
+        "pts": 21,
+        "date": "2026-10-04",
         "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Tim Hardaway Jr.",
-          "TEAM_ABBREVIATION": "MIA",
-          "pts": 14,
-          "date": "2026-10-03"
+          "PLAYER_NAME": "Rui Hachimura",
+          "TEAM_ABBREVIATION": "LAC",
+          "pts": 21,
+          "date": "2026-10-04"
+        }
+      ]
+    }
+  },
+  "GS": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Charles Bassey",
+        "TEAM_ABBREVIATION": "GS",
+        "pts": 12,
+        "date": "2026-10-04",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Charles Bassey",
+          "TEAM_ABBREVIATION": "GS",
+          "pts": 12,
+          "date": "2026-10-04"
         }
       ]
     }
@@ -37,6 +58,69 @@
           "TEAM_ABBREVIATION": "TOR",
           "pts": 15,
           "date": "2026-10-03"
+        }
+      ]
+    }
+  },
+  "MIA": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Tim Hardaway Jr.",
+        "TEAM_ABBREVIATION": "MIA",
+        "pts": 14,
+        "date": "2026-10-03",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Tim Hardaway Jr.",
+          "TEAM_ABBREVIATION": "MIA",
+          "pts": 14,
+          "date": "2026-10-03"
+        }
+      ]
+    }
+  },
+  "UTAH": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Lauri Markkanen",
+        "TEAM_ABBREVIATION": "UTAH",
+        "pts": 17,
+        "date": "2026-10-04",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Lauri Markkanen",
+          "TEAM_ABBREVIATION": "UTAH",
+          "pts": 17,
+          "date": "2026-10-04"
+        }
+      ]
+    }
+  },
+  "DEN": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Julian Strawther",
+        "TEAM_ABBREVIATION": "DEN",
+        "pts": 14,
+        "date": "2026-10-04",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Julian Strawther",
+          "TEAM_ABBREVIATION": "DEN",
+          "pts": 14,
+          "date": "2026-10-04"
         }
       ]
     }

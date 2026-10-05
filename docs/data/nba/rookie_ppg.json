@@ -1,5 +1,27 @@
 [
   {
+    "PLAYER_NAME": "Keaton Wagler",
+    "TEAM_ABBREVIATION": "LAC",
+    "id": "5254165",
+    "PPG": 15.0,
+    "APG": 3.0,
+    "RPG": 6.0,
+    "BPG": 1.0,
+    "FG_PCT": 20.0,
+    "TS_PCT": 39.6
+  },
+  {
+    "PLAYER_NAME": "Graham Ike",
+    "TEAM_ABBREVIATION": "GS",
+    "id": "4703396",
+    "PPG": 11.0,
+    "APG": 1.0,
+    "RPG": 5.0,
+    "BPG": 1.0,
+    "FG_PCT": 42.9,
+    "TS_PCT": 59.8
+  },
+  {
     "PLAYER_NAME": "Ian Schieffelin",
     "TEAM_ABBREVIATION": "MIA",
     "id": "4693954",
@@ -22,6 +44,17 @@
     "TS_PCT": 50.0
   },
   {
+    "PLAYER_NAME": "Baba Miller",
+    "TEAM_ABBREVIATION": "LAC",
+    "id": "5075626",
+    "PPG": 9.0,
+    "APG": 0.0,
+    "RPG": 6.0,
+    "BPG": 0.0,
+    "FG_PCT": 40.0,
+    "TS_PCT": 58.9
+  },
+  {
     "PLAYER_NAME": "Jaden Bradley",
     "TEAM_ABBREVIATION": "TOR",
     "id": "4432737",
@@ -31,6 +64,17 @@
     "BPG": 0.0,
     "FG_PCT": 75.0,
     "TS_PCT": 78.1
+  },
+  {
+    "PLAYER_NAME": "Trevon Brazile",
+    "TEAM_ABBREVIATION": "DEN",
+    "id": "4698719",
+    "PPG": 7.0,
+    "APG": 0.0,
+    "RPG": 3.0,
+    "BPG": 2.0,
+    "FG_PCT": 75.0,
+    "TS_PCT": 87.5
   },
   {
     "PLAYER_NAME": "Tre Donaldson",
@@ -66,6 +110,50 @@
     "TS_PCT": 27.6
   },
   {
+    "PLAYER_NAME": "Nick Martinelli",
+    "TEAM_ABBREVIATION": "LAC",
+    "id": "5105832",
+    "PPG": 5.0,
+    "APG": 1.0,
+    "RPG": 2.0,
+    "BPG": 0.0,
+    "FG_PCT": 33.3,
+    "TS_PCT": 41.7
+  },
+  {
+    "PLAYER_NAME": "Yaxel Lendeborg",
+    "TEAM_ABBREVIATION": "GS",
+    "id": "5175737",
+    "PPG": 4.0,
+    "APG": 3.0,
+    "RPG": 9.0,
+    "BPG": 1.0,
+    "FG_PCT": 16.7,
+    "TS_PCT": 29.1
+  },
+  {
+    "PLAYER_NAME": "Darryn Peterson",
+    "TEAM_ABBREVIATION": "UTAH",
+    "id": "5041955",
+    "PPG": 3.0,
+    "APG": 2.0,
+    "RPG": 6.0,
+    "BPG": 0.0,
+    "FG_PCT": 20.0,
+    "TS_PCT": 25.5
+  },
+  {
+    "PLAYER_NAME": "Alpha Diallo",
+    "TEAM_ABBREVIATION": "DEN",
+    "id": "4065813",
+    "PPG": 2.0,
+    "APG": 2.0,
+    "RPG": 3.0,
+    "BPG": 0.0,
+    "FG_PCT": 0.0,
+    "TS_PCT": 34.7
+  },
+  {
     "PLAYER_NAME": "J'Vonne Hadley",
     "TEAM_ABBREVIATION": "MIA",
     "id": "4702784",
@@ -75,5 +163,71 @@
     "BPG": 0.0,
     "FG_PCT": 100.0,
     "TS_PCT": 100.0
+  },
+  {
+    "PLAYER_NAME": "Bryce Hopkins",
+    "TEAM_ABBREVIATION": "DEN",
+    "id": "4565698",
+    "PPG": 1.0,
+    "APG": 0.0,
+    "RPG": 2.0,
+    "BPG": 0.0,
+    "FG_PCT": 0.0,
+    "TS_PCT": 17.4
+  },
+  {
+    "PLAYER_NAME": "Jonas Aidoo",
+    "TEAM_ABBREVIATION": "UTAH",
+    "id": "4684682",
+    "PPG": 0.0,
+    "APG": 0.0,
+    "RPG": 2.0,
+    "BPG": 0.0,
+    "FG_PCT": 0.0,
+    "TS_PCT": 0.0
+  },
+  {
+    "PLAYER_NAME": "Tamar Bates",
+    "TEAM_ABBREVIATION": "UTAH",
+    "id": "4683933",
+    "PPG": 0.0,
+    "APG": 1.0,
+    "RPG": 2.0,
+    "BPG": 0.0,
+    "FG_PCT": 0.0,
+    "TS_PCT": 0.0
+  },
+  {
+    "PLAYER_NAME": "Coleman Hawkins",
+    "TEAM_ABBREVIATION": "DEN",
+    "id": "4432976",
+    "PPG": 0.0,
+    "APG": 0.0,
+    "RPG": 0.0,
+    "BPG": 0.0,
+    "FG_PCT": 0.0,
+    "TS_PCT": 0.0
+  },
+  {
+    "PLAYER_NAME": "Dane Goodwin",
+    "TEAM_ABBREVIATION": "DEN",
+    "id": "4395667",
+    "PPG": 0.0,
+    "APG": 0.0,
+    "RPG": 1.0,
+    "BPG": 0.0,
+    "FG_PCT": 0,
+    "TS_PCT": 0
+  },
+  {
+    "PLAYER_NAME": "Fletcher Loyer",
+    "TEAM_ABBREVIATION": "LAC",
+    "id": "5105853",
+    "PPG": 0.0,
+    "APG": 0.0,
+    "RPG": 1.0,
+    "BPG": 0.0,
+    "FG_PCT": 0.0,
+    "TS_PCT": 0.0
   }
 ]
