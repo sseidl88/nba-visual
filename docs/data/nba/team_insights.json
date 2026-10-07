@@ -1,41 +1,137 @@
 {
-  "MIA": {
+  "MIN": {
     "trending_up": {},
     "trending_down": {},
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Tim Hardaway Jr.",
-        "TEAM_ABBREVIATION": "MIA",
+        "PLAYER_NAME": "Anthony Edwards",
+        "TEAM_ABBREVIATION": "MIN",
         "pts": 14,
-        "date": "2026-10-03",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Tim Hardaway Jr.",
-          "TEAM_ABBREVIATION": "MIA",
-          "pts": 14,
-          "date": "2026-10-03"
-        }
-      ]
-    }
-  },
-  "SAC": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Nique Clifford",
-        "TEAM_ABBREVIATION": "SAC",
-        "pts": 23,
         "date": "2026-10-05",
         "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Nique Clifford",
-          "TEAM_ABBREVIATION": "SAC",
-          "pts": 23,
+          "PLAYER_NAME": "Anthony Edwards",
+          "TEAM_ABBREVIATION": "MIN",
+          "pts": 14,
+          "date": "2026-10-05"
+        }
+      ]
+    }
+  },
+  "GS": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Yaxel Lendeborg",
+        "TEAM_ABBREVIATION": "GS",
+        "pts": 17,
+        "date": "2026-10-06",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Yaxel Lendeborg",
+          "TEAM_ABBREVIATION": "GS",
+          "pts": 17,
+          "date": "2026-10-06"
+        },
+        {
+          "PLAYER_NAME": "Charles Bassey",
+          "TEAM_ABBREVIATION": "GS",
+          "pts": 12,
+          "date": "2026-10-04"
+        }
+      ]
+    }
+  },
+  "NO": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Bennedict Mathurin",
+        "TEAM_ABBREVIATION": "NO",
+        "pts": 13,
+        "date": "2026-10-06",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Bennedict Mathurin",
+          "TEAM_ABBREVIATION": "NO",
+          "pts": 13,
+          "date": "2026-10-06"
+        }
+      ]
+    }
+  },
+  "DEN": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Aaron Gordon",
+        "TEAM_ABBREVIATION": "DEN",
+        "pts": 18,
+        "date": "2026-10-06",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Aaron Gordon",
+          "TEAM_ABBREVIATION": "DEN",
+          "pts": 18,
+          "date": "2026-10-06"
+        },
+        {
+          "PLAYER_NAME": "Julian Strawther",
+          "TEAM_ABBREVIATION": "DEN",
+          "pts": 14,
+          "date": "2026-10-04"
+        }
+      ]
+    }
+  },
+  "CHA": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Liam McNeeley",
+        "TEAM_ABBREVIATION": "CHA",
+        "pts": 14,
+        "date": "2026-10-06",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Liam McNeeley",
+          "TEAM_ABBREVIATION": "CHA",
+          "pts": 14,
+          "date": "2026-10-06"
+        }
+      ]
+    }
+  },
+  "MIL": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Ryan Rollins",
+        "TEAM_ABBREVIATION": "MIL",
+        "pts": 15,
+        "date": "2026-10-05",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Ryan Rollins",
+          "TEAM_ABBREVIATION": "MIL",
+          "pts": 15,
           "date": "2026-10-05"
         }
       ]
@@ -62,85 +158,64 @@
       ]
     }
   },
-  "GS": {
+  "MIA": {
     "trending_up": {},
     "trending_down": {},
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Charles Bassey",
-        "TEAM_ABBREVIATION": "GS",
-        "pts": 12,
-        "date": "2026-10-04",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Charles Bassey",
-          "TEAM_ABBREVIATION": "GS",
-          "pts": 12,
-          "date": "2026-10-04"
-        }
-      ]
-    }
-  },
-  "NY": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "OG Anunoby",
-        "TEAM_ABBREVIATION": "NY",
-        "pts": 12,
-        "date": "2026-10-05",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "OG Anunoby",
-          "TEAM_ABBREVIATION": "NY",
-          "pts": 12,
-          "date": "2026-10-05"
-        }
-      ]
-    }
-  },
-  "MIL": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Ryan Rollins",
-        "TEAM_ABBREVIATION": "MIL",
-        "pts": 15,
-        "date": "2026-10-05",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Ryan Rollins",
-          "TEAM_ABBREVIATION": "MIL",
-          "pts": 15,
-          "date": "2026-10-05"
-        }
-      ]
-    }
-  },
-  "MEM": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "GG Jackson",
-        "TEAM_ABBREVIATION": "MEM",
+        "PLAYER_NAME": "Tim Hardaway Jr.",
+        "TEAM_ABBREVIATION": "MIA",
         "pts": 14,
+        "date": "2026-10-03",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Tim Hardaway Jr.",
+          "TEAM_ABBREVIATION": "MIA",
+          "pts": 14,
+          "date": "2026-10-03"
+        }
+      ]
+    }
+  },
+  "BKN": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Michael Porter Jr.",
+        "TEAM_ABBREVIATION": "BKN",
+        "pts": 16,
+        "date": "2026-10-06",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Michael Porter Jr.",
+          "TEAM_ABBREVIATION": "BKN",
+          "pts": 16,
+          "date": "2026-10-06"
+        }
+      ]
+    }
+  },
+  "SAC": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Nique Clifford",
+        "TEAM_ABBREVIATION": "SAC",
+        "pts": 23,
         "date": "2026-10-05",
         "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "GG Jackson",
-          "TEAM_ABBREVIATION": "MEM",
-          "pts": 14,
+          "PLAYER_NAME": "Nique Clifford",
+          "TEAM_ABBREVIATION": "SAC",
+          "pts": 23,
           "date": "2026-10-05"
         }
       ]
@@ -151,39 +226,24 @@
     "trending_down": {},
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Luka Doncic",
+        "PLAYER_NAME": "Sandro Mamukelashvili",
         "TEAM_ABBREVIATION": "LAL",
-        "pts": 21,
-        "date": "2026-10-05",
+        "pts": 15,
+        "date": "2026-10-06",
         "streak": 1
       },
       "history": [
+        {
+          "PLAYER_NAME": "Sandro Mamukelashvili",
+          "TEAM_ABBREVIATION": "LAL",
+          "pts": 15,
+          "date": "2026-10-06"
+        },
         {
           "PLAYER_NAME": "Luka Doncic",
           "TEAM_ABBREVIATION": "LAL",
           "pts": 21,
           "date": "2026-10-05"
-        }
-      ]
-    }
-  },
-  "UTAH": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Lauri Markkanen",
-        "TEAM_ABBREVIATION": "UTAH",
-        "pts": 17,
-        "date": "2026-10-04",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Lauri Markkanen",
-          "TEAM_ABBREVIATION": "UTAH",
-          "pts": 17,
-          "date": "2026-10-04"
         }
       ]
     }
@@ -209,6 +269,54 @@
       ]
     }
   },
+  "NY": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "OG Anunoby",
+        "TEAM_ABBREVIATION": "NY",
+        "pts": 12,
+        "date": "2026-10-05",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "OG Anunoby",
+          "TEAM_ABBREVIATION": "NY",
+          "pts": 12,
+          "date": "2026-10-05"
+        }
+      ]
+    }
+  },
+  "UTAH": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Darryn Peterson",
+        "TEAM_ABBREVIATION": "UTAH",
+        "pts": 23,
+        "date": "2026-10-06",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Darryn Peterson",
+          "TEAM_ABBREVIATION": "UTAH",
+          "pts": 23,
+          "date": "2026-10-06"
+        },
+        {
+          "PLAYER_NAME": "Lauri Markkanen",
+          "TEAM_ABBREVIATION": "UTAH",
+          "pts": 17,
+          "date": "2026-10-04"
+        }
+      ]
+    }
+  },
   "ATL": {
     "trending_up": {},
     "trending_down": {},
@@ -225,6 +333,48 @@
           "PLAYER_NAME": "Corey Kispert",
           "TEAM_ABBREVIATION": "ATL",
           "pts": 19,
+          "date": "2026-10-05"
+        }
+      ]
+    }
+  },
+  "OKC": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Bennett Stirtz",
+        "TEAM_ABBREVIATION": "OKC",
+        "pts": 15,
+        "date": "2026-10-06",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Bennett Stirtz",
+          "TEAM_ABBREVIATION": "OKC",
+          "pts": 15,
+          "date": "2026-10-06"
+        }
+      ]
+    }
+  },
+  "PHX": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Devin Booker",
+        "TEAM_ABBREVIATION": "PHX",
+        "pts": 13,
+        "date": "2026-10-05",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Devin Booker",
+          "TEAM_ABBREVIATION": "PHX",
+          "pts": 13,
           "date": "2026-10-05"
         }
       ]
@@ -251,6 +401,27 @@
       ]
     }
   },
+  "MEM": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "GG Jackson",
+        "TEAM_ABBREVIATION": "MEM",
+        "pts": 14,
+        "date": "2026-10-05",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "GG Jackson",
+          "TEAM_ABBREVIATION": "MEM",
+          "pts": 14,
+          "date": "2026-10-05"
+        }
+      ]
+    }
+  },
   "TOR": {
     "trending_up": {},
     "trending_down": {},
@@ -268,69 +439,6 @@
           "TEAM_ABBREVIATION": "TOR",
           "pts": 15,
           "date": "2026-10-03"
-        }
-      ]
-    }
-  },
-  "PHX": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Devin Booker",
-        "TEAM_ABBREVIATION": "PHX",
-        "pts": 13,
-        "date": "2026-10-05",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Devin Booker",
-          "TEAM_ABBREVIATION": "PHX",
-          "pts": 13,
-          "date": "2026-10-05"
-        }
-      ]
-    }
-  },
-  "MIN": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Anthony Edwards",
-        "TEAM_ABBREVIATION": "MIN",
-        "pts": 14,
-        "date": "2026-10-05",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Anthony Edwards",
-          "TEAM_ABBREVIATION": "MIN",
-          "pts": 14,
-          "date": "2026-10-05"
-        }
-      ]
-    }
-  },
-  "DEN": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Julian Strawther",
-        "TEAM_ABBREVIATION": "DEN",
-        "pts": 14,
-        "date": "2026-10-04",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Julian Strawther",
-          "TEAM_ABBREVIATION": "DEN",
-          "pts": 14,
-          "date": "2026-10-04"
         }
       ]
     }
