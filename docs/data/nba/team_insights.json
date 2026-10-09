@@ -1,138 +1,54 @@
 {
-  "MIL": {
+  "SAC": {
     "trending_up": {},
     "trending_down": {},
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Myles Turner",
-        "TEAM_ABBREVIATION": "MIL",
-        "pts": 19,
-        "date": "2026-10-07",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Myles Turner",
-          "TEAM_ABBREVIATION": "MIL",
-          "pts": 19,
-          "date": "2026-10-07"
-        },
-        {
-          "PLAYER_NAME": "Ryan Rollins",
-          "TEAM_ABBREVIATION": "MIL",
-          "pts": 15,
-          "date": "2026-10-05"
-        }
-      ]
-    }
-  },
-  "MIA": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Tim Hardaway Jr.",
-        "TEAM_ABBREVIATION": "MIA",
-        "pts": 14,
-        "date": "2026-10-03",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Tim Hardaway Jr.",
-          "TEAM_ABBREVIATION": "MIA",
-          "pts": 14,
-          "date": "2026-10-03"
-        }
-      ]
-    }
-  },
-  "POR": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Deni Avdija",
-        "TEAM_ABBREVIATION": "POR",
-        "pts": 23,
-        "date": "2026-10-07",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Deni Avdija",
-          "TEAM_ABBREVIATION": "POR",
-          "pts": 23,
-          "date": "2026-10-07"
-        }
-      ]
-    }
-  },
-  "NY": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "OG Anunoby",
-        "TEAM_ABBREVIATION": "NY",
-        "pts": 12,
-        "date": "2026-10-05",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "OG Anunoby",
-          "TEAM_ABBREVIATION": "NY",
-          "pts": 12,
-          "date": "2026-10-05"
-        }
-      ]
-    }
-  },
-  "DEN": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Aaron Gordon",
-        "TEAM_ABBREVIATION": "DEN",
+        "PLAYER_NAME": "Precious Achiuwa",
+        "TEAM_ABBREVIATION": "SAC",
         "pts": 18,
-        "date": "2026-10-06",
+        "date": "2026-10-08",
         "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Aaron Gordon",
-          "TEAM_ABBREVIATION": "DEN",
+          "PLAYER_NAME": "Precious Achiuwa",
+          "TEAM_ABBREVIATION": "SAC",
           "pts": 18,
-          "date": "2026-10-06"
+          "date": "2026-10-08"
         },
         {
-          "PLAYER_NAME": "Julian Strawther",
-          "TEAM_ABBREVIATION": "DEN",
-          "pts": 14,
-          "date": "2026-10-04"
+          "PLAYER_NAME": "Nique Clifford",
+          "TEAM_ABBREVIATION": "SAC",
+          "pts": 23,
+          "date": "2026-10-05"
         }
       ]
     }
   },
-  "LAC": {
+  "ATL": {
     "trending_up": {},
     "trending_down": {},
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Rui Hachimura",
-        "TEAM_ABBREVIATION": "LAC",
-        "pts": 21,
-        "date": "2026-10-04",
+        "PLAYER_NAME": "Asa Newell",
+        "TEAM_ABBREVIATION": "ATL",
+        "pts": 16,
+        "date": "2026-10-08",
         "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Rui Hachimura",
-          "TEAM_ABBREVIATION": "LAC",
-          "pts": 21,
-          "date": "2026-10-04"
+          "PLAYER_NAME": "Asa Newell",
+          "TEAM_ABBREVIATION": "ATL",
+          "pts": 16,
+          "date": "2026-10-08"
+        },
+        {
+          "PLAYER_NAME": "Corey Kispert",
+          "TEAM_ABBREVIATION": "ATL",
+          "pts": 19,
+          "date": "2026-10-05"
         }
       ]
     }
@@ -164,77 +80,65 @@
       ]
     }
   },
-  "OKC": {
+  "DET": {
     "trending_up": {},
     "trending_down": {},
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Aday Mara",
-        "TEAM_ABBREVIATION": "OKC",
-        "pts": 22,
-        "date": "2026-10-07",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Aday Mara",
-          "TEAM_ABBREVIATION": "OKC",
-          "pts": 22,
-          "date": "2026-10-07"
-        },
-        {
-          "PLAYER_NAME": "Bennett Stirtz",
-          "TEAM_ABBREVIATION": "OKC",
-          "pts": 15,
-          "date": "2026-10-06"
-        }
-      ]
-    }
-  },
-  "PHX": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Dillon Brooks",
-        "TEAM_ABBREVIATION": "PHX",
-        "pts": 24,
-        "date": "2026-10-07",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Dillon Brooks",
-          "TEAM_ABBREVIATION": "PHX",
-          "pts": 24,
-          "date": "2026-10-07"
-        },
-        {
-          "PLAYER_NAME": "Devin Booker",
-          "TEAM_ABBREVIATION": "PHX",
-          "pts": 13,
-          "date": "2026-10-05"
-        }
-      ]
-    }
-  },
-  "PHI": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Jaylen Brown",
-        "TEAM_ABBREVIATION": "PHI",
-        "pts": 22,
+        "PLAYER_NAME": "Ronald Holland II",
+        "TEAM_ABBREVIATION": "DET",
+        "pts": 14,
         "date": "2026-10-05",
         "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Jaylen Brown",
-          "TEAM_ABBREVIATION": "PHI",
-          "pts": 22,
+          "PLAYER_NAME": "Ronald Holland II",
+          "TEAM_ABBREVIATION": "DET",
+          "pts": 14,
           "date": "2026-10-05"
+        }
+      ]
+    }
+  },
+  "CLE": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Jaylon Tyson",
+        "TEAM_ABBREVIATION": "CLE",
+        "pts": 14,
+        "date": "2026-10-08",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Jaylon Tyson",
+          "TEAM_ABBREVIATION": "CLE",
+          "pts": 14,
+          "date": "2026-10-08"
+        }
+      ]
+    }
+  },
+  "CHI": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Caleb Wilson",
+        "TEAM_ABBREVIATION": "CHI",
+        "pts": 15,
+        "date": "2026-10-07",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Caleb Wilson",
+          "TEAM_ABBREVIATION": "CHI",
+          "pts": 15,
+          "date": "2026-10-07"
         }
       ]
     }
@@ -324,29 +228,125 @@
       ]
     }
   },
-  "LAL": {
+  "MIL": {
     "trending_up": {},
     "trending_down": {},
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Sandro Mamukelashvili",
-        "TEAM_ABBREVIATION": "LAL",
-        "pts": 15,
-        "date": "2026-10-06",
+        "PLAYER_NAME": "Myles Turner",
+        "TEAM_ABBREVIATION": "MIL",
+        "pts": 19,
+        "date": "2026-10-07",
         "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Sandro Mamukelashvili",
-          "TEAM_ABBREVIATION": "LAL",
-          "pts": 15,
-          "date": "2026-10-06"
+          "PLAYER_NAME": "Myles Turner",
+          "TEAM_ABBREVIATION": "MIL",
+          "pts": 19,
+          "date": "2026-10-07"
         },
         {
-          "PLAYER_NAME": "Luka Doncic",
-          "TEAM_ABBREVIATION": "LAL",
-          "pts": 21,
+          "PLAYER_NAME": "Ryan Rollins",
+          "TEAM_ABBREVIATION": "MIL",
+          "pts": 15,
           "date": "2026-10-05"
+        }
+      ]
+    }
+  },
+  "NY": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Josh Hart",
+        "TEAM_ABBREVIATION": "NY",
+        "pts": 13,
+        "date": "2026-10-08",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Josh Hart",
+          "TEAM_ABBREVIATION": "NY",
+          "pts": 13,
+          "date": "2026-10-08"
+        },
+        {
+          "PLAYER_NAME": "OG Anunoby",
+          "TEAM_ABBREVIATION": "NY",
+          "pts": 12,
+          "date": "2026-10-05"
+        }
+      ]
+    }
+  },
+  "SA": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Dylan Harper",
+        "TEAM_ABBREVIATION": "SA",
+        "pts": 16,
+        "date": "2026-10-08",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Dylan Harper",
+          "TEAM_ABBREVIATION": "SA",
+          "pts": 16,
+          "date": "2026-10-08"
+        }
+      ]
+    }
+  },
+  "BKN": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Julius Randle",
+        "TEAM_ABBREVIATION": "BKN",
+        "pts": 14,
+        "date": "2026-10-08",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Julius Randle",
+          "TEAM_ABBREVIATION": "BKN",
+          "pts": 14,
+          "date": "2026-10-08"
+        },
+        {
+          "PLAYER_NAME": "Michael Porter Jr.",
+          "TEAM_ABBREVIATION": "BKN",
+          "pts": 16,
+          "date": "2026-10-06"
+        }
+      ]
+    }
+  },
+  "POR": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Deni Avdija",
+        "TEAM_ABBREVIATION": "POR",
+        "pts": 23,
+        "date": "2026-10-07",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Deni Avdija",
+          "TEAM_ABBREVIATION": "POR",
+          "pts": 23,
+          "date": "2026-10-07"
         }
       ]
     }
@@ -378,6 +378,139 @@
       ]
     }
   },
+  "LAC": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Rui Hachimura",
+        "TEAM_ABBREVIATION": "LAC",
+        "pts": 21,
+        "date": "2026-10-04",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Rui Hachimura",
+          "TEAM_ABBREVIATION": "LAC",
+          "pts": 21,
+          "date": "2026-10-04"
+        }
+      ]
+    }
+  },
+  "LAL": {
+    "trending_up": {
+      "PLAYER_NAME": "Kevon Looney",
+      "TEAM_ABBREVIATION": "LAL",
+      "id": "3155535",
+      "recent_games": 3,
+      "recent": {
+        "PPG": 2.0,
+        "APG": 2.0,
+        "RPG": 5.7,
+        "BPG": 0.7,
+        "FG_PCT": 33.3
+      },
+      "avg": {
+        "PPG": 2.0,
+        "APG": 2.0,
+        "RPG": 5.7,
+        "BPG": 0.7,
+        "FG_PCT": 33.3
+      },
+      "delta": {
+        "PPG": 0.0,
+        "APG": 0.0,
+        "RPG": 0.0,
+        "BPG": 0.0,
+        "FG_PCT": 0.0
+      }
+    },
+    "trending_down": {
+      "PLAYER_NAME": "Jaden Hardy",
+      "TEAM_ABBREVIATION": "LAL",
+      "id": "4868423",
+      "recent_games": 3,
+      "recent": {
+        "PPG": 9.0,
+        "APG": 1.3,
+        "RPG": 1.7,
+        "BPG": 0.0,
+        "FG_PCT": 38.1
+      },
+      "avg": {
+        "PPG": 9.0,
+        "APG": 1.3,
+        "RPG": 1.7,
+        "BPG": 0.0,
+        "FG_PCT": 38.1
+      },
+      "delta": {
+        "PPG": 0.0,
+        "APG": 0.0,
+        "RPG": 0.0,
+        "BPG": 0.0,
+        "FG_PCT": 0.0
+      }
+    },
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Luka Doncic",
+        "TEAM_ABBREVIATION": "LAL",
+        "pts": 23,
+        "date": "2026-10-08",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Luka Doncic",
+          "TEAM_ABBREVIATION": "LAL",
+          "pts": 23,
+          "date": "2026-10-08"
+        },
+        {
+          "PLAYER_NAME": "Sandro Mamukelashvili",
+          "TEAM_ABBREVIATION": "LAL",
+          "pts": 15,
+          "date": "2026-10-06"
+        },
+        {
+          "PLAYER_NAME": "Luka Doncic",
+          "TEAM_ABBREVIATION": "LAL",
+          "pts": 21,
+          "date": "2026-10-05"
+        }
+      ]
+    }
+  },
+  "MIA": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Giannis Antetokounmpo",
+        "TEAM_ABBREVIATION": "MIA",
+        "pts": 18,
+        "date": "2026-10-08",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Giannis Antetokounmpo",
+          "TEAM_ABBREVIATION": "MIA",
+          "pts": 18,
+          "date": "2026-10-08"
+        },
+        {
+          "PLAYER_NAME": "Tim Hardaway Jr.",
+          "TEAM_ABBREVIATION": "MIA",
+          "pts": 14,
+          "date": "2026-10-03"
+        }
+      ]
+    }
+  },
   "IND": {
     "trending_up": {},
     "trending_down": {},
@@ -399,23 +532,167 @@
       ]
     }
   },
-  "SAC": {
+  "ORL": {
     "trending_up": {},
     "trending_down": {},
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Nique Clifford",
-        "TEAM_ABBREVIATION": "SAC",
-        "pts": 23,
-        "date": "2026-10-05",
+        "PLAYER_NAME": "Tristan da Silva",
+        "TEAM_ABBREVIATION": "ORL",
+        "pts": 19,
+        "date": "2026-10-07",
         "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Nique Clifford",
-          "TEAM_ABBREVIATION": "SAC",
-          "pts": 23,
+          "PLAYER_NAME": "Tristan da Silva",
+          "TEAM_ABBREVIATION": "ORL",
+          "pts": 19,
+          "date": "2026-10-07"
+        }
+      ]
+    }
+  },
+  "PHI": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Jaylen Brown",
+        "TEAM_ABBREVIATION": "PHI",
+        "pts": 18,
+        "date": "2026-10-08",
+        "streak": 2
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Jaylen Brown",
+          "TEAM_ABBREVIATION": "PHI",
+          "pts": 18,
+          "date": "2026-10-08"
+        },
+        {
+          "PLAYER_NAME": "Jaylen Brown",
+          "TEAM_ABBREVIATION": "PHI",
+          "pts": 22,
           "date": "2026-10-05"
+        }
+      ]
+    }
+  },
+  "OKC": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Aday Mara",
+        "TEAM_ABBREVIATION": "OKC",
+        "pts": 22,
+        "date": "2026-10-07",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Aday Mara",
+          "TEAM_ABBREVIATION": "OKC",
+          "pts": 22,
+          "date": "2026-10-07"
+        },
+        {
+          "PLAYER_NAME": "Bennett Stirtz",
+          "TEAM_ABBREVIATION": "OKC",
+          "pts": 15,
+          "date": "2026-10-06"
+        }
+      ]
+    }
+  },
+  "WSH": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Anthony Davis",
+        "TEAM_ABBREVIATION": "WSH",
+        "pts": 16,
+        "date": "2026-10-08",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Anthony Davis",
+          "TEAM_ABBREVIATION": "WSH",
+          "pts": 16,
+          "date": "2026-10-08"
+        }
+      ]
+    }
+  },
+  "PHX": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Dillon Brooks",
+        "TEAM_ABBREVIATION": "PHX",
+        "pts": 24,
+        "date": "2026-10-07",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Dillon Brooks",
+          "TEAM_ABBREVIATION": "PHX",
+          "pts": 24,
+          "date": "2026-10-07"
+        },
+        {
+          "PLAYER_NAME": "Devin Booker",
+          "TEAM_ABBREVIATION": "PHX",
+          "pts": 13,
+          "date": "2026-10-05"
+        }
+      ]
+    }
+  },
+  "CHA": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Liam McNeeley",
+        "TEAM_ABBREVIATION": "CHA",
+        "pts": 14,
+        "date": "2026-10-06",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Liam McNeeley",
+          "TEAM_ABBREVIATION": "CHA",
+          "pts": 14,
+          "date": "2026-10-06"
+        }
+      ]
+    }
+  },
+  "TOR": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "RJ Barrett",
+        "TEAM_ABBREVIATION": "TOR",
+        "pts": 15,
+        "date": "2026-10-03",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "RJ Barrett",
+          "TEAM_ABBREVIATION": "TOR",
+          "pts": 15,
+          "date": "2026-10-03"
         }
       ]
     }
@@ -447,170 +724,77 @@
       ]
     }
   },
-  "ATL": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Corey Kispert",
-        "TEAM_ABBREVIATION": "ATL",
-        "pts": 19,
-        "date": "2026-10-05",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Corey Kispert",
-          "TEAM_ABBREVIATION": "ATL",
-          "pts": 19,
-          "date": "2026-10-05"
-        }
-      ]
-    }
-  },
-  "CHI": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Caleb Wilson",
-        "TEAM_ABBREVIATION": "CHI",
-        "pts": 15,
-        "date": "2026-10-07",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Caleb Wilson",
-          "TEAM_ABBREVIATION": "CHI",
-          "pts": 15,
-          "date": "2026-10-07"
-        }
-      ]
-    }
-  },
-  "TOR": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "RJ Barrett",
-        "TEAM_ABBREVIATION": "TOR",
-        "pts": 15,
-        "date": "2026-10-03",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "RJ Barrett",
-          "TEAM_ABBREVIATION": "TOR",
-          "pts": 15,
-          "date": "2026-10-03"
-        }
-      ]
-    }
-  },
-  "BKN": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Michael Porter Jr.",
-        "TEAM_ABBREVIATION": "BKN",
-        "pts": 16,
-        "date": "2026-10-06",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Michael Porter Jr.",
-          "TEAM_ABBREVIATION": "BKN",
-          "pts": 16,
-          "date": "2026-10-06"
-        }
-      ]
-    }
-  },
-  "CHA": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Liam McNeeley",
-        "TEAM_ABBREVIATION": "CHA",
-        "pts": 14,
-        "date": "2026-10-06",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Liam McNeeley",
-          "TEAM_ABBREVIATION": "CHA",
-          "pts": 14,
-          "date": "2026-10-06"
-        }
-      ]
-    }
-  },
-  "ORL": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Tristan da Silva",
-        "TEAM_ABBREVIATION": "ORL",
-        "pts": 19,
-        "date": "2026-10-07",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Tristan da Silva",
-          "TEAM_ABBREVIATION": "ORL",
-          "pts": 19,
-          "date": "2026-10-07"
-        }
-      ]
-    }
-  },
-  "DET": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Ronald Holland II",
-        "TEAM_ABBREVIATION": "DET",
-        "pts": 14,
-        "date": "2026-10-05",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Ronald Holland II",
-          "TEAM_ABBREVIATION": "DET",
-          "pts": 14,
-          "date": "2026-10-05"
-        }
-      ]
-    }
-  },
   "NO": {
     "trending_up": {},
     "trending_down": {},
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Bennedict Mathurin",
+        "PLAYER_NAME": "Jordan Poole",
         "TEAM_ABBREVIATION": "NO",
-        "pts": 13,
-        "date": "2026-10-06",
+        "pts": 14,
+        "date": "2026-10-08",
         "streak": 1
       },
       "history": [
+        {
+          "PLAYER_NAME": "Jordan Poole",
+          "TEAM_ABBREVIATION": "NO",
+          "pts": 14,
+          "date": "2026-10-08"
+        },
         {
           "PLAYER_NAME": "Bennedict Mathurin",
           "TEAM_ABBREVIATION": "NO",
           "pts": 13,
           "date": "2026-10-06"
+        }
+      ]
+    }
+  },
+  "BOS": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Luka Garza",
+        "TEAM_ABBREVIATION": "BOS",
+        "pts": 22,
+        "date": "2026-10-08",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Luka Garza",
+          "TEAM_ABBREVIATION": "BOS",
+          "pts": 22,
+          "date": "2026-10-08"
+        }
+      ]
+    }
+  },
+  "DEN": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Aaron Gordon",
+        "TEAM_ABBREVIATION": "DEN",
+        "pts": 18,
+        "date": "2026-10-06",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Aaron Gordon",
+          "TEAM_ABBREVIATION": "DEN",
+          "pts": 18,
+          "date": "2026-10-06"
+        },
+        {
+          "PLAYER_NAME": "Julian Strawther",
+          "TEAM_ABBREVIATION": "DEN",
+          "pts": 14,
+          "date": "2026-10-04"
         }
       ]
     }
