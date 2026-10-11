@@ -22,26 +22,37 @@
     "TS_PCT": 63.1
   },
   {
-    "PLAYER_NAME": "Pauline Astier",
-    "TEAM_ABBREVIATION": "NY",
-    "id": "5345320",
-    "PPG": 6.2,
-    "APG": 2.5,
-    "RPG": 5.0,
-    "BPG": 0.0,
-    "FG_PCT": 42.3,
-    "TS_PCT": 48.1
-  },
-  {
     "PLAYER_NAME": "Marine Fauthoux",
     "TEAM_ABBREVIATION": "NY",
     "id": "4790260",
-    "PPG": 5.5,
-    "APG": 1.8,
-    "RPG": 2.0,
+    "PPG": 6.2,
+    "APG": 1.6,
+    "RPG": 2.2,
+    "BPG": 0.2,
+    "FG_PCT": 52.2,
+    "TS_PCT": 64.9
+  },
+  {
+    "PLAYER_NAME": "Isobel Borlase",
+    "TEAM_ABBREVIATION": "ATL",
+    "id": "5208983",
+    "PPG": 5.6,
+    "APG": 0.8,
+    "RPG": 1.8,
     "BPG": 0.0,
-    "FG_PCT": 53.3,
-    "TS_PCT": 69.3
+    "FG_PCT": 55.0,
+    "TS_PCT": 65.7
+  },
+  {
+    "PLAYER_NAME": "Pauline Astier",
+    "TEAM_ABBREVIATION": "NY",
+    "id": "5345320",
+    "PPG": 5.0,
+    "APG": 2.0,
+    "RPG": 4.0,
+    "BPG": 0.0,
+    "FG_PCT": 40.7,
+    "TS_PCT": 46.3
   },
   {
     "PLAYER_NAME": "Georgia Amoore",
@@ -66,26 +77,15 @@
     "TS_PCT": 64.4
   },
   {
-    "PLAYER_NAME": "Isobel Borlase",
-    "TEAM_ABBREVIATION": "ATL",
-    "id": "5208983",
-    "PPG": 4.5,
-    "APG": 0.8,
-    "RPG": 1.8,
-    "BPG": 0.0,
-    "FG_PCT": 42.9,
-    "TS_PCT": 58.7
-  },
-  {
     "PLAYER_NAME": "Aminata Gueye",
     "TEAM_ABBREVIATION": "GS",
     "id": "5447776",
-    "PPG": 2.6,
-    "APG": 0.8,
-    "RPG": 1.4,
+    "PPG": 2.2,
+    "APG": 0.7,
+    "RPG": 1.7,
     "BPG": 0.2,
-    "FG_PCT": 40.0,
-    "TS_PCT": 42.1
+    "FG_PCT": 37.5,
+    "TS_PCT": 39.5
   },
   {
     "PLAYER_NAME": "Cotie McMahon",
@@ -102,23 +102,12 @@
     "PLAYER_NAME": "Mai Yamamoto",
     "TEAM_ABBREVIATION": "LV",
     "id": "5220104",
-    "PPG": 1.2,
-    "APG": 0.4,
-    "RPG": 0.4,
+    "PPG": 1.0,
+    "APG": 0.3,
+    "RPG": 0.3,
     "BPG": 0.2,
     "FG_PCT": 17.6,
     "TS_PCT": 17.6
-  },
-  {
-    "PLAYER_NAME": "Madina Okot",
-    "TEAM_ABBREVIATION": "ATL",
-    "id": "5108587",
-    "PPG": 1.0,
-    "APG": 0.0,
-    "RPG": 2.2,
-    "BPG": 0.2,
-    "FG_PCT": 66.7,
-    "TS_PCT": 66.7
   },
   {
     "PLAYER_NAME": "Lauren Betts",
@@ -130,6 +119,17 @@
     "BPG": 1.5,
     "FG_PCT": 20.0,
     "TS_PCT": 20.0
+  },
+  {
+    "PLAYER_NAME": "Madina Okot",
+    "TEAM_ABBREVIATION": "ATL",
+    "id": "5108587",
+    "PPG": 0.8,
+    "APG": 0.0,
+    "RPG": 1.8,
+    "BPG": 0.2,
+    "FG_PCT": 66.7,
+    "TS_PCT": 66.7
   },
   {
     "PLAYER_NAME": "Grace VanSlooten",
@@ -146,7 +146,7 @@
     "PLAYER_NAME": "Juste Jocyte",
     "TEAM_ABBREVIATION": "GS",
     "id": "5277552",
-    "PPG": 0.6,
+    "PPG": 0.5,
     "APG": 0.0,
     "RPG": 0.0,
     "BPG": 0.0,
@@ -170,7 +170,7 @@
     "id": "4682855",
     "PPG": 0.0,
     "APG": 0.0,
-    "RPG": 0.4,
+    "RPG": 0.3,
     "BPG": 0.0,
     "FG_PCT": 0.0,
     "TS_PCT": 0.0
