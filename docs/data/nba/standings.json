@@ -50,28 +50,28 @@
     "streak": "W2"
   },
   {
-    "team": "ORL",
-    "name": "Orlando Magic",
-    "conference": "Eastern Conference",
-    "wins": 1,
-    "losses": 0,
-    "pct": 1.0,
-    "gb": "0.5",
-    "streak": "W1"
-  },
-  {
-    "team": "IND",
-    "name": "Indiana Pacers",
+    "team": "CLE",
+    "name": "Cleveland Cavaliers",
     "conference": "Eastern Conference",
     "wins": 1,
     "losses": 1,
     "pct": 0.5,
     "gb": "1",
-    "streak": "L1"
+    "streak": "W1"
   },
   {
-    "team": "CHI",
-    "name": "Chicago Bulls",
+    "team": "CHA",
+    "name": "Charlotte Hornets",
+    "conference": "Eastern Conference",
+    "wins": 1,
+    "losses": 1,
+    "pct": 0.5,
+    "gb": "1",
+    "streak": "W1"
+  },
+  {
+    "team": "IND",
+    "name": "Indiana Pacers",
     "conference": "Eastern Conference",
     "wins": 1,
     "losses": 1,
@@ -90,6 +90,16 @@
     "streak": "L1"
   },
   {
+    "team": "ORL",
+    "name": "Orlando Magic",
+    "conference": "Eastern Conference",
+    "wins": 1,
+    "losses": 1,
+    "pct": 0.5,
+    "gb": "1",
+    "streak": "L1"
+  },
+  {
     "team": "TOR",
     "name": "Toronto Raptors",
     "conference": "Eastern Conference",
@@ -100,14 +110,14 @@
     "streak": "W1"
   },
   {
-    "team": "MIL",
-    "name": "Milwaukee Bucks",
+    "team": "CHI",
+    "name": "Chicago Bulls",
     "conference": "Eastern Conference",
     "wins": 1,
-    "losses": 1,
-    "pct": 0.5,
-    "gb": "1",
-    "streak": "W1"
+    "losses": 2,
+    "pct": 0.333,
+    "gb": "1.5",
+    "streak": "L2"
   },
   {
     "team": "PHI",
@@ -120,22 +130,12 @@
     "streak": "L2"
   },
   {
-    "team": "CLE",
-    "name": "Cleveland Cavaliers",
+    "team": "MIL",
+    "name": "Milwaukee Bucks",
     "conference": "Eastern Conference",
-    "wins": 0,
-    "losses": 1,
-    "pct": 0.0,
-    "gb": "1.5",
-    "streak": "L1"
-  },
-  {
-    "team": "CHA",
-    "name": "Charlotte Hornets",
-    "conference": "Eastern Conference",
-    "wins": 0,
-    "losses": 1,
-    "pct": 0.0,
+    "wins": 1,
+    "losses": 2,
+    "pct": 0.333,
     "gb": "1.5",
     "streak": "L1"
   },
@@ -160,6 +160,16 @@
     "streak": "W1"
   },
   {
+    "team": "MIN",
+    "name": "Minnesota Timberwolves",
+    "conference": "Western Conference",
+    "wins": 2,
+    "losses": 1,
+    "pct": 0.667,
+    "gb": "-",
+    "streak": "W1"
+  },
+  {
     "team": "LAL",
     "name": "Los Angeles Lakers",
     "conference": "Western Conference",
@@ -170,14 +180,14 @@
     "streak": "W1"
   },
   {
-    "team": "MIN",
-    "name": "Minnesota Timberwolves",
+    "team": "DEN",
+    "name": "Denver Nuggets",
     "conference": "Western Conference",
     "wins": 2,
     "losses": 1,
     "pct": 0.667,
     "gb": "-",
-    "streak": "W1"
+    "streak": "W2"
   },
   {
     "team": "GS",
@@ -200,28 +210,8 @@
     "streak": "W1"
   },
   {
-    "team": "DAL",
-    "name": "Dallas Mavericks",
-    "conference": "Western Conference",
-    "wins": 1,
-    "losses": 1,
-    "pct": 0.5,
-    "gb": "0.5",
-    "streak": "W1"
-  },
-  {
-    "team": "DEN",
-    "name": "Denver Nuggets",
-    "conference": "Western Conference",
-    "wins": 1,
-    "losses": 1,
-    "pct": 0.5,
-    "gb": "0.5",
-    "streak": "W1"
-  },
-  {
-    "team": "HOU",
-    "name": "Houston Rockets",
+    "team": "LAC",
+    "name": "LA Clippers",
     "conference": "Western Conference",
     "wins": 1,
     "losses": 1,
@@ -240,14 +230,24 @@
     "streak": "L1"
   },
   {
-    "team": "LAC",
-    "name": "LA Clippers",
+    "team": "HOU",
+    "name": "Houston Rockets",
     "conference": "Western Conference",
     "wins": 1,
     "losses": 1,
     "pct": 0.5,
     "gb": "0.5",
     "streak": "L1"
+  },
+  {
+    "team": "DAL",
+    "name": "Dallas Mavericks",
+    "conference": "Western Conference",
+    "wins": 1,
+    "losses": 1,
+    "pct": 0.5,
+    "gb": "0.5",
+    "streak": "W1"
   },
   {
     "team": "NO",
