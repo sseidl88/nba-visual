@@ -14,10 +14,10 @@
     "PLAYER_NAME": "Marine Fauthoux",
     "TEAM_ABBREVIATION": "NY",
     "id": "4790260",
-    "PPG": 7.2,
-    "APG": 2.0,
-    "RPG": 2.8,
-    "BPG": 0.2,
+    "PPG": 9.7,
+    "APG": 2.7,
+    "RPG": 3.7,
+    "BPG": 0.3,
     "FG_PCT": 54.5,
     "TS_PCT": 65.9
   },
@@ -33,37 +33,15 @@
     "TS_PCT": 68.9
   },
   {
-    "PLAYER_NAME": "Olivia Miles",
-    "TEAM_ABBREVIATION": "MIN",
-    "id": "4433791",
-    "PPG": 5.0,
-    "APG": 1.0,
-    "RPG": 2.0,
-    "BPG": 1.0,
-    "FG_PCT": 12.5,
-    "TS_PCT": 28.2
-  },
-  {
     "PLAYER_NAME": "Pauline Astier",
     "TEAM_ABBREVIATION": "NY",
     "id": "5345320",
-    "PPG": 4.5,
-    "APG": 1.2,
-    "RPG": 3.0,
+    "PPG": 4.7,
+    "APG": 0.7,
+    "RPG": 2.3,
     "BPG": 0.0,
-    "FG_PCT": 38.1,
-    "TS_PCT": 42.9
-  },
-  {
-    "PLAYER_NAME": "Raven Johnson",
-    "TEAM_ABBREVIATION": "IND",
-    "id": "4433797",
-    "PPG": 4.0,
-    "APG": 0.0,
-    "RPG": 3.0,
-    "BPG": 0.5,
-    "FG_PCT": 40.0,
-    "TS_PCT": 40.0
+    "FG_PCT": 42.9,
+    "TS_PCT": 50.0
   },
   {
     "PLAYER_NAME": "Aminata Gueye",
@@ -75,6 +53,17 @@
     "BPG": 0.2,
     "FG_PCT": 41.7,
     "TS_PCT": 44.2
+  },
+  {
+    "PLAYER_NAME": "Raven Johnson",
+    "TEAM_ABBREVIATION": "IND",
+    "id": "4433797",
+    "PPG": 2.0,
+    "APG": 0.0,
+    "RPG": 4.0,
+    "BPG": 0.0,
+    "FG_PCT": 20.0,
+    "TS_PCT": 20.0
   },
   {
     "PLAYER_NAME": "Georgia Amoore",
@@ -91,12 +80,12 @@
     "PLAYER_NAME": "Mai Yamamoto",
     "TEAM_ABBREVIATION": "LV",
     "id": "5220104",
-    "PPG": 0.4,
-    "APG": 0.4,
-    "RPG": 0.4,
+    "PPG": 0.5,
+    "APG": 0.5,
+    "RPG": 0.5,
     "BPG": 0.2,
-    "FG_PCT": 9.1,
-    "TS_PCT": 9.1
+    "FG_PCT": 12.5,
+    "TS_PCT": 12.5
   },
   {
     "PLAYER_NAME": "Madina Okot",
@@ -137,7 +126,7 @@
     "id": "4682855",
     "PPG": 0.0,
     "APG": 0.0,
-    "RPG": 0.4,
+    "RPG": 0.5,
     "BPG": 0.0,
     "FG_PCT": 0.0,
     "TS_PCT": 0.0
@@ -229,16 +218,5 @@
     "BPG": 0.0,
     "FG_PCT": 0.0,
     "TS_PCT": 0.0
-  },
-  {
-    "PLAYER_NAME": "Antonia Delaere",
-    "TEAM_ABBREVIATION": "MIN",
-    "id": "4873358",
-    "PPG": 0.0,
-    "APG": 0.0,
-    "RPG": 0.0,
-    "BPG": 0.0,
-    "FG_PCT": 0,
-    "TS_PCT": 0
   }
 ]

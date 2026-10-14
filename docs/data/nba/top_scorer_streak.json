@@ -1,12 +1,18 @@
 {
   "current": {
-    "date": "2026-10-12",
-    "PLAYER_NAME": "Bennett Stirtz",
-    "TEAM_ABBREVIATION": "OKC",
-    "pts": 26,
+    "date": "2026-10-13",
+    "PLAYER_NAME": "Austin Reaves",
+    "TEAM_ABBREVIATION": "LAL",
+    "pts": 28,
     "streak": 1
   },
   "history": [
+    {
+      "date": "2026-10-13",
+      "PLAYER_NAME": "Austin Reaves",
+      "TEAM_ABBREVIATION": "LAL",
+      "pts": 28
+    },
     {
       "date": "2026-10-12",
       "PLAYER_NAME": "Bennett Stirtz",
@@ -60,12 +66,6 @@
       "PLAYER_NAME": "Rui Hachimura",
       "TEAM_ABBREVIATION": "LAC",
       "pts": 21
-    },
-    {
-      "date": "2026-10-03",
-      "PLAYER_NAME": "RJ Barrett",
-      "TEAM_ABBREVIATION": "TOR",
-      "pts": 15
     }
   ]
 }
