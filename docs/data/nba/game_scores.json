@@ -1,34 +1,46 @@
 {
-  "date": "2026-10-13",
+  "date": "2026-10-14",
   "games": [
     {
-      "home": "ORL",
-      "home_score": 132,
-      "away": "CLE",
-      "away_score": 116
+      "home": "MIA",
+      "home_score": 144,
+      "away": "BKN",
+      "away_score": 128
     },
     {
-      "home": "TOR",
-      "home_score": 148,
-      "away": "NY",
-      "away_score": 98
-    },
-    {
-      "home": "OKC",
+      "home": "BOS",
       "home_score": 114,
-      "away": "IND",
-      "away_score": 112
+      "away": "CHA",
+      "away_score": 93
     },
     {
-      "home": "LAL",
-      "home_score": 89,
-      "away": "GS",
+      "home": "SA",
+      "home_score": 123,
+      "away": "PHX",
+      "away_score": 103
+    },
+    {
+      "home": "DAL",
+      "home_score": 97,
+      "away": "NO",
       "away_score": 101
     },
     {
-      "home": "SAC",
-      "home_score": 98,
-      "away": "POR",
+      "home": "MIL",
+      "home_score": 104,
+      "away": "CHI",
+      "away_score": 125
+    },
+    {
+      "home": "MIN",
+      "home_score": 106,
+      "away": "DET",
+      "away_score": 128
+    },
+    {
+      "home": "LAC",
+      "home_score": 122,
+      "away": "DEN",
       "away_score": 110
     }
   ]
