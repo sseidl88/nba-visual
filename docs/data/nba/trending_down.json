@@ -1,8 +1,8 @@
 {
-  "PLAYER_NAME": "Chucky Hepburn",
-  "TEAM_ABBREVIATION": "TOR",
-  "id": "4590360",
-  "recent_games": 2,
+  "PLAYER_NAME": "LeBron James",
+  "TEAM_ABBREVIATION": "PHI",
+  "id": "1966",
+  "recent_games": 1,
   "recent": {
     "PPG": 0.0,
     "APG": 0.0,
@@ -11,17 +11,17 @@
     "FG_PCT": 0.0
   },
   "avg": {
-    "PPG": 3.7,
-    "APG": 0.7,
+    "PPG": 3.3,
+    "APG": 1.7,
     "RPG": 1.3,
     "BPG": 0.0,
-    "FG_PCT": 66.7
+    "FG_PCT": 100.0
   },
   "delta": {
-    "PPG": -3.7,
-    "APG": -0.7,
+    "PPG": -3.3,
+    "APG": -1.7,
     "RPG": -1.3,
     "BPG": 0.0,
-    "FG_PCT": -66.7
+    "FG_PCT": -100.0
   }
 }

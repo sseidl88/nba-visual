@@ -1,12 +1,18 @@
 {
   "current": {
-    "date": "2026-10-14",
-    "PLAYER_NAME": "Michael Porter Jr.",
-    "TEAM_ABBREVIATION": "BKN",
-    "pts": 27,
+    "date": "2026-10-15",
+    "PLAYER_NAME": "Scottie Barnes",
+    "TEAM_ABBREVIATION": "TOR",
+    "pts": 23,
     "streak": 1
   },
   "history": [
+    {
+      "date": "2026-10-15",
+      "PLAYER_NAME": "Scottie Barnes",
+      "TEAM_ABBREVIATION": "TOR",
+      "pts": 23
+    },
     {
       "date": "2026-10-14",
       "PLAYER_NAME": "Michael Porter Jr.",
@@ -59,12 +65,6 @@
       "date": "2026-10-06",
       "PLAYER_NAME": "Darryn Peterson",
       "TEAM_ABBREVIATION": "UTAH",
-      "pts": 23
-    },
-    {
-      "date": "2026-10-05",
-      "PLAYER_NAME": "Nique Clifford",
-      "TEAM_ABBREVIATION": "SAC",
       "pts": 23
     }
   ]
