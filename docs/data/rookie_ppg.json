@@ -14,12 +14,12 @@
     "PLAYER_NAME": "Isobel Borlase",
     "TEAM_ABBREVIATION": "ATL",
     "id": "5208983",
-    "PPG": 7.7,
-    "APG": 0.3,
-    "RPG": 2.3,
-    "BPG": 0.0,
-    "FG_PCT": 56.2,
-    "TS_PCT": 68.1
+    "PPG": 6.8,
+    "APG": 0.5,
+    "RPG": 2.2,
+    "BPG": 0.2,
+    "FG_PCT": 52.4,
+    "TS_PCT": 61.7
   },
   {
     "PLAYER_NAME": "Pauline Astier",
@@ -36,10 +36,10 @@
     "PLAYER_NAME": "Aminata Gueye",
     "TEAM_ABBREVIATION": "GS",
     "id": "5447776",
-    "PPG": 3.7,
-    "APG": 0.7,
-    "RPG": 2.3,
-    "BPG": 0.3,
+    "PPG": 2.8,
+    "APG": 0.5,
+    "RPG": 1.8,
+    "BPG": 0.2,
     "FG_PCT": 41.7,
     "TS_PCT": 44.2
   },
@@ -60,15 +60,15 @@
     "id": "5108587",
     "PPG": 0.0,
     "APG": 0.0,
-    "RPG": 0.7,
+    "RPG": 0.5,
     "BPG": 0.0,
     "FG_PCT": 0,
     "TS_PCT": 0
   },
   {
-    "PLAYER_NAME": "Raquel Carrera",
-    "TEAM_ABBREVIATION": "NY",
-    "id": "4790258",
+    "PLAYER_NAME": "Indya Nivar",
+    "TEAM_ABBREVIATION": "ATL",
+    "id": "5105740",
     "PPG": 0.0,
     "APG": 0.0,
     "RPG": 0.0,
@@ -77,26 +77,15 @@
     "TS_PCT": 0
   },
   {
-    "PLAYER_NAME": "Juste Jocyte",
-    "TEAM_ABBREVIATION": "GS",
-    "id": "5277552",
+    "PLAYER_NAME": "Matilde Villa",
+    "TEAM_ABBREVIATION": "ATL",
+    "id": "5209602",
     "PPG": 0.0,
     "APG": 0.0,
     "RPG": 0.0,
     "BPG": 0.0,
     "FG_PCT": 0,
     "TS_PCT": 0
-  },
-  {
-    "PLAYER_NAME": "Justine Pissott",
-    "TEAM_ABBREVIATION": "LV",
-    "id": "4682855",
-    "PPG": 0.0,
-    "APG": 0.0,
-    "RPG": 0.7,
-    "BPG": 0.0,
-    "FG_PCT": 0.0,
-    "TS_PCT": 0.0
   },
   {
     "PLAYER_NAME": "Ashten Prechtel",
@@ -119,6 +108,39 @@
     "BPG": 0.0,
     "FG_PCT": 0,
     "TS_PCT": 0
+  },
+  {
+    "PLAYER_NAME": "Juste Jocyte",
+    "TEAM_ABBREVIATION": "GS",
+    "id": "5277552",
+    "PPG": 0.0,
+    "APG": 0.0,
+    "RPG": 0.0,
+    "BPG": 0.0,
+    "FG_PCT": 0,
+    "TS_PCT": 0
+  },
+  {
+    "PLAYER_NAME": "Raquel Carrera",
+    "TEAM_ABBREVIATION": "NY",
+    "id": "4790258",
+    "PPG": 0.0,
+    "APG": 0.0,
+    "RPG": 0.0,
+    "BPG": 0.0,
+    "FG_PCT": 0,
+    "TS_PCT": 0
+  },
+  {
+    "PLAYER_NAME": "Justine Pissott",
+    "TEAM_ABBREVIATION": "LV",
+    "id": "4682855",
+    "PPG": 0.0,
+    "APG": 0.0,
+    "RPG": 0.7,
+    "BPG": 0.0,
+    "FG_PCT": 0.0,
+    "TS_PCT": 0.0
   },
   {
     "PLAYER_NAME": "Ta'Niya Latson",
