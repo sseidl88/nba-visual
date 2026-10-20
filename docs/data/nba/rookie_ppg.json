@@ -14,12 +14,12 @@
     "PLAYER_NAME": "Darius Acuff Jr.",
     "TEAM_ABBREVIATION": "SAC",
     "id": "5142620",
-    "PPG": 17.2,
-    "APG": 3.8,
-    "RPG": 1.8,
-    "BPG": 0.8,
-    "FG_PCT": 42.4,
-    "TS_PCT": 53.3
+    "PPG": 16.7,
+    "APG": 3.7,
+    "RPG": 1.7,
+    "BPG": 0.7,
+    "FG_PCT": 40.5,
+    "TS_PCT": 53.4
   },
   {
     "PLAYER_NAME": "Darryn Peterson",
@@ -33,6 +33,17 @@
     "TS_PCT": 55.8
   },
   {
+    "PLAYER_NAME": "Brayden Burries",
+    "TEAM_ABBREVIATION": "MIL",
+    "id": "5082206",
+    "PPG": 16.3,
+    "APG": 3.0,
+    "RPG": 5.7,
+    "BPG": 0.0,
+    "FG_PCT": 44.4,
+    "TS_PCT": 55.2
+  },
+  {
     "PLAYER_NAME": "Caleb Wilson",
     "TEAM_ABBREVIATION": "CHI",
     "id": "5095151",
@@ -42,6 +53,17 @@
     "BPG": 0.6,
     "FG_PCT": 44.1,
     "TS_PCT": 52.0
+  },
+  {
+    "PLAYER_NAME": "Cameron Boozer",
+    "TEAM_ABBREVIATION": "MEM",
+    "id": "5041935",
+    "PPG": 15.0,
+    "APG": 2.7,
+    "RPG": 5.7,
+    "BPG": 0.0,
+    "FG_PCT": 44.0,
+    "TS_PCT": 65.7
   },
   {
     "PLAYER_NAME": "Mikel Brown Jr.",
@@ -75,28 +97,6 @@
     "BPG": 0.0,
     "FG_PCT": 50.0,
     "TS_PCT": 65.5
-  },
-  {
-    "PLAYER_NAME": "Brayden Burries",
-    "TEAM_ABBREVIATION": "MIL",
-    "id": "5082206",
-    "PPG": 14.0,
-    "APG": 3.5,
-    "RPG": 4.8,
-    "BPG": 0.0,
-    "FG_PCT": 41.3,
-    "TS_PCT": 51.5
-  },
-  {
-    "PLAYER_NAME": "Cameron Boozer",
-    "TEAM_ABBREVIATION": "MEM",
-    "id": "5041935",
-    "PPG": 14.0,
-    "APG": 3.0,
-    "RPG": 5.5,
-    "BPG": 0.0,
-    "FG_PCT": 47.1,
-    "TS_PCT": 62.8
   },
   {
     "PLAYER_NAME": "Aday Mara",
@@ -154,6 +154,17 @@
     "TS_PCT": 66.1
   },
   {
+    "PLAYER_NAME": "Ebuka Okorie",
+    "TEAM_ABBREVIATION": "DET",
+    "id": "5258459",
+    "PPG": 11.3,
+    "APG": 3.0,
+    "RPG": 0.3,
+    "BPG": 0.0,
+    "FG_PCT": 54.2,
+    "TS_PCT": 61.8
+  },
+  {
     "PLAYER_NAME": "Keaton Wagler",
     "TEAM_ABBREVIATION": "LAC",
     "id": "5254165",
@@ -165,6 +176,17 @@
     "TS_PCT": 53.1
   },
   {
+    "PLAYER_NAME": "Labaron Philon Jr.",
+    "TEAM_ABBREVIATION": "PHI",
+    "id": "4873090",
+    "PPG": 10.3,
+    "APG": 4.7,
+    "RPG": 2.0,
+    "BPG": 0.0,
+    "FG_PCT": 36.7,
+    "TS_PCT": 48.8
+  },
+  {
     "PLAYER_NAME": "Meleek Thomas",
     "TEAM_ABBREVIATION": "CLE",
     "id": "5041951",
@@ -174,17 +196,6 @@
     "BPG": 0.3,
     "FG_PCT": 44.8,
     "TS_PCT": 51.9
-  },
-  {
-    "PLAYER_NAME": "Ebuka Okorie",
-    "TEAM_ABBREVIATION": "DET",
-    "id": "5258459",
-    "PPG": 10.2,
-    "APG": 2.5,
-    "RPG": 0.5,
-    "BPG": 0.0,
-    "FG_PCT": 57.1,
-    "TS_PCT": 65.0
   },
   {
     "PLAYER_NAME": "Trevon Brazile",
@@ -201,12 +212,12 @@
     "PLAYER_NAME": "Kingston Flemings",
     "TEAM_ABBREVIATION": "ATL",
     "id": "5149077",
-    "PPG": 10.2,
-    "APG": 4.2,
-    "RPG": 2.0,
+    "PPG": 10.0,
+    "APG": 4.8,
+    "RPG": 2.5,
     "BPG": 0.0,
-    "FG_PCT": 44.2,
-    "TS_PCT": 52.8
+    "FG_PCT": 46.9,
+    "TS_PCT": 56.3
   },
   {
     "PLAYER_NAME": "Sergio de Larrea",
@@ -218,17 +229,6 @@
     "BPG": 1.0,
     "FG_PCT": 52.0,
     "TS_PCT": 71.0
-  },
-  {
-    "PLAYER_NAME": "Labaron Philon Jr.",
-    "TEAM_ABBREVIATION": "PHI",
-    "id": "4873090",
-    "PPG": 9.2,
-    "APG": 4.5,
-    "RPG": 2.0,
-    "BPG": 0.0,
-    "FG_PCT": 33.3,
-    "TS_PCT": 44.4
   },
   {
     "PLAYER_NAME": "Hannes Steinbach",
@@ -289,23 +289,34 @@
     "PLAYER_NAME": "Emanuel Sharp",
     "TEAM_ABBREVIATION": "SAC",
     "id": "5106058",
-    "PPG": 8.0,
-    "APG": 1.6,
-    "RPG": 2.2,
+    "PPG": 8.2,
+    "APG": 1.5,
+    "RPG": 2.5,
     "BPG": 0.0,
-    "FG_PCT": 28.3,
-    "TS_PCT": 39.0
+    "FG_PCT": 31.4,
+    "TS_PCT": 41.9
   },
   {
-    "PLAYER_NAME": "Cameron Carr",
-    "TEAM_ABBREVIATION": "LAL",
-    "id": "5113969",
-    "PPG": 8.0,
-    "APG": 0.7,
-    "RPG": 1.0,
-    "BPG": 0.0,
-    "FG_PCT": 47.1,
-    "TS_PCT": 64.0
+    "PLAYER_NAME": "Zuby Ejiofor",
+    "TEAM_ABBREVIATION": "ATL",
+    "id": "5106262",
+    "PPG": 7.5,
+    "APG": 1.0,
+    "RPG": 4.8,
+    "BPG": 0.5,
+    "FG_PCT": 47.6,
+    "TS_PCT": 61.2
+  },
+  {
+    "PLAYER_NAME": "Isaiah Evans",
+    "TEAM_ABBREVIATION": "MIN",
+    "id": "5061585",
+    "PPG": 7.2,
+    "APG": 1.0,
+    "RPG": 1.4,
+    "BPG": 0.4,
+    "FG_PCT": 39.3,
+    "TS_PCT": 58.7
   },
   {
     "PLAYER_NAME": "Josh Dix",
@@ -317,17 +328,6 @@
     "BPG": 0.2,
     "FG_PCT": 42.4,
     "TS_PCT": 54.5
-  },
-  {
-    "PLAYER_NAME": "Zuby Ejiofor",
-    "TEAM_ABBREVIATION": "ATL",
-    "id": "5106262",
-    "PPG": 7.0,
-    "APG": 1.2,
-    "RPG": 4.4,
-    "BPG": 0.4,
-    "FG_PCT": 46.2,
-    "TS_PCT": 57.6
   },
   {
     "PLAYER_NAME": "Jaron Pierre Jr.",
@@ -361,17 +361,6 @@
     "BPG": 1.2,
     "FG_PCT": 38.7,
     "TS_PCT": 38.1
-  },
-  {
-    "PLAYER_NAME": "Isaiah Evans",
-    "TEAM_ABBREVIATION": "MIN",
-    "id": "5061585",
-    "PPG": 6.3,
-    "APG": 0.8,
-    "RPG": 1.7,
-    "BPG": 0.3,
-    "FG_PCT": 32.4,
-    "TS_PCT": 50.6
   },
   {
     "PLAYER_NAME": "Dillon Mitchell",
@@ -498,12 +487,12 @@
     "PLAYER_NAME": "Alex Karaban",
     "TEAM_ABBREVIATION": "SAC",
     "id": "4917149",
-    "PPG": 4.0,
-    "APG": 1.6,
+    "PPG": 4.2,
+    "APG": 1.5,
     "RPG": 3.0,
     "BPG": 0.2,
-    "FG_PCT": 46.7,
-    "TS_PCT": 63.0
+    "FG_PCT": 50.0,
+    "TS_PCT": 68.3
   },
   {
     "PLAYER_NAME": "Koa Peat",
@@ -511,21 +500,21 @@
     "id": "5041953",
     "PPG": 4.0,
     "APG": 0.2,
-    "RPG": 2.4,
-    "BPG": 0.4,
-    "FG_PCT": 52.6,
-    "TS_PCT": 49.2
+    "RPG": 2.0,
+    "BPG": 0.5,
+    "FG_PCT": 57.1,
+    "TS_PCT": 57.1
   },
   {
-    "PLAYER_NAME": "Nate Ament",
-    "TEAM_ABBREVIATION": "MIL",
-    "id": "5164559",
-    "PPG": 3.7,
-    "APG": 0.3,
-    "RPG": 2.0,
+    "PLAYER_NAME": "Tyler Nickel",
+    "TEAM_ABBREVIATION": "NY",
+    "id": "4838721",
+    "PPG": 4.0,
+    "APG": 0.5,
+    "RPG": 0.5,
     "BPG": 0.0,
-    "FG_PCT": 27.3,
-    "TS_PCT": 39.1
+    "FG_PCT": 28.6,
+    "TS_PCT": 46.8
   },
   {
     "PLAYER_NAME": "Jaylin Sellers",
@@ -537,17 +526,6 @@
     "BPG": 0.2,
     "FG_PCT": 63.6,
     "TS_PCT": 72.7
-  },
-  {
-    "PLAYER_NAME": "Tyler Nickel",
-    "TEAM_ABBREVIATION": "NY",
-    "id": "4838721",
-    "PPG": 3.2,
-    "APG": 0.6,
-    "RPG": 0.6,
-    "BPG": 0.2,
-    "FG_PCT": 22.2,
-    "TS_PCT": 38.0
   },
   {
     "PLAYER_NAME": "Braden Smith",
@@ -583,6 +561,28 @@
     "TS_PCT": 45.0
   },
   {
+    "PLAYER_NAME": "Bogoljub Markovic",
+    "TEAM_ABBREVIATION": "MIL",
+    "id": "5214989",
+    "PPG": 2.5,
+    "APG": 0.0,
+    "RPG": 3.5,
+    "BPG": 0.0,
+    "FG_PCT": 25.0,
+    "TS_PCT": 34.2
+  },
+  {
+    "PLAYER_NAME": "Cameron Carr",
+    "TEAM_ABBREVIATION": "LAL",
+    "id": "5113969",
+    "PPG": 2.5,
+    "APG": 0.0,
+    "RPG": 0.0,
+    "BPG": 0.0,
+    "FG_PCT": 25.0,
+    "TS_PCT": 51.2
+  },
+  {
     "PLAYER_NAME": "Tyler Bilodeau",
     "TEAM_ABBREVIATION": "BKN",
     "id": "5105626",
@@ -597,45 +597,23 @@
     "PLAYER_NAME": "Jaden Akins",
     "TEAM_ABBREVIATION": "NY",
     "id": "4683730",
-    "PPG": 2.4,
-    "APG": 1.6,
-    "RPG": 0.4,
+    "PPG": 2.2,
+    "APG": 1.2,
+    "RPG": 0.5,
     "BPG": 0.0,
-    "FG_PCT": 30.8,
-    "TS_PCT": 43.2
-  },
-  {
-    "PLAYER_NAME": "Bogoljub Markovic",
-    "TEAM_ABBREVIATION": "MIL",
-    "id": "5214989",
-    "PPG": 2.0,
-    "APG": 0.0,
-    "RPG": 2.8,
-    "BPG": 0.0,
-    "FG_PCT": 25.0,
-    "TS_PCT": 34.2
+    "FG_PCT": 27.3,
+    "TS_PCT": 37.9
   },
   {
     "PLAYER_NAME": "Karim Lopez",
     "TEAM_ABBREVIATION": "MEM",
     "id": "5231919",
     "PPG": 2.0,
-    "APG": 0.2,
-    "RPG": 1.8,
-    "BPG": 0.2,
-    "FG_PCT": 57.1,
-    "TS_PCT": 57.1
-  },
-  {
-    "PLAYER_NAME": "Carson Cooper",
-    "TEAM_ABBREVIATION": "MEM",
-    "id": "5105817",
-    "PPG": 2.0,
-    "APG": 0.2,
-    "RPG": 1.5,
+    "APG": 0.3,
+    "RPG": 2.0,
     "BPG": 0.0,
-    "FG_PCT": 50.0,
-    "TS_PCT": 69.4
+    "FG_PCT": 60.0,
+    "TS_PCT": 60.0
   },
   {
     "PLAYER_NAME": "Quadir Copeland",
@@ -652,12 +630,23 @@
     "PLAYER_NAME": "AK Okereke",
     "TEAM_ABBREVIATION": "LAL",
     "id": "5114350",
-    "PPG": 1.4,
-    "APG": 0.4,
-    "RPG": 1.4,
+    "PPG": 1.8,
+    "APG": 0.5,
+    "RPG": 1.8,
     "BPG": 0.2,
     "FG_PCT": 50.0,
     "TS_PCT": 60.8
+  },
+  {
+    "PLAYER_NAME": "Nate Ament",
+    "TEAM_ABBREVIATION": "MIL",
+    "id": "5164559",
+    "PPG": 1.5,
+    "APG": 0.5,
+    "RPG": 2.0,
+    "BPG": 0.0,
+    "FG_PCT": 14.3,
+    "TS_PCT": 17.1
   },
   {
     "PLAYER_NAME": "Ernest Udeh Jr.",
@@ -686,11 +675,22 @@
     "TEAM_ABBREVIATION": "DET",
     "id": "5037878",
     "PPG": 0.0,
-    "APG": 0.2,
-    "RPG": 1.0,
+    "APG": 0.3,
+    "RPG": 1.3,
     "BPG": 0.0,
     "FG_PCT": 0,
     "TS_PCT": 0
+  },
+  {
+    "PLAYER_NAME": "Carson Cooper",
+    "TEAM_ABBREVIATION": "MEM",
+    "id": "5105817",
+    "PPG": 0.0,
+    "APG": 0.0,
+    "RPG": 0.7,
+    "BPG": 0.0,
+    "FG_PCT": 0.0,
+    "TS_PCT": 0.0
   },
   {
     "PLAYER_NAME": "Malik Dia",
