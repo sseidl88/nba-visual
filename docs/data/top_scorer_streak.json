@@ -1,12 +1,18 @@
 {
   "current": {
-    "date": "2026-10-19",
+    "date": "2026-10-21",
     "PLAYER_NAME": "Angel Reese",
     "TEAM_ABBREVIATION": "ATL",
-    "pts": 30,
-    "streak": 1
+    "pts": 21,
+    "streak": 2
   },
   "history": [
+    {
+      "date": "2026-10-21",
+      "PLAYER_NAME": "Angel Reese",
+      "TEAM_ABBREVIATION": "ATL",
+      "pts": 21
+    },
     {
       "date": "2026-10-19",
       "PLAYER_NAME": "Angel Reese",
@@ -60,12 +66,6 @@
       "PLAYER_NAME": "Jackie Young",
       "TEAM_ABBREVIATION": "LV",
       "pts": 31
-    },
-    {
-      "date": "2026-09-27",
-      "PLAYER_NAME": "A'ja Wilson",
-      "TEAM_ABBREVIATION": "LV",
-      "pts": 38
     }
   ]
 }
