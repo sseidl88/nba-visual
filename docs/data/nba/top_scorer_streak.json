@@ -1,12 +1,18 @@
 {
   "current": {
-    "date": "2026-10-22",
-    "PLAYER_NAME": "Donovan Mitchell",
-    "TEAM_ABBREVIATION": "CLE",
-    "pts": 32,
+    "date": "2026-10-23",
+    "PLAYER_NAME": "Jayson Tatum",
+    "TEAM_ABBREVIATION": "BOS",
+    "pts": 36,
     "streak": 1
   },
   "history": [
+    {
+      "date": "2026-10-23",
+      "PLAYER_NAME": "Jayson Tatum",
+      "TEAM_ABBREVIATION": "BOS",
+      "pts": 36
+    },
     {
       "date": "2026-10-22",
       "PLAYER_NAME": "Donovan Mitchell",
@@ -60,12 +66,6 @@
       "PLAYER_NAME": "Leonard Miller",
       "TEAM_ABBREVIATION": "CHI",
       "pts": 26
-    },
-    {
-      "date": "2026-10-10",
-      "PLAYER_NAME": "Payton Pritchard",
-      "TEAM_ABBREVIATION": "BOS",
-      "pts": 25
     }
   ]
 }
