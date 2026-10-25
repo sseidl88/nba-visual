@@ -1,12 +1,18 @@
 {
   "current": {
-    "date": "2026-10-23",
-    "PLAYER_NAME": "Jayson Tatum",
-    "TEAM_ABBREVIATION": "BOS",
-    "pts": 36,
+    "date": "2026-10-24",
+    "PLAYER_NAME": "Devin Booker",
+    "TEAM_ABBREVIATION": "PHX",
+    "pts": 43,
     "streak": 1
   },
   "history": [
+    {
+      "date": "2026-10-24",
+      "PLAYER_NAME": "Devin Booker",
+      "TEAM_ABBREVIATION": "PHX",
+      "pts": 43
+    },
     {
       "date": "2026-10-23",
       "PLAYER_NAME": "Jayson Tatum",
@@ -59,12 +65,6 @@
       "date": "2026-10-12",
       "PLAYER_NAME": "Bennett Stirtz",
       "TEAM_ABBREVIATION": "OKC",
-      "pts": 26
-    },
-    {
-      "date": "2026-10-11",
-      "PLAYER_NAME": "Leonard Miller",
-      "TEAM_ABBREVIATION": "CHI",
       "pts": 26
     }
   ]

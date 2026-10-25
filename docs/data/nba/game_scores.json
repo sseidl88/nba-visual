@@ -1,77 +1,53 @@
 {
-  "date": "2026-10-23",
+  "date": "2026-10-24",
   "games": [
     {
-      "home": "MIL",
-      "home_score": 125,
-      "away": "CHI",
-      "away_score": 132
-    },
-    {
-      "home": "BOS",
-      "home_score": 107,
-      "away": "NY",
-      "away_score": 103
-    },
-    {
       "home": "CHA",
-      "home_score": 81,
-      "away": "ATL",
-      "away_score": 128
+      "home_score": 115,
+      "away": "MIA",
+      "away_score": 110
     },
     {
-      "home": "IND",
-      "home_score": 105,
-      "away": "DAL",
+      "home": "CLE",
+      "home_score": 125,
+      "away": "BKN",
       "away_score": 121
     },
     {
-      "home": "ORL",
-      "home_score": 93,
-      "away": "MIN",
-      "away_score": 115
+      "home": "PHI",
+      "home_score": 127,
+      "away": "MIL",
+      "away_score": 116
     },
     {
-      "home": "WSH",
-      "home_score": 102,
-      "away": "TOR",
-      "away_score": 112
+      "home": "CHI",
+      "home_score": 120,
+      "away": "WSH",
+      "away_score": 124
     },
     {
-      "home": "MIA",
-      "home_score": 111,
-      "away": "DET",
-      "away_score": 128
+      "home": "DAL",
+      "home_score": 106,
+      "away": "SA",
+      "away_score": 122
     },
     {
-      "home": "SA",
-      "home_score": 110,
+      "home": "ATL",
+      "home_score": 114,
       "away": "HOU",
-      "away_score": 114
+      "away_score": 121
     },
     {
-      "home": "UTAH",
-      "home_score": 120,
+      "home": "DEN",
+      "home_score": 141,
       "away": "NO",
-      "away_score": 119
+      "away_score": 135
     },
     {
-      "home": "GS",
-      "home_score": 108,
-      "away": "MEM",
-      "away_score": 111
-    },
-    {
-      "home": "LAL",
-      "home_score": 125,
-      "away": "LAC",
-      "away_score": 117
-    },
-    {
-      "home": "SAC",
-      "home_score": 120,
-      "away": "POR",
-      "away_score": 128
+      "home": "PHX",
+      "home_score": 131,
+      "away": "GS",
+      "away_score": 122
     }
   ]
 }
