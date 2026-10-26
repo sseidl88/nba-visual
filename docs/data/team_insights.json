@@ -1,4 +1,31 @@
 {
+  "WSH": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Sonia Citron",
+        "TEAM_ABBREVIATION": "WSH",
+        "pts": 25,
+        "date": "2026-09-30",
+        "streak": 2
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Sonia Citron",
+          "TEAM_ABBREVIATION": "WSH",
+          "pts": 25,
+          "date": "2026-09-30"
+        },
+        {
+          "PLAYER_NAME": "Sonia Citron",
+          "TEAM_ABBREVIATION": "WSH",
+          "pts": 25,
+          "date": "2026-09-27"
+        }
+      ]
+    }
+  },
   "GS": {
     "trending_up": {
       "PLAYER_NAME": "Janelle Salaun",
@@ -126,6 +153,78 @@
       ]
     }
   },
+  "NY": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Breanna Stewart",
+        "TEAM_ABBREVIATION": "NY",
+        "pts": 26,
+        "date": "2026-10-09",
+        "streak": 2
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Breanna Stewart",
+          "TEAM_ABBREVIATION": "NY",
+          "pts": 26,
+          "date": "2026-10-09"
+        },
+        {
+          "PLAYER_NAME": "Breanna Stewart",
+          "TEAM_ABBREVIATION": "NY",
+          "pts": 35,
+          "date": "2026-10-07"
+        },
+        {
+          "PLAYER_NAME": "Sabrina Ionescu",
+          "TEAM_ABBREVIATION": "NY",
+          "pts": 27,
+          "date": "2026-10-04"
+        },
+        {
+          "PLAYER_NAME": "Breanna Stewart",
+          "TEAM_ABBREVIATION": "NY",
+          "pts": 21,
+          "date": "2026-09-29"
+        },
+        {
+          "PLAYER_NAME": "Breanna Stewart",
+          "TEAM_ABBREVIATION": "NY",
+          "pts": 34,
+          "date": "2026-09-27"
+        }
+      ]
+    }
+  },
+  "MIN": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Courtney Williams",
+        "TEAM_ABBREVIATION": "MIN",
+        "pts": 18,
+        "date": "2026-09-29",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Courtney Williams",
+          "TEAM_ABBREVIATION": "MIN",
+          "pts": 18,
+          "date": "2026-09-29"
+        },
+        {
+          "PLAYER_NAME": "Nia Brodie",
+          "TEAM_ABBREVIATION": "MIN",
+          "pts": 16,
+          "date": "2026-09-27"
+        }
+      ]
+    }
+  },
   "ATL": {
     "trending_up": {
       "PLAYER_NAME": "Sika Kone",
@@ -247,100 +346,52 @@
       ]
     }
   },
-  "MIN": {
+  "LV": {
     "trending_up": {},
     "trending_down": {},
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Courtney Williams",
-        "TEAM_ABBREVIATION": "MIN",
-        "pts": 18,
-        "date": "2026-09-29",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Courtney Williams",
-          "TEAM_ABBREVIATION": "MIN",
-          "pts": 18,
-          "date": "2026-09-29"
-        },
-        {
-          "PLAYER_NAME": "Nia Brodie",
-          "TEAM_ABBREVIATION": "MIN",
-          "pts": 16,
-          "date": "2026-09-27"
-        }
-      ]
-    }
-  },
-  "NY": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Breanna Stewart",
-        "TEAM_ABBREVIATION": "NY",
-        "pts": 26,
+        "PLAYER_NAME": "A'ja Wilson",
+        "TEAM_ABBREVIATION": "LV",
+        "pts": 21,
         "date": "2026-10-09",
-        "streak": 2
+        "streak": 4
       },
       "history": [
         {
-          "PLAYER_NAME": "Breanna Stewart",
-          "TEAM_ABBREVIATION": "NY",
-          "pts": 26,
+          "PLAYER_NAME": "A'ja Wilson",
+          "TEAM_ABBREVIATION": "LV",
+          "pts": 21,
           "date": "2026-10-09"
         },
         {
-          "PLAYER_NAME": "Breanna Stewart",
-          "TEAM_ABBREVIATION": "NY",
-          "pts": 35,
+          "PLAYER_NAME": "A'ja Wilson",
+          "TEAM_ABBREVIATION": "LV",
+          "pts": 24,
           "date": "2026-10-07"
         },
         {
-          "PLAYER_NAME": "Sabrina Ionescu",
-          "TEAM_ABBREVIATION": "NY",
-          "pts": 27,
+          "PLAYER_NAME": "A'ja Wilson",
+          "TEAM_ABBREVIATION": "LV",
+          "pts": 24,
           "date": "2026-10-04"
         },
         {
-          "PLAYER_NAME": "Breanna Stewart",
-          "TEAM_ABBREVIATION": "NY",
-          "pts": 21,
+          "PLAYER_NAME": "A'ja Wilson",
+          "TEAM_ABBREVIATION": "LV",
+          "pts": 36,
+          "date": "2026-10-01"
+        },
+        {
+          "PLAYER_NAME": "Jackie Young",
+          "TEAM_ABBREVIATION": "LV",
+          "pts": 31,
           "date": "2026-09-29"
         },
         {
-          "PLAYER_NAME": "Breanna Stewart",
-          "TEAM_ABBREVIATION": "NY",
-          "pts": 34,
-          "date": "2026-09-27"
-        }
-      ]
-    }
-  },
-  "WSH": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Sonia Citron",
-        "TEAM_ABBREVIATION": "WSH",
-        "pts": 25,
-        "date": "2026-09-30",
-        "streak": 2
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Sonia Citron",
-          "TEAM_ABBREVIATION": "WSH",
-          "pts": 25,
-          "date": "2026-09-30"
-        },
-        {
-          "PLAYER_NAME": "Sonia Citron",
-          "TEAM_ABBREVIATION": "WSH",
-          "pts": 25,
+          "PLAYER_NAME": "A'ja Wilson",
+          "TEAM_ABBREVIATION": "LV",
+          "pts": 38,
           "date": "2026-09-27"
         }
       ]
@@ -407,57 +458,6 @@
           "PLAYER_NAME": "Aliyah Boston",
           "TEAM_ABBREVIATION": "IND",
           "pts": 18,
-          "date": "2026-09-27"
-        }
-      ]
-    }
-  },
-  "LV": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "A'ja Wilson",
-        "TEAM_ABBREVIATION": "LV",
-        "pts": 21,
-        "date": "2026-10-09",
-        "streak": 4
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "A'ja Wilson",
-          "TEAM_ABBREVIATION": "LV",
-          "pts": 21,
-          "date": "2026-10-09"
-        },
-        {
-          "PLAYER_NAME": "A'ja Wilson",
-          "TEAM_ABBREVIATION": "LV",
-          "pts": 24,
-          "date": "2026-10-07"
-        },
-        {
-          "PLAYER_NAME": "A'ja Wilson",
-          "TEAM_ABBREVIATION": "LV",
-          "pts": 24,
-          "date": "2026-10-04"
-        },
-        {
-          "PLAYER_NAME": "A'ja Wilson",
-          "TEAM_ABBREVIATION": "LV",
-          "pts": 36,
-          "date": "2026-10-01"
-        },
-        {
-          "PLAYER_NAME": "Jackie Young",
-          "TEAM_ABBREVIATION": "LV",
-          "pts": 31,
-          "date": "2026-09-29"
-        },
-        {
-          "PLAYER_NAME": "A'ja Wilson",
-          "TEAM_ABBREVIATION": "LV",
-          "pts": 38,
           "date": "2026-09-27"
         }
       ]

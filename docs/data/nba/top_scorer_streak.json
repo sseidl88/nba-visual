@@ -1,12 +1,18 @@
 {
   "current": {
-    "date": "2026-10-24",
-    "PLAYER_NAME": "Devin Booker",
-    "TEAM_ABBREVIATION": "PHX",
-    "pts": 43,
+    "date": "2026-10-25",
+    "PLAYER_NAME": "Luka Doncic",
+    "TEAM_ABBREVIATION": "LAL",
+    "pts": 52,
     "streak": 1
   },
   "history": [
+    {
+      "date": "2026-10-25",
+      "PLAYER_NAME": "Luka Doncic",
+      "TEAM_ABBREVIATION": "LAL",
+      "pts": 52
+    },
     {
       "date": "2026-10-24",
       "PLAYER_NAME": "Devin Booker",
@@ -60,12 +66,6 @@
       "PLAYER_NAME": "Austin Reaves",
       "TEAM_ABBREVIATION": "LAL",
       "pts": 28
-    },
-    {
-      "date": "2026-10-12",
-      "PLAYER_NAME": "Bennett Stirtz",
-      "TEAM_ABBREVIATION": "OKC",
-      "pts": 26
     }
   ]
 }

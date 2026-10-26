@@ -1,53 +1,47 @@
 {
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "games": [
     {
-      "home": "CHA",
-      "home_score": 115,
-      "away": "MIA",
-      "away_score": 110
+      "home": "UTAH",
+      "home_score": 123,
+      "away": "LAL",
+      "away_score": 132
     },
     {
-      "home": "CLE",
-      "home_score": 125,
-      "away": "BKN",
-      "away_score": 121
+      "home": "BKN",
+      "home_score": 109,
+      "away": "IND",
+      "away_score": 136
+    },
+    {
+      "home": "NY",
+      "home_score": 102,
+      "away": "ORL",
+      "away_score": 111
+    },
+    {
+      "home": "MIN",
+      "home_score": 117,
+      "away": "TOR",
+      "away_score": 94
+    },
+    {
+      "home": "OKC",
+      "home_score": 108,
+      "away": "LAC",
+      "away_score": 101
     },
     {
       "home": "PHI",
-      "home_score": 127,
-      "away": "MIL",
-      "away_score": 116
+      "home_score": 93,
+      "away": "DET",
+      "away_score": 106
     },
     {
-      "home": "CHI",
-      "home_score": 120,
-      "away": "WSH",
-      "away_score": 124
-    },
-    {
-      "home": "DAL",
-      "home_score": 106,
-      "away": "SA",
-      "away_score": 122
-    },
-    {
-      "home": "ATL",
-      "home_score": 114,
-      "away": "HOU",
-      "away_score": 121
-    },
-    {
-      "home": "DEN",
-      "home_score": 141,
-      "away": "NO",
-      "away_score": 135
-    },
-    {
-      "home": "PHX",
-      "home_score": 131,
-      "away": "GS",
-      "away_score": 122
+      "home": "SAC",
+      "home_score": 112,
+      "away": "MEM",
+      "away_score": 123
     }
   ]
 }
