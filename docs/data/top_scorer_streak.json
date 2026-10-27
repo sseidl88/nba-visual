@@ -1,12 +1,18 @@
 {
   "current": {
-    "date": "2026-10-24",
+    "date": "2026-10-26",
     "PLAYER_NAME": "Rhyne Howard",
     "TEAM_ABBREVIATION": "ATL",
-    "pts": 19,
-    "streak": 1
+    "pts": 20,
+    "streak": 2
   },
   "history": [
+    {
+      "date": "2026-10-26",
+      "PLAYER_NAME": "Rhyne Howard",
+      "TEAM_ABBREVIATION": "ATL",
+      "pts": 20
+    },
     {
       "date": "2026-10-24",
       "PLAYER_NAME": "Rhyne Howard",
@@ -60,12 +66,6 @@
       "PLAYER_NAME": "A'ja Wilson",
       "TEAM_ABBREVIATION": "LV",
       "pts": 36
-    },
-    {
-      "date": "2026-09-30",
-      "PLAYER_NAME": "Arike Ogunbowale",
-      "TEAM_ABBREVIATION": "DAL",
-      "pts": 45
     }
   ]
 }
