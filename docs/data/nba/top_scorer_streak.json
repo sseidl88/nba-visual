@@ -1,12 +1,18 @@
 {
   "current": {
-    "date": "2026-10-26",
-    "PLAYER_NAME": "Anthony Edwards",
-    "TEAM_ABBREVIATION": "MIN",
-    "pts": 47,
+    "date": "2026-10-27",
+    "PLAYER_NAME": "Luka Doncic",
+    "TEAM_ABBREVIATION": "LAL",
+    "pts": 41,
     "streak": 1
   },
   "history": [
+    {
+      "date": "2026-10-27",
+      "PLAYER_NAME": "Luka Doncic",
+      "TEAM_ABBREVIATION": "LAL",
+      "pts": 41
+    },
     {
       "date": "2026-10-26",
       "PLAYER_NAME": "Anthony Edwards",
@@ -60,12 +66,6 @@
       "PLAYER_NAME": "Scottie Barnes",
       "TEAM_ABBREVIATION": "TOR",
       "pts": 23
-    },
-    {
-      "date": "2026-10-14",
-      "PLAYER_NAME": "Michael Porter Jr.",
-      "TEAM_ABBREVIATION": "BKN",
-      "pts": 27
     }
   ]
 }
