@@ -1,1 +1,44 @@
-{}
+{
+  "ND": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Hannah Hidalgo",
+        "TEAM_ABBREVIATION": "ND",
+        "pts": 32,
+        "date": "2026-11-01",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Hannah Hidalgo",
+          "TEAM_ABBREVIATION": "ND",
+          "pts": 32,
+          "date": "2026-11-01"
+        }
+      ]
+    }
+  },
+  "VILL": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Jasmine Bascoe",
+        "TEAM_ABBREVIATION": "VILL",
+        "pts": 26,
+        "date": "2026-11-01",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Jasmine Bascoe",
+          "TEAM_ABBREVIATION": "VILL",
+          "pts": 26,
+          "date": "2026-11-01"
+        }
+      ]
+    }
+  }
+}

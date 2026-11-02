@@ -23,11 +23,11 @@
     "team": "BOS",
     "name": "Boston Celtics",
     "conference": "Eastern Conference",
-    "wins": 4,
+    "wins": 5,
     "losses": 1,
-    "pct": 0.8,
-    "gb": "1",
-    "streak": "W4"
+    "pct": 0.833,
+    "gb": "0.5",
+    "streak": "W5"
   },
   {
     "team": "CLE",
@@ -44,10 +44,10 @@
     "name": "Toronto Raptors",
     "conference": "Eastern Conference",
     "wins": 3,
-    "losses": 2,
-    "pct": 0.6,
-    "gb": "2",
-    "streak": "L1"
+    "losses": 3,
+    "pct": 0.5,
+    "gb": "2.5",
+    "streak": "L2"
   },
   {
     "team": "WSH",
@@ -84,10 +84,10 @@
     "name": "Orlando Magic",
     "conference": "Eastern Conference",
     "wins": 2,
-    "losses": 3,
-    "pct": 0.4,
-    "gb": "3",
-    "streak": "W1"
+    "losses": 4,
+    "pct": 0.333,
+    "gb": "3.5",
+    "streak": "L1"
   },
   {
     "team": "MIA",
@@ -114,10 +114,10 @@
     "name": "Indiana Pacers",
     "conference": "Eastern Conference",
     "wins": 2,
-    "losses": 4,
-    "pct": 0.333,
-    "gb": "3.5",
-    "streak": "L3"
+    "losses": 5,
+    "pct": 0.286,
+    "gb": "4",
+    "streak": "L4"
   },
   {
     "team": "CHI",
@@ -143,11 +143,11 @@
     "team": "BKN",
     "name": "Brooklyn Nets",
     "conference": "Eastern Conference",
-    "wins": 0,
+    "wins": 1,
     "losses": 5,
-    "pct": 0.0,
-    "gb": "5",
-    "streak": "L5"
+    "pct": 0.167,
+    "gb": "4.5",
+    "streak": "W1"
   },
   {
     "team": "MEM",
@@ -170,6 +170,16 @@
     "streak": "W1"
   },
   {
+    "team": "LAL",
+    "name": "Los Angeles Lakers",
+    "conference": "Western Conference",
+    "wins": 5,
+    "losses": 2,
+    "pct": 0.714,
+    "gb": "1.5",
+    "streak": "W1"
+  },
+  {
     "team": "POR",
     "name": "Portland Trail Blazers",
     "conference": "Western Conference",
@@ -178,16 +188,6 @@
     "pct": 0.8,
     "gb": "1.5",
     "streak": "W1"
-  },
-  {
-    "team": "LAL",
-    "name": "Los Angeles Lakers",
-    "conference": "Western Conference",
-    "wins": 4,
-    "losses": 2,
-    "pct": 0.667,
-    "gb": "2",
-    "streak": "L1"
   },
   {
     "team": "OKC",
@@ -220,6 +220,16 @@
     "streak": "W3"
   },
   {
+    "team": "GS",
+    "name": "Golden State Warriors",
+    "conference": "Western Conference",
+    "wins": 4,
+    "losses": 3,
+    "pct": 0.571,
+    "gb": "2.5",
+    "streak": "W4"
+  },
+  {
     "team": "MIN",
     "name": "Minnesota Timberwolves",
     "conference": "Western Conference",
@@ -238,16 +248,6 @@
     "pct": 0.6,
     "gb": "2.5",
     "streak": "W2"
-  },
-  {
-    "team": "GS",
-    "name": "Golden State Warriors",
-    "conference": "Western Conference",
-    "wins": 3,
-    "losses": 3,
-    "pct": 0.5,
-    "gb": "3",
-    "streak": "W3"
   },
   {
     "team": "NO",
@@ -274,10 +274,10 @@
     "name": "LA Clippers",
     "conference": "Western Conference",
     "wins": 1,
-    "losses": 4,
-    "pct": 0.2,
-    "gb": "4.5",
-    "streak": "L4"
+    "losses": 5,
+    "pct": 0.167,
+    "gb": "5",
+    "streak": "L5"
   },
   {
     "team": "UTAH",

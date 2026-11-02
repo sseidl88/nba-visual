@@ -1,1 +1,86 @@
-{}
+{
+  "ND": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Brady Koehler",
+        "TEAM_ABBREVIATION": "ND",
+        "pts": 16,
+        "date": "2026-11-01",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Brady Koehler",
+          "TEAM_ABBREVIATION": "ND",
+          "pts": 16,
+          "date": "2026-11-01"
+        }
+      ]
+    }
+  },
+  "VILL": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Tyler Perkins",
+        "TEAM_ABBREVIATION": "VILL",
+        "pts": 18,
+        "date": "2026-11-01",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Tyler Perkins",
+          "TEAM_ABBREVIATION": "VILL",
+          "pts": 18,
+          "date": "2026-11-01"
+        }
+      ]
+    }
+  },
+  "HPU": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Curtis Williams Jr.",
+        "TEAM_ABBREVIATION": "HPU",
+        "pts": 12,
+        "date": "2026-11-01",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Curtis Williams Jr.",
+          "TEAM_ABBREVIATION": "HPU",
+          "pts": 12,
+          "date": "2026-11-01"
+        }
+      ]
+    }
+  },
+  "LIB": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Zander Carter",
+        "TEAM_ABBREVIATION": "LIB",
+        "pts": 21,
+        "date": "2026-11-01",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Zander Carter",
+          "TEAM_ABBREVIATION": "LIB",
+          "pts": 21,
+          "date": "2026-11-01"
+        }
+      ]
+    }
+  }
+}

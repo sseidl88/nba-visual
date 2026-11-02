@@ -360,6 +360,16 @@
     "streak": "-"
   },
   {
+    "team": "ND",
+    "name": "Notre Dame Fighting Irish",
+    "conference": "Atlantic Coast Conference",
+    "wins": 0,
+    "losses": 0,
+    "pct": 0.0,
+    "gb": "-",
+    "streak": "-"
+  },
+  {
     "team": "BC",
     "name": "Boston College Eagles",
     "conference": "Atlantic Coast Conference",
@@ -460,16 +470,6 @@
     "streak": "-"
   },
   {
-    "team": "ND",
-    "name": "Notre Dame Fighting Irish",
-    "conference": "Atlantic Coast Conference",
-    "wins": 0,
-    "losses": 0,
-    "pct": 0.0,
-    "gb": "-",
-    "streak": "-"
-  },
-  {
     "team": "PITT",
     "name": "Pittsburgh Panthers",
     "conference": "Atlantic Coast Conference",
@@ -540,6 +540,16 @@
     "streak": "-"
   },
   {
+    "team": "QUC",
+    "name": "Queens University Royals",
+    "conference": "Atlantic Sun Conference",
+    "wins": 0,
+    "losses": 0,
+    "pct": 0.0,
+    "gb": "-",
+    "streak": "-"
+  },
+  {
     "team": "BELL",
     "name": "Bellarmine Knights",
     "conference": "Atlantic Sun Conference",
@@ -582,16 +592,6 @@
   {
     "team": "UNF",
     "name": "North Florida Ospreys",
-    "conference": "Atlantic Sun Conference",
-    "wins": 0,
-    "losses": 0,
-    "pct": 0.0,
-    "gb": "-",
-    "streak": "-"
-  },
-  {
-    "team": "QUC",
-    "name": "Queens University Royals",
     "conference": "Atlantic Sun Conference",
     "wins": 0,
     "losses": 0,
@@ -870,8 +870,8 @@
     "streak": "-"
   },
   {
-    "team": "VILL",
-    "name": "Villanova Wildcats",
+    "team": "XAV",
+    "name": "Xavier Musketeers",
     "conference": "Big East Conference",
     "wins": 0,
     "losses": 0,
@@ -880,8 +880,8 @@
     "streak": "-"
   },
   {
-    "team": "XAV",
-    "name": "Xavier Musketeers",
+    "team": "VILL",
+    "name": "Villanova Wildcats",
     "conference": "Big East Conference",
     "wins": 0,
     "losses": 0,
@@ -1000,6 +1000,16 @@
     "streak": "-"
   },
   {
+    "team": "HPU",
+    "name": "High Point Panthers",
+    "conference": "Big South Conference",
+    "wins": 0,
+    "losses": 0,
+    "pct": 0.0,
+    "gb": "-",
+    "streak": "-"
+  },
+  {
     "team": "CHSO",
     "name": "Charleston Southern Buccaneers",
     "conference": "Big South Conference",
@@ -1010,8 +1020,8 @@
     "streak": "-"
   },
   {
-    "team": "GWEB",
-    "name": "Gardner-Webb Runnin' Bulldogs",
+    "team": "WIN",
+    "name": "Winthrop Eagles",
     "conference": "Big South Conference",
     "wins": 0,
     "losses": 0,
@@ -1020,8 +1030,8 @@
     "streak": "-"
   },
   {
-    "team": "HPU",
-    "name": "High Point Panthers",
+    "team": "GWEB",
+    "name": "Gardner-Webb Runnin' Bulldogs",
     "conference": "Big South Conference",
     "wins": 0,
     "losses": 0,
@@ -1072,16 +1082,6 @@
   {
     "team": "UNCA",
     "name": "UNC Asheville Bulldogs",
-    "conference": "Big South Conference",
-    "wins": 0,
-    "losses": 0,
-    "pct": 0.0,
-    "gb": "-",
-    "streak": "-"
-  },
-  {
-    "team": "WIN",
-    "name": "Winthrop Eagles",
     "conference": "Big South Conference",
     "wins": 0,
     "losses": 0,
@@ -1390,6 +1390,16 @@
     "streak": "-"
   },
   {
+    "team": "HOF",
+    "name": "Hofstra Pride",
+    "conference": "Coastal Athletic Association",
+    "wins": 0,
+    "losses": 0,
+    "pct": 0.0,
+    "gb": "-",
+    "streak": "-"
+  },
+  {
     "team": "CAM",
     "name": "Campbell Fighting Camels",
     "conference": "Coastal Athletic Association",
@@ -1432,16 +1442,6 @@
   {
     "team": "HAMP",
     "name": "Hampton Pirates",
-    "conference": "Coastal Athletic Association",
-    "wins": 0,
-    "losses": 0,
-    "pct": 0.0,
-    "gb": "-",
-    "streak": "-"
-  },
-  {
-    "team": "HOF",
-    "name": "Hofstra Pride",
     "conference": "Coastal Athletic Association",
     "wins": 0,
     "losses": 0,
@@ -1520,8 +1520,28 @@
     "streak": "-"
   },
   {
+    "team": "MTSU",
+    "name": "Middle Tennessee Blue Raiders",
+    "conference": "Conference USA",
+    "wins": 0,
+    "losses": 0,
+    "pct": 0.0,
+    "gb": "-",
+    "streak": "-"
+  },
+  {
     "team": "DEL",
     "name": "Delaware Blue Hens",
+    "conference": "Conference USA",
+    "wins": 0,
+    "losses": 0,
+    "pct": 0.0,
+    "gb": "-",
+    "streak": "-"
+  },
+  {
+    "team": "LIB",
+    "name": "Liberty Flames",
     "conference": "Conference USA",
     "wins": 0,
     "losses": 0,
@@ -1552,26 +1572,6 @@
   {
     "team": "KENN",
     "name": "Kennesaw State Owls",
-    "conference": "Conference USA",
-    "wins": 0,
-    "losses": 0,
-    "pct": 0.0,
-    "gb": "-",
-    "streak": "-"
-  },
-  {
-    "team": "LIB",
-    "name": "Liberty Flames",
-    "conference": "Conference USA",
-    "wins": 0,
-    "losses": 0,
-    "pct": 0.0,
-    "gb": "-",
-    "streak": "-"
-  },
-  {
-    "team": "MTSU",
-    "name": "Middle Tennessee Blue Raiders",
     "conference": "Conference USA",
     "wins": 0,
     "losses": 0,
@@ -1620,8 +1620,28 @@
     "streak": "-"
   },
   {
+    "team": "IUIN",
+    "name": "IU Indianapolis Jaguars",
+    "conference": "Horizon League",
+    "wins": 0,
+    "losses": 0,
+    "pct": 0.0,
+    "gb": "-",
+    "streak": "-"
+  },
+  {
     "team": "CLE",
     "name": "Cleveland State Vikings",
+    "conference": "Horizon League",
+    "wins": 0,
+    "losses": 0,
+    "pct": 0.0,
+    "gb": "-",
+    "streak": "-"
+  },
+  {
+    "team": "NIU",
+    "name": "Northern Illinois Huskies",
     "conference": "Horizon League",
     "wins": 0,
     "losses": 0,
@@ -1650,28 +1670,8 @@
     "streak": "-"
   },
   {
-    "team": "IUIN",
-    "name": "IU Indianapolis Jaguars",
-    "conference": "Horizon League",
-    "wins": 0,
-    "losses": 0,
-    "pct": 0.0,
-    "gb": "-",
-    "streak": "-"
-  },
-  {
     "team": "MILW",
     "name": "Milwaukee Panthers",
-    "conference": "Horizon League",
-    "wins": 0,
-    "losses": 0,
-    "pct": 0.0,
-    "gb": "-",
-    "streak": "-"
-  },
-  {
-    "team": "NIU",
-    "name": "Northern Illinois Huskies",
     "conference": "Horizon League",
     "wins": 0,
     "losses": 0,
@@ -1870,16 +1870,6 @@
     "streak": "-"
   },
   {
-    "team": "MRMK",
-    "name": "Merrimack Warriors",
-    "conference": "Metro Conference",
-    "wins": 0,
-    "losses": 0,
-    "pct": 0.0,
-    "gb": "-",
-    "streak": "-"
-  },
-  {
     "team": "MSM",
     "name": "Mount St. Mary's Mountaineers",
     "conference": "Metro Conference",
@@ -1942,6 +1932,16 @@
   {
     "team": "SIE",
     "name": "Siena Saints",
+    "conference": "Metro Conference",
+    "wins": 0,
+    "losses": 0,
+    "pct": 0.0,
+    "gb": "-",
+    "streak": "-"
+  },
+  {
+    "team": "MRMK",
+    "name": "Merrimack Warriors",
     "conference": "Metro Conference",
     "wins": 0,
     "losses": 0,
@@ -2070,6 +2070,16 @@
     "streak": "-"
   },
   {
+    "team": "SCST",
+    "name": "South Carolina State Bulldogs",
+    "conference": "Mid-Eastern Athletic Conference",
+    "wins": 0,
+    "losses": 0,
+    "pct": 0.0,
+    "gb": "-",
+    "streak": "-"
+  },
+  {
     "team": "COPP",
     "name": "Coppin State Eagles",
     "conference": "Mid-Eastern Athletic Conference",
@@ -2140,9 +2150,9 @@
     "streak": "-"
   },
   {
-    "team": "SCST",
-    "name": "South Carolina State Bulldogs",
-    "conference": "Mid-Eastern Athletic Conference",
+    "team": "MUR",
+    "name": "Murray State Racers",
+    "conference": "Missouri Valley Conference",
     "wins": 0,
     "losses": 0,
     "pct": 0.0,
@@ -2202,16 +2212,6 @@
   {
     "team": "INST",
     "name": "Indiana State Sycamores",
-    "conference": "Missouri Valley Conference",
-    "wins": 0,
-    "losses": 0,
-    "pct": 0.0,
-    "gb": "-",
-    "streak": "-"
-  },
-  {
-    "team": "MUR",
-    "name": "Murray State Racers",
     "conference": "Missouri Valley Conference",
     "wins": 0,
     "losses": 0,
@@ -2510,16 +2510,6 @@
     "streak": "-"
   },
   {
-    "team": "TNST",
-    "name": "Tennessee State Tigers",
-    "conference": "Ohio Valley Conference",
-    "wins": 0,
-    "losses": 0,
-    "pct": 0.0,
-    "gb": "-",
-    "streak": "-"
-  },
-  {
     "team": "UTM",
     "name": "UT Martin Skyhawks",
     "conference": "Ohio Valley Conference",
@@ -2532,6 +2522,16 @@
   {
     "team": "WIU",
     "name": "Western Illinois Leathernecks",
+    "conference": "Ohio Valley Conference",
+    "wins": 0,
+    "losses": 0,
+    "pct": 0.0,
+    "gb": "-",
+    "streak": "-"
+  },
+  {
+    "team": "TNST",
+    "name": "Tennessee State Tigers",
     "conference": "Ohio Valley Conference",
     "wins": 0,
     "losses": 0,
@@ -2890,6 +2890,16 @@
     "streak": "-"
   },
   {
+    "team": "MER",
+    "name": "Mercer Bears",
+    "conference": "Southern Conference",
+    "wins": 0,
+    "losses": 0,
+    "pct": 0.0,
+    "gb": "-",
+    "streak": "-"
+  },
+  {
     "team": "UTC",
     "name": "Chattanooga Mocs",
     "conference": "Southern Conference",
@@ -2912,16 +2922,6 @@
   {
     "team": "FUR",
     "name": "Furman Paladins",
-    "conference": "Southern Conference",
-    "wins": 0,
-    "losses": 0,
-    "pct": 0.0,
-    "gb": "-",
-    "streak": "-"
-  },
-  {
-    "team": "MER",
-    "name": "Mercer Bears",
     "conference": "Southern Conference",
     "wins": 0,
     "losses": 0,
@@ -3000,6 +3000,16 @@
     "streak": "-"
   },
   {
+    "team": "NICH",
+    "name": "Nicholls Colonels",
+    "conference": "Southland Conference",
+    "wins": 0,
+    "losses": 0,
+    "pct": 0.0,
+    "gb": "-",
+    "streak": "-"
+  },
+  {
     "team": "ETAM",
     "name": "East Texas A&M Lions",
     "conference": "Southland Conference",
@@ -3030,16 +3040,6 @@
     "streak": "-"
   },
   {
-    "team": "LAM",
-    "name": "Lamar Cardinals",
-    "conference": "Southland Conference",
-    "wins": 0,
-    "losses": 0,
-    "pct": 0.0,
-    "gb": "-",
-    "streak": "-"
-  },
-  {
     "team": "NOLA",
     "name": "LSU New Orleans Privateers",
     "conference": "Southland Conference",
@@ -3050,8 +3050,8 @@
     "streak": "-"
   },
   {
-    "team": "MCN",
-    "name": "McNeese Cowboys",
+    "team": "LAM",
+    "name": "Lamar Cardinals",
     "conference": "Southland Conference",
     "wins": 0,
     "losses": 0,
@@ -3060,8 +3060,8 @@
     "streak": "-"
   },
   {
-    "team": "NICH",
-    "name": "Nicholls Colonels",
+    "team": "MCN",
+    "name": "McNeese Cowboys",
     "conference": "Southland Conference",
     "wins": 0,
     "losses": 0,
@@ -3113,6 +3113,16 @@
     "team": "RGV",
     "name": "UT Rio Grande Valley Vaqueros",
     "conference": "Southland Conference",
+    "wins": 0,
+    "losses": 0,
+    "pct": 0.0,
+    "gb": "-",
+    "streak": "-"
+  },
+  {
+    "team": "GRAM",
+    "name": "Grambling Tigers",
+    "conference": "Southwestern Athletic Conference",
     "wins": 0,
     "losses": 0,
     "pct": 0.0,
@@ -3172,16 +3182,6 @@
   {
     "team": "FAMU",
     "name": "Florida A&M Rattlers",
-    "conference": "Southwestern Athletic Conference",
-    "wins": 0,
-    "losses": 0,
-    "pct": 0.0,
-    "gb": "-",
-    "streak": "-"
-  },
-  {
-    "team": "GRAM",
-    "name": "Grambling Tigers",
     "conference": "Southwestern Athletic Conference",
     "wins": 0,
     "losses": 0,
