@@ -1,4 +1,88 @@
 {
+  "LIP": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "McKayla Miller",
+        "TEAM_ABBREVIATION": "LIP",
+        "pts": 16,
+        "date": "2026-11-02",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "McKayla Miller",
+          "TEAM_ABBREVIATION": "LIP",
+          "pts": 16,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "UCLA": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Sienna Betts",
+        "TEAM_ABBREVIATION": "UCLA",
+        "pts": 15,
+        "date": "2026-11-02",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Sienna Betts",
+          "TEAM_ABBREVIATION": "UCLA",
+          "pts": 15,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "NCSU": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Zoe Brooks",
+        "TEAM_ABBREVIATION": "NCSU",
+        "pts": 23,
+        "date": "2026-11-02",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Zoe Brooks",
+          "TEAM_ABBREVIATION": "NCSU",
+          "pts": 23,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "CONN": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Sarah Strong",
+        "TEAM_ABBREVIATION": "CONN",
+        "pts": 19,
+        "date": "2026-11-02",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Sarah Strong",
+          "TEAM_ABBREVIATION": "CONN",
+          "pts": 19,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
   "ND": {
     "trending_up": {},
     "trending_down": {},
@@ -37,6 +121,594 @@
           "TEAM_ABBREVIATION": "VILL",
           "pts": 26,
           "date": "2026-11-01"
+        }
+      ]
+    }
+  },
+  "UNLV": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Maia Rosarion",
+        "TEAM_ABBREVIATION": "UNLV",
+        "pts": 12,
+        "date": "2026-11-02",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Maia Rosarion",
+          "TEAM_ABBREVIATION": "UNLV",
+          "pts": 12,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "MD": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Addi Mack",
+        "TEAM_ABBREVIATION": "MD",
+        "pts": 35,
+        "date": "2026-11-02",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Addi Mack",
+          "TEAM_ABBREVIATION": "MD",
+          "pts": 35,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "UNC": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Kate Harpring",
+        "TEAM_ABBREVIATION": "UNC",
+        "pts": 21,
+        "date": "2026-11-02",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Kate Harpring",
+          "TEAM_ABBREVIATION": "UNC",
+          "pts": 21,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "LOU": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Tajianna Roberts",
+        "TEAM_ABBREVIATION": "LOU",
+        "pts": 15,
+        "date": "2026-11-02",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Tajianna Roberts",
+          "TEAM_ABBREVIATION": "LOU",
+          "pts": 15,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "TOW": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Eva Wilkerson",
+        "TEAM_ABBREVIATION": "TOW",
+        "pts": 15,
+        "date": "2026-11-02",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Eva Wilkerson",
+          "TEAM_ABBREVIATION": "TOW",
+          "pts": 15,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "MINN": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Gracie Merkle",
+        "TEAM_ABBREVIATION": "MINN",
+        "pts": 22,
+        "date": "2026-11-02",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Gracie Merkle",
+          "TEAM_ABBREVIATION": "MINN",
+          "pts": 22,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "MISS": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Jaida Civil",
+        "TEAM_ABBREVIATION": "MISS",
+        "pts": 17,
+        "date": "2026-11-02",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Jaida Civil",
+          "TEAM_ABBREVIATION": "MISS",
+          "pts": 17,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "COR": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Rachel Kaus",
+        "TEAM_ABBREVIATION": "COR",
+        "pts": 8,
+        "date": "2026-11-02",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Rachel Kaus",
+          "TEAM_ABBREVIATION": "COR",
+          "pts": 8,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "MORE": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Kensley Feltner",
+        "TEAM_ABBREVIATION": "MORE",
+        "pts": 16,
+        "date": "2026-11-02",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Kensley Feltner",
+          "TEAM_ABBREVIATION": "MORE",
+          "pts": 16,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "ALCN": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Jae'la Smith",
+        "TEAM_ABBREVIATION": "ALCN",
+        "pts": 8,
+        "date": "2026-11-02",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Jae'la Smith",
+          "TEAM_ABBREVIATION": "ALCN",
+          "pts": 8,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "IOWA": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Dani Carnegie",
+        "TEAM_ABBREVIATION": "IOWA",
+        "pts": 21,
+        "date": "2026-11-02",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Dani Carnegie",
+          "TEAM_ABBREVIATION": "IOWA",
+          "pts": 21,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "USC": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Jazzy Davidson",
+        "TEAM_ABBREVIATION": "USC",
+        "pts": 23,
+        "date": "2026-11-02",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Jazzy Davidson",
+          "TEAM_ABBREVIATION": "USC",
+          "pts": 23,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "UCSD": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Coryn Watts",
+        "TEAM_ABBREVIATION": "UCSD",
+        "pts": 15,
+        "date": "2026-11-02",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Coryn Watts",
+          "TEAM_ABBREVIATION": "UCSD",
+          "pts": 15,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "SOU": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Zaria Hurston",
+        "TEAM_ABBREVIATION": "SOU",
+        "pts": 10,
+        "date": "2026-11-02",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Zaria Hurston",
+          "TEAM_ABBREVIATION": "SOU",
+          "pts": 10,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "VAN": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Mikayla Blakes",
+        "TEAM_ABBREVIATION": "VAN",
+        "pts": 27,
+        "date": "2026-11-02",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Mikayla Blakes",
+          "TEAM_ABBREVIATION": "VAN",
+          "pts": 27,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "SELA": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Natalie Huff",
+        "TEAM_ABBREVIATION": "SELA",
+        "pts": 12,
+        "date": "2026-11-02",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Natalie Huff",
+          "TEAM_ABBREVIATION": "SELA",
+          "pts": 12,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "HARV": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Sam Wills",
+        "TEAM_ABBREVIATION": "HARV",
+        "pts": 20,
+        "date": "2026-11-02",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Sam Wills",
+          "TEAM_ABBREVIATION": "HARV",
+          "pts": 20,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "UK": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Clara Strack",
+        "TEAM_ABBREVIATION": "UK",
+        "pts": 17,
+        "date": "2026-11-02",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Clara Strack",
+          "TEAM_ABBREVIATION": "UK",
+          "pts": 17,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "OSU": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Jaloni Cambridge",
+        "TEAM_ABBREVIATION": "OSU",
+        "pts": 22,
+        "date": "2026-11-02",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Jaloni Cambridge",
+          "TEAM_ABBREVIATION": "OSU",
+          "pts": 22,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "WOF": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Gabby Mundy",
+        "TEAM_ABBREVIATION": "WOF",
+        "pts": 22,
+        "date": "2026-11-02",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Gabby Mundy",
+          "TEAM_ABBREVIATION": "WOF",
+          "pts": 22,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "OU": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "LeeLee Bell",
+        "TEAM_ABBREVIATION": "OU",
+        "pts": 25,
+        "date": "2026-11-02",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "LeeLee Bell",
+          "TEAM_ABBREVIATION": "OU",
+          "pts": 25,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "LEH": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Leia Edwards",
+        "TEAM_ABBREVIATION": "LEH",
+        "pts": 14,
+        "date": "2026-11-02",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Leia Edwards",
+          "TEAM_ABBREVIATION": "LEH",
+          "pts": 14,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "WASH": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Sayvia Sellers",
+        "TEAM_ABBREVIATION": "WASH",
+        "pts": 25,
+        "date": "2026-11-02",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Sayvia Sellers",
+          "TEAM_ABBREVIATION": "WASH",
+          "pts": 25,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "SC": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Joyce Edwards",
+        "TEAM_ABBREVIATION": "SC",
+        "pts": 23,
+        "date": "2026-11-02",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Joyce Edwards",
+          "TEAM_ABBREVIATION": "SC",
+          "pts": 23,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "UIC": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Julia Coleman",
+        "TEAM_ABBREVIATION": "UIC",
+        "pts": 10,
+        "date": "2026-11-02",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Julia Coleman",
+          "TEAM_ABBREVIATION": "UIC",
+          "pts": 10,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "BELL": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Hana Abdel Aal",
+        "TEAM_ABBREVIATION": "BELL",
+        "pts": 9,
+        "date": "2026-11-02",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Hana Abdel Aal",
+          "TEAM_ABBREVIATION": "BELL",
+          "pts": 9,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "OKST": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Audi Crooks",
+        "TEAM_ABBREVIATION": "OKST",
+        "pts": 22,
+        "date": "2026-11-02",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Audi Crooks",
+          "TEAM_ABBREVIATION": "OKST",
+          "pts": 22,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "LSU": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "ZaKiyah Johnson",
+        "TEAM_ABBREVIATION": "LSU",
+        "pts": 33,
+        "date": "2026-11-02",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "ZaKiyah Johnson",
+          "TEAM_ABBREVIATION": "LSU",
+          "pts": 33,
+          "date": "2026-11-02"
         }
       ]
     }
