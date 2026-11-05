@@ -1,23 +1,35 @@
 {
-  "date": "2026-11-03",
+  "date": "2026-11-04",
   "games": [
     {
-      "home": "DUKE",
-      "home_score": 76,
-      "away": "GB",
-      "away_score": 60
+      "home": "TEX",
+      "home_score": 85,
+      "away": "FDU",
+      "away_score": 65
     },
     {
-      "home": "TCU",
-      "home_score": 99,
-      "away": "ORU",
-      "away_score": 43
+      "home": "LOU",
+      "home_score": 87,
+      "away": "STET",
+      "away_score": 35
     },
     {
-      "home": "WVU",
-      "home_score": 68,
-      "away": "URI",
-      "away_score": 64
+      "home": "VAN",
+      "home_score": 100,
+      "away": "QUC",
+      "away_score": 42
+    },
+    {
+      "home": "ILL",
+      "home_score": 84,
+      "away": "DETM",
+      "away_score": 50
+    },
+    {
+      "home": "NCSU",
+      "home_score": 80,
+      "away": "CAM",
+      "away_score": 45
     }
   ]
 }

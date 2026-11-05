@@ -3,34 +3,23 @@
     "PLAYER_NAME": "Isobel Borlase",
     "TEAM_ABBREVIATION": "ATL",
     "id": "5208983",
-    "PPG": 7.6,
-    "APG": 0.6,
-    "RPG": 2.8,
-    "BPG": 0.4,
-    "FG_PCT": 40.0,
-    "TS_PCT": 53.2
-  },
-  {
-    "PLAYER_NAME": "Aminata Gueye",
-    "TEAM_ABBREVIATION": "GS",
-    "id": "5447776",
-    "PPG": 1.2,
-    "APG": 0.0,
-    "RPG": 0.6,
+    "PPG": 6.5,
+    "APG": 0.2,
+    "RPG": 2.2,
     "BPG": 0.2,
-    "FG_PCT": 20.0,
-    "TS_PCT": 44.4
+    "FG_PCT": 35.0,
+    "TS_PCT": 52.3
   },
   {
     "PLAYER_NAME": "Madina Okot",
     "TEAM_ABBREVIATION": "ATL",
     "id": "5108587",
-    "PPG": 0.6,
-    "APG": 0.2,
+    "PPG": 0.0,
+    "APG": 0.0,
     "RPG": 0.0,
-    "BPG": 0.2,
-    "FG_PCT": 100.0,
-    "TS_PCT": 104.2
+    "BPG": 0.0,
+    "FG_PCT": 0,
+    "TS_PCT": 0
   },
   {
     "PLAYER_NAME": "Indya Nivar",
@@ -66,6 +55,17 @@
     "TS_PCT": 0
   },
   {
+    "PLAYER_NAME": "Aminata Gueye",
+    "TEAM_ABBREVIATION": "GS",
+    "id": "5447776",
+    "PPG": 0.0,
+    "APG": 0.0,
+    "RPG": 0.0,
+    "BPG": 0.0,
+    "FG_PCT": 0,
+    "TS_PCT": 0
+  },
+  {
     "PLAYER_NAME": "Miela Sowah",
     "TEAM_ABBREVIATION": "GS",
     "id": "4398577",
@@ -81,7 +81,7 @@
     "TEAM_ABBREVIATION": "GS",
     "id": "5277552",
     "PPG": 0.0,
-    "APG": 0.2,
+    "APG": 0.0,
     "RPG": 0.0,
     "BPG": 0.0,
     "FG_PCT": 0,
