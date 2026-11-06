@@ -80,16 +80,6 @@
     "streak": "L1"
   },
   {
-    "team": "MIA",
-    "name": "Miami Heat",
-    "conference": "Eastern Conference",
-    "wins": 3,
-    "losses": 5,
-    "pct": 0.375,
-    "gb": "4.5",
-    "streak": "W1"
-  },
-  {
     "team": "CHA",
     "name": "Charlotte Hornets",
     "conference": "Eastern Conference",
@@ -98,6 +88,16 @@
     "pct": 0.333,
     "gb": "5",
     "streak": "L5"
+  },
+  {
+    "team": "MIA",
+    "name": "Miami Heat",
+    "conference": "Eastern Conference",
+    "wins": 3,
+    "losses": 6,
+    "pct": 0.333,
+    "gb": "5",
+    "streak": "L1"
   },
   {
     "team": "IND",
@@ -114,10 +114,10 @@
     "name": "Orlando Magic",
     "conference": "Eastern Conference",
     "wins": 2,
-    "losses": 5,
-    "pct": 0.286,
-    "gb": "5",
-    "streak": "L2"
+    "losses": 6,
+    "pct": 0.25,
+    "gb": "5.5",
+    "streak": "L3"
   },
   {
     "team": "BKN",
@@ -210,6 +210,16 @@
     "streak": "L2"
   },
   {
+    "team": "GS",
+    "name": "Golden State Warriors",
+    "conference": "Western Conference",
+    "wins": 6,
+    "losses": 3,
+    "pct": 0.667,
+    "gb": "1",
+    "streak": "W6"
+  },
+  {
     "team": "MIN",
     "name": "Minnesota Timberwolves",
     "conference": "Western Conference",
@@ -218,16 +228,6 @@
     "pct": 0.667,
     "gb": "1",
     "streak": "W2"
-  },
-  {
-    "team": "GS",
-    "name": "Golden State Warriors",
-    "conference": "Western Conference",
-    "wins": 5,
-    "losses": 3,
-    "pct": 0.625,
-    "gb": "1.5",
-    "streak": "W5"
   },
   {
     "team": "DEN",
@@ -263,11 +263,11 @@
     "team": "PHX",
     "name": "Phoenix Suns",
     "conference": "Western Conference",
-    "wins": 1,
+    "wins": 2,
     "losses": 5,
-    "pct": 0.167,
-    "gb": "4.5",
-    "streak": "L4"
+    "pct": 0.286,
+    "gb": "4",
+    "streak": "W1"
   },
   {
     "team": "LAC",

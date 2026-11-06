@@ -1,26 +1,120 @@
 {
-  "LV": {
-    "trending_up": {},
-    "trending_down": {},
+  "GS": {
+    "trending_up": {
+      "PLAYER_NAME": "Gabby Williams",
+      "TEAM_ABBREVIATION": "GS",
+      "id": "3142328",
+      "recent_games": 1,
+      "recent": {
+        "PPG": 30.0,
+        "APG": 2.0,
+        "RPG": 3.0,
+        "BPG": 4.0,
+        "FG_PCT": 43.5
+      },
+      "avg": {
+        "PPG": 19.2,
+        "APG": 2.8,
+        "RPG": 3.3,
+        "BPG": 0.6,
+        "FG_PCT": 33.9
+      },
+      "delta": {
+        "PPG": 10.8,
+        "APG": -0.8,
+        "RPG": -0.3,
+        "BPG": 3.4,
+        "FG_PCT": 9.6
+      }
+    },
+    "trending_down": {
+      "PLAYER_NAME": "Laeticia Amihere",
+      "TEAM_ABBREVIATION": "GS",
+      "id": "4432834",
+      "recent_games": 1,
+      "recent": {
+        "PPG": 0.0,
+        "APG": 0.0,
+        "RPG": 0.0,
+        "BPG": 0.0,
+        "FG_PCT": 0.0
+      },
+      "avg": {
+        "PPG": 1.3,
+        "APG": 0.2,
+        "RPG": 1.9,
+        "BPG": 0.2,
+        "FG_PCT": 57.1
+      },
+      "delta": {
+        "PPG": -1.3,
+        "APG": -0.2,
+        "RPG": -1.9,
+        "BPG": -0.2,
+        "FG_PCT": -57.1
+      }
+    },
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "A'ja Wilson",
-        "TEAM_ABBREVIATION": "LV",
-        "pts": 21,
-        "date": "2026-10-09",
+        "PLAYER_NAME": "Gabby Williams",
+        "TEAM_ABBREVIATION": "GS",
+        "pts": 30,
+        "date": "2026-10-31",
         "streak": 2
       },
       "history": [
         {
-          "PLAYER_NAME": "A'ja Wilson",
-          "TEAM_ABBREVIATION": "LV",
-          "pts": 21,
+          "PLAYER_NAME": "Gabby Williams",
+          "TEAM_ABBREVIATION": "GS",
+          "pts": 30,
+          "date": "2026-10-31"
+        },
+        {
+          "PLAYER_NAME": "Gabby Williams",
+          "TEAM_ABBREVIATION": "GS",
+          "pts": 26,
+          "date": "2026-10-29"
+        },
+        {
+          "PLAYER_NAME": "Kiah Stokes",
+          "TEAM_ABBREVIATION": "GS",
+          "pts": 13,
+          "date": "2026-10-26"
+        },
+        {
+          "PLAYER_NAME": "Gabby Williams",
+          "TEAM_ABBREVIATION": "GS",
+          "pts": 17,
+          "date": "2026-10-24"
+        },
+        {
+          "PLAYER_NAME": "Gabby Williams",
+          "TEAM_ABBREVIATION": "GS",
+          "pts": 15,
+          "date": "2026-10-21"
+        },
+        {
+          "PLAYER_NAME": "Gabby Williams",
+          "TEAM_ABBREVIATION": "GS",
+          "pts": 14,
+          "date": "2026-10-19"
+        },
+        {
+          "PLAYER_NAME": "Gabby Williams",
+          "TEAM_ABBREVIATION": "GS",
+          "pts": 26,
+          "date": "2026-10-17"
+        },
+        {
+          "PLAYER_NAME": "Kayla Thornton",
+          "TEAM_ABBREVIATION": "GS",
+          "pts": 18,
           "date": "2026-10-09"
         },
         {
-          "PLAYER_NAME": "A'ja Wilson",
-          "TEAM_ABBREVIATION": "LV",
-          "pts": 24,
+          "PLAYER_NAME": "Tiffany Hayes",
+          "TEAM_ABBREVIATION": "GS",
+          "pts": 21,
           "date": "2026-10-07"
         }
       ]
@@ -31,13 +125,13 @@
       "PLAYER_NAME": "Allisha Gray",
       "TEAM_ABBREVIATION": "ATL",
       "id": "3058901",
-      "recent_games": 2,
+      "recent_games": 1,
       "recent": {
-        "PPG": 19.5,
-        "APG": 2.5,
+        "PPG": 16.0,
+        "APG": 2.0,
         "RPG": 6.0,
-        "BPG": 1.5,
-        "FG_PCT": 46.4
+        "BPG": 0.0,
+        "FG_PCT": 31.2
       },
       "avg": {
         "PPG": 11.0,
@@ -47,18 +141,18 @@
         "FG_PCT": 34.1
       },
       "delta": {
-        "PPG": 8.5,
-        "APG": 0.9,
+        "PPG": 5.0,
+        "APG": 0.4,
         "RPG": 2.6,
-        "BPG": 0.8,
-        "FG_PCT": 12.3
+        "BPG": -0.7,
+        "FG_PCT": -2.9
       }
     },
     "trending_down": {
       "PLAYER_NAME": "Madina Okot",
       "TEAM_ABBREVIATION": "ATL",
       "id": "5108587",
-      "recent_games": 2,
+      "recent_games": 1,
       "recent": {
         "PPG": 0.0,
         "APG": 0.0,
@@ -147,127 +241,6 @@
       ]
     }
   },
-  "GS": {
-    "trending_up": {
-      "PLAYER_NAME": "Gabby Williams",
-      "TEAM_ABBREVIATION": "GS",
-      "id": "3142328",
-      "recent_games": 2,
-      "recent": {
-        "PPG": 28.0,
-        "APG": 1.5,
-        "RPG": 3.0,
-        "BPG": 2.5,
-        "FG_PCT": 40.0
-      },
-      "avg": {
-        "PPG": 19.2,
-        "APG": 2.8,
-        "RPG": 3.3,
-        "BPG": 0.6,
-        "FG_PCT": 33.9
-      },
-      "delta": {
-        "PPG": 8.8,
-        "APG": -1.3,
-        "RPG": -0.3,
-        "BPG": 1.9,
-        "FG_PCT": 6.1
-      }
-    },
-    "trending_down": {
-      "PLAYER_NAME": "Janelle Salaun",
-      "TEAM_ABBREVIATION": "GS",
-      "id": "4790264",
-      "recent_games": 2,
-      "recent": {
-        "PPG": 0.0,
-        "APG": 0.0,
-        "RPG": 0.0,
-        "BPG": 0.0,
-        "FG_PCT": 0.0
-      },
-      "avg": {
-        "PPG": 2.2,
-        "APG": 0.0,
-        "RPG": 0.6,
-        "BPG": 0.0,
-        "FG_PCT": 57.1
-      },
-      "delta": {
-        "PPG": -2.2,
-        "APG": 0.0,
-        "RPG": -0.6,
-        "BPG": 0.0,
-        "FG_PCT": -57.1
-      }
-    },
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Gabby Williams",
-        "TEAM_ABBREVIATION": "GS",
-        "pts": 30,
-        "date": "2026-10-31",
-        "streak": 2
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Gabby Williams",
-          "TEAM_ABBREVIATION": "GS",
-          "pts": 30,
-          "date": "2026-10-31"
-        },
-        {
-          "PLAYER_NAME": "Gabby Williams",
-          "TEAM_ABBREVIATION": "GS",
-          "pts": 26,
-          "date": "2026-10-29"
-        },
-        {
-          "PLAYER_NAME": "Kiah Stokes",
-          "TEAM_ABBREVIATION": "GS",
-          "pts": 13,
-          "date": "2026-10-26"
-        },
-        {
-          "PLAYER_NAME": "Gabby Williams",
-          "TEAM_ABBREVIATION": "GS",
-          "pts": 17,
-          "date": "2026-10-24"
-        },
-        {
-          "PLAYER_NAME": "Gabby Williams",
-          "TEAM_ABBREVIATION": "GS",
-          "pts": 15,
-          "date": "2026-10-21"
-        },
-        {
-          "PLAYER_NAME": "Gabby Williams",
-          "TEAM_ABBREVIATION": "GS",
-          "pts": 14,
-          "date": "2026-10-19"
-        },
-        {
-          "PLAYER_NAME": "Gabby Williams",
-          "TEAM_ABBREVIATION": "GS",
-          "pts": 26,
-          "date": "2026-10-17"
-        },
-        {
-          "PLAYER_NAME": "Kayla Thornton",
-          "TEAM_ABBREVIATION": "GS",
-          "pts": 18,
-          "date": "2026-10-09"
-        },
-        {
-          "PLAYER_NAME": "Tiffany Hayes",
-          "TEAM_ABBREVIATION": "GS",
-          "pts": 21,
-          "date": "2026-10-07"
-        }
-      ]
-    }
-  },
   "NY": {
     "trending_up": {},
     "trending_down": {},
@@ -290,6 +263,33 @@
           "PLAYER_NAME": "Breanna Stewart",
           "TEAM_ABBREVIATION": "NY",
           "pts": 35,
+          "date": "2026-10-07"
+        }
+      ]
+    }
+  },
+  "LV": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "A'ja Wilson",
+        "TEAM_ABBREVIATION": "LV",
+        "pts": 21,
+        "date": "2026-10-09",
+        "streak": 2
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "A'ja Wilson",
+          "TEAM_ABBREVIATION": "LV",
+          "pts": 21,
+          "date": "2026-10-09"
+        },
+        {
+          "PLAYER_NAME": "A'ja Wilson",
+          "TEAM_ABBREVIATION": "LV",
+          "pts": 24,
           "date": "2026-10-07"
         }
       ]

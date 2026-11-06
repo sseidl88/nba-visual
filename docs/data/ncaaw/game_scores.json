@@ -1,35 +1,65 @@
 {
-  "date": "2026-11-04",
+  "date": "2026-11-05",
   "games": [
     {
-      "home": "TEX",
-      "home_score": 85,
-      "away": "FDU",
-      "away_score": 65
+      "home": "MICH",
+      "home_score": 77,
+      "away": "CONN",
+      "away_score": 66
     },
     {
-      "home": "LOU",
-      "home_score": 87,
-      "away": "STET",
-      "away_score": 35
+      "home": "LSU",
+      "home_score": 131,
+      "away": "TXSO",
+      "away_score": 22
     },
     {
-      "home": "VAN",
-      "home_score": 100,
-      "away": "QUC",
+      "home": "IOWA",
+      "home_score": 80,
+      "away": "EIU",
+      "away_score": 39
+    },
+    {
+      "home": "UCLA",
+      "home_score": 78,
+      "away": "UCI",
       "away_score": 42
     },
     {
-      "home": "ILL",
-      "home_score": 84,
-      "away": "DETM",
-      "away_score": 50
+      "home": "UK",
+      "home_score": 79,
+      "away": "NKU",
+      "away_score": 28
     },
     {
-      "home": "NCSU",
-      "home_score": 80,
-      "away": "CAM",
-      "away_score": 45
+      "home": "TCU",
+      "home_score": 96,
+      "away": "LEM",
+      "away_score": 41
+    },
+    {
+      "home": "WASH",
+      "home_score": 75,
+      "away": "PAC",
+      "away_score": 54
+    },
+    {
+      "home": "OSU",
+      "home_score": 103,
+      "away": "CMU",
+      "away_score": 36
+    },
+    {
+      "home": "MISS",
+      "home_score": 72,
+      "away": "UNA",
+      "away_score": 51
+    },
+    {
+      "home": "WVU",
+      "home_score": 78,
+      "away": "GW",
+      "away_score": 66
     }
   ]
 }

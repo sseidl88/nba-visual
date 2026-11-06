@@ -1,594 +1,48 @@
 {
-  "LIB": {
+  "BOIS": {
     "trending_up": {},
     "trending_down": {},
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Zander Carter",
-        "TEAM_ABBREVIATION": "LIB",
-        "pts": 21,
-        "date": "2026-11-01",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Zander Carter",
-          "TEAM_ABBREVIATION": "LIB",
-          "pts": 21,
-          "date": "2026-11-01"
-        }
-      ]
-    }
-  },
-  "VILL": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Tyler Perkins",
-        "TEAM_ABBREVIATION": "VILL",
+        "PLAYER_NAME": "Dovydas Butka",
+        "TEAM_ABBREVIATION": "BOIS",
         "pts": 18,
-        "date": "2026-11-01",
+        "date": "2026-11-04",
         "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Tyler Perkins",
-          "TEAM_ABBREVIATION": "VILL",
+          "PLAYER_NAME": "Dovydas Butka",
+          "TEAM_ABBREVIATION": "BOIS",
           "pts": 18,
-          "date": "2026-11-01"
-        }
-      ]
-    }
-  },
-  "RGNT": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Christian Brown",
-        "TEAM_ABBREVIATION": "RGNT",
-        "pts": 11,
-        "date": "2026-11-04",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Christian Brown",
-          "TEAM_ABBREVIATION": "RGNT",
-          "pts": 11,
           "date": "2026-11-04"
         }
       ]
     }
   },
-  "DRKE": {
+  "DUKE": {
     "trending_up": {},
     "trending_down": {},
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Jon Carroll",
-        "TEAM_ABBREVIATION": "DRKE",
-        "pts": 20,
-        "date": "2026-11-04",
+        "PLAYER_NAME": "Patrick Ngongba II",
+        "TEAM_ABBREVIATION": "DUKE",
+        "pts": 28,
+        "date": "2026-11-05",
         "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Jon Carroll",
-          "TEAM_ABBREVIATION": "DRKE",
-          "pts": 20,
-          "date": "2026-11-04"
-        }
-      ]
-    }
-  },
-  "HOU": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Dedan Thomas Jr.",
-        "TEAM_ABBREVIATION": "HOU",
-        "pts": 16,
-        "date": "2026-11-02",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Dedan Thomas Jr.",
-          "TEAM_ABBREVIATION": "HOU",
-          "pts": 16,
-          "date": "2026-11-02"
-        }
-      ]
-    }
-  },
-  "LAS": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Kam Burton",
-        "TEAM_ABBREVIATION": "LAS",
-        "pts": 15,
-        "date": "2026-11-02",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Kam Burton",
-          "TEAM_ABBREVIATION": "LAS",
-          "pts": 15,
-          "date": "2026-11-02"
-        }
-      ]
-    }
-  },
-  "BTLR": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Asim Djulovic",
-        "TEAM_ABBREVIATION": "BTLR",
-        "pts": 25,
-        "date": "2026-11-04",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Asim Djulovic",
-          "TEAM_ABBREVIATION": "BTLR",
-          "pts": 25,
-          "date": "2026-11-04"
-        }
-      ]
-    }
-  },
-  "HPU": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Cam'Ron Fletcher",
-        "TEAM_ABBREVIATION": "HPU",
-        "pts": 21,
-        "date": "2026-11-04",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Cam'Ron Fletcher",
-          "TEAM_ABBREVIATION": "HPU",
-          "pts": 21,
-          "date": "2026-11-04"
+          "PLAYER_NAME": "Patrick Ngongba II",
+          "TEAM_ABBREVIATION": "DUKE",
+          "pts": 28,
+          "date": "2026-11-05"
         },
         {
-          "PLAYER_NAME": "Curtis Williams Jr.",
-          "TEAM_ABBREVIATION": "HPU",
-          "pts": 12,
-          "date": "2026-11-01"
-        }
-      ]
-    }
-  },
-  "UCLA": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Trent Perry",
-        "TEAM_ABBREVIATION": "UCLA",
-        "pts": 21,
-        "date": "2026-11-02",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Trent Perry",
-          "TEAM_ABBREVIATION": "UCLA",
-          "pts": 21,
-          "date": "2026-11-02"
-        }
-      ]
-    }
-  },
-  "FRSU": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Jamel Walker",
-        "TEAM_ABBREVIATION": "FRSU",
-        "pts": 11,
-        "date": "2026-11-04",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Jamel Walker",
-          "TEAM_ABBREVIATION": "FRSU",
-          "pts": 11,
-          "date": "2026-11-04"
-        }
-      ]
-    }
-  },
-  "SDAK": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Jahni Summers",
-        "TEAM_ABBREVIATION": "SDAK",
-        "pts": 24,
-        "date": "2026-11-04",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Jahni Summers",
-          "TEAM_ABBREVIATION": "SDAK",
-          "pts": 24,
-          "date": "2026-11-04"
-        }
-      ]
-    }
-  },
-  "RAD": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Frederik Erichsen",
-        "TEAM_ABBREVIATION": "RAD",
-        "pts": 16,
-        "date": "2026-11-04",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Frederik Erichsen",
-          "TEAM_ABBREVIATION": "RAD",
+          "PLAYER_NAME": "Dame Sarr",
+          "TEAM_ABBREVIATION": "DUKE",
           "pts": 16,
-          "date": "2026-11-04"
-        }
-      ]
-    }
-  },
-  "TEX": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Matas Vokietaitis",
-        "TEAM_ABBREVIATION": "TEX",
-        "pts": 22,
-        "date": "2026-11-02",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Matas Vokietaitis",
-          "TEAM_ABBREVIATION": "TEX",
-          "pts": 22,
           "date": "2026-11-02"
-        }
-      ]
-    }
-  },
-  "MONT": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Noah Bendinger",
-        "TEAM_ABBREVIATION": "MONT",
-        "pts": 22,
-        "date": "2026-11-04",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Noah Bendinger",
-          "TEAM_ABBREVIATION": "MONT",
-          "pts": 22,
-          "date": "2026-11-04"
-        }
-      ]
-    }
-  },
-  "ERSK": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Justen Goudelock",
-        "TEAM_ABBREVIATION": "ERSK",
-        "pts": 18,
-        "date": "2026-11-04",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Justen Goudelock",
-          "TEAM_ABBREVIATION": "ERSK",
-          "pts": 18,
-          "date": "2026-11-04"
-        }
-      ]
-    }
-  },
-  "DART": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Ernas Valauskas",
-        "TEAM_ABBREVIATION": "DART",
-        "pts": 18,
-        "date": "2026-11-04",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Ernas Valauskas",
-          "TEAM_ABBREVIATION": "DART",
-          "pts": 18,
-          "date": "2026-11-04"
-        }
-      ]
-    }
-  },
-  "SCU": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Jake Ensminger",
-        "TEAM_ABBREVIATION": "SCU",
-        "pts": 15,
-        "date": "2026-11-04",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Jake Ensminger",
-          "TEAM_ABBREVIATION": "SCU",
-          "pts": 15,
-          "date": "2026-11-04"
-        }
-      ]
-    }
-  },
-  "USC": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Adonis Ratliff",
-        "TEAM_ABBREVIATION": "USC",
-        "pts": 25,
-        "date": "2026-11-02",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Adonis Ratliff",
-          "TEAM_ABBREVIATION": "USC",
-          "pts": 25,
-          "date": "2026-11-02"
-        }
-      ]
-    }
-  },
-  "SJU": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Keyshawn Hall",
-        "TEAM_ABBREVIATION": "SJU",
-        "pts": 26,
-        "date": "2026-11-02",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Keyshawn Hall",
-          "TEAM_ABBREVIATION": "SJU",
-          "pts": 26,
-          "date": "2026-11-02"
-        }
-      ]
-    }
-  },
-  "MIA": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Acaden Lewis",
-        "TEAM_ABBREVIATION": "MIA",
-        "pts": 24,
-        "date": "2026-11-02",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Acaden Lewis",
-          "TEAM_ABBREVIATION": "MIA",
-          "pts": 24,
-          "date": "2026-11-02"
-        }
-      ]
-    }
-  },
-  "CHST": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Will Lovings-Watts",
-        "TEAM_ABBREVIATION": "CHST",
-        "pts": 13,
-        "date": "2026-11-02",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Will Lovings-Watts",
-          "TEAM_ABBREVIATION": "CHST",
-          "pts": 13,
-          "date": "2026-11-02"
-        }
-      ]
-    }
-  },
-  "SEMO": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Marqueas Bell",
-        "TEAM_ABBREVIATION": "SEMO",
-        "pts": 16,
-        "date": "2026-11-04",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Marqueas Bell",
-          "TEAM_ABBREVIATION": "SEMO",
-          "pts": 16,
-          "date": "2026-11-04"
-        }
-      ]
-    }
-  },
-  "VAN": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Tyler Tanner",
-        "TEAM_ABBREVIATION": "VAN",
-        "pts": 20,
-        "date": "2026-11-02",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Tyler Tanner",
-          "TEAM_ABBREVIATION": "VAN",
-          "pts": 20,
-          "date": "2026-11-02"
-        }
-      ]
-    }
-  },
-  "WOF": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Cam Lowe",
-        "TEAM_ABBREVIATION": "WOF",
-        "pts": 14,
-        "date": "2026-11-03",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Cam Lowe",
-          "TEAM_ABBREVIATION": "WOF",
-          "pts": 14,
-          "date": "2026-11-03"
-        }
-      ]
-    }
-  },
-  "SIUE": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Jordan Pickett",
-        "TEAM_ABBREVIATION": "SIUE",
-        "pts": 19,
-        "date": "2026-11-04",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Jordan Pickett",
-          "TEAM_ABBREVIATION": "SIUE",
-          "pts": 19,
-          "date": "2026-11-04"
-        }
-      ]
-    }
-  },
-  "FOR": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Akira Jacobs",
-        "TEAM_ABBREVIATION": "FOR",
-        "pts": 20,
-        "date": "2026-11-02",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Akira Jacobs",
-          "TEAM_ABBREVIATION": "FOR",
-          "pts": 20,
-          "date": "2026-11-02"
-        }
-      ]
-    }
-  },
-  "FUR": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Tom House",
-        "TEAM_ABBREVIATION": "FUR",
-        "pts": 17,
-        "date": "2026-11-04",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Tom House",
-          "TEAM_ABBREVIATION": "FUR",
-          "pts": 17,
-          "date": "2026-11-04"
-        }
-      ]
-    }
-  },
-  "UTU": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Christian Gibson",
-        "TEAM_ABBREVIATION": "UTU",
-        "pts": 17,
-        "date": "2026-11-04",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Christian Gibson",
-          "TEAM_ABBREVIATION": "UTU",
-          "pts": 17,
-          "date": "2026-11-04"
         }
       ]
     }
@@ -614,232 +68,85 @@
       ]
     }
   },
-  "CSUN": {
+  "BCU": {
     "trending_up": {},
     "trending_down": {},
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Mikah Ballew",
-        "TEAM_ABBREVIATION": "CSUN",
-        "pts": 17,
-        "date": "2026-11-04",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Mikah Ballew",
-          "TEAM_ABBREVIATION": "CSUN",
-          "pts": 17,
-          "date": "2026-11-04"
-        }
-      ]
-    }
-  },
-  "QUIN": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Tayeshawn Cunningham-Pemberton",
-        "TEAM_ABBREVIATION": "QUIN",
+        "PLAYER_NAME": "Connor Teasley",
+        "TEAM_ABBREVIATION": "BCU",
         "pts": 11,
-        "date": "2026-11-02",
+        "date": "2026-11-05",
         "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Tayeshawn Cunningham-Pemberton",
-          "TEAM_ABBREVIATION": "QUIN",
+          "PLAYER_NAME": "Connor Teasley",
+          "TEAM_ABBREVIATION": "BCU",
           "pts": 11,
-          "date": "2026-11-02"
+          "date": "2026-11-05"
         }
       ]
     }
   },
-  "JOES": {
+  "NORF": {
     "trending_up": {},
     "trending_down": {},
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Jaiden Glover-Toscano",
-        "TEAM_ABBREVIATION": "JOES",
+        "PLAYER_NAME": "Jordan Skyers",
+        "TEAM_ABBREVIATION": "NORF",
         "pts": 22,
         "date": "2026-11-04",
         "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Jaiden Glover-Toscano",
-          "TEAM_ABBREVIATION": "JOES",
+          "PLAYER_NAME": "Jordan Skyers",
+          "TEAM_ABBREVIATION": "NORF",
           "pts": 22,
           "date": "2026-11-04"
         }
       ]
     }
   },
-  "VUL": {
+  "PENN": {
     "trending_up": {},
     "trending_down": {},
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Jacob Newman",
-        "TEAM_ABBREVIATION": "VUL",
-        "pts": 14,
-        "date": "2026-11-04",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Jacob Newman",
-          "TEAM_ABBREVIATION": "VUL",
-          "pts": 14,
-          "date": "2026-11-04"
-        }
-      ]
-    }
-  },
-  "GONZ": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Davis Fogle",
-        "TEAM_ABBREVIATION": "GONZ",
-        "pts": 22,
-        "date": "2026-11-02",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Davis Fogle",
-          "TEAM_ABBREVIATION": "GONZ",
-          "pts": 22,
-          "date": "2026-11-02"
-        }
-      ]
-    }
-  },
-  "BELL": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Demarcus Surratt",
-        "TEAM_ABBREVIATION": "BELL",
-        "pts": 9,
-        "date": "2026-11-02",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Demarcus Surratt",
-          "TEAM_ABBREVIATION": "BELL",
-          "pts": 9,
-          "date": "2026-11-02"
-        }
-      ]
-    }
-  },
-  "CUC": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Jacob Robinson",
-        "TEAM_ABBREVIATION": "CUC",
-        "pts": 17,
-        "date": "2026-11-04",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Jacob Robinson",
-          "TEAM_ABBREVIATION": "CUC",
-          "pts": 17,
-          "date": "2026-11-04"
-        }
-      ]
-    }
-  },
-  "ISU": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Ryan Prather Jr.",
-        "TEAM_ABBREVIATION": "ISU",
-        "pts": 19,
-        "date": "2026-11-02",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Ryan Prather Jr.",
-          "TEAM_ABBREVIATION": "ISU",
-          "pts": 19,
-          "date": "2026-11-02"
-        }
-      ]
-    }
-  },
-  "GWEB": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Jacob Hudson",
-        "TEAM_ABBREVIATION": "GWEB",
-        "pts": 9,
-        "date": "2026-11-02",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Jacob Hudson",
-          "TEAM_ABBREVIATION": "GWEB",
-          "pts": 9,
-          "date": "2026-11-02"
-        }
-      ]
-    }
-  },
-  "MORG": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Alfred Worrell Jr.",
-        "TEAM_ABBREVIATION": "MORG",
-        "pts": 20,
-        "date": "2026-11-04",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Alfred Worrell Jr.",
-          "TEAM_ABBREVIATION": "MORG",
-          "pts": 20,
-          "date": "2026-11-04"
-        }
-      ]
-    }
-  },
-  "ODU": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Scottie Hubbard",
-        "TEAM_ABBREVIATION": "ODU",
+        "PLAYER_NAME": "Michael Zanoni",
+        "TEAM_ABBREVIATION": "PENN",
         "pts": 16,
+        "date": "2026-11-05",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Michael Zanoni",
+          "TEAM_ABBREVIATION": "PENN",
+          "pts": 16,
+          "date": "2026-11-05"
+        }
+      ]
+    }
+  },
+  "BTLR": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Asim Djulovic",
+        "TEAM_ABBREVIATION": "BTLR",
+        "pts": 25,
         "date": "2026-11-04",
         "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Scottie Hubbard",
-          "TEAM_ABBREVIATION": "ODU",
-          "pts": 16,
+          "PLAYER_NAME": "Asim Djulovic",
+          "TEAM_ABBREVIATION": "BTLR",
+          "pts": 25,
           "date": "2026-11-04"
         }
       ]
@@ -866,96 +173,6 @@
       ]
     }
   },
-  "ILL": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Andrej Stojakovic",
-        "TEAM_ABBREVIATION": "ILL",
-        "pts": 20,
-        "date": "2026-11-02",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Andrej Stojakovic",
-          "TEAM_ABBREVIATION": "ILL",
-          "pts": 20,
-          "date": "2026-11-02"
-        }
-      ]
-    }
-  },
-  "ARK": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Jeremiah Wilkinson",
-        "TEAM_ABBREVIATION": "ARK",
-        "pts": 23,
-        "date": "2026-11-03",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Jeremiah Wilkinson",
-          "TEAM_ABBREVIATION": "ARK",
-          "pts": 23,
-          "date": "2026-11-03"
-        }
-      ]
-    }
-  },
-  "MILW": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Aaron Womack III",
-        "TEAM_ABBREVIATION": "MILW",
-        "pts": 14,
-        "date": "2026-11-04",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Aaron Womack III",
-          "TEAM_ABBREVIATION": "MILW",
-          "pts": 14,
-          "date": "2026-11-04"
-        },
-        {
-          "PLAYER_NAME": "Amare Hereford",
-          "TEAM_ABBREVIATION": "MILW",
-          "pts": 14,
-          "date": "2026-11-02"
-        }
-      ]
-    }
-  },
-  "CNTC": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Anthony Gott",
-        "TEAM_ABBREVIATION": "CNTC",
-        "pts": 8,
-        "date": "2026-11-04",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Anthony Gott",
-          "TEAM_ABBREVIATION": "CNTC",
-          "pts": 8,
-          "date": "2026-11-04"
-        }
-      ]
-    }
-  },
   "LOU": {
     "trending_up": {},
     "trending_down": {},
@@ -973,6 +190,333 @@
           "TEAM_ABBREVIATION": "LOU",
           "pts": 16,
           "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "WEBS": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Charles Nelson",
+        "TEAM_ABBREVIATION": "WEBS",
+        "pts": 19,
+        "date": "2026-11-04",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Charles Nelson",
+          "TEAM_ABBREVIATION": "WEBS",
+          "pts": 19,
+          "date": "2026-11-04"
+        }
+      ]
+    }
+  },
+  "MORG": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Alfred Worrell Jr.",
+        "TEAM_ABBREVIATION": "MORG",
+        "pts": 20,
+        "date": "2026-11-04",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Alfred Worrell Jr.",
+          "TEAM_ABBREVIATION": "MORG",
+          "pts": 20,
+          "date": "2026-11-04"
+        }
+      ]
+    }
+  },
+  "WAKE": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Kevair Kennedy",
+        "TEAM_ABBREVIATION": "WAKE",
+        "pts": 20,
+        "date": "2026-11-05",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Kevair Kennedy",
+          "TEAM_ABBREVIATION": "WAKE",
+          "pts": 20,
+          "date": "2026-11-05"
+        }
+      ]
+    }
+  },
+  "CONN": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Braylon Mullins",
+        "TEAM_ABBREVIATION": "CONN",
+        "pts": 20,
+        "date": "2026-11-02",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Braylon Mullins",
+          "TEAM_ABBREVIATION": "CONN",
+          "pts": 20,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "DRKE": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Jon Carroll",
+        "TEAM_ABBREVIATION": "DRKE",
+        "pts": 20,
+        "date": "2026-11-04",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Jon Carroll",
+          "TEAM_ABBREVIATION": "DRKE",
+          "pts": 20,
+          "date": "2026-11-04"
+        }
+      ]
+    }
+  },
+  "JKST": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Mike Williams",
+        "TEAM_ABBREVIATION": "JKST",
+        "pts": 11,
+        "date": "2026-11-02",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Mike Williams",
+          "TEAM_ABBREVIATION": "JKST",
+          "pts": 11,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "ILL": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Andrej Stojakovic",
+        "TEAM_ABBREVIATION": "ILL",
+        "pts": 25,
+        "date": "2026-11-05",
+        "streak": 2
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Andrej Stojakovic",
+          "TEAM_ABBREVIATION": "ILL",
+          "pts": 25,
+          "date": "2026-11-05"
+        },
+        {
+          "PLAYER_NAME": "Andrej Stojakovic",
+          "TEAM_ABBREVIATION": "ILL",
+          "pts": 20,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "SJU": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Keyshawn Hall",
+        "TEAM_ABBREVIATION": "SJU",
+        "pts": 26,
+        "date": "2026-11-02",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Keyshawn Hall",
+          "TEAM_ABBREVIATION": "SJU",
+          "pts": 26,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "ALA": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Drew Fielder",
+        "TEAM_ABBREVIATION": "ALA",
+        "pts": 15,
+        "date": "2026-11-03",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Drew Fielder",
+          "TEAM_ABBREVIATION": "ALA",
+          "pts": 15,
+          "date": "2026-11-03"
+        }
+      ]
+    }
+  },
+  "UK": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Milan Momcilovic",
+        "TEAM_ABBREVIATION": "UK",
+        "pts": 24,
+        "date": "2026-11-03",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Milan Momcilovic",
+          "TEAM_ABBREVIATION": "UK",
+          "pts": 24,
+          "date": "2026-11-03"
+        }
+      ]
+    }
+  },
+  "ISU": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Ryan Prather Jr.",
+        "TEAM_ABBREVIATION": "ISU",
+        "pts": 19,
+        "date": "2026-11-02",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Ryan Prather Jr.",
+          "TEAM_ABBREVIATION": "ISU",
+          "pts": 19,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "MIA": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Acaden Lewis",
+        "TEAM_ABBREVIATION": "MIA",
+        "pts": 24,
+        "date": "2026-11-02",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Acaden Lewis",
+          "TEAM_ABBREVIATION": "MIA",
+          "pts": 24,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "SMWC": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Donavon Barnett",
+        "TEAM_ABBREVIATION": "SMWC",
+        "pts": 10,
+        "date": "2026-11-04",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Donavon Barnett",
+          "TEAM_ABBREVIATION": "SMWC",
+          "pts": 10,
+          "date": "2026-11-04"
+        }
+      ]
+    }
+  },
+  "TEX": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Matas Vokietaitis",
+        "TEAM_ABBREVIATION": "TEX",
+        "pts": 16,
+        "date": "2026-11-05",
+        "streak": 2
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Matas Vokietaitis",
+          "TEAM_ABBREVIATION": "TEX",
+          "pts": 16,
+          "date": "2026-11-05"
+        },
+        {
+          "PLAYER_NAME": "Matas Vokietaitis",
+          "TEAM_ABBREVIATION": "TEX",
+          "pts": 22,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "BOBJ": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Lewis Robertson",
+        "TEAM_ABBREVIATION": "BOBJ",
+        "pts": 14,
+        "date": "2026-11-04",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Lewis Robertson",
+          "TEAM_ABBREVIATION": "BOBJ",
+          "pts": 14,
+          "date": "2026-11-04"
         }
       ]
     }
@@ -998,65 +542,149 @@
       ]
     }
   },
-  "SHSU": {
+  "RDPH": {
     "trending_up": {},
     "trending_down": {},
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Jacobe Coleman",
-        "TEAM_ABBREVIATION": "SHSU",
+        "PLAYER_NAME": "Khalil Caple",
+        "TEAM_ABBREVIATION": "RDPH",
+        "pts": 21,
+        "date": "2026-11-04",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Khalil Caple",
+          "TEAM_ABBREVIATION": "RDPH",
+          "pts": 21,
+          "date": "2026-11-04"
+        }
+      ]
+    }
+  },
+  "UAPB": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Jalen Tatum",
+        "TEAM_ABBREVIATION": "UAPB",
         "pts": 16,
         "date": "2026-11-03",
         "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Jacobe Coleman",
-          "TEAM_ABBREVIATION": "SHSU",
+          "PLAYER_NAME": "Jalen Tatum",
+          "TEAM_ABBREVIATION": "UAPB",
           "pts": 16,
           "date": "2026-11-03"
         }
       ]
     }
   },
-  "SMC": {
+  "UTC": {
     "trending_up": {},
     "trending_down": {},
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Joshua Dent",
-        "TEAM_ABBREVIATION": "SMC",
-        "pts": 17,
+        "PLAYER_NAME": "Yonatan Levy",
+        "TEAM_ABBREVIATION": "UTC",
+        "pts": 14,
+        "date": "2026-11-02",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Yonatan Levy",
+          "TEAM_ABBREVIATION": "UTC",
+          "pts": 14,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "ERSK": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Justen Goudelock",
+        "TEAM_ABBREVIATION": "ERSK",
+        "pts": 18,
         "date": "2026-11-04",
         "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Joshua Dent",
-          "TEAM_ABBREVIATION": "SMC",
-          "pts": 17,
+          "PLAYER_NAME": "Justen Goudelock",
+          "TEAM_ABBREVIATION": "ERSK",
+          "pts": 18,
           "date": "2026-11-04"
         }
       ]
     }
   },
-  "CTDM": {
+  "CNTC": {
     "trending_up": {},
     "trending_down": {},
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Daniel Schultz",
-        "TEAM_ABBREVIATION": "CTDM",
-        "pts": 16,
+        "PLAYER_NAME": "Anthony Gott",
+        "TEAM_ABBREVIATION": "CNTC",
+        "pts": 8,
         "date": "2026-11-04",
         "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Daniel Schultz",
-          "TEAM_ABBREVIATION": "CTDM",
-          "pts": 16,
+          "PLAYER_NAME": "Anthony Gott",
+          "TEAM_ABBREVIATION": "CNTC",
+          "pts": 8,
           "date": "2026-11-04"
+        }
+      ]
+    }
+  },
+  "UMES": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Isaiah Griffin",
+        "TEAM_ABBREVIATION": "UMES",
+        "pts": 18,
+        "date": "2026-11-04",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Isaiah Griffin",
+          "TEAM_ABBREVIATION": "UMES",
+          "pts": 18,
+          "date": "2026-11-04"
+        }
+      ]
+    }
+  },
+  "CCU": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Trey Perry",
+        "TEAM_ABBREVIATION": "CCU",
+        "pts": 14,
+        "date": "2026-11-05",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Trey Perry",
+          "TEAM_ABBREVIATION": "CCU",
+          "pts": 14,
+          "date": "2026-11-05"
         }
       ]
     }
@@ -1088,23 +716,44 @@
       ]
     }
   },
-  "QUC": {
+  "BYU": {
     "trending_up": {},
     "trending_down": {},
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Nasir Mann",
-        "TEAM_ABBREVIATION": "QUC",
-        "pts": 28,
-        "date": "2026-11-04",
+        "PLAYER_NAME": "Robert Wright III",
+        "TEAM_ABBREVIATION": "BYU",
+        "pts": 35,
+        "date": "2026-11-02",
         "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Nasir Mann",
-          "TEAM_ABBREVIATION": "QUC",
-          "pts": 28,
-          "date": "2026-11-04"
+          "PLAYER_NAME": "Robert Wright III",
+          "TEAM_ABBREVIATION": "BYU",
+          "pts": 35,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "PUR": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Daniel Jacobsen",
+        "TEAM_ABBREVIATION": "PUR",
+        "pts": 22,
+        "date": "2026-11-02",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Daniel Jacobsen",
+          "TEAM_ABBREVIATION": "PUR",
+          "pts": 22,
+          "date": "2026-11-02"
         }
       ]
     }
@@ -1130,60 +779,24 @@
       ]
     }
   },
-  "UVA": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Thijs De Ridder",
-        "TEAM_ABBREVIATION": "UVA",
-        "pts": 24,
-        "date": "2026-11-03",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Thijs De Ridder",
-          "TEAM_ABBREVIATION": "UVA",
-          "pts": 24,
-          "date": "2026-11-03"
-        }
-      ]
-    }
-  },
-  "CONN": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Braylon Mullins",
-        "TEAM_ABBREVIATION": "CONN",
-        "pts": 20,
-        "date": "2026-11-02",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Braylon Mullins",
-          "TEAM_ABBREVIATION": "CONN",
-          "pts": 20,
-          "date": "2026-11-02"
-        }
-      ]
-    }
-  },
   "MSU": {
     "trending_up": {},
     "trending_down": {},
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Jeremy Fears Jr.",
+        "PLAYER_NAME": "Jasiah Jervis",
         "TEAM_ABBREVIATION": "MSU",
-        "pts": 13,
-        "date": "2026-11-02",
+        "pts": 16,
+        "date": "2026-11-05",
         "streak": 1
       },
       "history": [
+        {
+          "PLAYER_NAME": "Jasiah Jervis",
+          "TEAM_ABBREVIATION": "MSU",
+          "pts": 16,
+          "date": "2026-11-05"
+        },
         {
           "PLAYER_NAME": "Jeremy Fears Jr.",
           "TEAM_ABBREVIATION": "MSU",
@@ -1193,43 +806,259 @@
       ]
     }
   },
-  "MAN": {
+  "FRSU": {
     "trending_up": {},
     "trending_down": {},
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Novak Manojlovic",
-        "TEAM_ABBREVIATION": "MAN",
+        "PLAYER_NAME": "Jamel Walker",
+        "TEAM_ABBREVIATION": "FRSU",
+        "pts": 11,
+        "date": "2026-11-04",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Jamel Walker",
+          "TEAM_ABBREVIATION": "FRSU",
+          "pts": 11,
+          "date": "2026-11-04"
+        }
+      ]
+    }
+  },
+  "SCU": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Jake Ensminger",
+        "TEAM_ABBREVIATION": "SCU",
+        "pts": 15,
+        "date": "2026-11-04",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Jake Ensminger",
+          "TEAM_ABBREVIATION": "SCU",
+          "pts": 15,
+          "date": "2026-11-04"
+        }
+      ]
+    }
+  },
+  "MONM": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Jakai Sanders",
+        "TEAM_ABBREVIATION": "MONM",
+        "pts": 17,
+        "date": "2026-11-02",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Jakai Sanders",
+          "TEAM_ABBREVIATION": "MONM",
+          "pts": 17,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "ARK": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Jeremiah Wilkinson",
+        "TEAM_ABBREVIATION": "ARK",
+        "pts": 23,
+        "date": "2026-11-03",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Jeremiah Wilkinson",
+          "TEAM_ABBREVIATION": "ARK",
+          "pts": 23,
+          "date": "2026-11-03"
+        }
+      ]
+    }
+  },
+  "RAD": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Frederik Erichsen",
+        "TEAM_ABBREVIATION": "RAD",
+        "pts": 16,
+        "date": "2026-11-04",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Frederik Erichsen",
+          "TEAM_ABBREVIATION": "RAD",
+          "pts": 16,
+          "date": "2026-11-04"
+        }
+      ]
+    }
+  },
+  "QUIN": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Tayeshawn Cunningham-Pemberton",
+        "TEAM_ABBREVIATION": "QUIN",
+        "pts": 11,
+        "date": "2026-11-02",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Tayeshawn Cunningham-Pemberton",
+          "TEAM_ABBREVIATION": "QUIN",
+          "pts": 11,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "LAS": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Kam Burton",
+        "TEAM_ABBREVIATION": "LAS",
+        "pts": 15,
+        "date": "2026-11-02",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Kam Burton",
+          "TEAM_ABBREVIATION": "LAS",
+          "pts": 15,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "MICH": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Roddy Gayle Jr.",
+        "TEAM_ABBREVIATION": "MICH",
+        "pts": 17,
+        "date": "2026-11-02",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Roddy Gayle Jr.",
+          "TEAM_ABBREVIATION": "MICH",
+          "pts": 17,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "DREX": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Latief Lorenzano-White",
+        "TEAM_ABBREVIATION": "DREX",
         "pts": 11,
         "date": "2026-11-03",
         "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Novak Manojlovic",
-          "TEAM_ABBREVIATION": "MAN",
+          "PLAYER_NAME": "Latief Lorenzano-White",
+          "TEAM_ABBREVIATION": "DREX",
           "pts": 11,
           "date": "2026-11-03"
         }
       ]
     }
   },
-  "FLA": {
+  "APP": {
     "trending_up": {},
     "trending_down": {},
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Thomas Haugh",
-        "TEAM_ABBREVIATION": "FLA",
-        "pts": 19,
-        "date": "2026-11-02",
+        "PLAYER_NAME": "Mason Costello",
+        "TEAM_ABBREVIATION": "APP",
+        "pts": 15,
+        "date": "2026-11-04",
         "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Thomas Haugh",
-          "TEAM_ABBREVIATION": "FLA",
-          "pts": 19,
+          "PLAYER_NAME": "Mason Costello",
+          "TEAM_ABBREVIATION": "APP",
+          "pts": 15,
+          "date": "2026-11-04"
+        }
+      ]
+    }
+  },
+  "SKC": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Payton Racine",
+        "TEAM_ABBREVIATION": "SKC",
+        "pts": 12,
+        "date": "2026-11-04",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Payton Racine",
+          "TEAM_ABBREVIATION": "SKC",
+          "pts": 12,
+          "date": "2026-11-04"
+        }
+      ]
+    }
+  },
+  "TTU": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Dra Gibbs-Lawhorn",
+        "TEAM_ABBREVIATION": "TTU",
+        "pts": 25,
+        "date": "2026-11-05",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Dra Gibbs-Lawhorn",
+          "TEAM_ABBREVIATION": "TTU",
+          "pts": 25,
+          "date": "2026-11-05"
+        },
+        {
+          "PLAYER_NAME": "Damarion Dennis",
+          "TEAM_ABBREVIATION": "TTU",
+          "pts": 22,
           "date": "2026-11-02"
         }
       ]
@@ -1256,6 +1085,132 @@
       ]
     }
   },
+  "ODU": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Scottie Hubbard",
+        "TEAM_ABBREVIATION": "ODU",
+        "pts": 16,
+        "date": "2026-11-04",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Scottie Hubbard",
+          "TEAM_ABBREVIATION": "ODU",
+          "pts": 16,
+          "date": "2026-11-04"
+        }
+      ]
+    }
+  },
+  "JAX": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Hayden Wood",
+        "TEAM_ABBREVIATION": "JAX",
+        "pts": 11,
+        "date": "2026-11-05",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Hayden Wood",
+          "TEAM_ABBREVIATION": "JAX",
+          "pts": 11,
+          "date": "2026-11-05"
+        }
+      ]
+    }
+  },
+  "HOU": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Dedan Thomas Jr.",
+        "TEAM_ABBREVIATION": "HOU",
+        "pts": 16,
+        "date": "2026-11-02",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Dedan Thomas Jr.",
+          "TEAM_ABBREVIATION": "HOU",
+          "pts": 16,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "GONZ": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Davis Fogle",
+        "TEAM_ABBREVIATION": "GONZ",
+        "pts": 22,
+        "date": "2026-11-02",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Davis Fogle",
+          "TEAM_ABBREVIATION": "GONZ",
+          "pts": 22,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "SDAK": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Jahni Summers",
+        "TEAM_ABBREVIATION": "SDAK",
+        "pts": 24,
+        "date": "2026-11-04",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Jahni Summers",
+          "TEAM_ABBREVIATION": "SDAK",
+          "pts": 24,
+          "date": "2026-11-04"
+        }
+      ]
+    }
+  },
+  "CTDM": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Daniel Schultz",
+        "TEAM_ABBREVIATION": "CTDM",
+        "pts": 16,
+        "date": "2026-11-04",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Daniel Schultz",
+          "TEAM_ABBREVIATION": "CTDM",
+          "pts": 16,
+          "date": "2026-11-04"
+        }
+      ]
+    }
+  },
   "BMCU": {
     "trending_up": {},
     "trending_down": {},
@@ -1272,195 +1227,6 @@
           "PLAYER_NAME": "Seck Zongo",
           "TEAM_ABBREVIATION": "BMCU",
           "pts": 19,
-          "date": "2026-11-04"
-        }
-      ]
-    }
-  },
-  "ALA": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Drew Fielder",
-        "TEAM_ABBREVIATION": "ALA",
-        "pts": 15,
-        "date": "2026-11-03",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Drew Fielder",
-          "TEAM_ABBREVIATION": "ALA",
-          "pts": 15,
-          "date": "2026-11-03"
-        }
-      ]
-    }
-  },
-  "LONG": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Alphonzo Billups III",
-        "TEAM_ABBREVIATION": "LONG",
-        "pts": 17,
-        "date": "2026-11-04",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Alphonzo Billups III",
-          "TEAM_ABBREVIATION": "LONG",
-          "pts": 17,
-          "date": "2026-11-04"
-        }
-      ]
-    }
-  },
-  "UMES": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Isaiah Griffin",
-        "TEAM_ABBREVIATION": "UMES",
-        "pts": 18,
-        "date": "2026-11-04",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Isaiah Griffin",
-          "TEAM_ABBREVIATION": "UMES",
-          "pts": 18,
-          "date": "2026-11-04"
-        }
-      ]
-    }
-  },
-  "JKST": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Mike Williams",
-        "TEAM_ABBREVIATION": "JKST",
-        "pts": 11,
-        "date": "2026-11-02",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Mike Williams",
-          "TEAM_ABBREVIATION": "JKST",
-          "pts": 11,
-          "date": "2026-11-02"
-        }
-      ]
-    }
-  },
-  "APP": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Mason Costello",
-        "TEAM_ABBREVIATION": "APP",
-        "pts": 15,
-        "date": "2026-11-04",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Mason Costello",
-          "TEAM_ABBREVIATION": "APP",
-          "pts": 15,
-          "date": "2026-11-04"
-        }
-      ]
-    }
-  },
-  "DREX": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Latief Lorenzano-White",
-        "TEAM_ABBREVIATION": "DREX",
-        "pts": 11,
-        "date": "2026-11-03",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Latief Lorenzano-White",
-          "TEAM_ABBREVIATION": "DREX",
-          "pts": 11,
-          "date": "2026-11-03"
-        }
-      ]
-    }
-  },
-  "ARIZ": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Ivan Kharchenkov",
-        "TEAM_ABBREVIATION": "ARIZ",
-        "pts": 38,
-        "date": "2026-11-02",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Ivan Kharchenkov",
-          "TEAM_ABBREVIATION": "ARIZ",
-          "pts": 38,
-          "date": "2026-11-02"
-        }
-      ]
-    }
-  },
-  "CAL": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Nojus Indrusaitis",
-        "TEAM_ABBREVIATION": "CAL",
-        "pts": 30,
-        "date": "2026-11-04",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Nojus Indrusaitis",
-          "TEAM_ABBREVIATION": "CAL",
-          "pts": 30,
-          "date": "2026-11-04"
-        }
-      ]
-    }
-  },
-  "CHCC": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Braylon Frazier",
-        "TEAM_ABBREVIATION": "CHCC",
-        "pts": 12,
-        "date": "2026-11-04",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Braylon Frazier",
-          "TEAM_ABBREVIATION": "CHCC",
-          "pts": 12,
           "date": "2026-11-04"
         }
       ]
@@ -1487,65 +1253,455 @@
       ]
     }
   },
-  "ARMY": {
+  "LONG": {
     "trending_up": {},
     "trending_down": {},
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Kevin McCarthy",
-        "TEAM_ABBREVIATION": "ARMY",
+        "PLAYER_NAME": "Alphonzo Billups III",
+        "TEAM_ABBREVIATION": "LONG",
         "pts": 17,
-        "date": "2026-11-02",
+        "date": "2026-11-04",
         "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Kevin McCarthy",
-          "TEAM_ABBREVIATION": "ARMY",
+          "PLAYER_NAME": "Alphonzo Billups III",
+          "TEAM_ABBREVIATION": "LONG",
           "pts": 17,
+          "date": "2026-11-04"
+        }
+      ]
+    }
+  },
+  "TOL": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Mynor Strong",
+        "TEAM_ABBREVIATION": "TOL",
+        "pts": 11,
+        "date": "2026-11-05",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Mynor Strong",
+          "TEAM_ABBREVIATION": "TOL",
+          "pts": 11,
+          "date": "2026-11-05"
+        }
+      ]
+    }
+  },
+  "GWEB": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Mikhali Pocknett",
+        "TEAM_ABBREVIATION": "GWEB",
+        "pts": 12,
+        "date": "2026-11-05",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Mikhali Pocknett",
+          "TEAM_ABBREVIATION": "GWEB",
+          "pts": 12,
+          "date": "2026-11-05"
+        },
+        {
+          "PLAYER_NAME": "Jacob Hudson",
+          "TEAM_ABBREVIATION": "GWEB",
+          "pts": 9,
           "date": "2026-11-02"
         }
       ]
     }
   },
-  "WEBS": {
+  "QUC": {
     "trending_up": {},
     "trending_down": {},
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Charles Nelson",
-        "TEAM_ABBREVIATION": "WEBS",
+        "PLAYER_NAME": "Nasir Mann",
+        "TEAM_ABBREVIATION": "QUC",
+        "pts": 28,
+        "date": "2026-11-04",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Nasir Mann",
+          "TEAM_ABBREVIATION": "QUC",
+          "pts": 28,
+          "date": "2026-11-04"
+        }
+      ]
+    }
+  },
+  "ARIZ": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Motiejus Krivas",
+        "TEAM_ABBREVIATION": "ARIZ",
+        "pts": 30,
+        "date": "2026-11-05",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Motiejus Krivas",
+          "TEAM_ABBREVIATION": "ARIZ",
+          "pts": 30,
+          "date": "2026-11-05"
+        },
+        {
+          "PLAYER_NAME": "Ivan Kharchenkov",
+          "TEAM_ABBREVIATION": "ARIZ",
+          "pts": 38,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "FOR": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Akira Jacobs",
+        "TEAM_ABBREVIATION": "FOR",
+        "pts": 20,
+        "date": "2026-11-02",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Akira Jacobs",
+          "TEAM_ABBREVIATION": "FOR",
+          "pts": 20,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "CHCC": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Braylon Frazier",
+        "TEAM_ABBREVIATION": "CHCC",
+        "pts": 12,
+        "date": "2026-11-04",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Braylon Frazier",
+          "TEAM_ABBREVIATION": "CHCC",
+          "pts": 12,
+          "date": "2026-11-04"
+        }
+      ]
+    }
+  },
+  "SIUE": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Jordan Pickett",
+        "TEAM_ABBREVIATION": "SIUE",
         "pts": 19,
         "date": "2026-11-04",
         "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Charles Nelson",
-          "TEAM_ABBREVIATION": "WEBS",
+          "PLAYER_NAME": "Jordan Pickett",
+          "TEAM_ABBREVIATION": "SIUE",
           "pts": 19,
           "date": "2026-11-04"
         }
       ]
     }
   },
-  "TTU": {
+  "CSUN": {
     "trending_up": {},
     "trending_down": {},
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Damarion Dennis",
-        "TEAM_ABBREVIATION": "TTU",
-        "pts": 22,
+        "PLAYER_NAME": "Mikah Ballew",
+        "TEAM_ABBREVIATION": "CSUN",
+        "pts": 17,
+        "date": "2026-11-04",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Mikah Ballew",
+          "TEAM_ABBREVIATION": "CSUN",
+          "pts": 17,
+          "date": "2026-11-04"
+        }
+      ]
+    }
+  },
+  "WOF": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Cam Lowe",
+        "TEAM_ABBREVIATION": "WOF",
+        "pts": 14,
+        "date": "2026-11-03",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Cam Lowe",
+          "TEAM_ABBREVIATION": "WOF",
+          "pts": 14,
+          "date": "2026-11-03"
+        }
+      ]
+    }
+  },
+  "UCLA": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Trent Perry",
+        "TEAM_ABBREVIATION": "UCLA",
+        "pts": 21,
         "date": "2026-11-02",
         "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Damarion Dennis",
-          "TEAM_ABBREVIATION": "TTU",
-          "pts": 22,
+          "PLAYER_NAME": "Trent Perry",
+          "TEAM_ABBREVIATION": "UCLA",
+          "pts": 21,
           "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "UTU": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Christian Gibson",
+        "TEAM_ABBREVIATION": "UTU",
+        "pts": 17,
+        "date": "2026-11-04",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Christian Gibson",
+          "TEAM_ABBREVIATION": "UTU",
+          "pts": 17,
+          "date": "2026-11-04"
+        }
+      ]
+    }
+  },
+  "DART": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Ernas Valauskas",
+        "TEAM_ABBREVIATION": "DART",
+        "pts": 18,
+        "date": "2026-11-04",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Ernas Valauskas",
+          "TEAM_ABBREVIATION": "DART",
+          "pts": 18,
+          "date": "2026-11-04"
+        }
+      ]
+    }
+  },
+  "SELA": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Quincy Allen",
+        "TEAM_ABBREVIATION": "SELA",
+        "pts": 16,
+        "date": "2026-11-04",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Quincy Allen",
+          "TEAM_ABBREVIATION": "SELA",
+          "pts": 16,
+          "date": "2026-11-04"
+        }
+      ]
+    }
+  },
+  "JOES": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Jaiden Glover-Toscano",
+        "TEAM_ABBREVIATION": "JOES",
+        "pts": 22,
+        "date": "2026-11-04",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Jaiden Glover-Toscano",
+          "TEAM_ABBREVIATION": "JOES",
+          "pts": 22,
+          "date": "2026-11-04"
+        }
+      ]
+    }
+  },
+  "LIB": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Zander Carter",
+        "TEAM_ABBREVIATION": "LIB",
+        "pts": 21,
+        "date": "2026-11-01",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Zander Carter",
+          "TEAM_ABBREVIATION": "LIB",
+          "pts": 21,
+          "date": "2026-11-01"
+        }
+      ]
+    }
+  },
+  "ND": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Brady Koehler",
+        "TEAM_ABBREVIATION": "ND",
+        "pts": 16,
+        "date": "2026-11-01",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Brady Koehler",
+          "TEAM_ABBREVIATION": "ND",
+          "pts": 16,
+          "date": "2026-11-01"
+        }
+      ]
+    }
+  },
+  "CAL": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Nojus Indrusaitis",
+        "TEAM_ABBREVIATION": "CAL",
+        "pts": 30,
+        "date": "2026-11-04",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Nojus Indrusaitis",
+          "TEAM_ABBREVIATION": "CAL",
+          "pts": 30,
+          "date": "2026-11-04"
+        }
+      ]
+    }
+  },
+  "SEMO": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Marqueas Bell",
+        "TEAM_ABBREVIATION": "SEMO",
+        "pts": 16,
+        "date": "2026-11-04",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Marqueas Bell",
+          "TEAM_ABBREVIATION": "SEMO",
+          "pts": 16,
+          "date": "2026-11-04"
+        }
+      ]
+    }
+  },
+  "NKU": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Noah Pagotto",
+        "TEAM_ABBREVIATION": "NKU",
+        "pts": 30,
+        "date": "2026-11-04",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Noah Pagotto",
+          "TEAM_ABBREVIATION": "NKU",
+          "pts": 30,
+          "date": "2026-11-04"
+        }
+      ]
+    }
+  },
+  "UNCA": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Connor Dubsky",
+        "TEAM_ABBREVIATION": "UNCA",
+        "pts": 21,
+        "date": "2026-11-04",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Connor Dubsky",
+          "TEAM_ABBREVIATION": "UNCA",
+          "pts": 21,
+          "date": "2026-11-04"
         }
       ]
     }
@@ -1565,27 +1721,6 @@
         {
           "PLAYER_NAME": "Zion Sensley",
           "TEAM_ABBREVIATION": "LMU",
-          "pts": 22,
-          "date": "2026-11-04"
-        }
-      ]
-    }
-  },
-  "NORF": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Jordan Skyers",
-        "TEAM_ABBREVIATION": "NORF",
-        "pts": 22,
-        "date": "2026-11-04",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Jordan Skyers",
-          "TEAM_ABBREVIATION": "NORF",
           "pts": 22,
           "date": "2026-11-04"
         }
@@ -1613,106 +1748,43 @@
       ]
     }
   },
-  "USI": {
+  "CHST": {
     "trending_up": {},
     "trending_down": {},
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "LA Hayes",
-        "TEAM_ABBREVIATION": "USI",
-        "pts": 21,
-        "date": "2026-11-04",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "LA Hayes",
-          "TEAM_ABBREVIATION": "USI",
-          "pts": 21,
-          "date": "2026-11-04"
-        }
-      ]
-    }
-  },
-  "UNCA": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Connor Dubsky",
-        "TEAM_ABBREVIATION": "UNCA",
-        "pts": 21,
-        "date": "2026-11-04",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Connor Dubsky",
-          "TEAM_ABBREVIATION": "UNCA",
-          "pts": 21,
-          "date": "2026-11-04"
-        }
-      ]
-    }
-  },
-  "BYU": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Robert Wright III",
-        "TEAM_ABBREVIATION": "BYU",
-        "pts": 35,
+        "PLAYER_NAME": "Will Lovings-Watts",
+        "TEAM_ABBREVIATION": "CHST",
+        "pts": 13,
         "date": "2026-11-02",
         "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Robert Wright III",
-          "TEAM_ABBREVIATION": "BYU",
-          "pts": 35,
+          "PLAYER_NAME": "Will Lovings-Watts",
+          "TEAM_ABBREVIATION": "CHST",
+          "pts": 13,
           "date": "2026-11-02"
         }
       ]
     }
   },
-  "UK": {
+  "WCBC": {
     "trending_up": {},
     "trending_down": {},
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Milan Momcilovic",
-        "TEAM_ABBREVIATION": "UK",
-        "pts": 24,
-        "date": "2026-11-03",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Milan Momcilovic",
-          "TEAM_ABBREVIATION": "UK",
-          "pts": 24,
-          "date": "2026-11-03"
-        }
-      ]
-    }
-  },
-  "ULM": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Dayjaun Anderson",
-        "TEAM_ABBREVIATION": "ULM",
-        "pts": 24,
+        "PLAYER_NAME": "Isaiah Dolloso",
+        "TEAM_ABBREVIATION": "WCBC",
+        "pts": 15,
         "date": "2026-11-04",
         "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Dayjaun Anderson",
-          "TEAM_ABBREVIATION": "ULM",
-          "pts": 24,
+          "PLAYER_NAME": "Isaiah Dolloso",
+          "TEAM_ABBREVIATION": "WCBC",
+          "pts": 15,
           "date": "2026-11-04"
         }
       ]
@@ -1739,22 +1811,196 @@
       ]
     }
   },
-  "BOBJ": {
+  "CP": {
     "trending_up": {},
     "trending_down": {},
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Lewis Robertson",
-        "TEAM_ABBREVIATION": "BOBJ",
+        "PLAYER_NAME": "Hamad Mousa",
+        "TEAM_ABBREVIATION": "CP",
+        "pts": 30,
+        "date": "2026-11-05",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Hamad Mousa",
+          "TEAM_ABBREVIATION": "CP",
+          "pts": 30,
+          "date": "2026-11-05"
+        }
+      ]
+    }
+  },
+  "RGNT": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Christian Brown",
+        "TEAM_ABBREVIATION": "RGNT",
+        "pts": 11,
+        "date": "2026-11-04",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Christian Brown",
+          "TEAM_ABBREVIATION": "RGNT",
+          "pts": 11,
+          "date": "2026-11-04"
+        }
+      ]
+    }
+  },
+  "UVA": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Thijs De Ridder",
+        "TEAM_ABBREVIATION": "UVA",
+        "pts": 24,
+        "date": "2026-11-03",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Thijs De Ridder",
+          "TEAM_ABBREVIATION": "UVA",
+          "pts": 24,
+          "date": "2026-11-03"
+        }
+      ]
+    }
+  },
+  "VUL": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Jacob Newman",
+        "TEAM_ABBREVIATION": "VUL",
         "pts": 14,
         "date": "2026-11-04",
         "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Lewis Robertson",
-          "TEAM_ABBREVIATION": "BOBJ",
+          "PLAYER_NAME": "Jacob Newman",
+          "TEAM_ABBREVIATION": "VUL",
           "pts": 14,
+          "date": "2026-11-04"
+        }
+      ]
+    }
+  },
+  "SMC": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Joshua Dent",
+        "TEAM_ABBREVIATION": "SMC",
+        "pts": 17,
+        "date": "2026-11-04",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Joshua Dent",
+          "TEAM_ABBREVIATION": "SMC",
+          "pts": 17,
+          "date": "2026-11-04"
+        }
+      ]
+    }
+  },
+  "FLA": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Rueben Chinyelu",
+        "TEAM_ABBREVIATION": "FLA",
+        "pts": 21,
+        "date": "2026-11-05",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Rueben Chinyelu",
+          "TEAM_ABBREVIATION": "FLA",
+          "pts": 21,
+          "date": "2026-11-05"
+        },
+        {
+          "PLAYER_NAME": "Thomas Haugh",
+          "TEAM_ABBREVIATION": "FLA",
+          "pts": 19,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "ULM": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Dayjaun Anderson",
+        "TEAM_ABBREVIATION": "ULM",
+        "pts": 24,
+        "date": "2026-11-04",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Dayjaun Anderson",
+          "TEAM_ABBREVIATION": "ULM",
+          "pts": 24,
+          "date": "2026-11-04"
+        }
+      ]
+    }
+  },
+  "ARMY": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Kevin McCarthy",
+        "TEAM_ABBREVIATION": "ARMY",
+        "pts": 17,
+        "date": "2026-11-02",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Kevin McCarthy",
+          "TEAM_ABBREVIATION": "ARMY",
+          "pts": 17,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "TNTC": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "De'Ante Green",
+        "TEAM_ABBREVIATION": "TNTC",
+        "pts": 23,
+        "date": "2026-11-04",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "De'Ante Green",
+          "TEAM_ABBREVIATION": "TNTC",
+          "pts": 23,
           "date": "2026-11-04"
         }
       ]
@@ -1781,317 +2027,272 @@
       ]
     }
   },
-  "SELA": {
+  "CUC": {
     "trending_up": {},
     "trending_down": {},
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Quincy Allen",
-        "TEAM_ABBREVIATION": "SELA",
-        "pts": 16,
-        "date": "2026-11-04",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Quincy Allen",
-          "TEAM_ABBREVIATION": "SELA",
-          "pts": 16,
-          "date": "2026-11-04"
-        }
-      ]
-    }
-  },
-  "MONM": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Jakai Sanders",
-        "TEAM_ABBREVIATION": "MONM",
+        "PLAYER_NAME": "Jacob Robinson",
+        "TEAM_ABBREVIATION": "CUC",
         "pts": 17,
-        "date": "2026-11-02",
+        "date": "2026-11-04",
         "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Jakai Sanders",
-          "TEAM_ABBREVIATION": "MONM",
+          "PLAYER_NAME": "Jacob Robinson",
+          "TEAM_ABBREVIATION": "CUC",
           "pts": 17,
-          "date": "2026-11-02"
+          "date": "2026-11-04"
         }
       ]
     }
   },
-  "MICH": {
+  "FUR": {
     "trending_up": {},
     "trending_down": {},
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Roddy Gayle Jr.",
-        "TEAM_ABBREVIATION": "MICH",
+        "PLAYER_NAME": "Tom House",
+        "TEAM_ABBREVIATION": "FUR",
         "pts": 17,
-        "date": "2026-11-02",
+        "date": "2026-11-04",
         "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Roddy Gayle Jr.",
-          "TEAM_ABBREVIATION": "MICH",
+          "PLAYER_NAME": "Tom House",
+          "TEAM_ABBREVIATION": "FUR",
           "pts": 17,
-          "date": "2026-11-02"
-        }
-      ]
-    }
-  },
-  "SKC": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Payton Racine",
-        "TEAM_ABBREVIATION": "SKC",
-        "pts": 12,
-        "date": "2026-11-04",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Payton Racine",
-          "TEAM_ABBREVIATION": "SKC",
-          "pts": 12,
           "date": "2026-11-04"
         }
       ]
     }
   },
-  "TNTC": {
+  "USC": {
     "trending_up": {},
     "trending_down": {},
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "De'Ante Green",
-        "TEAM_ABBREVIATION": "TNTC",
-        "pts": 23,
-        "date": "2026-11-04",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "De'Ante Green",
-          "TEAM_ABBREVIATION": "TNTC",
-          "pts": 23,
-          "date": "2026-11-04"
-        }
-      ]
-    }
-  },
-  "BOIS": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Dovydas Butka",
-        "TEAM_ABBREVIATION": "BOIS",
-        "pts": 18,
-        "date": "2026-11-04",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Dovydas Butka",
-          "TEAM_ABBREVIATION": "BOIS",
-          "pts": 18,
-          "date": "2026-11-04"
-        }
-      ]
-    }
-  },
-  "UTC": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Yonatan Levy",
-        "TEAM_ABBREVIATION": "UTC",
-        "pts": 14,
+        "PLAYER_NAME": "Adonis Ratliff",
+        "TEAM_ABBREVIATION": "USC",
+        "pts": 25,
         "date": "2026-11-02",
         "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Yonatan Levy",
-          "TEAM_ABBREVIATION": "UTC",
-          "pts": 14,
+          "PLAYER_NAME": "Adonis Ratliff",
+          "TEAM_ABBREVIATION": "USC",
+          "pts": 25,
           "date": "2026-11-02"
         }
       ]
     }
   },
-  "PUR": {
+  "BELL": {
     "trending_up": {},
     "trending_down": {},
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Daniel Jacobsen",
-        "TEAM_ABBREVIATION": "PUR",
-        "pts": 22,
+        "PLAYER_NAME": "Demarcus Surratt",
+        "TEAM_ABBREVIATION": "BELL",
+        "pts": 9,
         "date": "2026-11-02",
         "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Daniel Jacobsen",
-          "TEAM_ABBREVIATION": "PUR",
-          "pts": 22,
+          "PLAYER_NAME": "Demarcus Surratt",
+          "TEAM_ABBREVIATION": "BELL",
+          "pts": 9,
           "date": "2026-11-02"
         }
       ]
     }
   },
-  "UAPB": {
+  "MAN": {
     "trending_up": {},
     "trending_down": {},
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Jalen Tatum",
-        "TEAM_ABBREVIATION": "UAPB",
-        "pts": 16,
+        "PLAYER_NAME": "Novak Manojlovic",
+        "TEAM_ABBREVIATION": "MAN",
+        "pts": 11,
         "date": "2026-11-03",
         "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Jalen Tatum",
-          "TEAM_ABBREVIATION": "UAPB",
-          "pts": 16,
+          "PLAYER_NAME": "Novak Manojlovic",
+          "TEAM_ABBREVIATION": "MAN",
+          "pts": 11,
           "date": "2026-11-03"
         }
       ]
     }
   },
-  "WCBC": {
+  "VILL": {
     "trending_up": {},
     "trending_down": {},
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Isaiah Dolloso",
-        "TEAM_ABBREVIATION": "WCBC",
-        "pts": 15,
-        "date": "2026-11-04",
+        "PLAYER_NAME": "Tyler Perkins",
+        "TEAM_ABBREVIATION": "VILL",
+        "pts": 18,
+        "date": "2026-11-01",
         "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Isaiah Dolloso",
-          "TEAM_ABBREVIATION": "WCBC",
-          "pts": 15,
-          "date": "2026-11-04"
+          "PLAYER_NAME": "Tyler Perkins",
+          "TEAM_ABBREVIATION": "VILL",
+          "pts": 18,
+          "date": "2026-11-01"
         }
       ]
     }
   },
-  "SMWC": {
+  "VAN": {
     "trending_up": {},
     "trending_down": {},
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Donavon Barnett",
-        "TEAM_ABBREVIATION": "SMWC",
-        "pts": 10,
-        "date": "2026-11-04",
-        "streak": 1
+        "PLAYER_NAME": "Tyler Tanner",
+        "TEAM_ABBREVIATION": "VAN",
+        "pts": 17,
+        "date": "2026-11-05",
+        "streak": 2
       },
       "history": [
         {
-          "PLAYER_NAME": "Donavon Barnett",
-          "TEAM_ABBREVIATION": "SMWC",
-          "pts": 10,
-          "date": "2026-11-04"
+          "PLAYER_NAME": "Tyler Tanner",
+          "TEAM_ABBREVIATION": "VAN",
+          "pts": 17,
+          "date": "2026-11-05"
+        },
+        {
+          "PLAYER_NAME": "Tyler Tanner",
+          "TEAM_ABBREVIATION": "VAN",
+          "pts": 20,
+          "date": "2026-11-02"
         }
       ]
     }
   },
-  "RDPH": {
+  "HPU": {
     "trending_up": {},
     "trending_down": {},
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Khalil Caple",
-        "TEAM_ABBREVIATION": "RDPH",
+        "PLAYER_NAME": "Cam'Ron Fletcher",
+        "TEAM_ABBREVIATION": "HPU",
         "pts": 21,
         "date": "2026-11-04",
         "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Khalil Caple",
-          "TEAM_ABBREVIATION": "RDPH",
+          "PLAYER_NAME": "Cam'Ron Fletcher",
+          "TEAM_ABBREVIATION": "HPU",
           "pts": 21,
           "date": "2026-11-04"
+        },
+        {
+          "PLAYER_NAME": "Curtis Williams Jr.",
+          "TEAM_ABBREVIATION": "HPU",
+          "pts": 12,
+          "date": "2026-11-01"
         }
       ]
     }
   },
-  "NKU": {
+  "MONT": {
     "trending_up": {},
     "trending_down": {},
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Noah Pagotto",
-        "TEAM_ABBREVIATION": "NKU",
-        "pts": 30,
+        "PLAYER_NAME": "Noah Bendinger",
+        "TEAM_ABBREVIATION": "MONT",
+        "pts": 22,
         "date": "2026-11-04",
         "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Noah Pagotto",
-          "TEAM_ABBREVIATION": "NKU",
-          "pts": 30,
+          "PLAYER_NAME": "Noah Bendinger",
+          "TEAM_ABBREVIATION": "MONT",
+          "pts": 22,
           "date": "2026-11-04"
         }
       ]
     }
   },
-  "DUKE": {
+  "MILW": {
     "trending_up": {},
     "trending_down": {},
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Dame Sarr",
-        "TEAM_ABBREVIATION": "DUKE",
-        "pts": 16,
-        "date": "2026-11-02",
+        "PLAYER_NAME": "Aaron Womack III",
+        "TEAM_ABBREVIATION": "MILW",
+        "pts": 14,
+        "date": "2026-11-04",
         "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Dame Sarr",
-          "TEAM_ABBREVIATION": "DUKE",
-          "pts": 16,
+          "PLAYER_NAME": "Aaron Womack III",
+          "TEAM_ABBREVIATION": "MILW",
+          "pts": 14,
+          "date": "2026-11-04"
+        },
+        {
+          "PLAYER_NAME": "Amare Hereford",
+          "TEAM_ABBREVIATION": "MILW",
+          "pts": 14,
           "date": "2026-11-02"
         }
       ]
     }
   },
-  "ND": {
+  "SHSU": {
     "trending_up": {},
     "trending_down": {},
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Brady Koehler",
-        "TEAM_ABBREVIATION": "ND",
+        "PLAYER_NAME": "Jacobe Coleman",
+        "TEAM_ABBREVIATION": "SHSU",
         "pts": 16,
-        "date": "2026-11-01",
+        "date": "2026-11-03",
         "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Brady Koehler",
-          "TEAM_ABBREVIATION": "ND",
+          "PLAYER_NAME": "Jacobe Coleman",
+          "TEAM_ABBREVIATION": "SHSU",
           "pts": 16,
-          "date": "2026-11-01"
+          "date": "2026-11-03"
+        }
+      ]
+    }
+  },
+  "USI": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "LA Hayes",
+        "TEAM_ABBREVIATION": "USI",
+        "pts": 21,
+        "date": "2026-11-04",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "LA Hayes",
+          "TEAM_ABBREVIATION": "USI",
+          "pts": 21,
+          "date": "2026-11-04"
         }
       ]
     }
