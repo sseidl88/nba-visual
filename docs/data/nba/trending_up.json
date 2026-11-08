@@ -1,27 +1,27 @@
 {
-  "PLAYER_NAME": "Micah Potter",
-  "TEAM_ABBREVIATION": "POR",
-  "id": "4066399",
-  "recent_games": 4,
+  "PLAYER_NAME": "Isaac Jones",
+  "TEAM_ABBREVIATION": "DET",
+  "id": "5107818",
+  "recent_games": 2,
   "recent": {
-    "PPG": 1.5,
+    "PPG": 1.0,
     "APG": 0.0,
-    "RPG": 0.5,
-    "BPG": 0.0,
+    "RPG": 2.5,
+    "BPG": 1.0,
     "FG_PCT": 100.0
   },
   "avg": {
-    "PPG": 1.2,
-    "APG": 0.0,
-    "RPG": 0.7,
-    "BPG": 0.0,
-    "FG_PCT": 33.3
+    "PPG": 0.4,
+    "APG": 0.2,
+    "RPG": 1.0,
+    "BPG": 0.4,
+    "FG_PCT": 50.0
   },
   "delta": {
-    "PPG": 0.3,
-    "APG": 0.0,
-    "RPG": -0.2,
-    "BPG": 0.0,
-    "FG_PCT": 66.7
+    "PPG": 0.6,
+    "APG": -0.2,
+    "RPG": 1.5,
+    "BPG": 0.6,
+    "FG_PCT": 50.0
   }
 }
