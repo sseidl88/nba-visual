@@ -1,25 +1,4 @@
 {
-  "NY": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Breanna Stewart",
-        "TEAM_ABBREVIATION": "NY",
-        "pts": 26,
-        "date": "2026-10-09",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Breanna Stewart",
-          "TEAM_ABBREVIATION": "NY",
-          "pts": 26,
-          "date": "2026-10-09"
-        }
-      ]
-    }
-  },
   "GS": {
     "trending_up": {},
     "trending_down": {},
@@ -73,12 +52,6 @@
           "TEAM_ABBREVIATION": "GS",
           "pts": 26,
           "date": "2026-10-17"
-        },
-        {
-          "PLAYER_NAME": "Kayla Thornton",
-          "TEAM_ABBREVIATION": "GS",
-          "pts": 18,
-          "date": "2026-10-09"
         }
       ]
     }
@@ -136,33 +109,6 @@
           "TEAM_ABBREVIATION": "ATL",
           "pts": 19,
           "date": "2026-10-17"
-        },
-        {
-          "PLAYER_NAME": "Angel Reese",
-          "TEAM_ABBREVIATION": "ATL",
-          "pts": 22,
-          "date": "2026-10-09"
-        }
-      ]
-    }
-  },
-  "LV": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "A'ja Wilson",
-        "TEAM_ABBREVIATION": "LV",
-        "pts": 21,
-        "date": "2026-10-09",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "A'ja Wilson",
-          "TEAM_ABBREVIATION": "LV",
-          "pts": 21,
-          "date": "2026-10-09"
         }
       ]
     }

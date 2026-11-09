@@ -1,17 +1,29 @@
 {
-  "date": "2026-11-07",
+  "date": "2026-11-08",
   "games": [
     {
-      "home": "LOU",
-      "home_score": 107,
-      "away": "MORE",
-      "away_score": 57
+      "home": "UVA",
+      "home_score": 91,
+      "away": "ARK",
+      "away_score": 72
     },
     {
-      "home": "GONZ",
-      "home_score": 109,
-      "away": "NMSU",
+      "home": "HOU",
+      "home_score": 86,
+      "away": "CAL",
       "away_score": 68
+    },
+    {
+      "home": "SJU",
+      "home_score": 104,
+      "away": "IONA",
+      "away_score": 65
+    },
+    {
+      "home": "USC",
+      "home_score": 93,
+      "away": "WICH",
+      "away_score": 86
     }
   ]
 }
