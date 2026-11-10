@@ -1,12 +1,18 @@
 {
   "current": {
-    "date": "2026-11-08",
-    "PLAYER_NAME": "Austin Reaves",
-    "TEAM_ABBREVIATION": "LAL",
-    "pts": 43,
+    "date": "2026-11-09",
+    "PLAYER_NAME": "Anthony Davis",
+    "TEAM_ABBREVIATION": "WSH",
+    "pts": 44,
     "streak": 1
   },
   "history": [
+    {
+      "date": "2026-11-09",
+      "PLAYER_NAME": "Anthony Davis",
+      "TEAM_ABBREVIATION": "WSH",
+      "pts": 44
+    },
     {
       "date": "2026-11-08",
       "PLAYER_NAME": "Austin Reaves",
@@ -60,12 +66,6 @@
       "PLAYER_NAME": "Scottie Barnes",
       "TEAM_ABBREVIATION": "TOR",
       "pts": 41
-    },
-    {
-      "date": "2026-10-29",
-      "PLAYER_NAME": "Darius Acuff Jr.",
-      "TEAM_ABBREVIATION": "SAC",
-      "pts": 34
     }
   ]
 }

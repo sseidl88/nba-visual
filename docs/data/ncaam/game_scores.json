@@ -1,29 +1,35 @@
 {
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "games": [
     {
-      "home": "UVA",
-      "home_score": 91,
-      "away": "ARK",
-      "away_score": 72
+      "home": "CONN",
+      "home_score": 83,
+      "away": "WAG",
+      "away_score": 41
     },
     {
-      "home": "HOU",
-      "home_score": 86,
-      "away": "CAL",
-      "away_score": 68
-    },
-    {
-      "home": "SJU",
-      "home_score": 104,
-      "away": "IONA",
-      "away_score": 65
-    },
-    {
-      "home": "USC",
+      "home": "TEX",
       "home_score": 93,
-      "away": "WICH",
-      "away_score": 86
+      "away": "GRAM",
+      "away_score": 62
+    },
+    {
+      "home": "TENN",
+      "home_score": 70,
+      "away": "RAD",
+      "away_score": 47
+    },
+    {
+      "home": "MIA",
+      "home_score": 89,
+      "away": "UNF",
+      "away_score": 51
+    },
+    {
+      "home": "ALA",
+      "home_score": 109,
+      "away": "OAK",
+      "away_score": 68
     }
   ]
 }
