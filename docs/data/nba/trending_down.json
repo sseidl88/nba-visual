@@ -1,27 +1,27 @@
 {
-  "PLAYER_NAME": "Chris Cenac Jr.",
-  "TEAM_ABBREVIATION": "BOS",
-  "id": "5142621",
-  "recent_games": 1,
+  "PLAYER_NAME": "Karim Lopez",
+  "TEAM_ABBREVIATION": "MEM",
+  "id": "5231919",
+  "recent_games": 2,
   "recent": {
-    "PPG": 0.0,
+    "PPG": 1.0,
     "APG": 0.0,
     "RPG": 0.0,
     "BPG": 0.0,
     "FG_PCT": 0.0
   },
   "avg": {
-    "PPG": 1.2,
+    "PPG": 1.0,
     "APG": 0.0,
-    "RPG": 0.5,
-    "BPG": 0.0,
+    "RPG": 0.2,
+    "BPG": 0.2,
     "FG_PCT": 100.0
   },
   "delta": {
-    "PPG": -1.2,
+    "PPG": 0.0,
     "APG": 0.0,
-    "RPG": -0.5,
-    "BPG": 0.0,
+    "RPG": -0.2,
+    "BPG": -0.2,
     "FG_PCT": -100.0
   }
 }
