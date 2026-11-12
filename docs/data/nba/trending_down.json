@@ -1,27 +1,27 @@
 {
-  "PLAYER_NAME": "Karim Lopez",
-  "TEAM_ABBREVIATION": "MEM",
-  "id": "5231919",
+  "PLAYER_NAME": "Isaac Jones",
+  "TEAM_ABBREVIATION": "DET",
+  "id": "5107818",
   "recent_games": 2,
   "recent": {
-    "PPG": 1.0,
+    "PPG": 0.0,
     "APG": 0.0,
     "RPG": 0.0,
     "BPG": 0.0,
     "FG_PCT": 0.0
   },
   "avg": {
-    "PPG": 1.0,
+    "PPG": 0.5,
     "APG": 0.0,
-    "RPG": 0.2,
-    "BPG": 0.2,
+    "RPG": 1.2,
+    "BPG": 0.5,
     "FG_PCT": 100.0
   },
   "delta": {
-    "PPG": 0.0,
+    "PPG": -0.5,
     "APG": 0.0,
-    "RPG": -0.2,
-    "BPG": -0.2,
+    "RPG": -1.2,
+    "BPG": -0.5,
     "FG_PCT": -100.0
   }
 }

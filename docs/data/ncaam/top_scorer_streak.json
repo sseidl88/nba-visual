@@ -1,12 +1,18 @@
 {
   "current": {
-    "date": "2026-11-10",
-    "PLAYER_NAME": "Tre White",
-    "TEAM_ABBREVIATION": "KU",
-    "pts": 30,
+    "date": "2026-11-11",
+    "PLAYER_NAME": "Pryce Sandfort",
+    "TEAM_ABBREVIATION": "NEB",
+    "pts": 22,
     "streak": 1
   },
   "history": [
+    {
+      "date": "2026-11-11",
+      "PLAYER_NAME": "Pryce Sandfort",
+      "TEAM_ABBREVIATION": "NEB",
+      "pts": 22
+    },
     {
       "date": "2026-11-10",
       "PLAYER_NAME": "Tre White",
@@ -60,12 +66,6 @@
       "PLAYER_NAME": "Ivan Kharchenkov",
       "TEAM_ABBREVIATION": "ARIZ",
       "pts": 38
-    },
-    {
-      "date": "2026-11-01",
-      "PLAYER_NAME": "Zander Carter",
-      "TEAM_ABBREVIATION": "LIB",
-      "pts": 21
     }
   ]
 }
