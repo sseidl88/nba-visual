@@ -1,471 +1,346 @@
 {
-  "ND": {
+  "CONN": {
     "trending_up": {
-      "PLAYER_NAME": "Jacy Abii",
-      "TEAM_ABBREVIATION": "ND",
-      "id": "5457123",
+      "PLAYER_NAME": "Sarah Strong",
+      "TEAM_ABBREVIATION": "CONN",
+      "id": "5239592",
       "recent_games": 2,
       "recent": {
-        "PPG": 14.5,
-        "APG": 7.0,
-        "RPG": 11.5,
-        "BPG": 3.5,
-        "FG_PCT": 65.0
+        "PPG": 32.0,
+        "APG": 4.0,
+        "RPG": 9.5,
+        "BPG": 1.0,
+        "FG_PCT": 63.2
       },
       "avg": {
-        "PPG": 13.0,
-        "APG": 5.3,
-        "RPG": 10.3,
-        "BPG": 3.3,
-        "FG_PCT": 54.5
+        "PPG": 24.0,
+        "APG": 3.8,
+        "RPG": 7.8,
+        "BPG": 0.5,
+        "FG_PCT": 58.7
       },
       "delta": {
-        "PPG": 1.5,
-        "APG": 1.7,
-        "RPG": 1.2,
-        "BPG": 0.2,
-        "FG_PCT": 10.5
+        "PPG": 8.0,
+        "APG": 0.2,
+        "RPG": 1.7,
+        "BPG": 0.5,
+        "FG_PCT": 4.5
       }
     },
     "trending_down": {
-      "PLAYER_NAME": "Hannah Hidalgo",
-      "TEAM_ABBREVIATION": "ND",
-      "id": "5174674",
+      "PLAYER_NAME": "Marine Dursus",
+      "TEAM_ABBREVIATION": "CONN",
+      "id": "5455213",
       "recent_games": 2,
       "recent": {
-        "PPG": 25.0,
-        "APG": 3.5,
-        "RPG": 8.0,
+        "PPG": 0.0,
+        "APG": 0.0,
+        "RPG": 0.0,
         "BPG": 0.0,
-        "FG_PCT": 58.1
+        "FG_PCT": 0.0
       },
       "avg": {
-        "PPG": 27.3,
-        "APG": 5.0,
-        "RPG": 7.7,
+        "PPG": 2.8,
+        "APG": 0.2,
+        "RPG": 0.0,
         "BPG": 0.0,
-        "FG_PCT": 58.0
+        "FG_PCT": 66.7
       },
       "delta": {
-        "PPG": -2.3,
-        "APG": -1.5,
-        "RPG": 0.3,
+        "PPG": -2.8,
+        "APG": -0.2,
+        "RPG": 0.0,
         "BPG": 0.0,
-        "FG_PCT": 0.1
+        "FG_PCT": -66.7
       }
     },
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Hannah Hidalgo",
-        "TEAM_ABBREVIATION": "ND",
-        "pts": 23,
-        "date": "2026-11-10",
-        "streak": 3
+        "PLAYER_NAME": "Sarah Strong",
+        "TEAM_ABBREVIATION": "CONN",
+        "pts": 25,
+        "date": "2026-11-12",
+        "streak": 2
       },
       "history": [
         {
-          "PLAYER_NAME": "Hannah Hidalgo",
-          "TEAM_ABBREVIATION": "ND",
-          "pts": 23,
-          "date": "2026-11-10"
+          "PLAYER_NAME": "Sarah Strong",
+          "TEAM_ABBREVIATION": "CONN",
+          "pts": 25,
+          "date": "2026-11-12"
         },
         {
-          "PLAYER_NAME": "Hannah Hidalgo",
-          "TEAM_ABBREVIATION": "ND",
-          "pts": 27,
-          "date": "2026-11-06"
+          "PLAYER_NAME": "Sarah Strong",
+          "TEAM_ABBREVIATION": "CONN",
+          "pts": 39,
+          "date": "2026-11-08"
         },
         {
-          "PLAYER_NAME": "Hannah Hidalgo",
-          "TEAM_ABBREVIATION": "ND",
-          "pts": 32,
-          "date": "2026-11-01"
-        }
-      ]
-    }
-  },
-  "UNCO": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Mia Galbraith",
-        "TEAM_ABBREVIATION": "UNCO",
-        "pts": 7,
-        "date": "2026-11-07",
-        "streak": 1
-      },
-      "history": [
+          "PLAYER_NAME": "Jovana Popovic",
+          "TEAM_ABBREVIATION": "CONN",
+          "pts": 25,
+          "date": "2026-11-05"
+        },
         {
-          "PLAYER_NAME": "Mia Galbraith",
-          "TEAM_ABBREVIATION": "UNCO",
-          "pts": 7,
-          "date": "2026-11-07"
-        }
-      ]
-    }
-  },
-  "UNLV": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Maia Rosarion",
-        "TEAM_ABBREVIATION": "UNLV",
-        "pts": 12,
-        "date": "2026-11-02",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Maia Rosarion",
-          "TEAM_ABBREVIATION": "UNLV",
-          "pts": 12,
+          "PLAYER_NAME": "Sarah Strong",
+          "TEAM_ABBREVIATION": "CONN",
+          "pts": 19,
           "date": "2026-11-02"
         }
       ]
     }
   },
-  "FAU": {
-    "trending_up": {},
-    "trending_down": {},
+  "DUKE": {
+    "trending_up": {
+      "PLAYER_NAME": "Toby Fournier",
+      "TEAM_ABBREVIATION": "DUKE",
+      "id": "5238277",
+      "recent_games": 2,
+      "recent": {
+        "PPG": 15.0,
+        "APG": 1.0,
+        "RPG": 5.0,
+        "BPG": 2.0,
+        "FG_PCT": 60.9
+      },
+      "avg": {
+        "PPG": 10.0,
+        "APG": 0.7,
+        "RPG": 3.3,
+        "BPG": 1.3,
+        "FG_PCT": 60.9
+      },
+      "delta": {
+        "PPG": 5.0,
+        "APG": 0.3,
+        "RPG": 1.7,
+        "BPG": 0.7,
+        "FG_PCT": 0.0
+      }
+    },
+    "trending_down": {
+      "PLAYER_NAME": "Emilee Skinner",
+      "TEAM_ABBREVIATION": "DUKE",
+      "id": "5311970",
+      "recent_games": 2,
+      "recent": {
+        "PPG": 0.0,
+        "APG": 0.5,
+        "RPG": 1.0,
+        "BPG": 0.0,
+        "FG_PCT": 0.0
+      },
+      "avg": {
+        "PPG": 2.7,
+        "APG": 2.0,
+        "RPG": 2.7,
+        "BPG": 0.3,
+        "FG_PCT": 36.4
+      },
+      "delta": {
+        "PPG": -2.7,
+        "APG": -1.5,
+        "RPG": -1.7,
+        "BPG": -0.3,
+        "FG_PCT": -36.4
+      }
+    },
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Erin Rodgers",
-        "TEAM_ABBREVIATION": "FAU",
-        "pts": 11,
-        "date": "2026-11-08",
+        "PLAYER_NAME": "Toby Fournier",
+        "TEAM_ABBREVIATION": "DUKE",
+        "pts": 20,
+        "date": "2026-11-12",
         "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Erin Rodgers",
-          "TEAM_ABBREVIATION": "FAU",
-          "pts": 11,
+          "PLAYER_NAME": "Toby Fournier",
+          "TEAM_ABBREVIATION": "DUKE",
+          "pts": 20,
+          "date": "2026-11-12"
+        },
+        {
+          "PLAYER_NAME": "Autumn Fleary",
+          "TEAM_ABBREVIATION": "DUKE",
+          "pts": 14,
           "date": "2026-11-08"
+        },
+        {
+          "PLAYER_NAME": "Riley Nelson",
+          "TEAM_ABBREVIATION": "DUKE",
+          "pts": 15,
+          "date": "2026-11-03"
         }
       ]
     }
   },
-  "MINN": {
+  "USC": {
     "trending_up": {
-      "PLAYER_NAME": "Makena Christian",
-      "TEAM_ABBREVIATION": "MINN",
-      "id": "5311570",
+      "PLAYER_NAME": "Sara Okeke",
+      "TEAM_ABBREVIATION": "USC",
+      "id": "5456431",
       "recent_games": 2,
       "recent": {
-        "PPG": 2.5,
-        "APG": 2.0,
-        "RPG": 1.0,
+        "PPG": 10.0,
+        "APG": 0.5,
+        "RPG": 7.5,
         "BPG": 0.0,
-        "FG_PCT": 50.0
+        "FG_PCT": 100.0
       },
       "avg": {
-        "PPG": 1.7,
+        "PPG": 6.7,
+        "APG": 0.7,
+        "RPG": 5.7,
+        "BPG": 0.0,
+        "FG_PCT": 90.0
+      },
+      "delta": {
+        "PPG": 3.3,
+        "APG": -0.2,
+        "RPG": 1.8,
+        "BPG": 0.0,
+        "FG_PCT": 10.0
+      }
+    },
+    "trending_down": {
+      "PLAYER_NAME": "Rian Forestier",
+      "TEAM_ABBREVIATION": "USC",
+      "id": "5239662",
+      "recent_games": 2,
+      "recent": {
+        "PPG": 2.0,
+        "APG": 2.0,
+        "RPG": 0.5,
+        "BPG": 0.0,
+        "FG_PCT": 25.0
+      },
+      "avg": {
+        "PPG": 2.0,
         "APG": 1.3,
-        "RPG": 1.3,
+        "RPG": 1.7,
         "BPG": 0.0,
         "FG_PCT": 33.3
       },
       "delta": {
-        "PPG": 0.8,
+        "PPG": 0.0,
         "APG": 0.7,
-        "RPG": -0.3,
+        "RPG": -1.2,
         "BPG": 0.0,
-        "FG_PCT": 16.7
-      }
-    },
-    "trending_down": {
-      "PLAYER_NAME": "Gracie Merkle",
-      "TEAM_ABBREVIATION": "MINN",
-      "id": "5107391",
-      "recent_games": 2,
-      "recent": {
-        "PPG": 9.0,
-        "APG": 0.5,
-        "RPG": 1.5,
-        "BPG": 0.0,
-        "FG_PCT": 90.0
-      },
-      "avg": {
-        "PPG": 13.3,
-        "APG": 0.3,
-        "RPG": 3.3,
-        "BPG": 0.0,
-        "FG_PCT": 90.5
-      },
-      "delta": {
-        "PPG": -4.3,
-        "APG": 0.2,
-        "RPG": -1.8,
-        "BPG": 0.0,
-        "FG_PCT": -0.5
+        "FG_PCT": -8.3
       }
     },
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Mara Braun",
-        "TEAM_ABBREVIATION": "MINN",
-        "pts": 19,
+        "PLAYER_NAME": "Saniyah Hall",
+        "TEAM_ABBREVIATION": "USC",
+        "pts": 24,
         "date": "2026-11-10",
         "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Mara Braun",
-          "TEAM_ABBREVIATION": "MINN",
-          "pts": 19,
+          "PLAYER_NAME": "Saniyah Hall",
+          "TEAM_ABBREVIATION": "USC",
+          "pts": 24,
           "date": "2026-11-10"
         },
         {
-          "PLAYER_NAME": "Grace Grocholski",
-          "TEAM_ABBREVIATION": "MINN",
-          "pts": 25,
-          "date": "2026-11-07"
+          "PLAYER_NAME": "JuJu Watkins",
+          "TEAM_ABBREVIATION": "USC",
+          "pts": 32,
+          "date": "2026-11-08"
         },
         {
-          "PLAYER_NAME": "Gracie Merkle",
-          "TEAM_ABBREVIATION": "MINN",
-          "pts": 22,
+          "PLAYER_NAME": "Jazzy Davidson",
+          "TEAM_ABBREVIATION": "USC",
+          "pts": 23,
           "date": "2026-11-02"
         }
       ]
     }
   },
-  "PAC": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Jordyn Dyer",
-        "TEAM_ABBREVIATION": "PAC",
-        "pts": 12,
-        "date": "2026-11-05",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Jordyn Dyer",
-          "TEAM_ABBREVIATION": "PAC",
-          "pts": 12,
-          "date": "2026-11-05"
-        }
-      ]
-    }
-  },
-  "UCSD": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Coryn Watts",
-        "TEAM_ABBREVIATION": "UCSD",
-        "pts": 15,
-        "date": "2026-11-02",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Coryn Watts",
-          "TEAM_ABBREVIATION": "UCSD",
-          "pts": 15,
-          "date": "2026-11-02"
-        }
-      ]
-    }
-  },
-  "FDU": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Reese Downey",
-        "TEAM_ABBREVIATION": "FDU",
-        "pts": 17,
-        "date": "2026-11-04",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Reese Downey",
-          "TEAM_ABBREVIATION": "FDU",
-          "pts": 17,
-          "date": "2026-11-04"
-        }
-      ]
-    }
-  },
-  "OSU": {
+  "UNC": {
     "trending_up": {
-      "PLAYER_NAME": "Seini Henry",
-      "TEAM_ABBREVIATION": "OSU",
-      "id": "5239682",
+      "PLAYER_NAME": "Laila Hull",
+      "TEAM_ABBREVIATION": "UNC",
+      "id": "5174422",
       "recent_games": 2,
       "recent": {
-        "PPG": 1.5,
+        "PPG": 8.0,
+        "APG": 1.0,
+        "RPG": 2.5,
+        "BPG": 1.0,
+        "FG_PCT": 46.2
+      },
+      "avg": {
+        "PPG": 5.3,
+        "APG": 0.7,
+        "RPG": 1.7,
+        "BPG": 0.7,
+        "FG_PCT": 33.3
+      },
+      "delta": {
+        "PPG": 2.7,
+        "APG": 0.3,
+        "RPG": 0.8,
+        "BPG": 0.3,
+        "FG_PCT": 12.9
+      }
+    },
+    "trending_down": {
+      "PLAYER_NAME": "Noelle Bofia",
+      "TEAM_ABBREVIATION": "UNC",
+      "id": "5456874",
+      "recent_games": 2,
+      "recent": {
+        "PPG": 0.5,
         "APG": 0.0,
-        "RPG": 1.5,
+        "RPG": 2.0,
         "BPG": 0.0,
-        "FG_PCT": 50.0
+        "FG_PCT": 0.0
       },
       "avg": {
         "PPG": 1.0,
         "APG": 0.0,
         "RPG": 2.7,
-        "BPG": 0.0,
-        "FG_PCT": 20.0
+        "BPG": 0.3,
+        "FG_PCT": 25.0
       },
       "delta": {
-        "PPG": 0.5,
+        "PPG": -0.5,
         "APG": 0.0,
-        "RPG": -1.2,
-        "BPG": 0.0,
-        "FG_PCT": 30.0
-      }
-    },
-    "trending_down": {
-      "PLAYER_NAME": "Bryn Martin",
-      "TEAM_ABBREVIATION": "OSU",
-      "id": "5311598",
-      "recent_games": 2,
-      "recent": {
-        "PPG": 1.5,
-        "APG": 0.5,
-        "RPG": 1.0,
-        "BPG": 0.5,
-        "FG_PCT": 10.0
-      },
-      "avg": {
-        "PPG": 2.7,
-        "APG": 0.7,
-        "RPG": 0.7,
-        "BPG": 0.7,
-        "FG_PCT": 23.1
-      },
-      "delta": {
-        "PPG": -1.2,
-        "APG": -0.2,
-        "RPG": 0.3,
-        "BPG": -0.2,
-        "FG_PCT": -13.1
+        "RPG": -0.7,
+        "BPG": -0.3,
+        "FG_PCT": -25.0
       }
     },
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Elsa Lemmila",
-        "TEAM_ABBREVIATION": "OSU",
-        "pts": 19,
-        "date": "2026-11-08",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Elsa Lemmila",
-          "TEAM_ABBREVIATION": "OSU",
-          "pts": 19,
-          "date": "2026-11-08"
-        },
-        {
-          "PLAYER_NAME": "Jaloni Cambridge",
-          "TEAM_ABBREVIATION": "OSU",
-          "pts": 23,
-          "date": "2026-11-05"
-        },
-        {
-          "PLAYER_NAME": "Jaloni Cambridge",
-          "TEAM_ABBREVIATION": "OSU",
-          "pts": 22,
-          "date": "2026-11-02"
-        }
-      ]
-    }
-  },
-  "TXSO": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Jayla Cornelius",
-        "TEAM_ABBREVIATION": "TXSO",
-        "pts": 6,
-        "date": "2026-11-05",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Jayla Cornelius",
-          "TEAM_ABBREVIATION": "TXSO",
-          "pts": 6,
-          "date": "2026-11-05"
-        }
-      ]
-    }
-  },
-  "SC": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Chloe Kitts",
-        "TEAM_ABBREVIATION": "SC",
+        "PLAYER_NAME": "Nyla Brooks",
+        "TEAM_ABBREVIATION": "UNC",
         "pts": 17,
-        "date": "2026-11-08",
-        "streak": 1
+        "date": "2026-11-11",
+        "streak": 2
       },
       "history": [
         {
-          "PLAYER_NAME": "Chloe Kitts",
-          "TEAM_ABBREVIATION": "SC",
+          "PLAYER_NAME": "Nyla Brooks",
+          "TEAM_ABBREVIATION": "UNC",
           "pts": 17,
+          "date": "2026-11-11"
+        },
+        {
+          "PLAYER_NAME": "Nyla Brooks",
+          "TEAM_ABBREVIATION": "UNC",
+          "pts": 13,
           "date": "2026-11-08"
         },
         {
-          "PLAYER_NAME": "Joyce Edwards",
-          "TEAM_ABBREVIATION": "SC",
-          "pts": 23,
-          "date": "2026-11-02"
-        }
-      ]
-    }
-  },
-  "NCAT": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Darrionna Howard",
-        "TEAM_ABBREVIATION": "NCAT",
-        "pts": 10,
-        "date": "2026-11-10",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Darrionna Howard",
-          "TEAM_ABBREVIATION": "NCAT",
-          "pts": 10,
-          "date": "2026-11-10"
-        }
-      ]
-    }
-  },
-  "GT": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Talayah Walker",
-        "TEAM_ABBREVIATION": "GT",
-        "pts": 21,
-        "date": "2026-11-08",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Talayah Walker",
-          "TEAM_ABBREVIATION": "GT",
+          "PLAYER_NAME": "Kate Harpring",
+          "TEAM_ABBREVIATION": "UNC",
           "pts": 21,
-          "date": "2026-11-08"
+          "date": "2026-11-02"
         }
       ]
     }
@@ -491,27 +366,6 @@
       ]
     }
   },
-  "ORU": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Aliyah Duval",
-        "TEAM_ABBREVIATION": "ORU",
-        "pts": 14,
-        "date": "2026-11-03",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Aliyah Duval",
-          "TEAM_ABBREVIATION": "ORU",
-          "pts": 14,
-          "date": "2026-11-03"
-        }
-      ]
-    }
-  },
   "VILL": {
     "trending_up": {},
     "trending_down": {},
@@ -533,249 +387,404 @@
       ]
     }
   },
-  "GB": {
+  "ORU": {
     "trending_up": {},
     "trending_down": {},
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Maddy Skorupski",
-        "TEAM_ABBREVIATION": "GB",
-        "pts": 16,
+        "PLAYER_NAME": "Aliyah Duval",
+        "TEAM_ABBREVIATION": "ORU",
+        "pts": 14,
         "date": "2026-11-03",
         "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Maddy Skorupski",
-          "TEAM_ABBREVIATION": "GB",
-          "pts": 16,
+          "PLAYER_NAME": "Aliyah Duval",
+          "TEAM_ABBREVIATION": "ORU",
+          "pts": 14,
           "date": "2026-11-03"
         }
       ]
     }
   },
-  "LEH": {
+  "NORF": {
     "trending_up": {},
     "trending_down": {},
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Leia Edwards",
-        "TEAM_ABBREVIATION": "LEH",
-        "pts": 14,
-        "date": "2026-11-02",
+        "PLAYER_NAME": "Alexis Davis",
+        "TEAM_ABBREVIATION": "NORF",
+        "pts": 5,
+        "date": "2026-11-12",
         "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Leia Edwards",
-          "TEAM_ABBREVIATION": "LEH",
-          "pts": 14,
-          "date": "2026-11-02"
+          "PLAYER_NAME": "Alexis Davis",
+          "TEAM_ABBREVIATION": "NORF",
+          "pts": 5,
+          "date": "2026-11-12"
         }
       ]
     }
   },
-  "ALCN": {
+  "TXSO": {
     "trending_up": {},
     "trending_down": {},
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Jae'la Smith",
-        "TEAM_ABBREVIATION": "ALCN",
-        "pts": 8,
-        "date": "2026-11-02",
+        "PLAYER_NAME": "Jayla Cornelius",
+        "TEAM_ABBREVIATION": "TXSO",
+        "pts": 6,
+        "date": "2026-11-05",
         "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Jae'la Smith",
-          "TEAM_ABBREVIATION": "ALCN",
-          "pts": 8,
-          "date": "2026-11-02"
+          "PLAYER_NAME": "Jayla Cornelius",
+          "TEAM_ABBREVIATION": "TXSO",
+          "pts": 6,
+          "date": "2026-11-05"
         }
       ]
     }
   },
-  "TAR": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Caroline Lyles",
-        "TEAM_ABBREVIATION": "TAR",
-        "pts": 10,
-        "date": "2026-11-08",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Caroline Lyles",
-          "TEAM_ABBREVIATION": "TAR",
-          "pts": 10,
-          "date": "2026-11-08"
-        }
-      ]
-    }
-  },
-  "TEX": {
+  "WASH": {
     "trending_up": {
-      "PLAYER_NAME": "Lovisa Asbrink Hose",
-      "TEAM_ABBREVIATION": "TEX",
-      "id": "5240913",
-      "recent_games": 2,
+      "PLAYER_NAME": "Daniella McLean",
+      "TEAM_ABBREVIATION": "WASH",
+      "id": "5311755",
+      "recent_games": 1,
       "recent": {
-        "PPG": 1.0,
+        "PPG": 3.0,
         "APG": 0.0,
-        "RPG": 0.5,
-        "BPG": 0.0,
+        "RPG": 3.0,
+        "BPG": 3.0,
         "FG_PCT": 100.0
       },
       "avg": {
-        "PPG": 0.7,
+        "PPG": 1.7,
         "APG": 0.0,
-        "RPG": 0.3,
-        "BPG": 0.0,
-        "FG_PCT": 50.0
+        "RPG": 1.0,
+        "BPG": 1.0,
+        "FG_PCT": 100.0
       },
       "delta": {
-        "PPG": 0.3,
+        "PPG": 1.3,
         "APG": 0.0,
-        "RPG": 0.2,
-        "BPG": 0.0,
-        "FG_PCT": 50.0
+        "RPG": 2.0,
+        "BPG": 2.0,
+        "FG_PCT": 0.0
       }
     },
     "trending_down": {
-      "PLAYER_NAME": "Isi Etute",
-      "TEAM_ABBREVIATION": "TEX",
-      "id": "5455530",
-      "recent_games": 2,
+      "PLAYER_NAME": "Kaelyn Carroll",
+      "TEAM_ABBREVIATION": "WASH",
+      "id": "5311619",
+      "recent_games": 1,
       "recent": {
-        "PPG": 5.0,
-        "APG": 1.0,
-        "RPG": 3.0,
+        "PPG": 0.0,
+        "APG": 0.0,
+        "RPG": 0.0,
         "BPG": 0.0,
-        "FG_PCT": 40.0
+        "FG_PCT": 0.0
       },
       "avg": {
-        "PPG": 6.3,
-        "APG": 1.3,
-        "RPG": 3.7,
-        "BPG": 0.0,
-        "FG_PCT": 53.8
+        "PPG": 0.0,
+        "APG": 0.7,
+        "RPG": 1.3,
+        "BPG": 1.3,
+        "FG_PCT": 0.0
       },
       "delta": {
-        "PPG": -1.3,
-        "APG": -0.3,
-        "RPG": -0.7,
-        "BPG": 0.0,
-        "FG_PCT": -13.8
+        "PPG": 0.0,
+        "APG": -0.7,
+        "RPG": -1.3,
+        "BPG": -1.3,
+        "FG_PCT": 0.0
       }
     },
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Jayda Clark",
-        "TEAM_ABBREVIATION": "TEX",
-        "pts": 24,
+        "PLAYER_NAME": "Avery Howell",
+        "TEAM_ABBREVIATION": "WASH",
+        "pts": 21,
+        "date": "2026-11-12",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Avery Howell",
+          "TEAM_ABBREVIATION": "WASH",
+          "pts": 21,
+          "date": "2026-11-12"
+        },
+        {
+          "PLAYER_NAME": "Sayvia Sellers",
+          "TEAM_ABBREVIATION": "WASH",
+          "pts": 17,
+          "date": "2026-11-05"
+        },
+        {
+          "PLAYER_NAME": "Sayvia Sellers",
+          "TEAM_ABBREVIATION": "WASH",
+          "pts": 25,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "WKU": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Hayven Smith",
+        "TEAM_ABBREVIATION": "WKU",
+        "pts": 15,
         "date": "2026-11-11",
         "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Jayda Clark",
-          "TEAM_ABBREVIATION": "TEX",
-          "pts": 24,
+          "PLAYER_NAME": "Hayven Smith",
+          "TEAM_ABBREVIATION": "WKU",
+          "pts": 15,
           "date": "2026-11-11"
-        },
-        {
-          "PLAYER_NAME": "Madison Booker",
-          "TEAM_ABBREVIATION": "TEX",
-          "pts": 30,
-          "date": "2026-11-07"
-        },
-        {
-          "PLAYER_NAME": "Madison Booker",
-          "TEAM_ABBREVIATION": "TEX",
-          "pts": 24,
-          "date": "2026-11-04"
         }
       ]
     }
   },
-  "GMU": {
+  "NCCU": {
     "trending_up": {},
     "trending_down": {},
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Anovia Sheals",
-        "TEAM_ABBREVIATION": "GMU",
-        "pts": 19,
-        "date": "2026-11-08",
+        "PLAYER_NAME": "Shrouq Amer",
+        "TEAM_ABBREVIATION": "NCCU",
+        "pts": 16,
+        "date": "2026-11-11",
         "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Anovia Sheals",
-          "TEAM_ABBREVIATION": "GMU",
-          "pts": 19,
-          "date": "2026-11-08"
+          "PLAYER_NAME": "Shrouq Amer",
+          "TEAM_ABBREVIATION": "NCCU",
+          "pts": 16,
+          "date": "2026-11-11"
         }
       ]
     }
   },
-  "IONA": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Chloe Vasquez",
-        "TEAM_ABBREVIATION": "IONA",
-        "pts": 20,
-        "date": "2026-11-10",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Chloe Vasquez",
-          "TEAM_ABBREVIATION": "IONA",
-          "pts": 20,
-          "date": "2026-11-10"
-        }
-      ]
-    }
-  },
-  "OU": {
+  "IOWA": {
     "trending_up": {
-      "PLAYER_NAME": "Brooklyn Stewart",
-      "TEAM_ABBREVIATION": "OU",
-      "id": "5311587",
+      "PLAYER_NAME": "Chazadi Wright",
+      "TEAM_ABBREVIATION": "IOWA",
+      "id": "5238283",
       "recent_games": 2,
       "recent": {
-        "PPG": 13.0,
-        "APG": 3.5,
-        "RPG": 7.5,
-        "BPG": 1.5,
-        "FG_PCT": 50.0
+        "PPG": 14.5,
+        "APG": 5.0,
+        "RPG": 1.5,
+        "BPG": 0.5,
+        "FG_PCT": 52.6
       },
       "avg": {
-        "PPG": 9.7,
-        "APG": 3.0,
-        "RPG": 5.3,
-        "BPG": 1.3,
-        "FG_PCT": 48.1
+        "PPG": 12.5,
+        "APG": 3.8,
+        "RPG": 2.0,
+        "BPG": 0.5,
+        "FG_PCT": 42.1
       },
       "delta": {
-        "PPG": 3.3,
-        "APG": 0.5,
-        "RPG": 2.2,
-        "BPG": 0.2,
-        "FG_PCT": 1.9
+        "PPG": 2.0,
+        "APG": 1.2,
+        "RPG": -0.5,
+        "BPG": 0.0,
+        "FG_PCT": 10.5
       }
     },
     "trending_down": {
-      "PLAYER_NAME": "Aaliyah Chavez",
-      "TEAM_ABBREVIATION": "OU",
-      "id": "5311585",
+      "PLAYER_NAME": "Layla Hays",
+      "TEAM_ABBREVIATION": "IOWA",
+      "id": "5311545",
+      "recent_games": 2,
+      "recent": {
+        "PPG": 2.0,
+        "APG": 0.0,
+        "RPG": 1.5,
+        "BPG": 0.0,
+        "FG_PCT": 0.0
+      },
+      "avg": {
+        "PPG": 3.5,
+        "APG": 0.0,
+        "RPG": 2.8,
+        "BPG": 0.2,
+        "FG_PCT": 37.5
+      },
+      "delta": {
+        "PPG": -1.5,
+        "APG": 0.0,
+        "RPG": -1.3,
+        "BPG": -0.2,
+        "FG_PCT": -37.5
+      }
+    },
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Dani Carnegie",
+        "TEAM_ABBREVIATION": "IOWA",
+        "pts": 22,
+        "date": "2026-11-12",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Dani Carnegie",
+          "TEAM_ABBREVIATION": "IOWA",
+          "pts": 22,
+          "date": "2026-11-12"
+        },
+        {
+          "PLAYER_NAME": "Chazadi Wright",
+          "TEAM_ABBREVIATION": "IOWA",
+          "pts": 23,
+          "date": "2026-11-08"
+        },
+        {
+          "PLAYER_NAME": "McKenna Woliczko",
+          "TEAM_ABBREVIATION": "IOWA",
+          "pts": 22,
+          "date": "2026-11-05"
+        },
+        {
+          "PLAYER_NAME": "Dani Carnegie",
+          "TEAM_ABBREVIATION": "IOWA",
+          "pts": 21,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "SC": {
+    "trending_up": {
+      "PLAYER_NAME": "Justine Loubens",
+      "TEAM_ABBREVIATION": "SC",
+      "id": "5455224",
+      "recent_games": 2,
+      "recent": {
+        "PPG": 1.0,
+        "APG": 0.5,
+        "RPG": 1.0,
+        "BPG": 0.0,
+        "FG_PCT": 50.0
+      },
+      "avg": {
+        "PPG": 0.7,
+        "APG": 0.7,
+        "RPG": 0.7,
+        "BPG": 0.0,
+        "FG_PCT": 33.3
+      },
+      "delta": {
+        "PPG": 0.3,
+        "APG": -0.2,
+        "RPG": 0.3,
+        "BPG": 0.0,
+        "FG_PCT": 16.7
+      }
+    },
+    "trending_down": {
+      "PLAYER_NAME": "Ashlyn Watkins",
+      "TEAM_ABBREVIATION": "SC",
+      "id": "4565516",
+      "recent_games": 2,
+      "recent": {
+        "PPG": 0.0,
+        "APG": 0.5,
+        "RPG": 6.5,
+        "BPG": 1.0,
+        "FG_PCT": 0.0
+      },
+      "avg": {
+        "PPG": 2.3,
+        "APG": 1.0,
+        "RPG": 7.7,
+        "BPG": 1.3,
+        "FG_PCT": 27.3
+      },
+      "delta": {
+        "PPG": -2.3,
+        "APG": -0.5,
+        "RPG": -1.2,
+        "BPG": -0.3,
+        "FG_PCT": -27.3
+      }
+    },
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Tessa Johnson",
+        "TEAM_ABBREVIATION": "SC",
+        "pts": 13,
+        "date": "2026-11-12",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Tessa Johnson",
+          "TEAM_ABBREVIATION": "SC",
+          "pts": 13,
+          "date": "2026-11-12"
+        },
+        {
+          "PLAYER_NAME": "Chloe Kitts",
+          "TEAM_ABBREVIATION": "SC",
+          "pts": 17,
+          "date": "2026-11-08"
+        },
+        {
+          "PLAYER_NAME": "Joyce Edwards",
+          "TEAM_ABBREVIATION": "SC",
+          "pts": 23,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "SOU": {
+    "trending_up": {
+      "PLAYER_NAME": "Diamond Hunter",
+      "TEAM_ABBREVIATION": "SOU",
+      "id": "4705035",
+      "recent_games": 2,
+      "recent": {
+        "PPG": 3.5,
+        "APG": 0.5,
+        "RPG": 1.5,
+        "BPG": 0.0,
+        "FG_PCT": 28.6
+      },
+      "avg": {
+        "PPG": 2.3,
+        "APG": 0.3,
+        "RPG": 2.7,
+        "BPG": 0.0,
+        "FG_PCT": 12.5
+      },
+      "delta": {
+        "PPG": 1.2,
+        "APG": 0.2,
+        "RPG": -1.2,
+        "BPG": 0.0,
+        "FG_PCT": 16.1
+      }
+    },
+    "trending_down": {
+      "PLAYER_NAME": "Aubri Wilkins",
+      "TEAM_ABBREVIATION": "SOU",
+      "id": "5243526",
       "recent_games": 2,
       "recent": {
         "PPG": 0.0,
@@ -785,46 +794,115 @@
         "FG_PCT": 0.0
       },
       "avg": {
-        "PPG": 4.7,
-        "APG": 2.0,
-        "RPG": 1.7,
-        "BPG": 0.7,
-        "FG_PCT": 33.3
+        "PPG": 1.7,
+        "APG": 0.0,
+        "RPG": 0.0,
+        "BPG": 0.0,
+        "FG_PCT": 100.0
       },
       "delta": {
-        "PPG": -4.7,
-        "APG": -2.0,
-        "RPG": -1.7,
-        "BPG": -0.7,
-        "FG_PCT": -33.3
+        "PPG": -1.7,
+        "APG": 0.0,
+        "RPG": 0.0,
+        "BPG": 0.0,
+        "FG_PCT": -100.0
       }
     },
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Brooklyn Stewart",
-        "TEAM_ABBREVIATION": "OU",
-        "pts": 18,
+        "PLAYER_NAME": "Taelar Felton",
+        "TEAM_ABBREVIATION": "SOU",
+        "pts": 10,
         "date": "2026-11-10",
         "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Brooklyn Stewart",
-          "TEAM_ABBREVIATION": "OU",
-          "pts": 18,
+          "PLAYER_NAME": "Taelar Felton",
+          "TEAM_ABBREVIATION": "SOU",
+          "pts": 10,
           "date": "2026-11-10"
         },
         {
-          "PLAYER_NAME": "LeeLee Bell",
-          "TEAM_ABBREVIATION": "OU",
-          "pts": 20,
-          "date": "2026-11-08"
+          "PLAYER_NAME": "Zaria Hurston",
+          "TEAM_ABBREVIATION": "SOU",
+          "pts": 8,
+          "date": "2026-11-07"
         },
         {
-          "PLAYER_NAME": "LeeLee Bell",
-          "TEAM_ABBREVIATION": "OU",
-          "pts": 25,
+          "PLAYER_NAME": "Zaria Hurston",
+          "TEAM_ABBREVIATION": "SOU",
+          "pts": 10,
           "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "SELA": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Aliyah Collins",
+        "TEAM_ABBREVIATION": "SELA",
+        "pts": 14,
+        "date": "2026-11-12",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Aliyah Collins",
+          "TEAM_ABBREVIATION": "SELA",
+          "pts": 14,
+          "date": "2026-11-12"
+        },
+        {
+          "PLAYER_NAME": "Natalie Huff",
+          "TEAM_ABBREVIATION": "SELA",
+          "pts": 12,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "EVAN": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Jayden Scott",
+        "TEAM_ABBREVIATION": "EVAN",
+        "pts": 14,
+        "date": "2026-11-11",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Jayden Scott",
+          "TEAM_ABBREVIATION": "EVAN",
+          "pts": 14,
+          "date": "2026-11-11"
+        }
+      ]
+    }
+  },
+  "NKU": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Sara Basaran",
+        "TEAM_ABBREVIATION": "NKU",
+        "pts": 6,
+        "date": "2026-11-05",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Sara Basaran",
+          "TEAM_ABBREVIATION": "NKU",
+          "pts": 6,
+          "date": "2026-11-05"
         }
       ]
     }
@@ -920,91 +998,245 @@
       ]
     }
   },
-  "UCI": {
+  "ALCN": {
     "trending_up": {},
     "trending_down": {},
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Delaney White",
-        "TEAM_ABBREVIATION": "UCI",
-        "pts": 12,
-        "date": "2026-11-05",
+        "PLAYER_NAME": "Jae'la Smith",
+        "TEAM_ABBREVIATION": "ALCN",
+        "pts": 8,
+        "date": "2026-11-02",
         "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Delaney White",
-          "TEAM_ABBREVIATION": "UCI",
-          "pts": 12,
-          "date": "2026-11-05"
-        }
-      ]
-    }
-  },
-  "COFC": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Isla Juffermans",
-        "TEAM_ABBREVIATION": "COFC",
-        "pts": 12,
-        "date": "2026-11-10",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Isla Juffermans",
-          "TEAM_ABBREVIATION": "COFC",
-          "pts": 12,
-          "date": "2026-11-10"
-        }
-      ]
-    }
-  },
-  "MD": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Oluchi Okananwa",
-        "TEAM_ABBREVIATION": "MD",
-        "pts": 24,
-        "date": "2026-11-08",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Oluchi Okananwa",
-          "TEAM_ABBREVIATION": "MD",
-          "pts": 24,
-          "date": "2026-11-08"
-        },
-        {
-          "PLAYER_NAME": "Addi Mack",
-          "TEAM_ABBREVIATION": "MD",
-          "pts": 35,
+          "PLAYER_NAME": "Jae'la Smith",
+          "TEAM_ABBREVIATION": "ALCN",
+          "pts": 8,
           "date": "2026-11-02"
         }
       ]
     }
   },
-  "EVAN": {
+  "UCLA": {
+    "trending_up": {
+      "PLAYER_NAME": "Timea Gardiner",
+      "TEAM_ABBREVIATION": "UCLA",
+      "id": "5105734",
+      "recent_games": 1,
+      "recent": {
+        "PPG": 16.0,
+        "APG": 2.0,
+        "RPG": 6.0,
+        "BPG": 1.0,
+        "FG_PCT": 55.6
+      },
+      "avg": {
+        "PPG": 11.3,
+        "APG": 1.3,
+        "RPG": 5.3,
+        "BPG": 1.3,
+        "FG_PCT": 40.0
+      },
+      "delta": {
+        "PPG": 4.7,
+        "APG": 0.7,
+        "RPG": 0.7,
+        "BPG": -0.3,
+        "FG_PCT": 15.6
+      }
+    },
+    "trending_down": {
+      "PLAYER_NAME": "Elina Aarnisalo",
+      "TEAM_ABBREVIATION": "UCLA",
+      "id": "5239704",
+      "recent_games": 1,
+      "recent": {
+        "PPG": 0.0,
+        "APG": 0.0,
+        "RPG": 0.0,
+        "BPG": 0.0,
+        "FG_PCT": 0.0
+      },
+      "avg": {
+        "PPG": 7.7,
+        "APG": 3.0,
+        "RPG": 2.7,
+        "BPG": 0.0,
+        "FG_PCT": 42.9
+      },
+      "delta": {
+        "PPG": -7.7,
+        "APG": -3.0,
+        "RPG": -2.7,
+        "BPG": 0.0,
+        "FG_PCT": -42.9
+      }
+    },
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Addy Brown",
+        "TEAM_ABBREVIATION": "UCLA",
+        "pts": 18,
+        "date": "2026-11-12",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Addy Brown",
+          "TEAM_ABBREVIATION": "UCLA",
+          "pts": 18,
+          "date": "2026-11-12"
+        },
+        {
+          "PLAYER_NAME": "Sienna Betts",
+          "TEAM_ABBREVIATION": "UCLA",
+          "pts": 17,
+          "date": "2026-11-05"
+        },
+        {
+          "PLAYER_NAME": "Sienna Betts",
+          "TEAM_ABBREVIATION": "UCLA",
+          "pts": 15,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "COLU": {
     "trending_up": {},
     "trending_down": {},
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Jayden Scott",
-        "TEAM_ABBREVIATION": "EVAN",
-        "pts": 14,
+        "PLAYER_NAME": "Riley Weiss",
+        "TEAM_ABBREVIATION": "COLU",
+        "pts": 23,
+        "date": "2026-11-12",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Riley Weiss",
+          "TEAM_ABBREVIATION": "COLU",
+          "pts": 23,
+          "date": "2026-11-12"
+        }
+      ]
+    }
+  },
+  "BALL": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Lilli Barnes",
+        "TEAM_ABBREVIATION": "BALL",
+        "pts": 22,
+        "date": "2026-11-12",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Lilli Barnes",
+          "TEAM_ABBREVIATION": "BALL",
+          "pts": 22,
+          "date": "2026-11-12"
+        }
+      ]
+    }
+  },
+  "ILL": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Cearah Parchment",
+        "TEAM_ABBREVIATION": "ILL",
+        "pts": 18,
+        "date": "2026-11-07",
+        "streak": 2
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Cearah Parchment",
+          "TEAM_ABBREVIATION": "ILL",
+          "pts": 18,
+          "date": "2026-11-07"
+        },
+        {
+          "PLAYER_NAME": "Cearah Parchment",
+          "TEAM_ABBREVIATION": "ILL",
+          "pts": 22,
+          "date": "2026-11-04"
+        }
+      ]
+    }
+  },
+  "MORG": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Simran Williams",
+        "TEAM_ABBREVIATION": "MORG",
+        "pts": 9,
+        "date": "2026-11-08",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Simran Williams",
+          "TEAM_ABBREVIATION": "MORG",
+          "pts": 9,
+          "date": "2026-11-08"
+        },
+        {
+          "PLAYER_NAME": "Yonta Vaughn",
+          "TEAM_ABBREVIATION": "MORG",
+          "pts": 6,
+          "date": "2026-11-06"
+        }
+      ]
+    }
+  },
+  "GB": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Maddy Skorupski",
+        "TEAM_ABBREVIATION": "GB",
+        "pts": 16,
+        "date": "2026-11-03",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Maddy Skorupski",
+          "TEAM_ABBREVIATION": "GB",
+          "pts": 16,
+          "date": "2026-11-03"
+        }
+      ]
+    }
+  },
+  "SDST": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Katie Vasecka",
+        "TEAM_ABBREVIATION": "SDST",
+        "pts": 12,
         "date": "2026-11-11",
         "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Jayden Scott",
-          "TEAM_ABBREVIATION": "EVAN",
-          "pts": 14,
+          "PLAYER_NAME": "Katie Vasecka",
+          "TEAM_ABBREVIATION": "SDST",
+          "pts": 12,
           "date": "2026-11-11"
         }
       ]
@@ -1037,204 +1269,406 @@
       ]
     }
   },
-  "DUKE": {
+  "UALB": {
     "trending_up": {},
     "trending_down": {},
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Autumn Fleary",
-        "TEAM_ABBREVIATION": "DUKE",
-        "pts": 14,
-        "date": "2026-11-08",
+        "PLAYER_NAME": "Madison Roman",
+        "TEAM_ABBREVIATION": "UALB",
+        "pts": 12,
+        "date": "2026-11-11",
         "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Autumn Fleary",
-          "TEAM_ABBREVIATION": "DUKE",
-          "pts": 14,
+          "PLAYER_NAME": "Madison Roman",
+          "TEAM_ABBREVIATION": "UALB",
+          "pts": 12,
+          "date": "2026-11-11"
+        }
+      ]
+    }
+  },
+  "TCU": {
+    "trending_up": {
+      "PLAYER_NAME": "Avery Hjelmstad",
+      "TEAM_ABBREVIATION": "TCU",
+      "id": "5311811",
+      "recent_games": 3,
+      "recent": {
+        "PPG": 2.0,
+        "APG": 0.0,
+        "RPG": 0.3,
+        "BPG": 0.0,
+        "FG_PCT": 40.0
+      },
+      "avg": {
+        "PPG": 2.4,
+        "APG": 0.0,
+        "RPG": 0.2,
+        "BPG": 0.0,
+        "FG_PCT": 30.8
+      },
+      "delta": {
+        "PPG": -0.4,
+        "APG": 0.0,
+        "RPG": 0.1,
+        "BPG": 0.0,
+        "FG_PCT": 9.2
+      }
+    },
+    "trending_down": {
+      "PLAYER_NAME": "Laura Vilcinskas",
+      "TEAM_ABBREVIATION": "TCU",
+      "id": "5457353",
+      "recent_games": 3,
+      "recent": {
+        "PPG": 7.0,
+        "APG": 0.7,
+        "RPG": 3.7,
+        "BPG": 1.3,
+        "FG_PCT": 57.1
+      },
+      "avg": {
+        "PPG": 8.4,
+        "APG": 0.4,
+        "RPG": 5.2,
+        "BPG": 1.2,
+        "FG_PCT": 73.3
+      },
+      "delta": {
+        "PPG": -1.4,
+        "APG": 0.3,
+        "RPG": -1.5,
+        "BPG": 0.1,
+        "FG_PCT": -16.2
+      }
+    },
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Clara Silva",
+        "TEAM_ABBREVIATION": "TCU",
+        "pts": 20,
+        "date": "2026-11-12",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Clara Silva",
+          "TEAM_ABBREVIATION": "TCU",
+          "pts": 20,
+          "date": "2026-11-12"
+        },
+        {
+          "PLAYER_NAME": "Jadyn Wooten",
+          "TEAM_ABBREVIATION": "TCU",
+          "pts": 19,
+          "date": "2026-11-10"
+        },
+        {
+          "PLAYER_NAME": "Clara Silva",
+          "TEAM_ABBREVIATION": "TCU",
+          "pts": 15,
           "date": "2026-11-08"
         },
         {
-          "PLAYER_NAME": "Riley Nelson",
-          "TEAM_ABBREVIATION": "DUKE",
-          "pts": 15,
+          "PLAYER_NAME": "Lara Somfai",
+          "TEAM_ABBREVIATION": "TCU",
+          "pts": 19,
+          "date": "2026-11-05"
+        },
+        {
+          "PLAYER_NAME": "Lara Somfai",
+          "TEAM_ABBREVIATION": "TCU",
+          "pts": 17,
           "date": "2026-11-03"
         }
       ]
     }
   },
-  "GW": {
+  "IONA": {
     "trending_up": {},
     "trending_down": {},
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Alicia Newell",
-        "TEAM_ABBREVIATION": "GW",
-        "pts": 19,
-        "date": "2026-11-05",
+        "PLAYER_NAME": "Chloe Vasquez",
+        "TEAM_ABBREVIATION": "IONA",
+        "pts": 20,
+        "date": "2026-11-10",
         "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Alicia Newell",
-          "TEAM_ABBREVIATION": "GW",
-          "pts": 19,
-          "date": "2026-11-05"
+          "PLAYER_NAME": "Chloe Vasquez",
+          "TEAM_ABBREVIATION": "IONA",
+          "pts": 20,
+          "date": "2026-11-10"
         }
       ]
     }
   },
-  "QUC": {
+  "MERC": {
     "trending_up": {},
     "trending_down": {},
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Ashantay Noble",
-        "TEAM_ABBREVIATION": "QUC",
-        "pts": 8,
-        "date": "2026-11-04",
+        "PLAYER_NAME": "Sofia Wilson",
+        "TEAM_ABBREVIATION": "MERC",
+        "pts": 16,
+        "date": "2026-11-08",
         "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Ashantay Noble",
-          "TEAM_ABBREVIATION": "QUC",
-          "pts": 8,
-          "date": "2026-11-04"
+          "PLAYER_NAME": "Sofia Wilson",
+          "TEAM_ABBREVIATION": "MERC",
+          "pts": 16,
+          "date": "2026-11-08"
         }
       ]
     }
   },
-  "UK": {
+  "OKST": {
     "trending_up": {
-      "PLAYER_NAME": "Asia Boone",
-      "TEAM_ABBREVIATION": "UK",
-      "id": "5177067",
+      "PLAYER_NAME": "Addisyn Bollinger",
+      "TEAM_ABBREVIATION": "OKST",
+      "id": "5455218",
       "recent_games": 3,
       "recent": {
-        "PPG": 13.0,
-        "APG": 1.7,
-        "RPG": 3.3,
-        "BPG": 0.7,
-        "FG_PCT": 52.0
+        "PPG": 1.0,
+        "APG": 0.0,
+        "RPG": 1.0,
+        "BPG": 0.0,
+        "FG_PCT": 33.3
       },
       "avg": {
-        "PPG": 10.2,
-        "APG": 1.5,
-        "RPG": 3.2,
-        "BPG": 0.5,
-        "FG_PCT": 43.8
+        "PPG": 0.8,
+        "APG": 0.0,
+        "RPG": 0.8,
+        "BPG": 0.0,
+        "FG_PCT": 25.0
       },
       "delta": {
-        "PPG": 2.8,
-        "APG": 0.2,
-        "RPG": 0.1,
-        "BPG": 0.2,
-        "FG_PCT": 8.2
+        "PPG": 0.2,
+        "APG": 0.0,
+        "RPG": 0.2,
+        "BPG": 0.0,
+        "FG_PCT": 8.3
       }
     },
     "trending_down": {
-      "PLAYER_NAME": "Maddyn Greenway",
-      "TEAM_ABBREVIATION": "UK",
-      "id": "5454845",
+      "PLAYER_NAME": "Stailee Heard",
+      "TEAM_ABBREVIATION": "OKST",
+      "id": "5175757",
       "recent_games": 3,
       "recent": {
-        "PPG": 1.7,
-        "APG": 3.3,
-        "RPG": 1.0,
-        "BPG": 0.3,
-        "FG_PCT": 20.0
+        "PPG": 6.0,
+        "APG": 4.0,
+        "RPG": 6.7,
+        "BPG": 0.0,
+        "FG_PCT": 31.6
       },
       "avg": {
-        "PPG": 4.2,
-        "APG": 3.5,
-        "RPG": 1.5,
-        "BPG": 0.2,
-        "FG_PCT": 33.3
+        "PPG": 7.5,
+        "APG": 3.8,
+        "RPG": 6.8,
+        "BPG": 0.0,
+        "FG_PCT": 40.7
       },
       "delta": {
-        "PPG": -2.5,
-        "APG": -0.2,
-        "RPG": -0.5,
-        "BPG": 0.1,
-        "FG_PCT": -13.3
+        "PPG": -1.5,
+        "APG": 0.2,
+        "RPG": -0.1,
+        "BPG": 0.0,
+        "FG_PCT": -9.1
       }
     },
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Emily McDonald",
-        "TEAM_ABBREVIATION": "UK",
-        "pts": 27,
-        "date": "2026-11-11",
+        "PLAYER_NAME": "Audi Crooks",
+        "TEAM_ABBREVIATION": "OKST",
+        "pts": 17,
+        "date": "2026-11-12",
         "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Emily McDonald",
-          "TEAM_ABBREVIATION": "UK",
-          "pts": 27,
-          "date": "2026-11-11"
-        },
-        {
-          "PLAYER_NAME": "Ajsa Sivka",
-          "TEAM_ABBREVIATION": "UK",
-          "pts": 32,
-          "date": "2026-11-08"
-        },
-        {
-          "PLAYER_NAME": "Asia Boone",
-          "TEAM_ABBREVIATION": "UK",
-          "pts": 21,
-          "date": "2026-11-05"
-        },
-        {
-          "PLAYER_NAME": "Clara Strack",
-          "TEAM_ABBREVIATION": "UK",
+          "PLAYER_NAME": "Audi Crooks",
+          "TEAM_ABBREVIATION": "OKST",
           "pts": 17,
+          "date": "2026-11-12"
+        },
+        {
+          "PLAYER_NAME": "Liv McGill",
+          "TEAM_ABBREVIATION": "OKST",
+          "pts": 23,
+          "date": "2026-11-09"
+        },
+        {
+          "PLAYER_NAME": "Liv McGill",
+          "TEAM_ABBREVIATION": "OKST",
+          "pts": 24,
+          "date": "2026-11-06"
+        },
+        {
+          "PLAYER_NAME": "Audi Crooks",
+          "TEAM_ABBREVIATION": "OKST",
+          "pts": 22,
           "date": "2026-11-02"
         }
       ]
     }
   },
-  "WKU": {
+  "COR": {
     "trending_up": {},
     "trending_down": {},
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Hayven Smith",
-        "TEAM_ABBREVIATION": "WKU",
-        "pts": 15,
-        "date": "2026-11-11",
+        "PLAYER_NAME": "Rachel Kaus",
+        "TEAM_ABBREVIATION": "COR",
+        "pts": 8,
+        "date": "2026-11-02",
         "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Hayven Smith",
-          "TEAM_ABBREVIATION": "WKU",
-          "pts": 15,
-          "date": "2026-11-11"
+          "PLAYER_NAME": "Rachel Kaus",
+          "TEAM_ABBREVIATION": "COR",
+          "pts": 8,
+          "date": "2026-11-02"
         }
       ]
     }
   },
-  "NCCU": {
+  "WOF": {
     "trending_up": {},
     "trending_down": {},
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Shrouq Amer",
-        "TEAM_ABBREVIATION": "NCCU",
-        "pts": 16,
-        "date": "2026-11-11",
+        "PLAYER_NAME": "Gabby Mundy",
+        "TEAM_ABBREVIATION": "WOF",
+        "pts": 22,
+        "date": "2026-11-02",
         "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Shrouq Amer",
-          "TEAM_ABBREVIATION": "NCCU",
-          "pts": 16,
-          "date": "2026-11-11"
+          "PLAYER_NAME": "Gabby Mundy",
+          "TEAM_ABBREVIATION": "WOF",
+          "pts": 22,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "MD": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Oluchi Okananwa",
+        "TEAM_ABBREVIATION": "MD",
+        "pts": 24,
+        "date": "2026-11-08",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Oluchi Okananwa",
+          "TEAM_ABBREVIATION": "MD",
+          "pts": 24,
+          "date": "2026-11-08"
+        },
+        {
+          "PLAYER_NAME": "Addi Mack",
+          "TEAM_ABBREVIATION": "MD",
+          "pts": 35,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "TLSA": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Mady Cartwright",
+        "TEAM_ABBREVIATION": "TLSA",
+        "pts": 17,
+        "date": "2026-11-12",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Mady Cartwright",
+          "TEAM_ABBREVIATION": "TLSA",
+          "pts": 17,
+          "date": "2026-11-12"
+        }
+      ]
+    }
+  },
+  "CAM": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Hana Predojevic",
+        "TEAM_ABBREVIATION": "CAM",
+        "pts": 11,
+        "date": "2026-11-04",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Hana Predojevic",
+          "TEAM_ABBREVIATION": "CAM",
+          "pts": 11,
+          "date": "2026-11-04"
+        }
+      ]
+    }
+  },
+  "HARV": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Sam Wills",
+        "TEAM_ABBREVIATION": "HARV",
+        "pts": 20,
+        "date": "2026-11-02",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Sam Wills",
+          "TEAM_ABBREVIATION": "HARV",
+          "pts": 20,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "WRST": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Jayden Terry",
+        "TEAM_ABBREVIATION": "WRST",
+        "pts": 24,
+        "date": "2026-11-08",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Jayden Terry",
+          "TEAM_ABBREVIATION": "WRST",
+          "pts": 24,
+          "date": "2026-11-08"
         }
       ]
     }
@@ -1260,18 +1694,145 @@
       ]
     }
   },
+  "GT": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Talayah Walker",
+        "TEAM_ABBREVIATION": "GT",
+        "pts": 21,
+        "date": "2026-11-08",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Talayah Walker",
+          "TEAM_ABBREVIATION": "GT",
+          "pts": 21,
+          "date": "2026-11-08"
+        }
+      ]
+    }
+  },
+  "LSU": {
+    "trending_up": {
+      "PLAYER_NAME": "Noa Morro",
+      "TEAM_ABBREVIATION": "LSU",
+      "id": "5455246",
+      "recent_games": 1,
+      "recent": {
+        "PPG": 12.0,
+        "APG": 1.0,
+        "RPG": 4.0,
+        "BPG": 0.0,
+        "FG_PCT": 60.0
+      },
+      "avg": {
+        "PPG": 4.0,
+        "APG": 0.3,
+        "RPG": 1.3,
+        "BPG": 0.0,
+        "FG_PCT": 60.0
+      },
+      "delta": {
+        "PPG": 8.0,
+        "APG": 0.7,
+        "RPG": 2.7,
+        "BPG": 0.0,
+        "FG_PCT": 0.0
+      }
+    },
+    "trending_down": {
+      "PLAYER_NAME": "Chloe Larry",
+      "TEAM_ABBREVIATION": "LSU",
+      "id": "5242683",
+      "recent_games": 1,
+      "recent": {
+        "PPG": 0.0,
+        "APG": 0.0,
+        "RPG": 0.0,
+        "BPG": 0.0,
+        "FG_PCT": 0.0
+      },
+      "avg": {
+        "PPG": 2.7,
+        "APG": 4.0,
+        "RPG": 3.7,
+        "BPG": 0.0,
+        "FG_PCT": 66.7
+      },
+      "delta": {
+        "PPG": -2.7,
+        "APG": -4.0,
+        "RPG": -3.7,
+        "BPG": 0.0,
+        "FG_PCT": -66.7
+      }
+    },
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Mikaylah Williams",
+        "TEAM_ABBREVIATION": "LSU",
+        "pts": 17,
+        "date": "2026-11-10",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Mikaylah Williams",
+          "TEAM_ABBREVIATION": "LSU",
+          "pts": 17,
+          "date": "2026-11-10"
+        },
+        {
+          "PLAYER_NAME": "Anna Minaeva",
+          "TEAM_ABBREVIATION": "LSU",
+          "pts": 21,
+          "date": "2026-11-05"
+        },
+        {
+          "PLAYER_NAME": "ZaKiyah Johnson",
+          "TEAM_ABBREVIATION": "LSU",
+          "pts": 33,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "QUC": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Ashantay Noble",
+        "TEAM_ABBREVIATION": "QUC",
+        "pts": 8,
+        "date": "2026-11-04",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Ashantay Noble",
+          "TEAM_ABBREVIATION": "QUC",
+          "pts": 8,
+          "date": "2026-11-04"
+        }
+      ]
+    }
+  },
   "WVU": {
     "trending_up": {
       "PLAYER_NAME": "Khyala Ngodu",
       "TEAM_ABBREVIATION": "WVU",
       "id": "5175812",
-      "recent_games": 2,
+      "recent_games": 1,
       "recent": {
-        "PPG": 6.5,
-        "APG": 1.5,
-        "RPG": 7.0,
-        "BPG": 1.5,
-        "FG_PCT": 83.3
+        "PPG": 9.0,
+        "APG": 2.0,
+        "RPG": 10.0,
+        "BPG": 3.0,
+        "FG_PCT": 100.0
       },
       "avg": {
         "PPG": 5.7,
@@ -1281,38 +1842,38 @@
         "FG_PCT": 58.3
       },
       "delta": {
-        "PPG": 0.8,
-        "APG": -0.5,
-        "RPG": -0.3,
-        "BPG": 0.5,
-        "FG_PCT": 25.0
+        "PPG": 3.3,
+        "APG": 0.0,
+        "RPG": 2.7,
+        "BPG": 2.0,
+        "FG_PCT": 41.7
       }
     },
     "trending_down": {
-      "PLAYER_NAME": "Nylah Wilson",
+      "PLAYER_NAME": "Alexis Bordas",
       "TEAM_ABBREVIATION": "WVU",
-      "id": "5312406",
-      "recent_games": 2,
+      "id": "5311508",
+      "recent_games": 1,
       "recent": {
-        "PPG": 1.0,
-        "APG": 1.0,
-        "RPG": 1.5,
+        "PPG": 0.0,
+        "APG": 0.0,
+        "RPG": 0.0,
         "BPG": 0.0,
-        "FG_PCT": 11.1
+        "FG_PCT": 0.0
       },
       "avg": {
-        "PPG": 3.0,
+        "PPG": 2.3,
         "APG": 0.7,
-        "RPG": 1.7,
+        "RPG": 0.0,
         "BPG": 0.0,
-        "FG_PCT": 21.1
+        "FG_PCT": 50.0
       },
       "delta": {
-        "PPG": -2.0,
-        "APG": 0.3,
-        "RPG": -0.2,
+        "PPG": -2.3,
+        "APG": -0.7,
+        "RPG": 0.0,
         "BPG": 0.0,
-        "FG_PCT": -10.0
+        "FG_PCT": -50.0
       }
     },
     "top_scorer_streak": {
@@ -1345,87 +1906,192 @@
       ]
     }
   },
-  "OKST": {
+  "STET": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Cici Driessen",
+        "TEAM_ABBREVIATION": "STET",
+        "pts": 10,
+        "date": "2026-11-04",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Cici Driessen",
+          "TEAM_ABBREVIATION": "STET",
+          "pts": 10,
+          "date": "2026-11-04"
+        }
+      ]
+    }
+  },
+  "MICH": {
     "trending_up": {
-      "PLAYER_NAME": "Nene Ndiaye",
-      "TEAM_ABBREVIATION": "OKST",
-      "id": "5174337",
+      "PLAYER_NAME": "Dallas Loughridge",
+      "TEAM_ABBREVIATION": "MICH",
+      "id": "5455230",
       "recent_games": 2,
       "recent": {
         "PPG": 14.0,
-        "APG": 1.0,
-        "RPG": 3.0,
-        "BPG": 0.5,
-        "FG_PCT": 100.0
+        "APG": 6.5,
+        "RPG": 1.0,
+        "BPG": 0.0,
+        "FG_PCT": 62.5
       },
       "avg": {
-        "PPG": 14.7,
-        "APG": 1.3,
-        "RPG": 3.0,
-        "BPG": 0.7,
-        "FG_PCT": 72.2
+        "PPG": 11.0,
+        "APG": 7.3,
+        "RPG": 1.7,
+        "BPG": 0.0,
+        "FG_PCT": 44.0
       },
       "delta": {
-        "PPG": -0.7,
-        "APG": -0.3,
-        "RPG": 0.0,
-        "BPG": -0.2,
-        "FG_PCT": 27.8
+        "PPG": 3.0,
+        "APG": -0.8,
+        "RPG": -0.7,
+        "BPG": 0.0,
+        "FG_PCT": 18.5
       }
     },
     "trending_down": {
-      "PLAYER_NAME": "Stailee Heard",
-      "TEAM_ABBREVIATION": "OKST",
-      "id": "5175757",
+      "PLAYER_NAME": "Te'Yala Delfosse",
+      "TEAM_ABBREVIATION": "MICH",
+      "id": "5240186",
       "recent_games": 2,
       "recent": {
-        "PPG": 5.0,
-        "APG": 5.5,
-        "RPG": 2.5,
-        "BPG": 0.0,
-        "FG_PCT": 37.5
+        "PPG": 11.0,
+        "APG": 3.5,
+        "RPG": 5.0,
+        "BPG": 2.0,
+        "FG_PCT": 40.9
       },
       "avg": {
-        "PPG": 7.3,
-        "APG": 4.7,
-        "RPG": 4.0,
-        "BPG": 0.0,
-        "FG_PCT": 50.0
+        "PPG": 14.7,
+        "APG": 3.0,
+        "RPG": 6.3,
+        "BPG": 1.7,
+        "FG_PCT": 48.6
       },
       "delta": {
-        "PPG": -2.3,
-        "APG": 0.8,
-        "RPG": -1.5,
-        "BPG": 0.0,
-        "FG_PCT": -12.5
+        "PPG": -3.7,
+        "APG": 0.5,
+        "RPG": -1.3,
+        "BPG": 0.3,
+        "FG_PCT": -7.7
       }
     },
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Liv McGill",
-        "TEAM_ABBREVIATION": "OKST",
-        "pts": 23,
-        "date": "2026-11-09",
-        "streak": 2
+        "PLAYER_NAME": "Syla Swords",
+        "TEAM_ABBREVIATION": "MICH",
+        "pts": 17,
+        "date": "2026-11-12",
+        "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Liv McGill",
-          "TEAM_ABBREVIATION": "OKST",
-          "pts": 23,
-          "date": "2026-11-09"
+          "PLAYER_NAME": "Syla Swords",
+          "TEAM_ABBREVIATION": "MICH",
+          "pts": 17,
+          "date": "2026-11-12"
         },
         {
-          "PLAYER_NAME": "Liv McGill",
-          "TEAM_ABBREVIATION": "OKST",
-          "pts": 24,
-          "date": "2026-11-06"
+          "PLAYER_NAME": "Olivia Olson",
+          "TEAM_ABBREVIATION": "MICH",
+          "pts": 19,
+          "date": "2026-11-08"
         },
         {
-          "PLAYER_NAME": "Audi Crooks",
-          "TEAM_ABBREVIATION": "OKST",
+          "PLAYER_NAME": "Te'Yala Delfosse",
+          "TEAM_ABBREVIATION": "MICH",
           "pts": 22,
-          "date": "2026-11-02"
+          "date": "2026-11-05"
+        }
+      ]
+    }
+  },
+  "FDU": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Reese Downey",
+        "TEAM_ABBREVIATION": "FDU",
+        "pts": 17,
+        "date": "2026-11-04",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Reese Downey",
+          "TEAM_ABBREVIATION": "FDU",
+          "pts": 17,
+          "date": "2026-11-04"
+        }
+      ]
+    }
+  },
+  "MCN": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Valencia Fontenelle-Posson",
+        "TEAM_ABBREVIATION": "MCN",
+        "pts": 10,
+        "date": "2026-11-10",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Valencia Fontenelle-Posson",
+          "TEAM_ABBREVIATION": "MCN",
+          "pts": 10,
+          "date": "2026-11-10"
+        }
+      ]
+    }
+  },
+  "COFC": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Isla Juffermans",
+        "TEAM_ABBREVIATION": "COFC",
+        "pts": 12,
+        "date": "2026-11-10",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Isla Juffermans",
+          "TEAM_ABBREVIATION": "COFC",
+          "pts": 12,
+          "date": "2026-11-10"
+        }
+      ]
+    }
+  },
+  "NEB": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Britt Prince",
+        "TEAM_ABBREVIATION": "NEB",
+        "pts": 24,
+        "date": "2026-11-10",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Britt Prince",
+          "TEAM_ABBREVIATION": "NEB",
+          "pts": 24,
+          "date": "2026-11-10"
         }
       ]
     }
@@ -1515,71 +2181,23 @@
       ]
     }
   },
-  "USI": {
+  "UCI": {
     "trending_up": {},
     "trending_down": {},
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Channah Gannon",
-        "TEAM_ABBREVIATION": "USI",
-        "pts": 9,
-        "date": "2026-11-08",
+        "PLAYER_NAME": "Delaney White",
+        "TEAM_ABBREVIATION": "UCI",
+        "pts": 12,
+        "date": "2026-11-05",
         "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Channah Gannon",
-          "TEAM_ABBREVIATION": "USI",
-          "pts": 9,
-          "date": "2026-11-08"
-        }
-      ]
-    }
-  },
-  "MICH": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Olivia Olson",
-        "TEAM_ABBREVIATION": "MICH",
-        "pts": 19,
-        "date": "2026-11-08",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Olivia Olson",
-          "TEAM_ABBREVIATION": "MICH",
-          "pts": 19,
-          "date": "2026-11-08"
-        },
-        {
-          "PLAYER_NAME": "Te'Yala Delfosse",
-          "TEAM_ABBREVIATION": "MICH",
-          "pts": 22,
+          "PLAYER_NAME": "Delaney White",
+          "TEAM_ABBREVIATION": "UCI",
+          "pts": 12,
           "date": "2026-11-05"
-        }
-      ]
-    }
-  },
-  "WRST": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Jayden Terry",
-        "TEAM_ABBREVIATION": "WRST",
-        "pts": 24,
-        "date": "2026-11-08",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Jayden Terry",
-          "TEAM_ABBREVIATION": "WRST",
-          "pts": 24,
-          "date": "2026-11-08"
         }
       ]
     }
@@ -1605,6 +2223,48 @@
       ]
     }
   },
+  "CSUB": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Mydrea Moore",
+        "TEAM_ABBREVIATION": "CSUB",
+        "pts": 12,
+        "date": "2026-11-12",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Mydrea Moore",
+          "TEAM_ABBREVIATION": "CSUB",
+          "pts": 12,
+          "date": "2026-11-12"
+        }
+      ]
+    }
+  },
+  "BELL": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Hana Abdel Aal",
+        "TEAM_ABBREVIATION": "BELL",
+        "pts": 9,
+        "date": "2026-11-02",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Hana Abdel Aal",
+          "TEAM_ABBREVIATION": "BELL",
+          "pts": 9,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
   "NWST": {
     "trending_up": {},
     "trending_down": {},
@@ -1622,498 +2282,6 @@
           "TEAM_ABBREVIATION": "NWST",
           "pts": 18,
           "date": "2026-11-09"
-        }
-      ]
-    }
-  },
-  "MARQ": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Halle Vice",
-        "TEAM_ABBREVIATION": "MARQ",
-        "pts": 25,
-        "date": "2026-11-07",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Halle Vice",
-          "TEAM_ABBREVIATION": "MARQ",
-          "pts": 25,
-          "date": "2026-11-07"
-        }
-      ]
-    }
-  },
-  "USC": {
-    "trending_up": {
-      "PLAYER_NAME": "Sara Okeke",
-      "TEAM_ABBREVIATION": "USC",
-      "id": "5456431",
-      "recent_games": 2,
-      "recent": {
-        "PPG": 10.0,
-        "APG": 0.5,
-        "RPG": 7.5,
-        "BPG": 0.0,
-        "FG_PCT": 100.0
-      },
-      "avg": {
-        "PPG": 6.7,
-        "APG": 0.7,
-        "RPG": 5.7,
-        "BPG": 0.0,
-        "FG_PCT": 90.0
-      },
-      "delta": {
-        "PPG": 3.3,
-        "APG": -0.2,
-        "RPG": 1.8,
-        "BPG": 0.0,
-        "FG_PCT": 10.0
-      }
-    },
-    "trending_down": {
-      "PLAYER_NAME": "Rian Forestier",
-      "TEAM_ABBREVIATION": "USC",
-      "id": "5239662",
-      "recent_games": 2,
-      "recent": {
-        "PPG": 2.0,
-        "APG": 2.0,
-        "RPG": 0.5,
-        "BPG": 0.0,
-        "FG_PCT": 25.0
-      },
-      "avg": {
-        "PPG": 2.0,
-        "APG": 1.3,
-        "RPG": 1.7,
-        "BPG": 0.0,
-        "FG_PCT": 33.3
-      },
-      "delta": {
-        "PPG": 0.0,
-        "APG": 0.7,
-        "RPG": -1.2,
-        "BPG": 0.0,
-        "FG_PCT": -8.3
-      }
-    },
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Saniyah Hall",
-        "TEAM_ABBREVIATION": "USC",
-        "pts": 24,
-        "date": "2026-11-10",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Saniyah Hall",
-          "TEAM_ABBREVIATION": "USC",
-          "pts": 24,
-          "date": "2026-11-10"
-        },
-        {
-          "PLAYER_NAME": "JuJu Watkins",
-          "TEAM_ABBREVIATION": "USC",
-          "pts": 32,
-          "date": "2026-11-08"
-        },
-        {
-          "PLAYER_NAME": "Jazzy Davidson",
-          "TEAM_ABBREVIATION": "USC",
-          "pts": 23,
-          "date": "2026-11-02"
-        }
-      ]
-    }
-  },
-  "WOF": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Gabby Mundy",
-        "TEAM_ABBREVIATION": "WOF",
-        "pts": 22,
-        "date": "2026-11-02",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Gabby Mundy",
-          "TEAM_ABBREVIATION": "WOF",
-          "pts": 22,
-          "date": "2026-11-02"
-        }
-      ]
-    }
-  },
-  "MERC": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Sofia Wilson",
-        "TEAM_ABBREVIATION": "MERC",
-        "pts": 16,
-        "date": "2026-11-08",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Sofia Wilson",
-          "TEAM_ABBREVIATION": "MERC",
-          "pts": 16,
-          "date": "2026-11-08"
-        }
-      ]
-    }
-  },
-  "IOWA": {
-    "trending_up": {
-      "PLAYER_NAME": "Amari Whiting",
-      "TEAM_ABBREVIATION": "IOWA",
-      "id": "5175474",
-      "recent_games": 2,
-      "recent": {
-        "PPG": 7.0,
-        "APG": 4.0,
-        "RPG": 7.0,
-        "BPG": 0.0,
-        "FG_PCT": 44.4
-      },
-      "avg": {
-        "PPG": 5.7,
-        "APG": 3.3,
-        "RPG": 6.3,
-        "BPG": 0.0,
-        "FG_PCT": 41.7
-      },
-      "delta": {
-        "PPG": 1.3,
-        "APG": 0.7,
-        "RPG": 0.7,
-        "BPG": 0.0,
-        "FG_PCT": 2.7
-      }
-    },
-    "trending_down": {
-      "PLAYER_NAME": "Layla Hays",
-      "TEAM_ABBREVIATION": "IOWA",
-      "id": "5311545",
-      "recent_games": 2,
-      "recent": {
-        "PPG": 3.0,
-        "APG": 0.0,
-        "RPG": 2.0,
-        "BPG": 0.0,
-        "FG_PCT": 0.0
-      },
-      "avg": {
-        "PPG": 4.0,
-        "APG": 0.0,
-        "RPG": 3.0,
-        "BPG": 0.3,
-        "FG_PCT": 42.9
-      },
-      "delta": {
-        "PPG": -1.0,
-        "APG": 0.0,
-        "RPG": -1.0,
-        "BPG": -0.3,
-        "FG_PCT": -42.9
-      }
-    },
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Chazadi Wright",
-        "TEAM_ABBREVIATION": "IOWA",
-        "pts": 23,
-        "date": "2026-11-08",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Chazadi Wright",
-          "TEAM_ABBREVIATION": "IOWA",
-          "pts": 23,
-          "date": "2026-11-08"
-        },
-        {
-          "PLAYER_NAME": "McKenna Woliczko",
-          "TEAM_ABBREVIATION": "IOWA",
-          "pts": 22,
-          "date": "2026-11-05"
-        },
-        {
-          "PLAYER_NAME": "Dani Carnegie",
-          "TEAM_ABBREVIATION": "IOWA",
-          "pts": 21,
-          "date": "2026-11-02"
-        }
-      ]
-    }
-  },
-  "LIP": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "McKayla Miller",
-        "TEAM_ABBREVIATION": "LIP",
-        "pts": 16,
-        "date": "2026-11-02",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "McKayla Miller",
-          "TEAM_ABBREVIATION": "LIP",
-          "pts": 16,
-          "date": "2026-11-02"
-        }
-      ]
-    }
-  },
-  "HARV": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Sam Wills",
-        "TEAM_ABBREVIATION": "HARV",
-        "pts": 20,
-        "date": "2026-11-02",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Sam Wills",
-          "TEAM_ABBREVIATION": "HARV",
-          "pts": 20,
-          "date": "2026-11-02"
-        }
-      ]
-    }
-  },
-  "LSU": {
-    "trending_up": {
-      "PLAYER_NAME": "MiLaysia Fulwiley",
-      "TEAM_ABBREVIATION": "LSU",
-      "id": "5174285",
-      "recent_games": 2,
-      "recent": {
-        "PPG": 14.0,
-        "APG": 5.0,
-        "RPG": 5.5,
-        "BPG": 4.0,
-        "FG_PCT": 57.9
-      },
-      "avg": {
-        "PPG": 16.0,
-        "APG": 4.7,
-        "RPG": 4.0,
-        "BPG": 3.0,
-        "FG_PCT": 51.4
-      },
-      "delta": {
-        "PPG": -2.0,
-        "APG": 0.3,
-        "RPG": 1.5,
-        "BPG": 1.0,
-        "FG_PCT": 6.5
-      }
-    },
-    "trending_down": {
-      "PLAYER_NAME": "ZaKiyah Johnson",
-      "TEAM_ABBREVIATION": "LSU",
-      "id": "5311614",
-      "recent_games": 2,
-      "recent": {
-        "PPG": 15.5,
-        "APG": 0.5,
-        "RPG": 8.0,
-        "BPG": 0.0,
-        "FG_PCT": 61.9
-      },
-      "avg": {
-        "PPG": 21.3,
-        "APG": 1.3,
-        "RPG": 9.7,
-        "BPG": 0.3,
-        "FG_PCT": 67.5
-      },
-      "delta": {
-        "PPG": -5.8,
-        "APG": -0.8,
-        "RPG": -1.7,
-        "BPG": -0.3,
-        "FG_PCT": -5.6
-      }
-    },
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Mikaylah Williams",
-        "TEAM_ABBREVIATION": "LSU",
-        "pts": 17,
-        "date": "2026-11-10",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Mikaylah Williams",
-          "TEAM_ABBREVIATION": "LSU",
-          "pts": 17,
-          "date": "2026-11-10"
-        },
-        {
-          "PLAYER_NAME": "Anna Minaeva",
-          "TEAM_ABBREVIATION": "LSU",
-          "pts": 21,
-          "date": "2026-11-05"
-        },
-        {
-          "PLAYER_NAME": "ZaKiyah Johnson",
-          "TEAM_ABBREVIATION": "LSU",
-          "pts": 33,
-          "date": "2026-11-02"
-        }
-      ]
-    }
-  },
-  "CAM": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Hana Predojevic",
-        "TEAM_ABBREVIATION": "CAM",
-        "pts": 11,
-        "date": "2026-11-04",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Hana Predojevic",
-          "TEAM_ABBREVIATION": "CAM",
-          "pts": 11,
-          "date": "2026-11-04"
-        }
-      ]
-    }
-  },
-  "LEM": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Gianna Nichols",
-        "TEAM_ABBREVIATION": "LEM",
-        "pts": 11,
-        "date": "2026-11-05",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Gianna Nichols",
-          "TEAM_ABBREVIATION": "LEM",
-          "pts": 11,
-          "date": "2026-11-05"
-        }
-      ]
-    }
-  },
-  "EIU": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Ava Stoller",
-        "TEAM_ABBREVIATION": "EIU",
-        "pts": 10,
-        "date": "2026-11-05",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Ava Stoller",
-          "TEAM_ABBREVIATION": "EIU",
-          "pts": 10,
-          "date": "2026-11-05"
-        }
-      ]
-    }
-  },
-  "USU": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Kylani Rookstool",
-        "TEAM_ABBREVIATION": "USU",
-        "pts": 12,
-        "date": "2026-11-08",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Kylani Rookstool",
-          "TEAM_ABBREVIATION": "USU",
-          "pts": 12,
-          "date": "2026-11-08"
-        }
-      ]
-    }
-  },
-  "URI": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Delanie Hill",
-        "TEAM_ABBREVIATION": "URI",
-        "pts": 26,
-        "date": "2026-11-03",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Delanie Hill",
-          "TEAM_ABBREVIATION": "URI",
-          "pts": 26,
-          "date": "2026-11-03"
-        }
-      ]
-    }
-  },
-  "ILL": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Cearah Parchment",
-        "TEAM_ABBREVIATION": "ILL",
-        "pts": 18,
-        "date": "2026-11-07",
-        "streak": 2
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Cearah Parchment",
-          "TEAM_ABBREVIATION": "ILL",
-          "pts": 18,
-          "date": "2026-11-07"
-        },
-        {
-          "PLAYER_NAME": "Cearah Parchment",
-          "TEAM_ABBREVIATION": "ILL",
-          "pts": 22,
-          "date": "2026-11-04"
         }
       ]
     }
@@ -2139,521 +2307,171 @@
       ]
     }
   },
-  "CONN": {
+  "OSU": {
     "trending_up": {
-      "PLAYER_NAME": "Blanca Quinonez",
-      "TEAM_ABBREVIATION": "CONN",
-      "id": "5312306",
+      "PLAYER_NAME": "Ava Watson",
+      "TEAM_ABBREVIATION": "OSU",
+      "id": "5239679",
       "recent_games": 2,
       "recent": {
         "PPG": 14.0,
-        "APG": 3.5,
-        "RPG": 2.5,
-        "BPG": 0.0,
-        "FG_PCT": 47.6
-      },
-      "avg": {
-        "PPG": 10.7,
-        "APG": 3.0,
-        "RPG": 2.7,
-        "BPG": 0.0,
-        "FG_PCT": 44.0
-      },
-      "delta": {
-        "PPG": 3.3,
-        "APG": 0.5,
-        "RPG": -0.2,
-        "BPG": 0.0,
-        "FG_PCT": 3.6
-      }
-    },
-    "trending_down": {
-      "PLAYER_NAME": "Kelis Fisher",
-      "TEAM_ABBREVIATION": "CONN",
-      "id": "5312307",
-      "recent_games": 2,
-      "recent": {
-        "PPG": 0.0,
-        "APG": 0.0,
-        "RPG": 0.0,
-        "BPG": 0.0,
-        "FG_PCT": 0.0
-      },
-      "avg": {
-        "PPG": 2.3,
-        "APG": 1.0,
-        "RPG": 0.7,
-        "BPG": 0.0,
-        "FG_PCT": 100.0
-      },
-      "delta": {
-        "PPG": -2.3,
-        "APG": -1.0,
-        "RPG": -0.7,
-        "BPG": 0.0,
-        "FG_PCT": -100.0
-      }
-    },
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Sarah Strong",
-        "TEAM_ABBREVIATION": "CONN",
-        "pts": 39,
-        "date": "2026-11-08",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Sarah Strong",
-          "TEAM_ABBREVIATION": "CONN",
-          "pts": 39,
-          "date": "2026-11-08"
-        },
-        {
-          "PLAYER_NAME": "Jovana Popovic",
-          "TEAM_ABBREVIATION": "CONN",
-          "pts": 25,
-          "date": "2026-11-05"
-        },
-        {
-          "PLAYER_NAME": "Sarah Strong",
-          "TEAM_ABBREVIATION": "CONN",
-          "pts": 19,
-          "date": "2026-11-02"
-        }
-      ]
-    }
-  },
-  "SOU": {
-    "trending_up": {
-      "PLAYER_NAME": "Diamond Hunter",
-      "TEAM_ABBREVIATION": "SOU",
-      "id": "4705035",
-      "recent_games": 2,
-      "recent": {
-        "PPG": 3.5,
-        "APG": 0.5,
-        "RPG": 1.5,
-        "BPG": 0.0,
-        "FG_PCT": 28.6
-      },
-      "avg": {
-        "PPG": 2.3,
-        "APG": 0.3,
-        "RPG": 2.7,
-        "BPG": 0.0,
-        "FG_PCT": 12.5
-      },
-      "delta": {
-        "PPG": 1.2,
-        "APG": 0.2,
-        "RPG": -1.2,
-        "BPG": 0.0,
-        "FG_PCT": 16.1
-      }
-    },
-    "trending_down": {
-      "PLAYER_NAME": "Aubri Wilkins",
-      "TEAM_ABBREVIATION": "SOU",
-      "id": "5243526",
-      "recent_games": 2,
-      "recent": {
-        "PPG": 0.0,
-        "APG": 0.0,
-        "RPG": 0.0,
-        "BPG": 0.0,
-        "FG_PCT": 0.0
-      },
-      "avg": {
-        "PPG": 1.7,
-        "APG": 0.0,
-        "RPG": 0.0,
-        "BPG": 0.0,
-        "FG_PCT": 100.0
-      },
-      "delta": {
-        "PPG": -1.7,
-        "APG": 0.0,
-        "RPG": 0.0,
-        "BPG": 0.0,
-        "FG_PCT": -100.0
-      }
-    },
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Taelar Felton",
-        "TEAM_ABBREVIATION": "SOU",
-        "pts": 10,
-        "date": "2026-11-10",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Taelar Felton",
-          "TEAM_ABBREVIATION": "SOU",
-          "pts": 10,
-          "date": "2026-11-10"
-        },
-        {
-          "PLAYER_NAME": "Zaria Hurston",
-          "TEAM_ABBREVIATION": "SOU",
-          "pts": 8,
-          "date": "2026-11-07"
-        },
-        {
-          "PLAYER_NAME": "Zaria Hurston",
-          "TEAM_ABBREVIATION": "SOU",
-          "pts": 10,
-          "date": "2026-11-02"
-        }
-      ]
-    }
-  },
-  "MCN": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Valencia Fontenelle-Posson",
-        "TEAM_ABBREVIATION": "MCN",
-        "pts": 10,
-        "date": "2026-11-10",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Valencia Fontenelle-Posson",
-          "TEAM_ABBREVIATION": "MCN",
-          "pts": 10,
-          "date": "2026-11-10"
-        }
-      ]
-    }
-  },
-  "NKU": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Sara Basaran",
-        "TEAM_ABBREVIATION": "NKU",
-        "pts": 6,
-        "date": "2026-11-05",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Sara Basaran",
-          "TEAM_ABBREVIATION": "NKU",
-          "pts": 6,
-          "date": "2026-11-05"
-        }
-      ]
-    }
-  },
-  "UALB": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Madison Roman",
-        "TEAM_ABBREVIATION": "UALB",
-        "pts": 12,
-        "date": "2026-11-11",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Madison Roman",
-          "TEAM_ABBREVIATION": "UALB",
-          "pts": 12,
-          "date": "2026-11-11"
-        }
-      ]
-    }
-  },
-  "UNA": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Amy Kurkowski",
-        "TEAM_ABBREVIATION": "UNA",
-        "pts": 11,
-        "date": "2026-11-05",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Amy Kurkowski",
-          "TEAM_ABBREVIATION": "UNA",
-          "pts": 11,
-          "date": "2026-11-05"
-        }
-      ]
-    }
-  },
-  "NEB": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Britt Prince",
-        "TEAM_ABBREVIATION": "NEB",
-        "pts": 24,
-        "date": "2026-11-10",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Britt Prince",
-          "TEAM_ABBREVIATION": "NEB",
-          "pts": 24,
-          "date": "2026-11-10"
-        }
-      ]
-    }
-  },
-  "LOU": {
-    "trending_up": {
-      "PLAYER_NAME": "Ariyana Cradle",
-      "TEAM_ABBREVIATION": "LOU",
-      "id": "5456855",
-      "recent_games": 2,
-      "recent": {
-        "PPG": 11.5,
         "APG": 2.0,
-        "RPG": 3.5,
+        "RPG": 2.0,
         "BPG": 0.0,
-        "FG_PCT": 66.7
+        "FG_PCT": 63.2
       },
       "avg": {
-        "PPG": 11.0,
-        "APG": 1.5,
-        "RPG": 3.8,
+        "PPG": 12.0,
+        "APG": 2.8,
+        "RPG": 2.2,
         "BPG": 0.0,
-        "FG_PCT": 60.0
+        "FG_PCT": 44.2
       },
       "delta": {
-        "PPG": 0.5,
-        "APG": 0.5,
-        "RPG": -0.3,
+        "PPG": 2.0,
+        "APG": -0.8,
+        "RPG": -0.2,
         "BPG": 0.0,
-        "FG_PCT": 6.7
+        "FG_PCT": 19.0
       }
     },
     "trending_down": {
-      "PLAYER_NAME": "Mackenly Randolph",
-      "TEAM_ABBREVIATION": "LOU",
-      "id": "5238289",
+      "PLAYER_NAME": "Bryn Martin",
+      "TEAM_ABBREVIATION": "OSU",
+      "id": "5311598",
       "recent_games": 2,
       "recent": {
-        "PPG": 0.0,
+        "PPG": 1.0,
         "APG": 0.0,
         "RPG": 0.0,
-        "BPG": 0.0,
+        "BPG": 0.5,
         "FG_PCT": 0.0
       },
       "avg": {
-        "PPG": 1.2,
-        "APG": 0.2,
-        "RPG": 0.2,
-        "BPG": 0.0,
-        "FG_PCT": 50.0
+        "PPG": 2.5,
+        "APG": 0.5,
+        "RPG": 0.5,
+        "BPG": 0.5,
+        "FG_PCT": 21.4
       },
       "delta": {
-        "PPG": -1.2,
-        "APG": -0.2,
-        "RPG": -0.2,
+        "PPG": -1.5,
+        "APG": -0.5,
+        "RPG": -0.5,
         "BPG": 0.0,
-        "FG_PCT": -50.0
+        "FG_PCT": -21.4
       }
     },
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Tajianna Roberts",
-        "TEAM_ABBREVIATION": "LOU",
-        "pts": 15,
-        "date": "2026-11-10",
-        "streak": 2
+        "PLAYER_NAME": "Jaloni Cambridge",
+        "TEAM_ABBREVIATION": "OSU",
+        "pts": 21,
+        "date": "2026-11-12",
+        "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Tajianna Roberts",
-          "TEAM_ABBREVIATION": "LOU",
-          "pts": 15,
-          "date": "2026-11-10"
+          "PLAYER_NAME": "Jaloni Cambridge",
+          "TEAM_ABBREVIATION": "OSU",
+          "pts": 21,
+          "date": "2026-11-12"
         },
         {
-          "PLAYER_NAME": "Tajianna Roberts",
-          "TEAM_ABBREVIATION": "LOU",
-          "pts": 20,
+          "PLAYER_NAME": "Elsa Lemmila",
+          "TEAM_ABBREVIATION": "OSU",
+          "pts": 19,
           "date": "2026-11-08"
         },
         {
-          "PLAYER_NAME": "Imari Berry",
-          "TEAM_ABBREVIATION": "LOU",
-          "pts": 16,
-          "date": "2026-11-04"
-        },
-        {
-          "PLAYER_NAME": "Tajianna Roberts",
-          "TEAM_ABBREVIATION": "LOU",
-          "pts": 15,
-          "date": "2026-11-02"
-        }
-      ]
-    }
-  },
-  "UIC": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Julia Coleman",
-        "TEAM_ABBREVIATION": "UIC",
-        "pts": 10,
-        "date": "2026-11-02",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Julia Coleman",
-          "TEAM_ABBREVIATION": "UIC",
-          "pts": 10,
-          "date": "2026-11-02"
-        }
-      ]
-    }
-  },
-  "MORG": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Simran Williams",
-        "TEAM_ABBREVIATION": "MORG",
-        "pts": 9,
-        "date": "2026-11-08",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Simran Williams",
-          "TEAM_ABBREVIATION": "MORG",
-          "pts": 9,
-          "date": "2026-11-08"
-        },
-        {
-          "PLAYER_NAME": "Yonta Vaughn",
-          "TEAM_ABBREVIATION": "MORG",
-          "pts": 6,
-          "date": "2026-11-06"
-        }
-      ]
-    }
-  },
-  "SDST": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Katie Vasecka",
-        "TEAM_ABBREVIATION": "SDST",
-        "pts": 12,
-        "date": "2026-11-11",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Katie Vasecka",
-          "TEAM_ABBREVIATION": "SDST",
-          "pts": 12,
-          "date": "2026-11-11"
-        }
-      ]
-    }
-  },
-  "WASH": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Sayvia Sellers",
-        "TEAM_ABBREVIATION": "WASH",
-        "pts": 17,
-        "date": "2026-11-05",
-        "streak": 2
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Sayvia Sellers",
-          "TEAM_ABBREVIATION": "WASH",
-          "pts": 17,
+          "PLAYER_NAME": "Jaloni Cambridge",
+          "TEAM_ABBREVIATION": "OSU",
+          "pts": 23,
           "date": "2026-11-05"
         },
         {
-          "PLAYER_NAME": "Sayvia Sellers",
-          "TEAM_ABBREVIATION": "WASH",
-          "pts": 25,
+          "PLAYER_NAME": "Jaloni Cambridge",
+          "TEAM_ABBREVIATION": "OSU",
+          "pts": 22,
           "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "MARQ": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Halle Vice",
+        "TEAM_ABBREVIATION": "MARQ",
+        "pts": 25,
+        "date": "2026-11-07",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Halle Vice",
+          "TEAM_ABBREVIATION": "MARQ",
+          "pts": 25,
+          "date": "2026-11-07"
         }
       ]
     }
   },
   "MISS": {
     "trending_up": {
-      "PLAYER_NAME": "Rachael Okokoh",
+      "PLAYER_NAME": "Talaysia Cooper",
       "TEAM_ABBREVIATION": "MISS",
-      "id": "5311700",
-      "recent_games": 2,
+      "id": "4682955",
+      "recent_games": 1,
       "recent": {
-        "PPG": 3.0,
-        "APG": 0.0,
-        "RPG": 2.5,
+        "PPG": 29.0,
+        "APG": 2.0,
+        "RPG": 2.0,
         "BPG": 1.0,
-        "FG_PCT": 75.0
+        "FG_PCT": 62.5
       },
       "avg": {
-        "PPG": 4.7,
-        "APG": 0.0,
-        "RPG": 4.3,
-        "BPG": 1.0,
-        "FG_PCT": 50.0
+        "PPG": 14.3,
+        "APG": 2.3,
+        "RPG": 2.0,
+        "BPG": 1.3,
+        "FG_PCT": 45.7
       },
       "delta": {
-        "PPG": -1.7,
-        "APG": 0.0,
-        "RPG": -1.8,
-        "BPG": 0.0,
-        "FG_PCT": 25.0
+        "PPG": 14.7,
+        "APG": -0.3,
+        "RPG": 0.0,
+        "BPG": -0.3,
+        "FG_PCT": 16.8
       }
     },
     "trending_down": {
-      "PLAYER_NAME": "Jade Tillman",
+      "PLAYER_NAME": "Knisha Godfrey",
       "TEAM_ABBREVIATION": "MISS",
-      "id": "5174737",
-      "recent_games": 2,
+      "id": "4711685",
+      "recent_games": 1,
       "recent": {
-        "PPG": 7.5,
-        "APG": 1.0,
+        "PPG": 3.0,
+        "APG": 4.0,
         "RPG": 4.0,
-        "BPG": 0.5,
-        "FG_PCT": 55.6
+        "BPG": 0.0,
+        "FG_PCT": 33.3
       },
       "avg": {
-        "PPG": 9.7,
-        "APG": 1.7,
-        "RPG": 6.3,
-        "BPG": 0.3,
-        "FG_PCT": 64.3
+        "PPG": 4.7,
+        "APG": 3.7,
+        "RPG": 3.0,
+        "BPG": 0.0,
+        "FG_PCT": 60.0
       },
       "delta": {
-        "PPG": -2.2,
-        "APG": -0.7,
-        "RPG": -2.3,
-        "BPG": 0.2,
-        "FG_PCT": -8.7
+        "PPG": -1.7,
+        "APG": 0.3,
+        "RPG": 1.0,
+        "BPG": 0.0,
+        "FG_PCT": -26.7
       }
     },
     "top_scorer_streak": {
@@ -2686,283 +2504,887 @@
       ]
     }
   },
-  "STET": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Cici Driessen",
-        "TEAM_ABBREVIATION": "STET",
-        "pts": 10,
-        "date": "2026-11-04",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Cici Driessen",
-          "TEAM_ABBREVIATION": "STET",
-          "pts": 10,
-          "date": "2026-11-04"
-        }
-      ]
-    }
-  },
-  "TCU": {
+  "OU": {
     "trending_up": {
-      "PLAYER_NAME": "Lara Somfai",
-      "TEAM_ABBREVIATION": "TCU",
-      "id": "5312419",
-      "recent_games": 3,
+      "PLAYER_NAME": "Brooklyn Stewart",
+      "TEAM_ABBREVIATION": "OU",
+      "id": "5311587",
+      "recent_games": 2,
       "recent": {
-        "PPG": 14.3,
-        "APG": 1.3,
-        "RPG": 9.3,
-        "BPG": 0.7,
-        "FG_PCT": 51.6
+        "PPG": 13.0,
+        "APG": 3.5,
+        "RPG": 7.5,
+        "BPG": 1.5,
+        "FG_PCT": 50.0
       },
       "avg": {
-        "PPG": 15.0,
-        "APG": 1.5,
-        "RPG": 9.5,
-        "BPG": 0.5,
-        "FG_PCT": 48.9
+        "PPG": 9.7,
+        "APG": 3.0,
+        "RPG": 5.3,
+        "BPG": 1.3,
+        "FG_PCT": 48.1
       },
       "delta": {
-        "PPG": -0.7,
-        "APG": -0.2,
-        "RPG": -0.2,
+        "PPG": 3.3,
+        "APG": 0.5,
+        "RPG": 2.2,
         "BPG": 0.2,
-        "FG_PCT": 2.7
+        "FG_PCT": 1.9
       }
     },
     "trending_down": {
-      "PLAYER_NAME": "Sarah Portlock",
-      "TEAM_ABBREVIATION": "TCU",
-      "id": "5312748",
-      "recent_games": 3,
-      "recent": {
-        "PPG": 0.7,
-        "APG": 0.3,
-        "RPG": 1.3,
-        "BPG": 0.0,
-        "FG_PCT": 33.3
-      },
-      "avg": {
-        "PPG": 2.0,
-        "APG": 0.2,
-        "RPG": 1.8,
-        "BPG": 0.2,
-        "FG_PCT": 50.0
-      },
-      "delta": {
-        "PPG": -1.3,
-        "APG": 0.1,
-        "RPG": -0.5,
-        "BPG": -0.2,
-        "FG_PCT": -16.7
-      }
-    },
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Jadyn Wooten",
-        "TEAM_ABBREVIATION": "TCU",
-        "pts": 19,
-        "date": "2026-11-10",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Jadyn Wooten",
-          "TEAM_ABBREVIATION": "TCU",
-          "pts": 19,
-          "date": "2026-11-10"
-        },
-        {
-          "PLAYER_NAME": "Clara Silva",
-          "TEAM_ABBREVIATION": "TCU",
-          "pts": 15,
-          "date": "2026-11-08"
-        },
-        {
-          "PLAYER_NAME": "Lara Somfai",
-          "TEAM_ABBREVIATION": "TCU",
-          "pts": 19,
-          "date": "2026-11-05"
-        },
-        {
-          "PLAYER_NAME": "Lara Somfai",
-          "TEAM_ABBREVIATION": "TCU",
-          "pts": 17,
-          "date": "2026-11-03"
-        }
-      ]
-    }
-  },
-  "STO": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Julia Webster",
-        "TEAM_ABBREVIATION": "STO",
-        "pts": 6,
-        "date": "2026-11-06",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Julia Webster",
-          "TEAM_ABBREVIATION": "STO",
-          "pts": 6,
-          "date": "2026-11-06"
-        }
-      ]
-    }
-  },
-  "COR": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Rachel Kaus",
-        "TEAM_ABBREVIATION": "COR",
-        "pts": 8,
-        "date": "2026-11-02",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Rachel Kaus",
-          "TEAM_ABBREVIATION": "COR",
-          "pts": 8,
-          "date": "2026-11-02"
-        }
-      ]
-    }
-  },
-  "BELL": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Hana Abdel Aal",
-        "TEAM_ABBREVIATION": "BELL",
-        "pts": 9,
-        "date": "2026-11-02",
-        "streak": 1
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Hana Abdel Aal",
-          "TEAM_ABBREVIATION": "BELL",
-          "pts": 9,
-          "date": "2026-11-02"
-        }
-      ]
-    }
-  },
-  "UNC": {
-    "trending_up": {
-      "PLAYER_NAME": "Laila Hull",
-      "TEAM_ABBREVIATION": "UNC",
-      "id": "5174422",
+      "PLAYER_NAME": "Aaliyah Chavez",
+      "TEAM_ABBREVIATION": "OU",
+      "id": "5311585",
       "recent_games": 2,
       "recent": {
-        "PPG": 8.0,
-        "APG": 1.0,
-        "RPG": 2.5,
-        "BPG": 1.0,
-        "FG_PCT": 46.2
+        "PPG": 0.0,
+        "APG": 0.0,
+        "RPG": 0.0,
+        "BPG": 0.0,
+        "FG_PCT": 0.0
       },
       "avg": {
-        "PPG": 5.3,
-        "APG": 0.7,
+        "PPG": 4.7,
+        "APG": 2.0,
         "RPG": 1.7,
         "BPG": 0.7,
         "FG_PCT": 33.3
       },
       "delta": {
-        "PPG": 2.7,
-        "APG": 0.3,
-        "RPG": 0.8,
-        "BPG": 0.3,
-        "FG_PCT": 12.9
-      }
-    },
-    "trending_down": {
-      "PLAYER_NAME": "Noelle Bofia",
-      "TEAM_ABBREVIATION": "UNC",
-      "id": "5456874",
-      "recent_games": 2,
-      "recent": {
-        "PPG": 0.5,
-        "APG": 0.0,
-        "RPG": 2.0,
-        "BPG": 0.0,
-        "FG_PCT": 0.0
-      },
-      "avg": {
-        "PPG": 1.0,
-        "APG": 0.0,
-        "RPG": 2.7,
-        "BPG": 0.3,
-        "FG_PCT": 25.0
-      },
-      "delta": {
-        "PPG": -0.5,
-        "APG": 0.0,
-        "RPG": -0.7,
-        "BPG": -0.3,
-        "FG_PCT": -25.0
+        "PPG": -4.7,
+        "APG": -2.0,
+        "RPG": -1.7,
+        "BPG": -0.7,
+        "FG_PCT": -33.3
       }
     },
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Nyla Brooks",
-        "TEAM_ABBREVIATION": "UNC",
-        "pts": 17,
-        "date": "2026-11-11",
-        "streak": 2
+        "PLAYER_NAME": "Brooklyn Stewart",
+        "TEAM_ABBREVIATION": "OU",
+        "pts": 18,
+        "date": "2026-11-10",
+        "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Nyla Brooks",
-          "TEAM_ABBREVIATION": "UNC",
-          "pts": 17,
-          "date": "2026-11-11"
+          "PLAYER_NAME": "Brooklyn Stewart",
+          "TEAM_ABBREVIATION": "OU",
+          "pts": 18,
+          "date": "2026-11-10"
         },
         {
-          "PLAYER_NAME": "Nyla Brooks",
-          "TEAM_ABBREVIATION": "UNC",
-          "pts": 13,
+          "PLAYER_NAME": "LeeLee Bell",
+          "TEAM_ABBREVIATION": "OU",
+          "pts": 20,
           "date": "2026-11-08"
         },
         {
-          "PLAYER_NAME": "Kate Harpring",
-          "TEAM_ABBREVIATION": "UNC",
-          "pts": 21,
+          "PLAYER_NAME": "LeeLee Bell",
+          "TEAM_ABBREVIATION": "OU",
+          "pts": 25,
           "date": "2026-11-02"
         }
       ]
     }
   },
-  "SELA": {
+  "UIC": {
     "trending_up": {},
     "trending_down": {},
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Natalie Huff",
-        "TEAM_ABBREVIATION": "SELA",
+        "PLAYER_NAME": "Julia Coleman",
+        "TEAM_ABBREVIATION": "UIC",
+        "pts": 10,
+        "date": "2026-11-02",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Julia Coleman",
+          "TEAM_ABBREVIATION": "UIC",
+          "pts": 10,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "UK": {
+    "trending_up": {
+      "PLAYER_NAME": "Emily McDonald",
+      "TEAM_ABBREVIATION": "UK",
+      "id": "5454841",
+      "recent_games": 2,
+      "recent": {
+        "PPG": 14.5,
+        "APG": 1.5,
+        "RPG": 3.0,
+        "BPG": 0.5,
+        "FG_PCT": 58.8
+      },
+      "avg": {
+        "PPG": 10.2,
+        "APG": 1.0,
+        "RPG": 3.0,
+        "BPG": 0.5,
+        "FG_PCT": 42.9
+      },
+      "delta": {
+        "PPG": 4.3,
+        "APG": 0.5,
+        "RPG": 0.0,
+        "BPG": 0.0,
+        "FG_PCT": 15.9
+      }
+    },
+    "trending_down": {
+      "PLAYER_NAME": "Maddyn Greenway",
+      "TEAM_ABBREVIATION": "UK",
+      "id": "5454845",
+      "recent_games": 2,
+      "recent": {
+        "PPG": 1.0,
+        "APG": 4.0,
+        "RPG": 0.0,
+        "BPG": 0.5,
+        "FG_PCT": 25.0
+      },
+      "avg": {
+        "PPG": 4.2,
+        "APG": 3.5,
+        "RPG": 1.5,
+        "BPG": 0.2,
+        "FG_PCT": 33.3
+      },
+      "delta": {
+        "PPG": -3.2,
+        "APG": 0.5,
+        "RPG": -1.5,
+        "BPG": 0.3,
+        "FG_PCT": -8.3
+      }
+    },
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Emily McDonald",
+        "TEAM_ABBREVIATION": "UK",
+        "pts": 27,
+        "date": "2026-11-11",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Emily McDonald",
+          "TEAM_ABBREVIATION": "UK",
+          "pts": 27,
+          "date": "2026-11-11"
+        },
+        {
+          "PLAYER_NAME": "Ajsa Sivka",
+          "TEAM_ABBREVIATION": "UK",
+          "pts": 32,
+          "date": "2026-11-08"
+        },
+        {
+          "PLAYER_NAME": "Asia Boone",
+          "TEAM_ABBREVIATION": "UK",
+          "pts": 21,
+          "date": "2026-11-05"
+        },
+        {
+          "PLAYER_NAME": "Clara Strack",
+          "TEAM_ABBREVIATION": "UK",
+          "pts": 17,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "GW": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Alicia Newell",
+        "TEAM_ABBREVIATION": "GW",
+        "pts": 19,
+        "date": "2026-11-05",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Alicia Newell",
+          "TEAM_ABBREVIATION": "GW",
+          "pts": 19,
+          "date": "2026-11-05"
+        }
+      ]
+    }
+  },
+  "UNI": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Jenna Twedt",
+        "TEAM_ABBREVIATION": "UNI",
+        "pts": 8,
+        "date": "2026-11-12",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Jenna Twedt",
+          "TEAM_ABBREVIATION": "UNI",
+          "pts": 8,
+          "date": "2026-11-12"
+        }
+      ]
+    }
+  },
+  "UNLV": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Maia Rosarion",
+        "TEAM_ABBREVIATION": "UNLV",
         "pts": 12,
         "date": "2026-11-02",
         "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Natalie Huff",
-          "TEAM_ABBREVIATION": "SELA",
+          "PLAYER_NAME": "Maia Rosarion",
+          "TEAM_ABBREVIATION": "UNLV",
           "pts": 12,
           "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "FAU": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Erin Rodgers",
+        "TEAM_ABBREVIATION": "FAU",
+        "pts": 11,
+        "date": "2026-11-08",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Erin Rodgers",
+          "TEAM_ABBREVIATION": "FAU",
+          "pts": 11,
+          "date": "2026-11-08"
+        }
+      ]
+    }
+  },
+  "LIP": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "McKayla Miller",
+        "TEAM_ABBREVIATION": "LIP",
+        "pts": 16,
+        "date": "2026-11-02",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "McKayla Miller",
+          "TEAM_ABBREVIATION": "LIP",
+          "pts": 16,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "PAC": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Jordyn Dyer",
+        "TEAM_ABBREVIATION": "PAC",
+        "pts": 12,
+        "date": "2026-11-05",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Jordyn Dyer",
+          "TEAM_ABBREVIATION": "PAC",
+          "pts": 12,
+          "date": "2026-11-05"
+        }
+      ]
+    }
+  },
+  "USI": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Channah Gannon",
+        "TEAM_ABBREVIATION": "USI",
+        "pts": 9,
+        "date": "2026-11-08",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Channah Gannon",
+          "TEAM_ABBREVIATION": "USI",
+          "pts": 9,
+          "date": "2026-11-08"
+        }
+      ]
+    }
+  },
+  "NCAT": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Darrionna Howard",
+        "TEAM_ABBREVIATION": "NCAT",
+        "pts": 10,
+        "date": "2026-11-10",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Darrionna Howard",
+          "TEAM_ABBREVIATION": "NCAT",
+          "pts": 10,
+          "date": "2026-11-10"
+        }
+      ]
+    }
+  },
+  "MINN": {
+    "trending_up": {
+      "PLAYER_NAME": "Makena Christian",
+      "TEAM_ABBREVIATION": "MINN",
+      "id": "5311570",
+      "recent_games": 2,
+      "recent": {
+        "PPG": 2.5,
+        "APG": 2.0,
+        "RPG": 1.0,
+        "BPG": 0.0,
+        "FG_PCT": 50.0
+      },
+      "avg": {
+        "PPG": 1.7,
+        "APG": 1.3,
+        "RPG": 1.3,
+        "BPG": 0.0,
+        "FG_PCT": 33.3
+      },
+      "delta": {
+        "PPG": 0.8,
+        "APG": 0.7,
+        "RPG": -0.3,
+        "BPG": 0.0,
+        "FG_PCT": 16.7
+      }
+    },
+    "trending_down": {
+      "PLAYER_NAME": "Gracie Merkle",
+      "TEAM_ABBREVIATION": "MINN",
+      "id": "5107391",
+      "recent_games": 2,
+      "recent": {
+        "PPG": 9.0,
+        "APG": 0.5,
+        "RPG": 1.5,
+        "BPG": 0.0,
+        "FG_PCT": 90.0
+      },
+      "avg": {
+        "PPG": 13.3,
+        "APG": 0.3,
+        "RPG": 3.3,
+        "BPG": 0.0,
+        "FG_PCT": 90.5
+      },
+      "delta": {
+        "PPG": -4.3,
+        "APG": 0.2,
+        "RPG": -1.8,
+        "BPG": 0.0,
+        "FG_PCT": -0.5
+      }
+    },
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Mara Braun",
+        "TEAM_ABBREVIATION": "MINN",
+        "pts": 19,
+        "date": "2026-11-10",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Mara Braun",
+          "TEAM_ABBREVIATION": "MINN",
+          "pts": 19,
+          "date": "2026-11-10"
+        },
+        {
+          "PLAYER_NAME": "Grace Grocholski",
+          "TEAM_ABBREVIATION": "MINN",
+          "pts": 25,
+          "date": "2026-11-07"
+        },
+        {
+          "PLAYER_NAME": "Gracie Merkle",
+          "TEAM_ABBREVIATION": "MINN",
+          "pts": 22,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "UNCO": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Mia Galbraith",
+        "TEAM_ABBREVIATION": "UNCO",
+        "pts": 7,
+        "date": "2026-11-07",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Mia Galbraith",
+          "TEAM_ABBREVIATION": "UNCO",
+          "pts": 7,
+          "date": "2026-11-07"
+        }
+      ]
+    }
+  },
+  "GMU": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Anovia Sheals",
+        "TEAM_ABBREVIATION": "GMU",
+        "pts": 19,
+        "date": "2026-11-08",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Anovia Sheals",
+          "TEAM_ABBREVIATION": "GMU",
+          "pts": 19,
+          "date": "2026-11-08"
+        }
+      ]
+    }
+  },
+  "UCSD": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Coryn Watts",
+        "TEAM_ABBREVIATION": "UCSD",
+        "pts": 15,
+        "date": "2026-11-02",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Coryn Watts",
+          "TEAM_ABBREVIATION": "UCSD",
+          "pts": 15,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "ARIZ": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Makayla Presser-Palmer",
+        "TEAM_ABBREVIATION": "ARIZ",
+        "pts": 8,
+        "date": "2026-11-12",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Makayla Presser-Palmer",
+          "TEAM_ABBREVIATION": "ARIZ",
+          "pts": 8,
+          "date": "2026-11-12"
+        }
+      ]
+    }
+  },
+  "ND": {
+    "trending_up": {
+      "PLAYER_NAME": "Jacy Abii",
+      "TEAM_ABBREVIATION": "ND",
+      "id": "5457123",
+      "recent_games": 2,
+      "recent": {
+        "PPG": 14.5,
+        "APG": 7.0,
+        "RPG": 11.5,
+        "BPG": 3.5,
+        "FG_PCT": 65.0
+      },
+      "avg": {
+        "PPG": 13.0,
+        "APG": 5.3,
+        "RPG": 10.3,
+        "BPG": 3.3,
+        "FG_PCT": 54.5
+      },
+      "delta": {
+        "PPG": 1.5,
+        "APG": 1.7,
+        "RPG": 1.2,
+        "BPG": 0.2,
+        "FG_PCT": 10.5
+      }
+    },
+    "trending_down": {
+      "PLAYER_NAME": "Hannah Hidalgo",
+      "TEAM_ABBREVIATION": "ND",
+      "id": "5174674",
+      "recent_games": 2,
+      "recent": {
+        "PPG": 25.0,
+        "APG": 3.5,
+        "RPG": 8.0,
+        "BPG": 0.0,
+        "FG_PCT": 58.1
+      },
+      "avg": {
+        "PPG": 27.3,
+        "APG": 5.0,
+        "RPG": 7.7,
+        "BPG": 0.0,
+        "FG_PCT": 58.0
+      },
+      "delta": {
+        "PPG": -2.3,
+        "APG": -1.5,
+        "RPG": 0.3,
+        "BPG": 0.0,
+        "FG_PCT": 0.1
+      }
+    },
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Hannah Hidalgo",
+        "TEAM_ABBREVIATION": "ND",
+        "pts": 23,
+        "date": "2026-11-10",
+        "streak": 3
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Hannah Hidalgo",
+          "TEAM_ABBREVIATION": "ND",
+          "pts": 23,
+          "date": "2026-11-10"
+        },
+        {
+          "PLAYER_NAME": "Hannah Hidalgo",
+          "TEAM_ABBREVIATION": "ND",
+          "pts": 27,
+          "date": "2026-11-06"
+        },
+        {
+          "PLAYER_NAME": "Hannah Hidalgo",
+          "TEAM_ABBREVIATION": "ND",
+          "pts": 32,
+          "date": "2026-11-01"
+        }
+      ]
+    }
+  },
+  "LEH": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Leia Edwards",
+        "TEAM_ABBREVIATION": "LEH",
+        "pts": 14,
+        "date": "2026-11-02",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Leia Edwards",
+          "TEAM_ABBREVIATION": "LEH",
+          "pts": 14,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "LEM": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Gianna Nichols",
+        "TEAM_ABBREVIATION": "LEM",
+        "pts": 11,
+        "date": "2026-11-05",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Gianna Nichols",
+          "TEAM_ABBREVIATION": "LEM",
+          "pts": 11,
+          "date": "2026-11-05"
+        }
+      ]
+    }
+  },
+  "LOU": {
+    "trending_up": {
+      "PLAYER_NAME": "Imari Berry",
+      "TEAM_ABBREVIATION": "LOU",
+      "id": "5238288",
+      "recent_games": 3,
+      "recent": {
+        "PPG": 15.3,
+        "APG": 4.7,
+        "RPG": 4.7,
+        "BPG": 0.7,
+        "FG_PCT": 56.2
+      },
+      "avg": {
+        "PPG": 15.2,
+        "APG": 3.6,
+        "RPG": 3.8,
+        "BPG": 0.4,
+        "FG_PCT": 56.0
+      },
+      "delta": {
+        "PPG": 0.1,
+        "APG": 1.1,
+        "RPG": 0.9,
+        "BPG": 0.3,
+        "FG_PCT": 0.2
+      }
+    },
+    "trending_down": {
+      "PLAYER_NAME": "Ayse Melek Demirer",
+      "TEAM_ABBREVIATION": "LOU",
+      "id": "5456856",
+      "recent_games": 3,
+      "recent": {
+        "PPG": 0.0,
+        "APG": 0.0,
+        "RPG": 0.7,
+        "BPG": 0.7,
+        "FG_PCT": 0.0
+      },
+      "avg": {
+        "PPG": 0.8,
+        "APG": 0.4,
+        "RPG": 2.0,
+        "BPG": 0.6,
+        "FG_PCT": 33.3
+      },
+      "delta": {
+        "PPG": -0.8,
+        "APG": -0.4,
+        "RPG": -1.3,
+        "BPG": 0.1,
+        "FG_PCT": -33.3
+      }
+    },
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Imari Berry",
+        "TEAM_ABBREVIATION": "LOU",
+        "pts": 22,
+        "date": "2026-11-12",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Imari Berry",
+          "TEAM_ABBREVIATION": "LOU",
+          "pts": 22,
+          "date": "2026-11-12"
+        },
+        {
+          "PLAYER_NAME": "Tajianna Roberts",
+          "TEAM_ABBREVIATION": "LOU",
+          "pts": 15,
+          "date": "2026-11-10"
+        },
+        {
+          "PLAYER_NAME": "Tajianna Roberts",
+          "TEAM_ABBREVIATION": "LOU",
+          "pts": 20,
+          "date": "2026-11-08"
+        },
+        {
+          "PLAYER_NAME": "Imari Berry",
+          "TEAM_ABBREVIATION": "LOU",
+          "pts": 16,
+          "date": "2026-11-04"
+        },
+        {
+          "PLAYER_NAME": "Tajianna Roberts",
+          "TEAM_ABBREVIATION": "LOU",
+          "pts": 15,
+          "date": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "EIU": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Ava Stoller",
+        "TEAM_ABBREVIATION": "EIU",
+        "pts": 10,
+        "date": "2026-11-05",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Ava Stoller",
+          "TEAM_ABBREVIATION": "EIU",
+          "pts": 10,
+          "date": "2026-11-05"
+        }
+      ]
+    }
+  },
+  "TEX": {
+    "trending_up": {
+      "PLAYER_NAME": "Lovisa Asbrink Hose",
+      "TEAM_ABBREVIATION": "TEX",
+      "id": "5240913",
+      "recent_games": 2,
+      "recent": {
+        "PPG": 1.0,
+        "APG": 0.0,
+        "RPG": 0.5,
+        "BPG": 0.0,
+        "FG_PCT": 100.0
+      },
+      "avg": {
+        "PPG": 0.7,
+        "APG": 0.0,
+        "RPG": 0.3,
+        "BPG": 0.0,
+        "FG_PCT": 50.0
+      },
+      "delta": {
+        "PPG": 0.3,
+        "APG": 0.0,
+        "RPG": 0.2,
+        "BPG": 0.0,
+        "FG_PCT": 50.0
+      }
+    },
+    "trending_down": {
+      "PLAYER_NAME": "Isi Etute",
+      "TEAM_ABBREVIATION": "TEX",
+      "id": "5455530",
+      "recent_games": 2,
+      "recent": {
+        "PPG": 5.0,
+        "APG": 1.0,
+        "RPG": 3.0,
+        "BPG": 0.0,
+        "FG_PCT": 40.0
+      },
+      "avg": {
+        "PPG": 6.3,
+        "APG": 1.3,
+        "RPG": 3.7,
+        "BPG": 0.0,
+        "FG_PCT": 53.8
+      },
+      "delta": {
+        "PPG": -1.3,
+        "APG": -0.3,
+        "RPG": -0.7,
+        "BPG": 0.0,
+        "FG_PCT": -13.8
+      }
+    },
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Jayda Clark",
+        "TEAM_ABBREVIATION": "TEX",
+        "pts": 24,
+        "date": "2026-11-11",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Jayda Clark",
+          "TEAM_ABBREVIATION": "TEX",
+          "pts": 24,
+          "date": "2026-11-11"
+        },
+        {
+          "PLAYER_NAME": "Madison Booker",
+          "TEAM_ABBREVIATION": "TEX",
+          "pts": 30,
+          "date": "2026-11-07"
+        },
+        {
+          "PLAYER_NAME": "Madison Booker",
+          "TEAM_ABBREVIATION": "TEX",
+          "pts": 24,
+          "date": "2026-11-04"
+        }
+      ]
+    }
+  },
+  "CLEM": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Mackenzie Nelson",
+        "TEAM_ABBREVIATION": "CLEM",
+        "pts": 17,
+        "date": "2026-11-12",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Mackenzie Nelson",
+          "TEAM_ABBREVIATION": "CLEM",
+          "pts": 17,
+          "date": "2026-11-12"
         }
       ]
     }
@@ -2994,29 +3416,107 @@
       ]
     }
   },
-  "UCLA": {
+  "URI": {
     "trending_up": {},
     "trending_down": {},
     "top_scorer_streak": {
       "current": {
-        "PLAYER_NAME": "Sienna Betts",
-        "TEAM_ABBREVIATION": "UCLA",
-        "pts": 17,
-        "date": "2026-11-05",
-        "streak": 2
+        "PLAYER_NAME": "Delanie Hill",
+        "TEAM_ABBREVIATION": "URI",
+        "pts": 26,
+        "date": "2026-11-03",
+        "streak": 1
       },
       "history": [
         {
-          "PLAYER_NAME": "Sienna Betts",
-          "TEAM_ABBREVIATION": "UCLA",
-          "pts": 17,
-          "date": "2026-11-05"
-        },
+          "PLAYER_NAME": "Delanie Hill",
+          "TEAM_ABBREVIATION": "URI",
+          "pts": 26,
+          "date": "2026-11-03"
+        }
+      ]
+    }
+  },
+  "USU": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Kylani Rookstool",
+        "TEAM_ABBREVIATION": "USU",
+        "pts": 12,
+        "date": "2026-11-08",
+        "streak": 1
+      },
+      "history": [
         {
-          "PLAYER_NAME": "Sienna Betts",
-          "TEAM_ABBREVIATION": "UCLA",
-          "pts": 15,
-          "date": "2026-11-02"
+          "PLAYER_NAME": "Kylani Rookstool",
+          "TEAM_ABBREVIATION": "USU",
+          "pts": 12,
+          "date": "2026-11-08"
+        }
+      ]
+    }
+  },
+  "UNA": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Amy Kurkowski",
+        "TEAM_ABBREVIATION": "UNA",
+        "pts": 11,
+        "date": "2026-11-05",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Amy Kurkowski",
+          "TEAM_ABBREVIATION": "UNA",
+          "pts": 11,
+          "date": "2026-11-05"
+        }
+      ]
+    }
+  },
+  "TAR": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Caroline Lyles",
+        "TEAM_ABBREVIATION": "TAR",
+        "pts": 10,
+        "date": "2026-11-08",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Caroline Lyles",
+          "TEAM_ABBREVIATION": "TAR",
+          "pts": 10,
+          "date": "2026-11-08"
+        }
+      ]
+    }
+  },
+  "STO": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Julia Webster",
+        "TEAM_ABBREVIATION": "STO",
+        "pts": 6,
+        "date": "2026-11-06",
+        "streak": 1
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Julia Webster",
+          "TEAM_ABBREVIATION": "STO",
+          "pts": 6,
+          "date": "2026-11-06"
         }
       ]
     }

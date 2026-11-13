@@ -1,12 +1,18 @@
 {
   "current": {
-    "date": "2026-11-11",
-    "PLAYER_NAME": "Pryce Sandfort",
-    "TEAM_ABBREVIATION": "NEB",
+    "date": "2026-11-12",
+    "PLAYER_NAME": "Robert Wright III",
+    "TEAM_ABBREVIATION": "BYU",
     "pts": 22,
     "streak": 1
   },
   "history": [
+    {
+      "date": "2026-11-12",
+      "PLAYER_NAME": "Robert Wright III",
+      "TEAM_ABBREVIATION": "BYU",
+      "pts": 22
+    },
     {
       "date": "2026-11-11",
       "PLAYER_NAME": "Pryce Sandfort",
@@ -60,12 +66,6 @@
       "PLAYER_NAME": "Thijs De Ridder",
       "TEAM_ABBREVIATION": "UVA",
       "pts": 24
-    },
-    {
-      "date": "2026-11-02",
-      "PLAYER_NAME": "Ivan Kharchenkov",
-      "TEAM_ABBREVIATION": "ARIZ",
-      "pts": 38
     }
   ]
 }
