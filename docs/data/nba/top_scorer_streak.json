@@ -1,12 +1,18 @@
 {
   "current": {
-    "date": "2026-11-13",
-    "PLAYER_NAME": "Alperen Sengun",
-    "TEAM_ABBREVIATION": "HOU",
-    "pts": 43,
+    "date": "2026-11-14",
+    "PLAYER_NAME": "Kyrie Irving",
+    "TEAM_ABBREVIATION": "DAL",
+    "pts": 34,
     "streak": 1
   },
   "history": [
+    {
+      "date": "2026-11-14",
+      "PLAYER_NAME": "Kyrie Irving",
+      "TEAM_ABBREVIATION": "DAL",
+      "pts": 34
+    },
     {
       "date": "2026-11-13",
       "PLAYER_NAME": "Alperen Sengun",
@@ -60,12 +66,6 @@
       "PLAYER_NAME": "Devin Booker",
       "TEAM_ABBREVIATION": "PHX",
       "pts": 30
-    },
-    {
-      "date": "2026-11-04",
-      "PLAYER_NAME": "Victor Wembanyama",
-      "TEAM_ABBREVIATION": "SA",
-      "pts": 52
     }
   ]
 }

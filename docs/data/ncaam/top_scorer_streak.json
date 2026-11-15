@@ -1,12 +1,18 @@
 {
   "current": {
-    "date": "2026-11-13",
-    "PLAYER_NAME": "Tomislav Ivisic",
-    "TEAM_ABBREVIATION": "ILL",
-    "pts": 28,
+    "date": "2026-11-14",
+    "PLAYER_NAME": "Donovan Dent",
+    "TEAM_ABBREVIATION": "LSU",
+    "pts": 23,
     "streak": 1
   },
   "history": [
+    {
+      "date": "2026-11-14",
+      "PLAYER_NAME": "Donovan Dent",
+      "TEAM_ABBREVIATION": "LSU",
+      "pts": 23
+    },
     {
       "date": "2026-11-13",
       "PLAYER_NAME": "Tomislav Ivisic",
@@ -59,12 +65,6 @@
       "date": "2026-11-05",
       "PLAYER_NAME": "Hamad Mousa",
       "TEAM_ABBREVIATION": "CP",
-      "pts": 30
-    },
-    {
-      "date": "2026-11-04",
-      "PLAYER_NAME": "Noah Pagotto",
-      "TEAM_ABBREVIATION": "NKU",
       "pts": 30
     }
   ]

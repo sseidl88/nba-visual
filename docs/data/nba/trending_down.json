@@ -1,27 +1,27 @@
 {
-  "PLAYER_NAME": "Isaac Jones",
-  "TEAM_ABBREVIATION": "DET",
-  "id": "5107818",
+  "PLAYER_NAME": "James Wiseman",
+  "TEAM_ABBREVIATION": "NY",
+  "id": "4432808",
   "recent_games": 3,
   "recent": {
     "PPG": 0.0,
     "APG": 0.0,
-    "RPG": 0.0,
+    "RPG": 0.3,
     "BPG": 0.0,
     "FG_PCT": 0.0
   },
   "avg": {
-    "PPG": 0.4,
+    "PPG": 1.3,
     "APG": 0.0,
-    "RPG": 1.0,
-    "BPG": 0.4,
-    "FG_PCT": 100.0
+    "RPG": 1.5,
+    "BPG": 0.5,
+    "FG_PCT": 80.0
   },
   "delta": {
-    "PPG": -0.4,
+    "PPG": -1.3,
     "APG": 0.0,
-    "RPG": -1.0,
-    "BPG": -0.4,
-    "FG_PCT": -100.0
+    "RPG": -1.2,
+    "BPG": -0.5,
+    "FG_PCT": -80.0
   }
 }
