@@ -1,17 +1,41 @@
 {
-  "date": "2026-11-16",
+  "date": "2026-11-17",
   "games": [
     {
-      "home": "CMU",
-      "home_score": 30,
-      "away": "MICH",
-      "away_score": 101
+      "home": "SC",
+      "home_score": 116,
+      "away": "FGCU",
+      "away_score": 58
     },
     {
-      "home": "LSU",
-      "home_score": 116,
-      "away": "TROY",
-      "away_score": 70
+      "home": "LOU",
+      "home_score": 88,
+      "away": "TNST",
+      "away_score": 39
+    },
+    {
+      "home": "OU",
+      "home_score": 124,
+      "away": "TXSO",
+      "away_score": 48
+    },
+    {
+      "home": "WSU",
+      "home_score": 54,
+      "away": "WASH",
+      "away_score": 82
+    },
+    {
+      "home": "WVU",
+      "home_score": 98,
+      "away": "AKR",
+      "away_score": 60
+    },
+    {
+      "home": "NEB",
+      "home_score": 113,
+      "away": "MSM",
+      "away_score": 37
     }
   ]
 }
