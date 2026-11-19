@@ -1,41 +1,65 @@
 {
-  "date": "2026-11-17",
+  "date": "2026-11-18",
   "games": [
     {
-      "home": "SC",
-      "home_score": 116,
-      "away": "FGCU",
-      "away_score": 58
+      "home": "MICH",
+      "home_score": 112,
+      "away": "NIA",
+      "away_score": 31
     },
     {
-      "home": "LOU",
-      "home_score": 88,
-      "away": "TNST",
-      "away_score": 39
+      "home": "GB",
+      "home_score": 57,
+      "away": "TEX",
+      "away_score": 89
     },
     {
-      "home": "OU",
-      "home_score": 124,
-      "away": "TXSO",
+      "home": "VAN",
+      "home_score": 80,
+      "away": "UNA",
+      "away_score": 44
+    },
+    {
+      "home": "ND",
+      "home_score": 95,
+      "away": "SOU",
+      "away_score": 47
+    },
+    {
+      "home": "TCU",
+      "home_score": 96,
+      "away": "UTA",
       "away_score": 48
     },
     {
-      "home": "WSU",
-      "home_score": 54,
-      "away": "WASH",
-      "away_score": 82
+      "home": "MINN",
+      "home_score": 76,
+      "away": "KU",
+      "away_score": 58
     },
     {
-      "home": "WVU",
-      "home_score": 98,
-      "away": "AKR",
-      "away_score": 60
+      "home": "MD",
+      "home_score": 84,
+      "away": "COPP",
+      "away_score": 31
     },
     {
-      "home": "NEB",
-      "home_score": 113,
-      "away": "MSM",
-      "away_score": 37
+      "home": "OSU",
+      "home_score": 60,
+      "away": "MISS",
+      "away_score": 57
+    },
+    {
+      "home": "BALL",
+      "home_score": 51,
+      "away": "ILL",
+      "away_score": 91
+    },
+    {
+      "home": "OKST",
+      "home_score": 77,
+      "away": "SJU",
+      "away_score": 63
     }
   ]
 }

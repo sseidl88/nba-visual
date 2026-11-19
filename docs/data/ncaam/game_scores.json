@@ -1,71 +1,59 @@
 {
-  "date": "2026-11-17",
+  "date": "2026-11-18",
   "games": [
     {
       "home": "FLA",
+      "home_score": 76,
+      "away": "HOU",
+      "away_score": 86
+    },
+    {
+      "home": "ARIZ",
+      "home_score": 85,
+      "away": "CONN",
+      "away_score": 79
+    },
+    {
+      "home": "UCLA",
+      "home_score": 75,
+      "away": "CSUF",
+      "away_score": 71
+    },
+    {
+      "home": "TTU",
       "home_score": 86,
-      "away": "ND",
-      "away_score": 78
+      "away": "NOLA",
+      "away_score": 41
     },
     {
-      "home": "TENN",
-      "home_score": 61,
-      "away": "MSU",
-      "away_score": 46
+      "home": "WVU",
+      "home_score": 82,
+      "away": "KU",
+      "away_score": 86
     },
     {
-      "home": "UVA",
-      "home_score": 85,
-      "away": "ODU",
-      "away_score": 65
+      "home": "SJU",
+      "home_score": 119,
+      "away": "SIE",
+      "away_score": 72
     },
     {
-      "home": "DUKE",
-      "home_score": 78,
-      "away": "ILL",
-      "away_score": 99
+      "home": "BYU",
+      "home_score": 98,
+      "away": "UNCO",
+      "away_score": 54
     },
     {
-      "home": "HOU",
-      "home_score": 85,
-      "away": "RUTG",
-      "away_score": 73
+      "home": "NEB",
+      "home_score": 73,
+      "away": "SDAK",
+      "away_score": 47
     },
     {
-      "home": "KU",
-      "home_score": 102,
-      "away": "UNLV",
-      "away_score": 77
-    },
-    {
-      "home": "VAN",
-      "home_score": 96,
-      "away": "EIU",
-      "away_score": 50
-    },
-    {
-      "home": "ALA",
-      "home_score": 109,
-      "away": "KENN",
-      "away_score": 91
-    },
-    {
-      "home": "MIA",
-      "home_score": 95,
-      "away": "RID",
-      "away_score": 48
-    },
-    {
-      "home": "IU",
-      "home_score": 81,
-      "away": "ARK",
-      "away_score": 76
-    },
-    {
-      "home": "GONZ",
-      "home_score": 74,
-      "away": "MTST",
-      "away_score": 62
+      "home": "LSU",
+      "home_score": 79,
+      "away": "ULM",
+      "away_score": 67
     }
   ]
 }
