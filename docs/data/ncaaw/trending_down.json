@@ -1,27 +1,27 @@
 {
-  "PLAYER_NAME": "Sydney Barker",
-  "TEAM_ABBREVIATION": "UNC",
-  "id": "5174424",
+  "PLAYER_NAME": "Daniella McLean",
+  "TEAM_ABBREVIATION": "WASH",
+  "id": "5311755",
   "recent_games": 1,
   "recent": {
     "PPG": 0.0,
     "APG": 0.0,
-    "RPG": 0.0,
+    "RPG": 2.0,
     "BPG": 0.0,
     "FG_PCT": 0.0
   },
   "avg": {
-    "PPG": 0.8,
+    "PPG": 1.2,
     "APG": 0.0,
-    "RPG": 1.0,
-    "BPG": 0.0,
+    "RPG": 1.2,
+    "BPG": 0.8,
     "FG_PCT": 100.0
   },
   "delta": {
-    "PPG": -0.8,
+    "PPG": -1.2,
     "APG": 0.0,
-    "RPG": -1.0,
-    "BPG": 0.0,
+    "RPG": 0.8,
+    "BPG": -0.8,
     "FG_PCT": -100.0
   }
 }
