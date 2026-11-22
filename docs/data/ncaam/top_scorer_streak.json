@@ -1,12 +1,18 @@
 {
   "current": {
-    "date": "2026-11-20",
-    "PLAYER_NAME": "Dior Johnson",
-    "TEAM_ABBREVIATION": "UCF",
-    "pts": 30,
+    "date": "2026-11-21",
+    "PLAYER_NAME": "Kur Teng",
+    "TEAM_ABBREVIATION": "MSU",
+    "pts": 24,
     "streak": 1
   },
   "history": [
+    {
+      "date": "2026-11-21",
+      "PLAYER_NAME": "Kur Teng",
+      "TEAM_ABBREVIATION": "MSU",
+      "pts": 24
+    },
     {
       "date": "2026-11-20",
       "PLAYER_NAME": "Dior Johnson",
@@ -59,12 +65,6 @@
       "date": "2026-11-12",
       "PLAYER_NAME": "Robert Wright III",
       "TEAM_ABBREVIATION": "BYU",
-      "pts": 22
-    },
-    {
-      "date": "2026-11-11",
-      "PLAYER_NAME": "Pryce Sandfort",
-      "TEAM_ABBREVIATION": "NEB",
       "pts": 22
     }
   ]

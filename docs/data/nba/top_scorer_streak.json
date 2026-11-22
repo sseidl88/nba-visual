@@ -1,12 +1,18 @@
 {
   "current": {
-    "date": "2026-11-20",
-    "PLAYER_NAME": "James Harden",
-    "TEAM_ABBREVIATION": "CLE",
-    "pts": 51,
+    "date": "2026-11-21",
+    "PLAYER_NAME": "Tyler Herro",
+    "TEAM_ABBREVIATION": "MIL",
+    "pts": 50,
     "streak": 1
   },
   "history": [
+    {
+      "date": "2026-11-21",
+      "PLAYER_NAME": "Tyler Herro",
+      "TEAM_ABBREVIATION": "MIL",
+      "pts": 50
+    },
     {
       "date": "2026-11-20",
       "PLAYER_NAME": "James Harden",
@@ -60,12 +66,6 @@
       "PLAYER_NAME": "Cade Cunningham",
       "TEAM_ABBREVIATION": "DET",
       "pts": 52
-    },
-    {
-      "date": "2026-11-11",
-      "PLAYER_NAME": "Franz Wagner",
-      "TEAM_ABBREVIATION": "ORL",
-      "pts": 38
     }
   ]
 }

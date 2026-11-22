@@ -1,35 +1,35 @@
 {
-  "date": "2026-11-20",
+  "date": "2026-11-21",
   "games": [
     {
-      "home": "USC",
+      "home": "PROV",
+      "home_score": 43,
+      "away": "SC",
+      "away_score": 72
+    },
+    {
+      "home": "UAA",
+      "home_score": 40,
+      "away": "LOU",
+      "away_score": 113
+    },
+    {
+      "home": "COLU",
+      "home_score": 47,
+      "away": "DUKE",
+      "away_score": 71
+    },
+    {
+      "home": "MD",
+      "home_score": 109,
+      "away": "MORG",
+      "away_score": 39
+    },
+    {
+      "home": "UNC",
       "home_score": 78,
-      "away": "BAY",
-      "away_score": 69
-    },
-    {
-      "home": "CONN",
-      "home_score": 83,
-      "away": "HALL",
-      "away_score": 43
-    },
-    {
-      "home": "UK",
-      "home_score": 85,
-      "away": "MRSH",
-      "away_score": 49
-    },
-    {
-      "home": "WASH",
-      "home_score": 105,
-      "away": "STAN",
-      "away_score": 50
-    },
-    {
-      "home": "OKST",
-      "home_score": 103,
-      "away": "LR",
-      "away_score": 61
+      "away": "ALA",
+      "away_score": 64
     }
   ]
 }
