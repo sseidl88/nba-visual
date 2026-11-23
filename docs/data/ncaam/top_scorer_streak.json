@@ -1,12 +1,18 @@
 {
   "current": {
-    "date": "2026-11-21",
-    "PLAYER_NAME": "Kur Teng",
-    "TEAM_ABBREVIATION": "MSU",
-    "pts": 24,
+    "date": "2026-11-22",
+    "PLAYER_NAME": "Asim Djulovic",
+    "TEAM_ABBREVIATION": "BTLR",
+    "pts": 28,
     "streak": 1
   },
   "history": [
+    {
+      "date": "2026-11-22",
+      "PLAYER_NAME": "Asim Djulovic",
+      "TEAM_ABBREVIATION": "BTLR",
+      "pts": 28
+    },
     {
       "date": "2026-11-21",
       "PLAYER_NAME": "Kur Teng",
@@ -60,12 +66,6 @@
       "PLAYER_NAME": "Tomislav Ivisic",
       "TEAM_ABBREVIATION": "ILL",
       "pts": 28
-    },
-    {
-      "date": "2026-11-12",
-      "PLAYER_NAME": "Robert Wright III",
-      "TEAM_ABBREVIATION": "BYU",
-      "pts": 22
     }
   ]
 }

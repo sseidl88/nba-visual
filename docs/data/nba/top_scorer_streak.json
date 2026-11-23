@@ -1,12 +1,18 @@
 {
   "current": {
-    "date": "2026-11-21",
-    "PLAYER_NAME": "Tyler Herro",
-    "TEAM_ABBREVIATION": "MIL",
-    "pts": 50,
+    "date": "2026-11-22",
+    "PLAYER_NAME": "Jamal Murray",
+    "TEAM_ABBREVIATION": "DEN",
+    "pts": 45,
     "streak": 1
   },
   "history": [
+    {
+      "date": "2026-11-22",
+      "PLAYER_NAME": "Jamal Murray",
+      "TEAM_ABBREVIATION": "DEN",
+      "pts": 45
+    },
     {
       "date": "2026-11-21",
       "PLAYER_NAME": "Tyler Herro",
@@ -60,12 +66,6 @@
       "PLAYER_NAME": "Alperen Sengun",
       "TEAM_ABBREVIATION": "HOU",
       "pts": 43
-    },
-    {
-      "date": "2026-11-12",
-      "PLAYER_NAME": "Cade Cunningham",
-      "TEAM_ABBREVIATION": "DET",
-      "pts": 52
     }
   ]
 }
