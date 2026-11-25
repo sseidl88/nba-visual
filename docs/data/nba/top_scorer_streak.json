@@ -1,12 +1,24 @@
 {
   "current": {
-    "date": "2026-11-22",
-    "PLAYER_NAME": "Jamal Murray",
-    "TEAM_ABBREVIATION": "DEN",
-    "pts": 45,
+    "date": "2026-11-24",
+    "PLAYER_NAME": "Jayson Tatum",
+    "TEAM_ABBREVIATION": "BOS",
+    "pts": 41,
     "streak": 1
   },
   "history": [
+    {
+      "date": "2026-11-24",
+      "PLAYER_NAME": "Jayson Tatum",
+      "TEAM_ABBREVIATION": "BOS",
+      "pts": 41
+    },
+    {
+      "date": "2026-11-23",
+      "PLAYER_NAME": "Shai Gilgeous-Alexander",
+      "TEAM_ABBREVIATION": "OKC",
+      "pts": 38
+    },
     {
       "date": "2026-11-22",
       "PLAYER_NAME": "Jamal Murray",
@@ -53,18 +65,6 @@
       "date": "2026-11-15",
       "PLAYER_NAME": "Luka Doncic",
       "TEAM_ABBREVIATION": "LAL",
-      "pts": 43
-    },
-    {
-      "date": "2026-11-14",
-      "PLAYER_NAME": "Kyrie Irving",
-      "TEAM_ABBREVIATION": "DAL",
-      "pts": 34
-    },
-    {
-      "date": "2026-11-13",
-      "PLAYER_NAME": "Alperen Sengun",
-      "TEAM_ABBREVIATION": "HOU",
       "pts": 43
     }
   ]

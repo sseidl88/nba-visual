@@ -1,47 +1,23 @@
 {
-  "date": "2026-11-22",
+  "date": "2026-11-24",
   "games": [
     {
-      "home": "ATL",
-      "home_score": 107,
+      "home": "ORL",
+      "home_score": 86,
       "away": "DET",
-      "away_score": 97
-    },
-    {
-      "home": "MIA",
-      "home_score": 123,
-      "away": "OKC",
-      "away_score": 113
+      "away_score": 104
     },
     {
       "home": "WSH",
       "home_score": 116,
-      "away": "ORL",
-      "away_score": 96
-    },
-    {
-      "home": "CHI",
-      "home_score": 145,
-      "away": "DEN",
-      "away_score": 151
-    },
-    {
-      "home": "UTAH",
-      "home_score": 114,
-      "away": "DAL",
-      "away_score": 116
-    },
-    {
-      "home": "NY",
-      "home_score": 113,
-      "away": "IND",
-      "away_score": 106
-    },
-    {
-      "home": "GS",
-      "home_score": 88,
       "away": "BOS",
-      "away_score": 87
+      "away_score": 131
+    },
+    {
+      "home": "DEN",
+      "home_score": 101,
+      "away": "DAL",
+      "away_score": 120
     }
   ]
 }

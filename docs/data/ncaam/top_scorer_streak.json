@@ -1,12 +1,24 @@
 {
   "current": {
-    "date": "2026-11-22",
-    "PLAYER_NAME": "Asim Djulovic",
-    "TEAM_ABBREVIATION": "BTLR",
-    "pts": 28,
+    "date": "2026-11-24",
+    "PLAYER_NAME": "Collin Chandler",
+    "TEAM_ABBREVIATION": "BYU",
+    "pts": 34,
     "streak": 1
   },
   "history": [
+    {
+      "date": "2026-11-24",
+      "PLAYER_NAME": "Collin Chandler",
+      "TEAM_ABBREVIATION": "BYU",
+      "pts": 34
+    },
+    {
+      "date": "2026-11-23",
+      "PLAYER_NAME": "Quentin Coleman",
+      "TEAM_ABBREVIATION": "ILL",
+      "pts": 35
+    },
     {
       "date": "2026-11-22",
       "PLAYER_NAME": "Asim Djulovic",
@@ -54,18 +66,6 @@
       "PLAYER_NAME": "Isaiah Johnson",
       "TEAM_ABBREVIATION": "TEX",
       "pts": 26
-    },
-    {
-      "date": "2026-11-14",
-      "PLAYER_NAME": "Donovan Dent",
-      "TEAM_ABBREVIATION": "LSU",
-      "pts": 23
-    },
-    {
-      "date": "2026-11-13",
-      "PLAYER_NAME": "Tomislav Ivisic",
-      "TEAM_ABBREVIATION": "ILL",
-      "pts": 28
     }
   ]
 }
