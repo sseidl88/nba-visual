@@ -1,12 +1,18 @@
 {
   "current": {
-    "date": "2026-11-24",
-    "PLAYER_NAME": "Jayson Tatum",
-    "TEAM_ABBREVIATION": "BOS",
-    "pts": 41,
+    "date": "2026-11-25",
+    "PLAYER_NAME": "Victor Wembanyama",
+    "TEAM_ABBREVIATION": "SA",
+    "pts": 44,
     "streak": 1
   },
   "history": [
+    {
+      "date": "2026-11-25",
+      "PLAYER_NAME": "Victor Wembanyama",
+      "TEAM_ABBREVIATION": "SA",
+      "pts": 44
+    },
     {
       "date": "2026-11-24",
       "PLAYER_NAME": "Jayson Tatum",
@@ -60,12 +66,6 @@
       "PLAYER_NAME": "Donovan Mitchell",
       "TEAM_ABBREVIATION": "CLE",
       "pts": 39
-    },
-    {
-      "date": "2026-11-15",
-      "PLAYER_NAME": "Luka Doncic",
-      "TEAM_ABBREVIATION": "LAL",
-      "pts": 43
     }
   ]
 }
