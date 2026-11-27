@@ -1,53 +1,71 @@
 {
-  "date": "2026-11-25",
+  "date": "2026-11-26",
   "games": [
     {
-      "home": "MARQ",
-      "home_score": 54,
-      "away": "UVA",
-      "away_score": 60
+      "home": "ORE",
+      "home_score": 59,
+      "away": "TTU",
+      "away_score": 62
     },
     {
-      "home": "ARIZ",
-      "home_score": 84,
-      "away": "MISS",
-      "away_score": 73
+      "home": "SMC",
+      "home_score": 85,
+      "away": "UCLA",
+      "away_score": 70
     },
     {
-      "home": "CONN",
-      "home_score": 63,
-      "away": "DUKE",
-      "away_score": 77
-    },
-    {
-      "home": "USC",
-      "home_score": 71,
-      "away": "SC",
-      "away_score": 69
-    },
-    {
-      "home": "PROV",
-      "home_score": 82,
-      "away": "BYU",
-      "away_score": 85
-    },
-    {
-      "home": "ASU",
+      "home": "TEX",
       "home_score": 92,
-      "away": "LSU",
-      "away_score": 94
-    },
-    {
-      "home": "NEB",
-      "home_score": 101,
-      "away": "SOU",
-      "away_score": 72
-    },
-    {
-      "home": "PSU",
-      "home_score": 70,
-      "away": "MEM",
+      "away": "GTWN",
       "away_score": 83
+    },
+    {
+      "home": "ISU",
+      "home_score": 64,
+      "away": "TENN",
+      "away_score": 75
+    },
+    {
+      "home": "MSU",
+      "home_score": 70,
+      "away": "ARK",
+      "away_score": 67
+    },
+    {
+      "home": "SJU",
+      "home_score": 90,
+      "away": "LOU",
+      "away_score": 93
+    },
+    {
+      "home": "KSU",
+      "home_score": 91,
+      "away": "ALA",
+      "away_score": 104
+    },
+    {
+      "home": "MICH",
+      "home_score": 70,
+      "away": "MIA",
+      "away_score": 97
+    },
+    {
+      "home": "USU",
+      "home_score": 78,
+      "away": "USC",
+      "away_score": 74
+    },
+    {
+      "home": "SMU",
+      "home_score": 86,
+      "away": "LSU",
+      "away_score": 95
+    },
+    {
+      "home": "GONZ",
+      "home_score": 72,
+      "away": "BAY",
+      "away_score": 64
     }
   ]
 }

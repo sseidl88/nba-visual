@@ -1,31 +1,4 @@
 {
-  "GS": {
-    "trending_up": {},
-    "trending_down": {},
-    "top_scorer_streak": {
-      "current": {
-        "PLAYER_NAME": "Gabby Williams",
-        "TEAM_ABBREVIATION": "GS",
-        "pts": 30,
-        "date": "2026-10-31",
-        "streak": 2
-      },
-      "history": [
-        {
-          "PLAYER_NAME": "Gabby Williams",
-          "TEAM_ABBREVIATION": "GS",
-          "pts": 30,
-          "date": "2026-10-31"
-        },
-        {
-          "PLAYER_NAME": "Gabby Williams",
-          "TEAM_ABBREVIATION": "GS",
-          "pts": 26,
-          "date": "2026-10-29"
-        }
-      ]
-    }
-  },
   "ATL": {
     "trending_up": {},
     "trending_down": {},
@@ -48,6 +21,33 @@
           "PLAYER_NAME": "Allisha Gray",
           "TEAM_ABBREVIATION": "ATL",
           "pts": 23,
+          "date": "2026-10-29"
+        }
+      ]
+    }
+  },
+  "GS": {
+    "trending_up": {},
+    "trending_down": {},
+    "top_scorer_streak": {
+      "current": {
+        "PLAYER_NAME": "Gabby Williams",
+        "TEAM_ABBREVIATION": "GS",
+        "pts": 30,
+        "date": "2026-10-31",
+        "streak": 2
+      },
+      "history": [
+        {
+          "PLAYER_NAME": "Gabby Williams",
+          "TEAM_ABBREVIATION": "GS",
+          "pts": 30,
+          "date": "2026-10-31"
+        },
+        {
+          "PLAYER_NAME": "Gabby Williams",
+          "TEAM_ABBREVIATION": "GS",
+          "pts": 26,
           "date": "2026-10-29"
         }
       ]
